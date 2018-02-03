@@ -1,0 +1,6 @@
+framework module Pods_Would_You_RatherUITests {
+  umbrella header "Pods-Would You RatherUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

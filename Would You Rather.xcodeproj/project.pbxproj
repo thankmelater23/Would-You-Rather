@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1ADE99FE3584001CD36B71D7 /* Pods_Would_You_Rather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24895057A0DE0ACDDC1A047F /* Pods_Would_You_Rather.framework */; };
 		4143E215202583EA008492C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143E214202583EA008492C8 /* AppDelegate.swift */; };
 		4143E217202583EA008492C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143E216202583EA008492C8 /* ViewController.swift */; };
 		4143E21A202583EA008492C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4143E218202583EA008492C8 /* Main.storyboard */; };
@@ -17,6 +18,9 @@
 		4143E238202583EA008492C8 /* Would_You_RatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143E237202583EA008492C8 /* Would_You_RatherUITests.swift */; };
 		4143E246202586A8008492C8 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143E245202586A8008492C8 /* Question.swift */; };
 		4143E24820258B6A008492C8 /* Details.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4143E24720258B6A008492C8 /* Details.rtf */; };
+		414F49552025AA710068FD1D /* WouldYouRather.json in Resources */ = {isa = PBXBuildFile; fileRef = 414F49542025AA700068FD1D /* WouldYouRather.json */; };
+		5FD3FA9FA77C4685A068FB47 /* Pods_Would_You_RatherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0860475613ABC758BE2BA85A /* Pods_Would_You_RatherUITests.framework */; };
+		AF839065E3BE0AEF498DDEBB /* Pods_Would_You_RatherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03423D79C94CFBA8DABC605 /* Pods_Would_You_RatherTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0860475613ABC758BE2BA85A /* Pods_Would_You_RatherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Would_You_RatherUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13341EC1AB55EA2F7BC55DCF /* Pods-Would You RatherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Would You RatherTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Would You RatherTests/Pods-Would You RatherTests.debug.xcconfig"; sourceTree = "<group>"; };
+		20ABB50F0B6CD202B4C4545D /* Pods-Would You RatherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Would You RatherTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Would You RatherTests/Pods-Would You RatherTests.release.xcconfig"; sourceTree = "<group>"; };
+		24895057A0DE0ACDDC1A047F /* Pods_Would_You_Rather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Would_You_Rather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33BCABA85E87A3712EF74723 /* Pods-Would You RatherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Would You RatherUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Would You RatherUITests/Pods-Would You RatherUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4143E211202583EA008492C8 /* Would You Rather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Would You Rather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4143E214202583EA008492C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4143E216202583EA008492C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +62,11 @@
 		4143E239202583EA008492C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4143E245202586A8008492C8 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		4143E24720258B6A008492C8 /* Details.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Details.rtf; sourceTree = "<group>"; };
+		414F49542025AA700068FD1D /* WouldYouRather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WouldYouRather.json; sourceTree = "<group>"; };
+		4E7F8EA5A485476F1A913ADD /* Pods-Would You Rather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Would You Rather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Would You Rather/Pods-Would You Rather.debug.xcconfig"; sourceTree = "<group>"; };
+		933A220340772872BCAC5C5D /* Pods-Would You Rather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Would You Rather.release.xcconfig"; path = "Pods/Target Support Files/Pods-Would You Rather/Pods-Would You Rather.release.xcconfig"; sourceTree = "<group>"; };
+		9446AA8347CDF4FA6D860450 /* Pods-Would You RatherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Would You RatherUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Would You RatherUITests/Pods-Would You RatherUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C03423D79C94CFBA8DABC605 /* Pods_Would_You_RatherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Would_You_RatherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ADE99FE3584001CD36B71D7 /* Pods_Would_You_Rather.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF839065E3BE0AEF498DDEBB /* Pods_Would_You_RatherTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD3FA9FA77C4685A068FB47 /* Pods_Would_You_RatherUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +104,8 @@
 				4143E22B202583EA008492C8 /* Would You RatherTests */,
 				4143E236202583EA008492C8 /* Would You RatherUITests */,
 				4143E212202583EA008492C8 /* Products */,
+				8A11EBD0D9B010CA9E6298C3 /* Pods */,
+				96BD9AAE1848B1D9E541A405 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +122,7 @@
 		4143E213202583EA008492C8 /* Would You Rather */ = {
 			isa = PBXGroup;
 			children = (
+				414F49542025AA700068FD1D /* WouldYouRather.json */,
 				4143E214202583EA008492C8 /* AppDelegate.swift */,
 				4143E216202583EA008492C8 /* ViewController.swift */,
 				4143E218202583EA008492C8 /* Main.storyboard */,
@@ -134,6 +154,29 @@
 			path = "Would You RatherUITests";
 			sourceTree = "<group>";
 		};
+		8A11EBD0D9B010CA9E6298C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E7F8EA5A485476F1A913ADD /* Pods-Would You Rather.debug.xcconfig */,
+				933A220340772872BCAC5C5D /* Pods-Would You Rather.release.xcconfig */,
+				13341EC1AB55EA2F7BC55DCF /* Pods-Would You RatherTests.debug.xcconfig */,
+				20ABB50F0B6CD202B4C4545D /* Pods-Would You RatherTests.release.xcconfig */,
+				9446AA8347CDF4FA6D860450 /* Pods-Would You RatherUITests.debug.xcconfig */,
+				33BCABA85E87A3712EF74723 /* Pods-Would You RatherUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96BD9AAE1848B1D9E541A405 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24895057A0DE0ACDDC1A047F /* Pods_Would_You_Rather.framework */,
+				C03423D79C94CFBA8DABC605 /* Pods_Would_You_RatherTests.framework */,
+				0860475613ABC758BE2BA85A /* Pods_Would_You_RatherUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4143E23C202583EA008492C8 /* Build configuration list for PBXNativeTarget "Would You Rather" */;
 			buildPhases = (
+				12ABD80294ECDEDB0CB7B631 /* [CP] Check Pods Manifest.lock */,
 				4143E20D202583EA008492C8 /* Sources */,
 				4143E20E202583EA008492C8 /* Frameworks */,
 				4143E20F202583EA008492C8 /* Resources */,
+				F246AC2B8D56C81874BE34DD /* [CP] Embed Pods Frameworks */,
+				20D2FE9538ABF7C687450F99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4143E23F202583EA008492C8 /* Build configuration list for PBXNativeTarget "Would You RatherTests" */;
 			buildPhases = (
+				BE926BDE8FA014D27E4F3B90 /* [CP] Check Pods Manifest.lock */,
 				4143E224202583EA008492C8 /* Sources */,
 				4143E225202583EA008492C8 /* Frameworks */,
 				4143E226202583EA008492C8 /* Resources */,
+				D3E3810BAEF77FE37AC5414B /* [CP] Embed Pods Frameworks */,
+				8B15E4986F53ECBF4E1C6A9F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4143E242202583EA008492C8 /* Build configuration list for PBXNativeTarget "Would You RatherUITests" */;
 			buildPhases = (
+				ED71441A3AA5063B5206B855 /* [CP] Check Pods Manifest.lock */,
 				4143E22F202583EA008492C8 /* Sources */,
 				4143E230202583EA008492C8 /* Frameworks */,
 				4143E231202583EA008492C8 /* Resources */,
+				815BFBA49B540321B0990EFE /* [CP] Embed Pods Frameworks */,
+				9E1D1125292E2F6827DC5654 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +297,7 @@
 				4143E21F202583EA008492C8 /* Assets.xcassets in Resources */,
 				4143E24820258B6A008492C8 /* Details.rtf in Resources */,
 				4143E21A202583EA008492C8 /* Main.storyboard in Resources */,
+				414F49552025AA710068FD1D /* WouldYouRather.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +316,180 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12ABD80294ECDEDB0CB7B631 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Would You Rather-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20D2FE9538ABF7C687450F99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Would You Rather/Pods-Would You Rather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		815BFBA49B540321B0990EFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Would You RatherUITests/Pods-Would You RatherUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B15E4986F53ECBF4E1C6A9F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Would You RatherTests/Pods-Would You RatherTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E1D1125292E2F6827DC5654 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Would You RatherUITests/Pods-Would You RatherUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE926BDE8FA014D27E4F3B90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Would You RatherTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3E3810BAEF77FE37AC5414B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Would You RatherTests/Pods-Would You RatherTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED71441A3AA5063B5206B855 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Would You RatherUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F246AC2B8D56C81874BE34DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Would You Rather/Pods-Would You Rather-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Amplitude-iOS/Amplitude_iOS.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/DateToolsSwift/DateToolsSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/Fakery/Fakery.framework",
+				"${BUILT_PRODUCTS_DIR}/Flurry-iOS-SDK/Flurry_iOS_SDK.framework",
+				"${BUILT_PRODUCTS_DIR}/Onboard/Onboard.framework",
+				"${BUILT_PRODUCTS_DIR}/Siren/Siren.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftRandom/SwiftRandom.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftySound/SwiftySound.framework",
+				"${BUILT_PRODUCTS_DIR}/iRate/iRate.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Amplitude_iOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DateToolsSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fakery.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flurry_iOS_SDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Onboard.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Siren.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftRandom.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftySound.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iRate.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Would You Rather/Pods-Would You Rather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4143E20D202583EA008492C8 /* Sources */ = {
@@ -436,6 +663,7 @@
 		};
 		4143E23D202583EA008492C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E7F8EA5A485476F1A913ADD /* Pods-Would You Rather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +679,7 @@
 		};
 		4143E23E202583EA008492C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 933A220340772872BCAC5C5D /* Pods-Would You Rather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +695,7 @@
 		};
 		4143E240202583EA008492C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13341EC1AB55EA2F7BC55DCF /* Pods-Would You RatherTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -483,6 +713,7 @@
 		};
 		4143E241202583EA008492C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20ABB50F0B6CD202B4C4545D /* Pods-Would You RatherTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -500,6 +731,7 @@
 		};
 		4143E243202583EA008492C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9446AA8347CDF4FA6D860450 /* Pods-Would You RatherUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -516,6 +748,7 @@
 		};
 		4143E244202583EA008492C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33BCABA85E87A3712EF74723 /* Pods-Would You RatherUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
