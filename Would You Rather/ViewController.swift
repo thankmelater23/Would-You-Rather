@@ -13,7 +13,7 @@ class ViewController: UIViewController {
   ///MARK: - Variables
   var questions = [Question]()
   var duel:Duel?
-  var onePlayed = false
+  var currentCategory: QuestionCategory = QuestionCategory.randomCategory()
   
   
   ///MARK: - IBOutlets
@@ -72,19 +72,22 @@ class ViewController: UIViewController {
 //    let q7 = Question.init(scene: "Like This was", category: QuestionCategory.gross)
 //    let q8 = Question.init(scene: "Like That is", category: QuestionCategory.gross)
 //    questions = [q1, q2, q3, q4, q5, q6, q7, q8]
-    self.parseFile()
+    self.questions.removeAll()
+    self.currentCategory = self.getCaegory()
+    let categoryString = currentCategory.self.rawValue
+    self.parseFile(file: categoryString)
   }
   
   func setUpDuel(){
-    let categoryType = self.getCaegory()
+//    let categoryType = self.getCaegory()
     let magnitudeType = self.getMagnitude()
     
-    let twoQuestionsArray = self.getQuestionsWith(magnitude: magnitudeType, category: categoryType)
+    let twoQuestionsArray = self.getQuestionsWith(magnitude: magnitudeType, category: currentCategory)
     let q1 = twoQuestionsArray.first
     let q2 = twoQuestionsArray.last
     
     
-    duel = Duel.init(question1: q1!, question2: q2!, category: categoryType, magnitude: magnitudeType)
+    duel = Duel.init(question1: q1!, question2: q2!, category: (q1?.category)!, magnitude: magnitudeType)
   }
   
   func getCaegory()->QuestionCategory{
@@ -92,17 +95,17 @@ class ViewController: UIViewController {
   }
   
   func getMagnitude()->Magnitude{
-    return Magnitude.light//randomMagnitude()
+    return Magnitude.randomMagnitude()
   }
   
   func getQuestionsWith(magnitude: Magnitude, category: QuestionCategory)->[Question]{
-    var filteredCategories = questions.filter({ $0.category == category })
-    if filteredCategories.count < 2{
+//    var filteredCategories = questions.filter({ $0.category == category })
+    if self.questions.count < 2{
       print("Not enough pairs for : \(category)")
-      let backup = filteredCategories.first
-      filteredCategories.append(backup!)
+      let backup = questions.first
+      questions.append(backup!)
     }
-    var filteredMagnitudes = filteredCategories.filter({ $0.magnitude == magnitude })
+    var filteredMagnitudes = questions.filter({ $0.magnitude == magnitude })
     if filteredMagnitudes.count < 2{
       print("Not enough pairs for : \(magnitude)")
       let backup = filteredMagnitudes.first
@@ -130,8 +133,8 @@ class ViewController: UIViewController {
     return twoQustions as! [Question]
   }
   
-  func parseFile(){
-    self.questions = self.loadJson(filename: "WouldYouRather")!
+  func parseFile(file: String = "WouldYouRather"){
+    self.questions = self.loadJson(filename: file)!
   }
   
   func loadJson(filename fileName: String) -> [Question]? {
