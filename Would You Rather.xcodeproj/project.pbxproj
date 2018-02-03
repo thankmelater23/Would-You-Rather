@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4143E215202583EA008492C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143E214202583EA008492C8 /* AppDelegate.swift */; };
+		4143E217202583EA008492C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143E216202583EA008492C8 /* ViewController.swift */; };
+		4143E21A202583EA008492C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4143E218202583EA008492C8 /* Main.storyboard */; };
+		4143E21D202583EA008492C8 /* Would_You_Rather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4143E21B202583EA008492C8 /* Would_You_Rather.xcdatamodeld */; };
+		4143E21F202583EA008492C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4143E21E202583EA008492C8 /* Assets.xcassets */; };
+		4143E222202583EA008492C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4143E220202583EA008492C8 /* LaunchScreen.storyboard */; };
+		4143E22D202583EA008492C8 /* Would_You_RatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143E22C202583EA008492C8 /* Would_You_RatherTests.swift */; };
+		4143E238202583EA008492C8 /* Would_You_RatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143E237202583EA008492C8 /* Would_You_RatherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4143E229202583EA008492C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4143E209202583EA008492C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4143E210202583EA008492C8;
+			remoteInfo = "Would You Rather";
+		};
+		4143E234202583EA008492C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4143E209202583EA008492C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4143E210202583EA008492C8;
+			remoteInfo = "Would You Rather";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4143E211202583EA008492C8 /* Would You Rather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Would You Rather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4143E214202583EA008492C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4143E216202583EA008492C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4143E219202583EA008492C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4143E21C202583EA008492C8 /* Would_You_Rather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Would_You_Rather.xcdatamodel; sourceTree = "<group>"; };
+		4143E21E202583EA008492C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4143E221202583EA008492C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4143E223202583EA008492C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4143E228202583EA008492C8 /* Would You RatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Would You RatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4143E22C202583EA008492C8 /* Would_You_RatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Would_You_RatherTests.swift; sourceTree = "<group>"; };
+		4143E22E202583EA008492C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4143E233202583EA008492C8 /* Would You RatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Would You RatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4143E237202583EA008492C8 /* Would_You_RatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Would_You_RatherUITests.swift; sourceTree = "<group>"; };
+		4143E239202583EA008492C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4143E20E202583EA008492C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4143E225202583EA008492C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4143E230202583EA008492C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4143E208202583EA008492C8 = {
+			isa = PBXGroup;
+			children = (
+				4143E213202583EA008492C8 /* Would You Rather */,
+				4143E22B202583EA008492C8 /* Would You RatherTests */,
+				4143E236202583EA008492C8 /* Would You RatherUITests */,
+				4143E212202583EA008492C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4143E212202583EA008492C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4143E211202583EA008492C8 /* Would You Rather.app */,
+				4143E228202583EA008492C8 /* Would You RatherTests.xctest */,
+				4143E233202583EA008492C8 /* Would You RatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4143E213202583EA008492C8 /* Would You Rather */ = {
+			isa = PBXGroup;
+			children = (
+				4143E214202583EA008492C8 /* AppDelegate.swift */,
+				4143E216202583EA008492C8 /* ViewController.swift */,
+				4143E218202583EA008492C8 /* Main.storyboard */,
+				4143E21E202583EA008492C8 /* Assets.xcassets */,
+				4143E220202583EA008492C8 /* LaunchScreen.storyboard */,
+				4143E223202583EA008492C8 /* Info.plist */,
+				4143E21B202583EA008492C8 /* Would_You_Rather.xcdatamodeld */,
+			);
+			path = "Would You Rather";
+			sourceTree = "<group>";
+		};
+		4143E22B202583EA008492C8 /* Would You RatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				4143E22C202583EA008492C8 /* Would_You_RatherTests.swift */,
+				4143E22E202583EA008492C8 /* Info.plist */,
+			);
+			path = "Would You RatherTests";
+			sourceTree = "<group>";
+		};
+		4143E236202583EA008492C8 /* Would You RatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4143E237202583EA008492C8 /* Would_You_RatherUITests.swift */,
+				4143E239202583EA008492C8 /* Info.plist */,
+			);
+			path = "Would You RatherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4143E210202583EA008492C8 /* Would You Rather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4143E23C202583EA008492C8 /* Build configuration list for PBXNativeTarget "Would You Rather" */;
+			buildPhases = (
+				4143E20D202583EA008492C8 /* Sources */,
+				4143E20E202583EA008492C8 /* Frameworks */,
+				4143E20F202583EA008492C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Would You Rather";
+			productName = "Would You Rather";
+			productReference = 4143E211202583EA008492C8 /* Would You Rather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4143E227202583EA008492C8 /* Would You RatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4143E23F202583EA008492C8 /* Build configuration list for PBXNativeTarget "Would You RatherTests" */;
+			buildPhases = (
+				4143E224202583EA008492C8 /* Sources */,
+				4143E225202583EA008492C8 /* Frameworks */,
+				4143E226202583EA008492C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4143E22A202583EA008492C8 /* PBXTargetDependency */,
+			);
+			name = "Would You RatherTests";
+			productName = "Would You RatherTests";
+			productReference = 4143E228202583EA008492C8 /* Would You RatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4143E232202583EA008492C8 /* Would You RatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4143E242202583EA008492C8 /* Build configuration list for PBXNativeTarget "Would You RatherUITests" */;
+			buildPhases = (
+				4143E22F202583EA008492C8 /* Sources */,
+				4143E230202583EA008492C8 /* Frameworks */,
+				4143E231202583EA008492C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4143E235202583EA008492C8 /* PBXTargetDependency */,
+			);
+			name = "Would You RatherUITests";
+			productName = "Would You RatherUITests";
+			productReference = 4143E233202583EA008492C8 /* Would You RatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4143E209202583EA008492C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Andre;
+				TargetAttributes = {
+					4143E210202583EA008492C8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4143E227202583EA008492C8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4143E210202583EA008492C8;
+					};
+					4143E232202583EA008492C8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4143E210202583EA008492C8;
+					};
+				};
+			};
+			buildConfigurationList = 4143E20C202583EA008492C8 /* Build configuration list for PBXProject "Would You Rather" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4143E208202583EA008492C8;
+			productRefGroup = 4143E212202583EA008492C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4143E210202583EA008492C8 /* Would You Rather */,
+				4143E227202583EA008492C8 /* Would You RatherTests */,
+				4143E232202583EA008492C8 /* Would You RatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4143E20F202583EA008492C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4143E222202583EA008492C8 /* LaunchScreen.storyboard in Resources */,
+				4143E21F202583EA008492C8 /* Assets.xcassets in Resources */,
+				4143E21A202583EA008492C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4143E226202583EA008492C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4143E231202583EA008492C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4143E20D202583EA008492C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4143E217202583EA008492C8 /* ViewController.swift in Sources */,
+				4143E215202583EA008492C8 /* AppDelegate.swift in Sources */,
+				4143E21D202583EA008492C8 /* Would_You_Rather.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4143E224202583EA008492C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4143E22D202583EA008492C8 /* Would_You_RatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4143E22F202583EA008492C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4143E238202583EA008492C8 /* Would_You_RatherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4143E22A202583EA008492C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4143E210202583EA008492C8 /* Would You Rather */;
+			targetProxy = 4143E229202583EA008492C8 /* PBXContainerItemProxy */;
+		};
+		4143E235202583EA008492C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4143E210202583EA008492C8 /* Would You Rather */;
+			targetProxy = 4143E234202583EA008492C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4143E218202583EA008492C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4143E219202583EA008492C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4143E220202583EA008492C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4143E221202583EA008492C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4143E23A202583EA008492C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4143E23B202583EA008492C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4143E23D202583EA008492C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJWNZ643CG;
+				INFOPLIST_FILE = "Would You Rather/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-Rather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4143E23E202583EA008492C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJWNZ643CG;
+				INFOPLIST_FILE = "Would You Rather/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-Rather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4143E240202583EA008492C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJWNZ643CG;
+				INFOPLIST_FILE = "Would You RatherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-RatherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Would You Rather.app/Would You Rather";
+			};
+			name = Debug;
+		};
+		4143E241202583EA008492C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJWNZ643CG;
+				INFOPLIST_FILE = "Would You RatherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-RatherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Would You Rather.app/Would You Rather";
+			};
+			name = Release;
+		};
+		4143E243202583EA008492C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJWNZ643CG;
+				INFOPLIST_FILE = "Would You RatherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-RatherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Would You Rather";
+			};
+			name = Debug;
+		};
+		4143E244202583EA008492C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJWNZ643CG;
+				INFOPLIST_FILE = "Would You RatherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-RatherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Would You Rather";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4143E20C202583EA008492C8 /* Build configuration list for PBXProject "Would You Rather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4143E23A202583EA008492C8 /* Debug */,
+				4143E23B202583EA008492C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4143E23C202583EA008492C8 /* Build configuration list for PBXNativeTarget "Would You Rather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4143E23D202583EA008492C8 /* Debug */,
+				4143E23E202583EA008492C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4143E23F202583EA008492C8 /* Build configuration list for PBXNativeTarget "Would You RatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4143E240202583EA008492C8 /* Debug */,
+				4143E241202583EA008492C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4143E242202583EA008492C8 /* Build configuration list for PBXNativeTarget "Would You RatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4143E243202583EA008492C8 /* Debug */,
+				4143E244202583EA008492C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4143E21B202583EA008492C8 /* Would_You_Rather.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4143E21C202583EA008492C8 /* Would_You_Rather.xcdatamodel */,
+			);
+			currentVersion = 4143E21C202583EA008492C8 /* Would_You_Rather.xcdatamodel */;
+			path = Would_You_Rather.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4143E209202583EA008492C8 /* Project object */;
+}
