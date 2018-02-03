@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import SwiftyBeaver
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   
   
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    self.setup()
     // Override point for customization after application launch.
     return true
   }
@@ -88,10 +90,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       }
     }
   }
-  
-}
 
-func this(){
-  
+  ///MARK: - Setup
+  func setup(){
+    self.buddyBuildConfig()
+    self.swiftBeaverSetUp()
+  }
+  fileprivate func buddyBuildConfig() {
+    log.verbose(#function)
+//    BuddyBuildSDK.setup()
+  }
+  // MARK: - 3rd Party Integration
+  /** Swifty Beaver logger configuration
+   
+   -  Note: Logger
+   */
+  func swiftBeaverSetUp() {
+    log.verbose(#function)
+    let console = ConsoleDestination()
+    log.addDestination(console)
+    let file = FileDestination()
+    log.addDestination(file)
+    log.verbose("Verbose Test") // prio 1, VERBOSE in silver
+    log.debug("Debug Test") // prio 2, DEBUG in blue
+    log.info("Info Test") // prio 3, INFO in green
+    log.warning("Warning Test") // prio 4, WARNING in yellow
+    log.error("Error Test") // prio 5, ERROR in red
+    let platform = SBPlatformDestination(appID: PrivateKeys.swiftBeaverAppid, appSecret: PrivateKeys.swiftBeaverSecret, encryptionKey: PrivateKeys.swiftBeaverEncryptionKey)
+    log.addDestination(platform)
+  }
   
 }
