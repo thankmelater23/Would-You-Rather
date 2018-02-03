@@ -18,7 +18,7 @@
 		4143E238202583EA008492C8 /* Would_You_RatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143E237202583EA008492C8 /* Would_You_RatherUITests.swift */; };
 		4143E246202586A8008492C8 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143E245202586A8008492C8 /* Question.swift */; };
 		4143E24820258B6A008492C8 /* Details.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4143E24720258B6A008492C8 /* Details.rtf */; };
-		414F49552025AA710068FD1D /* WouldYouRather.json in Resources */ = {isa = PBXBuildFile; fileRef = 414F49542025AA700068FD1D /* WouldYouRather.json */; };
+		41DA814E2025F10900587668 /* WouldYouRather.json in Resources */ = {isa = PBXBuildFile; fileRef = 41DA814D2025F10900587668 /* WouldYouRather.json */; };
 		5FD3FA9FA77C4685A068FB47 /* Pods_Would_You_RatherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0860475613ABC758BE2BA85A /* Pods_Would_You_RatherUITests.framework */; };
 		AF839065E3BE0AEF498DDEBB /* Pods_Would_You_RatherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03423D79C94CFBA8DABC605 /* Pods_Would_You_RatherTests.framework */; };
 /* End PBXBuildFile section */
@@ -62,7 +62,7 @@
 		4143E239202583EA008492C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4143E245202586A8008492C8 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		4143E24720258B6A008492C8 /* Details.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Details.rtf; sourceTree = "<group>"; };
-		414F49542025AA700068FD1D /* WouldYouRather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WouldYouRather.json; sourceTree = "<group>"; };
+		41DA814D2025F10900587668 /* WouldYouRather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WouldYouRather.json; sourceTree = "<group>"; };
 		4E7F8EA5A485476F1A913ADD /* Pods-Would You Rather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Would You Rather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Would You Rather/Pods-Would You Rather.debug.xcconfig"; sourceTree = "<group>"; };
 		933A220340772872BCAC5C5D /* Pods-Would You Rather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Would You Rather.release.xcconfig"; path = "Pods/Target Support Files/Pods-Would You Rather/Pods-Would You Rather.release.xcconfig"; sourceTree = "<group>"; };
 		9446AA8347CDF4FA6D860450 /* Pods-Would You RatherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Would You RatherUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Would You RatherUITests/Pods-Would You RatherUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,15 +122,15 @@
 		4143E213202583EA008492C8 /* Would You Rather */ = {
 			isa = PBXGroup;
 			children = (
-				414F49542025AA700068FD1D /* WouldYouRather.json */,
+				41DA814D2025F10900587668 /* WouldYouRather.json */,
 				4143E214202583EA008492C8 /* AppDelegate.swift */,
 				4143E216202583EA008492C8 /* ViewController.swift */,
+				4143E245202586A8008492C8 /* Question.swift */,
 				4143E218202583EA008492C8 /* Main.storyboard */,
 				4143E21E202583EA008492C8 /* Assets.xcassets */,
 				4143E220202583EA008492C8 /* LaunchScreen.storyboard */,
 				4143E223202583EA008492C8 /* Info.plist */,
 				4143E21B202583EA008492C8 /* Would_You_Rather.xcdatamodeld */,
-				4143E245202586A8008492C8 /* Question.swift */,
 				4143E24720258B6A008492C8 /* Details.rtf */,
 			);
 			path = "Would You Rather";
@@ -297,7 +297,7 @@
 				4143E21F202583EA008492C8 /* Assets.xcassets in Resources */,
 				4143E24820258B6A008492C8 /* Details.rtf in Resources */,
 				4143E21A202583EA008492C8 /* Main.storyboard in Resources */,
-				414F49552025AA710068FD1D /* WouldYouRather.json in Resources */,
+				41DA814E2025F10900587668 /* WouldYouRather.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,7 +456,6 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Would You Rather/Pods-Would You Rather-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Amplitude-iOS/Amplitude_iOS.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
-				"${BUILT_PRODUCTS_DIR}/DateToolsSwift/DateToolsSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
 				"${BUILT_PRODUCTS_DIR}/Fakery/Fakery.framework",
@@ -472,7 +471,6 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Amplitude_iOS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DateToolsSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fakery.framework",

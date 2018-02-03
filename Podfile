@@ -22,7 +22,7 @@ target 'Would You Rather' do
   pod 'Onboard'
   pod 'SwiftRandom'
   pod 'Fakery'
-  pod 'DateToolsSwift'
+#  pod 'DateToolsSwift'
   pod 'Flurry-iOS-SDK/FlurrySDK'
   pod 'Amplitude-iOS'
   pod 'FacebookCore'

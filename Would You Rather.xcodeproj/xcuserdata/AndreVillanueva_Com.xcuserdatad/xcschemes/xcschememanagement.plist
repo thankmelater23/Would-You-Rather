@@ -7,7 +7,25 @@
 		<key>Would You Rather.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>17</integer>
+			<integer>16</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4143E210202583EA008492C8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4143E227202583EA008492C8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4143E232202583EA008492C8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
