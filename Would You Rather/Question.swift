@@ -9,17 +9,17 @@
 import Foundation
 
 enum QuestionCategory:String, Codable{
-  case romance, diet, internet, crime, surgery, annoying, death, pain, gross, emberrasing, psycological//music
+  case romance, food, technology, crime, surgery, annoying, death, pain, gross, embarrassing, psycological//music
   
   static func randomCategory()->QuestionCategory{
     typealias q = QuestionCategory
-    var arrayOfCategories = [q.romance, q.diet, q.internet, q.crime, q.surgery, q.annoying, q.death, q.pain, q.gross, q.emberrasing, q.psycological]//,q.music,
+    var arrayOfCategories = [q.romance, q.food, q.technology, q.crime, q.surgery, q.annoying, q.death, q.pain, q.gross, q.embarrassing, q.psycological]//,q.music,
     let count = arrayOfCategories.count
     
     //Random between 1-count
     let randomNumber = Int.random(0, (count - 1))
     let category = arrayOfCategories[randomNumber]
-    print("Number: \(randomNumber)//\(count)\n\(category)")
+    print("Number: \(randomNumber)/\(count)\n\(category)")
     return category
   }
 }
@@ -41,7 +41,7 @@ enum Magnitude:String, Codable{
   }
 }
 
-class Question: Codable{
+struct Question: Codable{
   var scene: String
   var category: QuestionCategory
     var magnitude: Magnitude
@@ -53,7 +53,7 @@ class Question: Codable{
   }
 }
 
-class Duel: Codable{
+struct Duel: Codable{
   var question1: Question
   var question2: Question
   var pick: Question?

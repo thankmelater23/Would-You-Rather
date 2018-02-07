@@ -1,7 +1,7 @@
 
 [
  {
- "scene": "not kill someone but have everyone think you did",
+ "scene": "",
  "category": "crime",
  "magnitude": "light"
  },
@@ -21,7 +21,7 @@
  "magnitude": "light"
  },
  {
- "scene": "",
+ "scene": "not kill someone but have everyone think you did",
  "category": "crime",
  "magnitude": "light"
  },
@@ -36,7 +36,7 @@
  "magnitude": "stiff"
  },
  {
- "scene": "",
+ "scene": "Police pull you over and plant a ounce of drugs on you",
  "category": "crime",
  "magnitude": "stiff"
  },
@@ -96,7 +96,7 @@
  "magnitude": "extreme"
  },
  {
- "scene": "",
+ "scene": "Go to jail for murder you didn't commit or have anything to do with",
  "category": "crime",
  "magnitude": "extreme"
  }

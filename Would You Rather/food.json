@@ -1,113 +1,113 @@
 
 [
  {
- "scene": "have to eat a very moldy meal once a week",
- "category": "diet",
+ "scene": "",
+ "category": "food",
  "magnitude": "stiff"
  },
  {
- "scene": "lick the seat of every porta potty at Cochella",
- "category": "diet",
+ "scene": "",
+ "category": "food",
  "magnitude": "heavy"
  },
  {
- "scene": "only be able to eat/drink protien shakes for the rest of your life",
- "category": "diet",
+ "scene": "Only be able to eat/drink protien shakes for the rest of your life",
+ "category": "food",
  "magnitude": "heavy"
  },
  {
- "scene": "have everything you consume with water be replaced with dirty bath water",
- "category": "diet",
+ "scene": "Have everything you consume with water be replaced with dirty bath water",
+ "category": "food",
  "magnitude": "extreme"
  },
  {
  "scene": "",
- "category": "diet",
+ "category": "food",
  "magnitude": "light"
  },
  {
  "scene": "",
- "category": "diet",
+ "category": "food",
  "magnitude": "light"
  },
  {
  "scene": "",
- "category": "diet",
+ "category": "food",
  "magnitude": "light"
  },
  {
  "scene": "",
- "category": "diet",
+ "category": "food",
  "magnitude": "stiff"
  },
  {
  "scene": "",
- "category": "diet",
+ "category": "food",
  "magnitude": "stiff"
  },
  {
  "scene": "",
- "category": "diet",
+ "category": "food",
  "magnitude": "stiff"
  },
  {
  "scene": "",
- "category": "diet",
+ "category": "food",
  "magnitude": "stiff"
  },
  {
  "scene": "",
- "category": "diet",
+ "category": "food",
  "magnitude": "stiff"
  },
  {
  "scene": "",
- "category": "diet",
+ "category": "food",
  "magnitude": "heavy"
  },
  {
  "scene": "",
- "category": "diet",
+ "category": "food",
+ "magnitude": "heavy"
+ },
+ {
+ "scene": "Only food you eat is left overs from all in a trash can from ,
+ "category": "food",
  "magnitude": "heavy"
  },
  {
  "scene": "",
- "category": "diet",
+ "category": "food",
  "magnitude": "heavy"
  },
  {
  "scene": "",
- "category": "diet",
+ "category": "food",
  "magnitude": "heavy"
  },
  {
  "scene": "",
- "category": "diet",
- "magnitude": "heavy"
- },
- {
- "scene": "",
- "category": "diet",
+ "category": "food",
  "magnitude": "extreme"
  },
  {
  "scene": "",
- "category": "diet",
+ "category": "food",
  "magnitude": "extreme"
  },
  {
  "scene": "",
- "category": "diet",
+ "category": "food",
  "magnitude": "extreme"
  },
  {
  "scene": "",
- "category": "diet",
+ "category": "food",
  "magnitude": "extreme"
  },
  {
  "scene": "",
- "category": "diet",
+ "category": "food",
  "magnitude": "extreme"
  }
  ]

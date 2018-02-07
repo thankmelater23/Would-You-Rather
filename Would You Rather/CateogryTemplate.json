@@ -1,108 +1,104 @@
 
 [
  {
- "scene": "erase every computer from history",
- "category": "internet",
- "magnitude": "light"
- },
- {
- "scene": "never be able to use any Google products ever again",
- "category": "internet",
- "magnitude": "light"
- },
- {
- "scene": "only be able to use the internet 20 minutes a day",
- "category": "internet",
+ "scene": "",
+ "category": "category",
  "magnitude": "light"
  },
  {
  "scene": "",
- "category": "internet",
+ "category": "category",
  "magnitude": "light"
  },
  {
  "scene": "",
- "category": "internet",
+ "category": "category",
  "magnitude": "light"
  },
  {
  "scene": "",
- "category": "internet",
+ "category": "category",
  "magnitude": "light"
  },
  {
  "scene": "",
- "category": "internet",
+ "category": "category",
+ "magnitude": "light"
+ },
+ {
+ "scene": "",
+ "category": "category",
  "magnitude": "stiff"
  },
  {
  "scene": "",
- "category": "internet",
+ "category": "category",
  "magnitude": "stiff"
  },
  {
  "scene": "",
- "category": "internet",
+ "category": "category",
  "magnitude": "stiff"
  },
  {
  "scene": "",
- "category": "internet",
+ "category": "category",
  "magnitude": "stiff"
  },
  {
  "scene": "",
- "category": "internet",
+ "category": "category",
  "magnitude": "stiff"
  },
  {
  "scene": "",
- "category": "internet",
+ "category": "category",
  "magnitude": "heavy"
  },
  {
  "scene": "",
- "category": "internet",
+ "category": "category",
  "magnitude": "heavy"
  },
  {
  "scene": "",
- "category": "internet",
+ "category": "category",
  "magnitude": "heavy"
  },
  {
  "scene": "",
- "category": "internet",
+ "category": "category",
  "magnitude": "heavy"
  },
  {
  "scene": "",
- "category": "internet",
+ "category": "category",
  "magnitude": "heavy"
  },
  {
  "scene": "",
- "category": "internet",
+ "category": "category",
  "magnitude": "extreme"
  },
  {
  "scene": "",
- "category": "internet",
+ "category": "category",
  "magnitude": "extreme"
  },
  {
  "scene": "",
- "category": "internet",
+ "category": "category",
  "magnitude": "extreme"
  },
  {
  "scene": "",
- "category": "internet",
+ "category": "category",
  "magnitude": "extreme"
  },
  {
  "scene": "",
- "category": "internet",
+ "category": "category",
  "magnitude": "extreme"
- },
+ }
  ]
+

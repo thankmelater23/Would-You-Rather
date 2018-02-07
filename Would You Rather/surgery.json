@@ -1,102 +1,102 @@
 
 [
  {
- "scene": "have all limbs surgically removed",
+ "scene": "",
  "category": "surgery",
  "magnitude": "light"
+ },
+ {
+ "scene": "",
+ "category": "surgery",
+ "magnitude": "light"
+ },
+ {
+ "scene": "",
+ "category": "surgery",
+ "magnitude": "light"
+ },
+ {
+ "scene": "",
+ "category": "surgery",
+ "magnitude": "light"
+ },
+ {
+ "scene": "",
+ "category": "surgery",
+ "magnitude": "light"
+ },
+ {
+ "scene": "",
+ "category": "surgery",
+ "magnitude": "stiff"
+ },
+ {
+ "scene": "",
+ "category": "surgery",
+ "magnitude": "stiff"
+ },
+ {
+ "scene": "",
+ "category": "surgery",
+ "magnitude": "stiff"
+ },
+ {
+ "scene": "",
+ "category": "surgery",
+ "magnitude": "stiff"
+ },
+ {
+ "scene": "",
+ "category": "surgery",
+ "magnitude": "stiff"
+ },
+ {
+ "scene": "",
+ "category": "surgery",
+ "magnitude": "heavy"
+ },
+ {
+ "scene": "",
+ "category": "surgery",
+ "magnitude": "heavy"
+ },
+ {
+ "scene": "",
+ "category": "surgery",
+ "magnitude": "heavy"
+ },
+ {
+ "scene": "",
+ "category": "surgery",
+ "magnitude": "heavy"
+ },
+ {
+ "scene": "",
+ "category": "surgery",
+ "magnitude": "heavy"
+ },
+ {
+ "scene": "",
+ "category": "surgery",
+ "magnitude": "extreme"
+ },
+ {
+ "scene": "",
+ "category": "surgery",
+ "magnitude": "extreme"
+ },
+ {
+ "scene": "",
+ "category": "surgery",
+ "magnitude": "extreme"
  },
  {
  "scene": "Replace all your fingers with all your toes",
  "category": "surgery",
- "magnitude": "light"
- },
- {
- "scene": "",
- "category": "surgery",
- "magnitude": "light"
- },
- {
- "scene": "",
- "category": "surgery",
- "magnitude": "light"
- },
- {
- "scene": "",
- "category": "surgery",
- "magnitude": "light"
- },
- {
- "scene": "",
- "category": "surgery",
- "magnitude": "stiff"
- },
- {
- "scene": "",
- "category": "surgery",
- "magnitude": "stiff"
- },
- {
- "scene": "",
- "category": "surgery",
- "magnitude": "stiff"
- },
- {
- "scene": "",
- "category": "surgery",
- "magnitude": "stiff"
- },
- {
- "scene": "",
- "category": "surgery",
- "magnitude": "stiff"
- },
- {
- "scene": "",
- "category": "surgery",
- "magnitude": "heavy"
- },
- {
- "scene": "",
- "category": "surgery",
- "magnitude": "heavy"
- },
- {
- "scene": "",
- "category": "surgery",
- "magnitude": "heavy"
- },
- {
- "scene": "",
- "category": "surgery",
- "magnitude": "heavy"
- },
- {
- "scene": "",
- "category": "surgery",
- "magnitude": "heavy"
- },
- {
- "scene": "",
- "category": "surgery",
  "magnitude": "extreme"
  },
  {
- "scene": "",
- "category": "surgery",
- "magnitude": "extreme"
- },
- {
- "scene": "",
- "category": "surgery",
- "magnitude": "extreme"
- },
- {
- "scene": "",
- "category": "surgery",
- "magnitude": "extreme"
- },
- {
- "scene": "",
+ "scene": "have all limbs surgically removed",
  "category": "surgery",
  "magnitude": "extreme"
  }

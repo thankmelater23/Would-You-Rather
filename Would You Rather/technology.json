@@ -1,109 +1,108 @@
 
-
 [
  {
- "scene": "",
- "category": "psycological",
+ "scene": "erase every computer from history",
+ "category": "technology",
+ "magnitude": "light"
+ },
+ {
+ "scene": "never be able to use any Google products ever again",
+ "category": "technology",
+ "magnitude": "light"
+ },
+ {
+ "scene": "only be able to use the internet 20 minutes a day",
+ "category": "technology",
  "magnitude": "light"
  },
  {
  "scene": "",
- "category": "psycological",
+ "category": "technology",
  "magnitude": "light"
  },
  {
  "scene": "",
- "category": "psycological",
+ "category": "technology",
  "magnitude": "light"
  },
  {
  "scene": "",
- "category": "psycological",
+ "category": "technology",
  "magnitude": "light"
  },
  {
  "scene": "",
- "category": "psycological",
- "magnitude": "light"
- },
- {
- "scene": "",
- "category": "psycological",
+ "category": "technology",
  "magnitude": "stiff"
  },
  {
  "scene": "",
- "category": "psycological",
+ "category": "technology",
  "magnitude": "stiff"
  },
  {
  "scene": "",
- "category": "psycological",
+ "category": "technology",
  "magnitude": "stiff"
  },
  {
  "scene": "",
- "category": "psycological",
+ "category": "technology",
  "magnitude": "stiff"
  },
  {
  "scene": "",
- "category": "psycological",
+ "category": "technology",
  "magnitude": "stiff"
  },
  {
  "scene": "",
- "category": "psycological",
+ "category": "technology",
  "magnitude": "heavy"
  },
  {
  "scene": "",
- "category": "psycological",
+ "category": "technology",
  "magnitude": "heavy"
  },
  {
  "scene": "",
- "category": "psycological",
+ "category": "technology",
  "magnitude": "heavy"
  },
  {
  "scene": "",
- "category": "psycological",
- "magnitude": "heavy"
- },
- {
- "scene": "have absolutely no one you have met or will meet like or respect you",
- "category": "psycological",
+ "category": "technology",
  "magnitude": "heavy"
  },
  {
  "scene": "",
- "category": "psycological",
+ "category": "technology",
+ "magnitude": "heavy"
+ },
+ {
+ "scene": "",
+ "category": "technology",
  "magnitude": "extreme"
  },
  {
  "scene": "",
- "category": "psycological",
+ "category": "technology",
  "magnitude": "extreme"
  },
  {
  "scene": "",
- "category": "psycological",
+ "category": "technology",
  "magnitude": "extreme"
  },
  {
  "scene": "",
- "category": "psycological",
+ "category": "technology",
  "magnitude": "extreme"
  },
  {
  "scene": "",
- "category": "psycological",
+ "category": "technology",
  "magnitude": "extreme"
  },
- {
- "scene": "",
- "category": "psycological",
- "magnitude": "extreme"
- }
  ]

@@ -56,10 +56,15 @@ class ViewController: UIViewController {
   }
   ///Sets viewcontroller view
   func setView(){
-    topQuestionLabel.text = duel?.question1.scene.capitalized
-    bottomQuestionLabel.text = duel?.question2.scene.capitalized
-    categoryLabel.text = duel?.category.rawValue.capitalized
-    magnitudeLabel.text = duel?.magnitude.rawValue.capitalized
+    let topQuestionText = (duel?.question1.scene)?.capitalized
+    let bottomQuestionText = duel?.question2.scene
+    let categoryText = duel?.category.rawValue
+    var magnitudeText = duel?.magnitude.rawValue
+    magnitudeText = magnitudeText.map({$0.capitalized})
+    topQuestionLabel.text = topQuestionText.map({$0.capitalized})
+    bottomQuestionLabel.text = bottomQuestionText.map({$0.capitalized})
+    categoryLabel.text = categoryText.map({$0.capitalized})
+    magnitudeLabel.text = magnitudeText.map({$0.capitalized})
   }
   ///Get data
   func getData(){

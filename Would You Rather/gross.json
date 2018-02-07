@@ -36,7 +36,12 @@
  "magnitude": "stiff"
  },
  {
- "scene": "",
+ "scene": "Pimple filled eye brows",
+ "category": "gross",
+ "magnitude": "stiff"
+ },
+ {
+ "scene": "have to eat a very moldy meal once a week",
  "category": "gross",
  "magnitude": "stiff"
  },
@@ -46,12 +51,7 @@
  "magnitude": "stiff"
  },
  {
- "scene": "",
- "category": "gross",
- "magnitude": "stiff"
- },
- {
- "scene": "",
+ "scene": "Smell strong pungent vomit smell when ever you get tired",
  "category": "gross",
  "magnitude": "stiff"
  },
@@ -71,7 +71,7 @@
  "magnitude": "heavy"
  },
  {
- "scene": "",
+ "scene": "Lick the seat of every porta potty at Cochella",
  "category": "gross",
  "magnitude": "heavy"
  },
