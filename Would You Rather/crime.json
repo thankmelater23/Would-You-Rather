@@ -6,7 +6,12 @@
  "magnitude": "light"
  },
  {
- "scene": "Everytime a police officer see you they will arrest you release you the next day",
+ "scene": "",
+ "category": "crime",
+ "magnitude": "light"
+ },
+ {
+ "scene": "",
  "category": "crime",
  "magnitude": "light"
  },
@@ -21,9 +26,9 @@
  "magnitude": "light"
  },
  {
- "scene": "not kill someone but have everyone think you did",
+ "scene": "",
  "category": "crime",
- "magnitude": "light"
+ "magnitude": "stiff"
  },
  {
  "scene": "",
@@ -32,11 +37,6 @@
  },
  {
  "scene": "",
- "category": "crime",
- "magnitude": "stiff"
- },
- {
- "scene": "Police pull you over and plant a ounce of drugs on you",
  "category": "crime",
  "magnitude": "stiff"
  },
@@ -96,7 +96,7 @@
  "magnitude": "extreme"
  },
  {
- "scene": "Go to jail for murder you didn't commit or have anything to do with",
+ "scene": "",
  "category": "crime",
  "magnitude": "extreme"
  }

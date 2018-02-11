@@ -1,7 +1,7 @@
 
 [
  {
- "scene": "",
+ "scene": "Bad gas during the first date with your crush",
  "category": "romance",
  "magnitude": "light"
  },
@@ -41,7 +41,7 @@
  "magnitude": "stiff"
  },
  {
- "scene": "",
+ "scene": "Fight and lose to your new bf/gf crazt ex",
  "category": "romance",
  "magnitude": "stiff"
  },
@@ -82,22 +82,22 @@
  },
  {
  "scene": "",
- "category": "surgery",
+ "category": "romance",
  "magnitude": "extreme"
  },
  {
  "scene": "",
- "category": "surgery",
+ "category": "romance",
  "magnitude": "extreme"
  },
  {
  "scene": "",
- "category": "surgery",
+ "category": "romance",
  "magnitude": "extreme"
  },
  {
- "scene": "",
- "category": "surgery",
+ "scene": "On your wedding day, your partner runs away with their ex",
+ "category": "romance",
  "magnitude": "extreme"
  }
 ]

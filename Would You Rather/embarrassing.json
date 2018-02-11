@@ -1,6 +1,16 @@
  [
   {
-  "scene": "",
+  "scene": "Lose your phone",
+  "category": "embarrassing",
+  "magnitude": "light"
+  },
+  {
+  "scene": "Always get picked last in competitions",
+  "category": "embarrassing",
+  "magnitude": "light"
+  },
+  {
+  "scene": "Loud fart durring an office meeting",
   "category": "embarrassing",
   "magnitude": "light"
   },
@@ -10,17 +20,7 @@
   "magnitude": "light"
   },
   {
-  "scene": "",
-  "category": "embarrassing",
-  "magnitude": "light"
-  },
-  {
-  "scene": "",
-  "category": "embarrassing",
-  "magnitude": "light"
-  },
-  {
-  "scene": "",
+  "scene": "Fall on your face in front of your crush",
   "category": "embarrassing",
   "magnitude": "light"
   },
@@ -85,12 +85,12 @@
   "magnitude": "extreme"
   },
   {
-  "scene": "",
+  "scene": "Police pull you over and plant a ounce of drugs on you",
   "category": "embarrassing",
   "magnitude": "extreme"
   },
   {
-  "scene": "Every nude you ever took some how posted on facebook, and you can't log back in",
+  "scene": "All your private pictures and videos some how posted on facebook, and you can't log back in",
   "category": "embarrassing",
   "magnitude": "extreme"
   }

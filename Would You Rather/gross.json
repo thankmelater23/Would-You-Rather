@@ -1,17 +1,12 @@
 
 [
  {
- "scene": "gain super-human sense of smell, but only for horrible vomit enducing smells",
+ "scene": "",
  "category": "gross",
  "magnitude": "light"
  },
  {
- "scene": "have to lick a persons face every time they say a sentence to you",
- "category": "gross",
- "magnitude": "light"
- },
- {
- "scene": "have to drink nothing but earwax whenever you get thirsty",
+ "scene": "Lick a persons face every time they say a sentence to you",
  "category": "gross",
  "magnitude": "light"
  },
@@ -21,17 +16,22 @@
  "magnitude": "light"
  },
  {
- "scene": "",
+ "scene": "Feet always stink",
  "category": "gross",
  "magnitude": "light"
  },
  {
- "scene": "",
+ "scene": "Constant bad breath",
  "category": "gross",
  "magnitude": "light"
  },
  {
- "scene": "",
+ "scene": "Constantly sweeting",
+ "category": "gross",
+ "magnitude": "light"
+ },
+ {
+ "scene": "Lick the dirt of a homless person fingers",
  "category": "gross",
  "magnitude": "stiff"
  },
@@ -46,7 +46,7 @@
  "magnitude": "stiff"
  },
  {
- "scene": "",
+ "scene": "Have an extra nipple",
  "category": "gross",
  "magnitude": "stiff"
  },
@@ -56,7 +56,7 @@
  "magnitude": "stiff"
  },
  {
- "scene": "",
+ "scene": "Can only shower once a month",
  "category": "gross",
  "magnitude": "heavy"
  },
@@ -101,7 +101,7 @@
  "magnitude": "extreme"
  },
  {
- "scene": "",
+ "scene": "Eat vomit",
  "category": "gross",
  "magnitude": "extreme"
  }

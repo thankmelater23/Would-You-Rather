@@ -1,57 +1,57 @@
 
 [
  {
- "scene": "never be able to wear socks and shoes ever again",
+ "scene": "Never be able to wear socks and shoes ever again",
  "category": "pain",
  "magnitude": "light"
  },
  {
- "scene": "hear all voices & sounds at an annoying nails-on-chalkboard high pitch",
+ "scene": "Hear all voices & sounds at an annoying nails-on-chalkboard high pitch",
  "category": "pain",
  "magnitude": "light"
  },
  {
- "scene": "",
+ "scene": "Jalepon pepper in the eye",
  "category": "pain",
  "magnitude": "light"
  },
  {
- "scene": "",
+ "scene": "Cigarette burn",
  "category": "pain",
  "magnitude": "light"
  },
  {
- "scene": "jump from a 1 story roof & land onto scattered legos barefoot",
+ "scene": "Hit your foot on the medta part of the bed",
  "category": "pain",
  "magnitude": "stiff"
  },
  {
- "scene": "intentionally break a glass bottle on your own head not covered by insurance",
+ "scene": "Intentionally break a glass bottle on your own head not covered by insurance",
  "category": "pain",
  "magnitude": "stiff"
  },
  {
- "scene": "bare knuckle fight a pissed off Mike Tyson in his prime",
+ "scene": "Bare knuckle fight a pissed off Mike Tyson in his prime",
  "category": "pain",
  "magnitude": "stiff"
  },
  {
- "scene": "be 1/100 humans to survive a major catestrophic event",
+ "scene": "Be 1/100 humans to survive a major catestrophic event",
  "category": "pain",
  "magnitude": "stiff"
  },
  {
- "scene": "get kicked in the genitalia everytime you use a noun",
+ "scene": "Get kicked in the genitalia everytime you use a noun",
  "category": "pain",
  "magnitude": "heavy"
  },
  {
- "scene": "have to step on a set bear trap until it slams shut on your leg every 9 months ",
+ "scene": "Step on a bear trap",
  "category": "pain",
  "magnitude": "heavy"
  },
  {
- "scene": "have to rip out all of your hair & every finger & toe nail once a year with no anesthetics ",
+ "scene": "have to rip out all of your hair & every finger & toe nail",
  "category": "pain",
  "magnitude": "heavy"
  },
@@ -61,22 +61,27 @@
  "magnitude": "heavy"
  },
  {
- "scene": "not able remember anything new from this point on & have your memory reset every 6 hours",
+ "scene": "Have absolutely no one you have met or will meet like or respect you",
+ "category": "pain",
+ "magnitude": "heavy"
+ },
+ {
+ "scene": "Not able remember anything new from this point on & have your memory reset every 6 hours",
  "category": "pain",
  "magnitude": "extreme"
  },
  {
- "scene": "jam a tooth pick into your big toe nail & kick the wall as hard as you can",
+ "scene": "Jam a tooth pick into your big toe nail & kick the wall as hard as you can",
  "category": "pain",
  "magnitude": "extreme"
  },
  {
- "scene": "",
+ "scene": "Poop out a cocunut",
  "category": "pain",
  "magnitude": "extreme"
  },
  {
- "scene": "",
+ "scene": "Mauled by a bear",
  "category": "pain",
  "magnitude": "extreme"
  }

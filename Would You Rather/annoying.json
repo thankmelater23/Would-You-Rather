@@ -30,7 +30,12 @@
   "magnitude": "stiff"
 },
 {
-  "scene": "",
+  "scene": "Wake up every morning with a crook in your kneck",
+  "category": "annoying",
+  "magnitude": "stiff"
+},
+{
+  "scene": "Nose stuffed up when ever the sun goes down",
   "category": "annoying",
   "magnitude": "stiff"
 },
@@ -40,17 +45,12 @@
   "magnitude": "stiff"
 },
 {
-  "scene": "",
+  "scene": "not kill someone but have everyone think you did",
   "category": "annoying",
   "magnitude": "stiff"
 },
 {
-  "scene": "",
-  "category": "annoying",
-  "magnitude": "stiff"
-},
-{
-  "scene": "",
+  "scene": "Everytime a police officer see you they will arrest you release you the next day",
   "category": "annoying",
   "magnitude": "heavy"
 },
@@ -70,7 +70,7 @@
   "magnitude": "heavy"
 },
 {
-  "scene": "",
+  "scene": "Never have sex again",
   "category": "annoying",
   "magnitude": "heavy"
 },
@@ -100,7 +100,7 @@
   "magnitude": "extreme"
 },
 {
-  "scene": "",
+  "scene": "Go to jail for murder you didn't commit or have anything to do with",
   "category": "annoying",
   "magnitude": "extreme"
 }

@@ -9,11 +9,11 @@
 import Foundation
 
 enum QuestionCategory:String, Codable{
-  case romance, food, technology, crime, surgery, annoying, death, pain, gross, embarrassing, psycological//music
+  case romance, technology, crime, annoying, pain, gross, embarrassing, psycological
   
   static func randomCategory()->QuestionCategory{
     typealias q = QuestionCategory
-    var arrayOfCategories = [q.romance, q.food, q.technology, q.crime, q.surgery, q.annoying, q.death, q.pain, q.gross, q.embarrassing, q.psycological]//,q.music,
+    var arrayOfCategories = [q.romance, q.technology, q.crime, q.annoying, q.pain, q.gross, q.embarrassing, q.psycological]//,q.music,
     let count = arrayOfCategories.count
     
     //Random between 1-count

@@ -31,7 +31,17 @@
  "magnitude": "light"
  },
  {
+ "scene": "1 Week with no phone",
+ "category": "technology",
+ "magnitude": "stiff"
+ },
+ {
  "scene": "",
+ "category": "technology",
+ "magnitude": "stiff"
+ },
+ {
+ "scene": "Facebook shut down for ever",
  "category": "technology",
  "magnitude": "stiff"
  },
@@ -46,17 +56,7 @@
  "magnitude": "stiff"
  },
  {
- "scene": "",
- "category": "technology",
- "magnitude": "stiff"
- },
- {
- "scene": "",
- "category": "technology",
- "magnitude": "stiff"
- },
- {
- "scene": "",
+ "scene": "All your social media deleted",
  "category": "technology",
  "magnitude": "heavy"
  },
