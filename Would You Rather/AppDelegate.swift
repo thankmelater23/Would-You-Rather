@@ -9,6 +9,7 @@
 import UIKit
 import CoreData
 import SwiftyBeaver
+import Siren
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -95,6 +96,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   func setup(){
     self.buddyBuildConfig()
     self.swiftBeaverSetUp()
+    self.printAppInfo()
+    self.removeConstraintFromLogger()
   }
   fileprivate func buddyBuildConfig() {
     log.verbose(#function)
@@ -119,5 +122,95 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let platform = SBPlatformDestination(appID: PrivateKeys.swiftBeaverAppid, appSecret: PrivateKeys.swiftBeaverSecret, encryptionKey: PrivateKeys.swiftBeaverEncryptionKey)
     log.addDestination(platform)
   }
+  /// Logs app details
+  func printAppInfo() {
+    
+    if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
+      log.info("Version Running: \(version)")
+    }
+    if let CFBundleDevelopmentRegion = Bundle.main.infoDictionary?["CFBundleDevelopmentRegion"] as? String {
+      log.info("Develope Region: \(CFBundleDevelopmentRegion)")
+    }
+    if let CFBundleDisplayName = Bundle.main.infoDictionary?["CFBundleDisplayName"] as? String {
+      log.info("Display Name: \(CFBundleDisplayName)")
+    }
+    if let CFBundleDocumentTypes = Bundle.main.infoDictionary?["CFBundleDocumentTypes"] as? String {
+      log.info("Document Types: \(CFBundleDocumentTypes)")
+    }
+    if let CFBundleExecutable = Bundle.main.infoDictionary?["CFBundleDeCFBundleExecutablevelopmentRegion"] as? String {
+      log.info("Bundle Executable: \(CFBundleExecutable)")
+    }
+    if let CFBundleIconFile = Bundle.main.infoDictionary?["CFBundleIconFile"] as? String {
+      log.info("Icon file: \(CFBundleIconFile)")
+    }
+    if let CFBundleIcons = Bundle.main.infoDictionary?["CFBundleIcons"] as? String {
+      log.info("Bundle Icon: \(CFBundleIcons)")
+    }
+    if let CFBundleIdentifier = Bundle.main.infoDictionary?["CFBundleIdentifier"] as? String {
+      log.info("Bundle Identifier : \(CFBundleIdentifier)")
+    }
+    if let CFBundleLocalizations = Bundle.main.infoDictionary?["CFBundleLocalizations"] as? String {
+      log.info("Bundle Localization : \(CFBundleLocalizations)")
+    }
+    if let CFBundleName = Bundle.main.infoDictionary?["CFBundleName"] as? String {
+      log.info("Bundle Name: \(CFBundleName)")
+    }
+    if let CFBundlePackageType = Bundle.main.infoDictionary?["CFBundlePackageType"] as? String {
+      log.info("Bundle Package: \(CFBundlePackageType)")
+    }
+    
+    if let CFBundleShortVersionString = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
+      log.info("Short Version String: \(CFBundleShortVersionString)")
+    }
+    if let CFBundleSignature = Bundle.main.infoDictionary?["CFBundleSignature"] as? String {
+      log.info("Bundle Signature : \(CFBundleSignature)")
+    }
+    if let CFBundleSpokenName = Bundle.main.infoDictionary?["CFBundleSpokenName"] as? String {
+      log.info("Spoken Name : \(CFBundleSpokenName)")
+    }
+    if let CFBundleURLTypes = Bundle.main.infoDictionary?["CFBundleURLTypes"] as? String {
+      log.info("Bundle URL Type : \(CFBundleURLTypes)")
+    }
+    if let CFBundleVersion = Bundle.main.infoDictionary?["CFBundleVersion"] as? String {
+      log.info("Bundle Version : \(CFBundleVersion)")
+    }
+    if let CFBundleTypeName = Bundle.main.infoDictionary?["CFBundleTypeName"] as? String {
+      log.info("Bundle Type Name: \(CFBundleTypeName)")
+    }
+    if let LSHandlerRank = Bundle.main.infoDictionary?["LSHandlerRank"] as? String {
+      log.info(" Handler Rank: \(LSHandlerRank)")
+    }
+    if let CFBundlePackageType = Bundle.main.infoDictionary?["CFBundlePackageType"] as? String {
+      log.info("Bundle Package Type: \(CFBundlePackageType)")
+    }
+  }
   
+  /// Removes constrait logging
+  func removeConstraintFromLogger() {
+    log.verbose(#function)
+    UserDefaults.standard.setValue(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
+  }
+
+  func sirenConfiguration() {
+    log.verbose(#function)
+    /* Siren code should go below window?.makeKeyAndVisible() */
+    
+    // Siren is a singleton
+    let siren = Siren.shared
+    
+    // Required: Your app's iTunes App Store ID
+    //        siren.appID = "1300481560"
+    
+    // Optional: Defaults to .Option
+    
+    /*
+     Replace .Immediately with .Daily or .Weekly to specify a maximum daily or weekly frequency for version
+     checks.
+     */
+    siren.checkVersion(checkType: .daily)
+    
+    siren.alertType = .option // SirenAlertType.option
+    
+    siren.showAlertAfterCurrentVersionHasBeenReleasedForDays = 3
+  }
 }

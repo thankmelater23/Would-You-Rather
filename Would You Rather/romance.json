@@ -6,7 +6,7 @@
  "magnitude": "light"
  },
  {
- "scene": "",
+ "scene": "Getting Publicly Ditched By A Date",
  "category": "romance",
  "magnitude": "light"
  },
@@ -36,7 +36,12 @@
  "magnitude": "stiff"
  },
  {
- "scene": "",
+ "scene": "Not having enough money to pay the bill on a date",
+ "category": "romance",
+ "magnitude": "stiff"
+ },
+ {
+ "scene": "Spend a weekend with your ex and their new boo",
  "category": "romance",
  "magnitude": "stiff"
  },
@@ -46,17 +51,22 @@
  "magnitude": "stiff"
  },
  {
- "scene": "",
+ "scene": "Your Crush Admitting To Liking Your Friend Instead",
  "category": "romance",
  "magnitude": "stiff"
  },
  {
  "scene": "",
  "category": "romance",
+ "magnitude": "stiff"
+ },
+ {
+ "scene": "Overflow the toilet at your first date house",
+ "category": "romance",
  "magnitude": "heavy"
  },
  {
- "scene": "make out with a stalker that has threatened your life, for 30 minutes",
+ "scene": "",
  "category": "romance",
  "magnitude": "heavy"
  },

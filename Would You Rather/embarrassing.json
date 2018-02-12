@@ -20,7 +20,7 @@
   "magnitude": "light"
   },
   {
-  "scene": "Fall on your face in front of your crush",
+  "scene": "Fall down badly in front of your crush",
   "category": "embarrassing",
   "magnitude": "light"
   },
@@ -40,18 +40,23 @@
   "magnitude": "stiff"
   },
   {
-  "scene": "Wake up drunk amd naked in front of your job",
+  "scene": "Wake up drunk and naked in front of your job",
+  "category": "embarrassing",
+  "magnitude": "stiff"
+  },
+  {
+  "scene": "Crap your pants on a road trip with friends",
+  "category": "embarrassing",
+  "magnitude": "stiff"
+  },
+  {
+  "scene": "Walk in on your parents having sex",
   "category": "embarrassing",
   "magnitude": "stiff"
   },
   {
   "scene": "",
   "category": "embarrassing",
-  "magnitude": "stiff"
-  },
-  {
-  "scene": "",
-  "category": "embarrassing",
   "magnitude": "heavy"
   },
   {
@@ -85,7 +90,7 @@
   "magnitude": "extreme"
   },
   {
-  "scene": "Police pull you over and plant a ounce of drugs on you",
+  "scene": "",
   "category": "embarrassing",
   "magnitude": "extreme"
   },

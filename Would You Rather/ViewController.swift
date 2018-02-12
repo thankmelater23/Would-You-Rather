@@ -22,16 +22,36 @@ class ViewController: UIViewController {
   @IBOutlet weak var categoryLabel: UILabel!
   @IBOutlet weak var magnitudeLabel: UILabel!
   
+  @IBOutlet weak var topQuestionImageView: UIImageView!
+  
+  @IBOutlet weak var bottomQuestionImageView: UIImageView!
+  
+  @IBOutlet weak var skipNextBarButton: UIBarButtonItem!
   
   ///MARK: - IBActions
   @IBAction func topQuestionButton(_ sender: Any) {
+    topQuestionImageView.image = UIImage.init(named: "green check")
+    bottomQuestionImageView.image = UIImage.init(named: "red x circle")
+    skipNextBarButton.title = "Next"
+    self.topQuestionImageView.isHidden = false
+    self.bottomQuestionImageView.isHidden = false
+    
   }
   @IBAction func bottomQuestionButton(_ sender: Any) {
+    bottomQuestionImageView.image = UIImage.init(named: "green check")
+    topQuestionImageView.image = UIImage.init(named: "red x circle")
+    skipNextBarButton.title = "Next"
+    self.topQuestionImageView.isHidden = false
+    self.bottomQuestionImageView.isHidden = false
   }
   @IBAction func nextDuel(_ sender: Any) {
-    self.setup()
+    
   }
   
+  @IBAction func skipNextAction(_ sender: UIBarButtonItem) {
+    self.setup()
+    sender.title = "Skip"
+  }
   
   ///MARK: - View Functions
   override func viewDidLoad() {
@@ -65,6 +85,9 @@ class ViewController: UIViewController {
     bottomQuestionLabel.text = bottomQuestionText.map({$0.capitalized})
     categoryLabel.text = categoryText.map({$0.capitalized})
     magnitudeLabel.text = magnitudeText.map({$0.capitalized})
+    
+    self.topQuestionImageView.isHidden = true
+    self.bottomQuestionImageView.isHidden = true
   }
   ///Get data
   func getData(){
