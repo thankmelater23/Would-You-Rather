@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'B3A156C5B48A0C63C8C2DE13C92CB821'
-               BlueprintName = 'Siren'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Siren.framework'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C7E51952FE2674F49536BC579F8F2ADC"
+               BlueprintName = "Siren"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "Siren.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

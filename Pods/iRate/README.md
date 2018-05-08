@@ -1,3 +1,10 @@
+***************
+WARNING: THIS PROJECT IS DEPRECATED
+====================================
+It will not receive any future updates or bug fixes. If you are using it, please migrate to another solution.
+***************
+
+
 Purpose
 --------------
 
@@ -338,6 +345,10 @@ The example is for Mac OS, but the same principle can be applied on iOS.
 
 Release Notes
 -----------------
+
+Version 1.12.2
+
+- Marked as deprecated
 
 Version 1.12.1
 

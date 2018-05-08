@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '63BAE752DBEBD9ED2647B0E6DBF8DDD0'
-               BlueprintName = 'SwiftySound'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'SwiftySound.framework'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6A1C6A2868843E8EEF1CD14CF4F6AA9C"
+               BlueprintName = "SwiftySound"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "SwiftySound.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

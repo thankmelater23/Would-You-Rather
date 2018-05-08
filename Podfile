@@ -28,7 +28,8 @@ target 'Would You Rather' do
   pod 'FacebookCore'
   pod 'SwiftLint'
   # Pods for Would You Rather
-
+  pod 'SimulatorStatusMagic', :configurations => ['Debug']
+  
   target 'Would You RatherTests' do
     inherit! :search_paths
     # Pods for testing

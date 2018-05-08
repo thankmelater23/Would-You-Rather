@@ -9,7 +9,7 @@
 import Foundation
 
 /// cross-platform random numbers generator
-private struct Random {
+fileprivate struct Random {
     #if os(Linux)
     static var initialized = false
     #endif
@@ -690,7 +690,7 @@ private struct PKCS7 {
 
 // MARK: - Utils
 
-private func xor(_ a: Array<UInt8>, _ b: Array<UInt8>) -> Array<UInt8> {
+fileprivate func xor(_ a: Array<UInt8>, _ b: Array<UInt8>) -> Array<UInt8> {
     var xored = Array<UInt8>(repeating: 0, count: min(a.count, b.count))
     for i in 0..<xored.count {
         xored[i] = a[i] ^ b[i]
@@ -698,19 +698,19 @@ private func xor(_ a: Array<UInt8>, _ b: Array<UInt8>) -> Array<UInt8> {
     return xored
 }
 
-private func rotateLeft(_ value: UInt8, by: UInt8) -> UInt8 {
+fileprivate func rotateLeft(_ value: UInt8, by: UInt8) -> UInt8 {
     return ((value << by) & 0xFF) | (value >> (8 - by))
 }
 
-private func rotateLeft(_ value: UInt32, by: UInt32) -> UInt32 {
+fileprivate func rotateLeft(_ value: UInt32, by: UInt32) -> UInt32 {
     return ((value << by) & 0xFFFFFFFF) | (value >> (32 - by))
 }
 
-private protocol BitshiftOperationsType {
+fileprivate protocol BitshiftOperationsType {
     static func << (lhs: Self, rhs: Self) -> Self
 }
 
-private protocol ByteConvertible {
+fileprivate protocol ByteConvertible {
     init(_ value: UInt8)
     init(truncatingBitPattern: UInt64)
 }
@@ -730,7 +730,7 @@ fileprivate extension UInt32 {
     }
 }
 
-private func toUInt32Array(slice: ArraySlice<UInt8>) -> Array<UInt32> {
+fileprivate func toUInt32Array(slice: ArraySlice<UInt8>) -> Array<UInt32> {
     var result = Array<UInt32>()
     result.reserveCapacity(16)
     for idx in stride(from: slice.startIndex, to: slice.endIndex, by: MemoryLayout<UInt32>.size) {
@@ -747,7 +747,7 @@ private func toUInt32Array(slice: ArraySlice<UInt8>) -> Array<UInt32> {
 
 /// Array of bytes, little-endian representation. Don't use if not necessary.
 /// I found this method slow
-private func arrayOfBytes<T>(value: T, length: Int? = nil) -> Array<UInt8> {
+fileprivate func arrayOfBytes<T>(value: T, length: Int? = nil) -> Array<UInt8> {
     let totalBytes = length ?? MemoryLayout<T>.size
 
     let valuePointer = UnsafeMutablePointer<T>.allocate(capacity: 1)
@@ -759,8 +759,13 @@ private func arrayOfBytes<T>(value: T, length: Int? = nil) -> Array<UInt8> {
         bytes[totalBytes - 1 - j] = (bytesPointer + j).pointee
     }
 
+    #if swift(>=4.1)
+    valuePointer.deinitialize(count: 1)
+    valuePointer.deallocate()
+    #else
     valuePointer.deinitialize()
     valuePointer.deallocate(capacity: 1)
+    #endif
 
     return bytes
 }
@@ -839,3 +844,4 @@ fileprivate extension Data {
         return Array(self)
     }
 }
+

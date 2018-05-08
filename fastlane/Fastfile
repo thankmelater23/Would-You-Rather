@@ -1,0 +1,143 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Description of what the lane does"
+  lane :custom_lane do
+    # add actions here: https://docs.fastlane.tools/actions
+  end
+
+lane :version do
+    get_version_number
+  end
+
+  desc "Bumps version. Type: patch"
+  lane :version_patch do
+    increment_version_number(bump_type: "patch")
+    commit_version_bump
+    push_to_git_remote
+  end
+
+  desc "Bumps version. Type: minor"
+  lane :version_minor do
+    increment_version_number(bump_type: "minor")
+    commit_version_bump
+    push_to_git_remote
+  end
+
+  desc "Bumps version. Type: major"
+  lane :version_major do
+    increment_version_number(bump_type: "major")
+    commit_version_bump
+    push_to_git_remote
+  end
+
+  desc "Runs all the tests"
+  lane :tests do
+    scan
+  end
+
+lane :build do
+	# Before calling match, we make sure all our devices are registered on the Apple Developer Portal
+  #register_devices(devices_file: "devices.txt")
+
+  # After registering the new devices, we'll make sure to update the provisioning profile if necessary
+  # Note how we make sure to pass "adhoc" to get and use a provisioning profile for Ad Hoc distribution	sync_code_signing(force_for_new_devices: true,  type: "app-store")
+	tests
+	gym
+	end
+
+desc "Sets Meta"
+  lane :meta do
+    gym
+    #increment_build_number
+    deliver(username: "thankmelater23@me.com", 
+      app_identifier: "com.BangBangStudios.Would-You-Rather", 
+      force: true)
+  end
+
+
+lane :screenShot do
+snapshot(clear_previous_screenshots: TRUE)
+		#devices: ["iPhone 7", "iPhone X", "iPad Pro (12.9-inch)"])
+   frameit(white: true)
+end
+
+desc "Sets Code Sign"
+  lane :codeSign do
+    match(type: "development")
+    match(type: "appstore")
+  	cert(username: "thankmelater23@me.com")
+  	sigh(force: true, username: "thankmelater23@me.com")
+    pem
+  	end
+
+ desc "Refreshes DSYMS"
+ lane :refresh_dsyms do
+ 	download_dsyms
+ 	upload_symbols_to_crashlytics
+ 	clean_build_artifacts
+ end
+
+ desc "Creates Beta"
+  lane :beta do |values|
+    # Fabric generated this lane for deployment to Crashlytics Beta
+    # set 'export_method' to 'ad-hoc' if your Crashlytics Beta distribution uses ad-hoc provisioning
+    gym
+
+    refresh_dsyms
+
+    emails = values[:test_email] ? values[:test_email] : ['Andre@AndreVillanueva.com'] # You can list more emails here
+    groups = values[:test_email] ? nil : nil # You can define groups on the web and reference them here
+
+    # register_devices(devices_file: "./devices.txt")
+    match(force_for_new_devices: true)
+
+    changelog = File.read("metadata/en-US/release_notes.txt")
+    
+    # upload to testflight
+    pilot(skip_waiting_for_build_processing: true)
+
+    crashlytics(api_token: '4b84b1226e93ac404abf87cdd625fca3f2f67cb7',
+             build_secret: '9174c325d1ac51dcae9ee142e60f7bc1545e4d23a1ce0b5e09574eada9f888d3',
+                   emails: emails,
+                   groups: groups,
+                   notes: changelog,
+                    notes: 'Distributed with fastlane', # Check out the changelog_from_git_commits action
+            notifications: true) # Should this distribution notify your testers via email?
+     # for all available options run `fastlane action crashlytics`
+
+    # You can notify your team in chat that a beta build has been uploaded
+    # slack(
+    #   slack_url: "https://hooks.slack.com/services/YOUR/TEAM/INFO"
+    #   channel: "beta-releases",
+    #   message: "Successfully uploaded a beta release - see it at https://fabric.io/_/beta"
+    # )
+    # 
+end
+
+#desc "Deploy a new version to the App Store"
+  lane :deploy do
+    ensure_git_branch(branch: "master")
+    gym(use_legacy_build_api: true) # Build your app - more options available
+    refresh_dsyms
+    deliver(force: true, 
+      skip_screenshots: true, 
+      submit_for_review: true, 
+      automatic_release: true)
+    add_git_tag(tag: "v#{get_version_number}")
+    push_git_tags
+  end
+
+end
+

@@ -1,29 +1,30 @@
 PODS:
-  - Amplitude-iOS (4.0.4)
+  - Amplitude-iOS (4.2.0)
   - Bolts (1.9.0):
     - Bolts/AppLinks (= 1.9.0)
     - Bolts/Tasks (= 1.9.0)
   - Bolts/AppLinks (1.9.0):
     - Bolts/Tasks
   - Bolts/Tasks (1.9.0)
-  - Crashlytics (3.9.3):
-    - Fabric (~> 1.7.2)
-  - Fabric (1.7.2)
+  - Crashlytics (3.10.1):
+    - Fabric (~> 1.7.5)
+  - Fabric (1.7.6)
   - FacebookCore (0.3.0):
     - Bolts (~> 1.8)
     - FBSDKCoreKit (~> 4.27)
   - Fakery (3.3.0)
-  - FBSDKCoreKit (4.30.0):
+  - FBSDKCoreKit (4.33.0):
     - Bolts (~> 1.7)
-  - Flurry-iOS-SDK/FlurrySDK (8.3.4)
-  - Google-Mobile-Ads-SDK (7.28.0)
-  - iRate (1.12.1)
-  - Onboard (2.3.1)
-  - Siren (3.2.0)
-  - SwiftLint (0.24.2)
+  - Flurry-iOS-SDK/FlurrySDK (8.6.0)
+  - Google-Mobile-Ads-SDK (7.30.0)
+  - iRate (1.12.2)
+  - Onboard (2.3.3)
+  - SimulatorStatusMagic (2.1)
+  - Siren (3.4.0)
+  - SwiftLint (0.25.1)
   - SwiftRandom (1.0.0)
-  - SwiftyBeaver (1.5.1)
-  - SwiftySound (0.7.0)
+  - SwiftyBeaver (1.5.2)
+  - SwiftySound (1.0.0)
 
 DEPENDENCIES:
   - Amplitude-iOS
@@ -35,6 +36,7 @@ DEPENDENCIES:
   - Google-Mobile-Ads-SDK
   - iRate
   - Onboard
+  - SimulatorStatusMagic
   - Siren
   - SwiftLint
   - SwiftRandom
@@ -42,23 +44,24 @@ DEPENDENCIES:
   - SwiftySound
 
 SPEC CHECKSUMS:
-  Amplitude-iOS: 2ad4d7270c99186236c1272a3a9425463b1ae1a7
+  Amplitude-iOS: 45f10ac763db6f9ddfa06f2e4d63ed5f8d3c7bf6
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
-  Crashlytics: dbb07d01876c171c5ccbdf7826410380189e452c
-  Fabric: 9cd6a848efcf1b8b07497e0b6a2e7d336353ba15
+  Crashlytics: aee1a064cbbf99b32efa3f056a5f458d846bc8ff
+  Fabric: f8d42c893bb187326a7968b62abe55c36a987a46
   FacebookCore: 3ffa190a3f1f96cec0e44d3fc221bc322c595ffa
   Fakery: 3aae11a87721c807c18c6456500d088c1230d3e5
-  FBSDKCoreKit: 7c4bba2877781a131ab5d54c0a78c405d4307b62
-  Flurry-iOS-SDK: eed8399800cf16fe7e0121831150a7957297df99
-  Google-Mobile-Ads-SDK: 7f9bc0011df363ae5616449de3682a14c4701612
-  iRate: 59c63a290d4988f365d4338e58eca192ae92b552
-  Onboard: b6871f25ac753175b2ab9a362fb2feb26a81a311
-  Siren: 964f57553cf6a39d1bada4e403557523a213b397
-  SwiftLint: 2aa21b96c8d13396a051bc1cb659d2ce1e0075b0
+  FBSDKCoreKit: 572b047a7e029bc44542bcf8a59414e7ff2b543e
+  Flurry-iOS-SDK: 7ffff02e583c73f7cad41cffb4ffe8b8d9f0421f
+  Google-Mobile-Ads-SDK: 7404f68120ae8682afeb5af001fbf4aad731c78e
+  iRate: 4fc69958788624545e5d050c8ffd20884013c3f1
+  Onboard: 4d6e943e20bdd6bc229df967a347dd7514bc2a6f
+  SimulatorStatusMagic: 481558caf2b9ccb2ceba2cc193728d4db3dcac07
+  Siren: 5b8be41b5cd05aa3528303325966e919bd53e412
+  SwiftLint: ce933681be10c3266e82576dad676fa815a602e9
   SwiftRandom: 437275c63500ddf5a565cbd56996fb23f12cfc3d
-  SwiftyBeaver: 4f74563624b2c1e821c522c54142b5dd5ebb0f30
-  SwiftySound: bca0bb721690fb65249f4776cb0875abd98e9941
+  SwiftyBeaver: 85daaaa2b3ae6e31b7b55c99430e8b91dac088af
+  SwiftySound: b9c3370956fd4ed65ed79d45563070077a50a2cd
 
-PODFILE CHECKSUM: db969e14f7aa5d5c63e615eb98e80b39cb3f47c6
+PODFILE CHECKSUM: d6b7d2d9ddc924b8318f8d3a513b9c0cec3526a6
 
 COCOAPODS: 1.4.0
