@@ -66,7 +66,6 @@ class Would_You_RatherUITests: XCTestCase {
       button.tap()
       nextButton.tap()
       
-      snapshot("Play 4")
       
       wouldYouRatherNavigationBar.buttons["Back"].tap()
       app.buttons["Options"].tap()
