@@ -45,21 +45,35 @@ lane :version do
   desc "Runs all the tests"
   lane :tests do
     scan
+    gcovr(
+  html: true,
+  html_details: true,
+  output: "./code-coverage/report.html"
+)
+
   end
 
 lane :build do
+  notMess="Building application and testing"
+  notification(subtitle: "Running Build", message: notMess)
+  say notMess
 	# Before calling match, we make sure all our devices are registered on the Apple Developer Portal
   #register_devices(devices_file: "devices.txt")
 
   # After registering the new devices, we'll make sure to update the provisioning profile if necessary
   # Note how we make sure to pass "adhoc" to get and use a provisioning profile for Ad Hoc distribution	sync_code_signing(force_for_new_devices: true,  type: "app-store")
 	tests
+  verify_pod_keys
 	gym
 	end
 
 desc "Sets Meta"
   lane :meta do
+    notMess="Deliviring Meta"
+    notification(subtitle: "Running Meta", message: notMess)
+    say notMess
     gym
+    jazzy
     #increment_build_number
     deliver(username: "thankmelater23@me.com", 
       app_identifier: "com.BangBangStudios.Would-You-Rather", 
@@ -68,22 +82,54 @@ desc "Sets Meta"
 
 
 lane :screenShot do
+  notMess="Capturing and framing screenshots"
+  notification(subtitle: "Running Screen Shot", message: notMess)
+  say notMess
 snapshot(clear_previous_screenshots: TRUE)
 		#devices: ["iPhone 7", "iPhone X", "iPad Pro (12.9-inch)"])
    frameit(white: true)
 end
 
 desc "Sets Code Sign"
+notMess="Managing all provisioning and certificates"
+notification(subtitle: "Running Code sign", message: notMess)
+say notMess
   lane :codeSign do
-    match(type: "development")
-    match(type: "appstore")
+    #cert will make sure you have a valid certificate and its private key installed on the local machine
   	cert(username: "thankmelater23@me.com")
+    #sigh will make sure you have a valid provisioning profile installed locally, that matches the installed certificate
   	sigh(force: true, username: "thankmelater23@me.com")
     pem
+#     onesignal(
+#   auth_token: "Your OneSignal Auth Token",
+#   app_name: "Name for OneSignal App",
+#   android_token: "Your Android GCM key (optional)",
+#   android_gcm_sender_id: "Your Android GCM Sender ID (optional)",
+#   apns_p12: "Path to Apple .p12 file (optional)",
+#   apns_p12_password: "Password for .p12 file (optional)",
+#   apns_env: "production/sandbox (defaults to production)"
+# )
+    # Automatically sync your iOS keys and profiles across all your team members using git
+    register_devices(devices_file: "./devices.txt")
+  # register_devices(
+  # devices: {
+  #   "Luka iPhone 6" => "1234567890123456789012345678901234567890",
+  #   "Felix iPad Air 2" => "abcdefghijklmnopqrstvuwxyzabcdefghijklmn"
+  # }
+    match(type: "appstore")
+
+    match(type: "development")
+
+    match(type: "adhoc")
+
+    match(type: "enterprise")
   	end
 
  desc "Refreshes DSYMS"
  lane :refresh_dsyms do
+  notMess="Refreshing DSYMS and uploading"
+  notification(subtitle: "Running DSYMS Refresh", message: notMess)
+  say notMess
  	download_dsyms
  	upload_symbols_to_crashlytics
  	clean_build_artifacts
@@ -91,6 +137,9 @@ desc "Sets Code Sign"
 
  desc "Creates Beta"
   lane :beta do |values|
+    notMess="Creating and deploying beta .ipa"
+    notification(subtitle: "Running Beta", message: notMess)
+    say notMess
     # Fabric generated this lane for deployment to Crashlytics Beta
     # set 'export_method' to 'ad-hoc' if your Crashlytics Beta distribution uses ad-hoc provisioning
     gym
@@ -137,6 +186,14 @@ end
       automatic_release: true)
     add_git_tag(tag: "v#{get_version_number}")
     push_git_tags
+
+#     twitter(
+#   access_token: "XXXX",
+#   access_token_secret: "xxx",
+#   consumer_key: "xxx",
+#   consumer_secret: "xxx",
+#   message: "WWYR has just been sent out for review.  Look out for a new WwYR coming to an app store near you!"
+# )
   end
 
 end

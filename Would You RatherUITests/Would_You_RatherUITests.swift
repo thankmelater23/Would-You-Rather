@@ -40,24 +40,24 @@ class Would_You_RatherUITests: XCTestCase {
       let element = app.otherElements.containing(.navigationBar, identifier:"Would You Rather").children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element
       let button = element.children(matching: .other).element(boundBy: 1).children(matching: .other).element.children(matching: .button).element
       
-      snapshot("Main Screen")
+      snapshot("Main Screen - History")
       
       button.tap()
       
-      snapshot("Play 1")
+      snapshot("Play 1 - Fun")
       
       let wouldYouRatherNavigationBar = app.navigationBars["Would You Rather"]
       let nextButton = wouldYouRatherNavigationBar.buttons["Next"]
       
       nextButton.tap()
       
-      snapshot("Play 2")
+      snapshot("Play 2 - Wacky")
       
       let button2 = element.children(matching: .other).element(boundBy: 2).children(matching: .button).element
       button2.tap()
       nextButton.tap()
       
-      snapshot("Play 3")
+      snapshot("Play 3 - Extreme")
       
       
       wouldYouRatherNavigationBar.buttons["Skip"].tap()
@@ -71,7 +71,7 @@ class Would_You_RatherUITests: XCTestCase {
       app.buttons["Options"].tap()
       app.buttons["About"].tap()
       
-      snapshot("About")
+      snapshot("About - Us")
       
       app.navigationBars["About"].buttons["Back"].tap()
       app.navigationBars["Prefrences"].buttons["Back"].tap()
