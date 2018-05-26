@@ -71,7 +71,7 @@ class Database{
     }
     
     // 1. Create a URL for documents-directory/posts.json
-    let url = createLocalURL(path: "WWYR-History")
+    let url = createLocalURL(path: File.WWYRHistory)
     // 2. Endcode our [Post] data to JSON Data
     let encoder = JSONEncoder()
     do {

@@ -77,6 +77,7 @@
 		417421F52026498B00BFC6D7 /* pain.json in Resources */ = {isa = PBXBuildFile; fileRef = 417421F42026498B00BFC6D7 /* pain.json */; };
 		417421F920264A3E00BFC6D7 /* technology.json in Resources */ = {isa = PBXBuildFile; fileRef = 417421F820264A3E00BFC6D7 /* technology.json */; };
 		418D25D32026579900DBA2BE /* embarrassing.json in Resources */ = {isa = PBXBuildFile; fileRef = 418D25D22026579900DBA2BE /* embarrassing.json */; };
+		41BE2A0520B9475B00D88AC1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE2A0420B9475B00D88AC1 /* MainViewController.swift */; };
 		41DA814E2025F10900587668 /* WouldYouRather.json in Resources */ = {isa = PBXBuildFile; fileRef = 41DA814D2025F10900587668 /* WouldYouRather.json */; };
 		41E34CA6202620B3003B4AE7 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E34CA5202620B3003B4AE7 /* GlobalVariables.swift */; };
 		41E34CA82026210D003B4AE7 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E34CA72026210D003B4AE7 /* Structures.swift */; };
@@ -182,6 +183,7 @@
 		417421F42026498B00BFC6D7 /* pain.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pain.json; sourceTree = "<group>"; };
 		417421F820264A3E00BFC6D7 /* technology.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = technology.json; sourceTree = "<group>"; };
 		418D25D22026579900DBA2BE /* embarrassing.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = embarrassing.json; sourceTree = "<group>"; };
+		41BE2A0420B9475B00D88AC1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		41DA814D2025F10900587668 /* WouldYouRather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WouldYouRather.json; sourceTree = "<group>"; };
 		41E34CA5202620B3003B4AE7 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
 		41E34CA72026210D003B4AE7 /* Structures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
@@ -303,6 +305,7 @@
 				415334ED20B5582500E32967 /* HistoryTableViewCell.swift */,
 				4143E216202583EA008492C8 /* ViewController.swift */,
 				415334EB20B4C73600E32967 /* HistoryTableViewController.swift */,
+				41BE2A0420B9475B00D88AC1 /* MainViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -853,6 +856,7 @@
 				410F5DB320B7FE1700BCA8B9 /* Database.swift in Sources */,
 				4143E215202583EA008492C8 /* AppDelegate.swift in Sources */,
 				4143E21D202583EA008492C8 /* Would_You_Rather.xcdatamodeld in Sources */,
+				41BE2A0520B9475B00D88AC1 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

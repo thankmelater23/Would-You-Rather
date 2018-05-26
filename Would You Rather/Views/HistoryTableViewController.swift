@@ -13,23 +13,14 @@ class HistoryTableViewController: UITableViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-//    let q1 = Question.init(scene: "This is 1", category: QuestionCategory.annoying, magnitude: Magnitude.extreme)
-//    let q2 = Question.init(scene: "This is 2", category: QuestionCategory.annoying, magnitude: Magnitude.extreme)
-//    let duel = Duel.init(question1: q1, question2: q2, pick: q1)
-//
-//    let q3 = Question.init(scene: "This is 1", category: QuestionCategory.annoying, magnitude: Magnitude.extreme)
-//    let q4 = Question.init(scene: "This is 2", category: QuestionCategory.annoying, magnitude: Magnitude.extreme)
-//    let duel2 = Duel.init(question1: q3, question2: q4, pick: q3)
-    
-//    duels += [duel, duel2]
-    duels = Storage.retrieve("WWYR-History", from: .documents, as: [Duel].self)
-//    duels = loadData()!
-    print(duels)
+    if Storage.fileExists(File.WWYRHistory, in: .documents){
+      duels = Storage.retrieve(File.WWYRHistory, from: .documents, as: [Duel].self)
+    }
     // Uncomment the following line to preserve selection between presentations
     // self.clearsSelectionOnViewWillAppear = false
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem
+//     self.navigationItem.rightBarButtonItem = self.editButtonItem
   }
   
   func loadData() -> [Duel]? {

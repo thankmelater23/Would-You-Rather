@@ -44,7 +44,7 @@ enum Magnitude:String, Codable{
 struct Question: Codable{
   var scene: String
   var category: QuestionCategory
-    var magnitude: Magnitude
+  var magnitude: Magnitude
   
   init(scene:String, category: QuestionCategory, magnitude: Magnitude) {
     self.scene = scene
@@ -87,49 +87,61 @@ struct Duel: Codable{
     self.pick = pick
     self.isQ1Selected = (question1.scene == self.pick?.scene)
   }
-//  required init(from decoder: Decoder) throws {
-//    let values = try decoder.container(keyedBy: LotteriesCodingKeys.self)
-//    datePlayed = try values.decode(Date.self, forKey: .datePlayed)
-//    //    var dowString = try values.decode(DayOfTheWeek.self, forKey: ._dayOfTheWeek)
-//    _dayOfTheWeek = (datePlayed?.getDayOfWeek())!
-//    winnings = try values.decodeIfPresent([Int].self, forKey: .winnings)
-//    print(self)
-//  }
-//  func encode(to encoder: Encoder) throws {
-//    print(#function)
-//    //Containers
-//    var personContainer = encoder.container(keyedBy: LotteriesCodingKeys.self)
-//
-//    //Initialization
-//    try personContainer.encode(self.datePlayed, forKey: .datePlayed)
-//    try personContainer.encode(self.dayOfTheWeek, forKey: ._dayOfTheWeek)
-//    try personContainer.encodeIfPresent(self.winnings, forKey: .winnings)
-//    print(self)
-//  }
+  //  required init(from decoder: Decoder) throws {
+  //    let values = try decoder.container(keyedBy: LotteriesCodingKeys.self)
+  //    datePlayed = try values.decode(Date.self, forKey: .datePlayed)
+  //    //    var dowString = try values.decode(DayOfTheWeek.self, forKey: ._dayOfTheWeek)
+  //    _dayOfTheWeek = (datePlayed?.getDayOfWeek())!
+  //    winnings = try values.decodeIfPresent([Int].self, forKey: .winnings)
+  //    print(self)
+  //  }
+  //  func encode(to encoder: Encoder) throws {
+  //    print(#function)
+  //    //Containers
+  //    var personContainer = encoder.container(keyedBy: LotteriesCodingKeys.self)
+  //
+  //    //Initialization
+  //    try personContainer.encode(self.datePlayed, forKey: .datePlayed)
+  //    try personContainer.encode(self.dayOfTheWeek, forKey: ._dayOfTheWeek)
+  //    try personContainer.encodeIfPresent(self.winnings, forKey: .winnings)
+  //    print(self)
+  //  }
 }
 
-  extension Duel: Equatable{
-    /// Checks if object is an exact match
-    static func == (lhs: Duel, rhs: Duel) -> Bool {
-      guard lhs.category == rhs.category else {
-        return false
-      }
-      
-      guard lhs.magnitude == rhs.magnitude else {
-        return false
-      }
-      
-      guard lhs.pick == rhs.pick! else {
-        return false
-      }
-      
-      guard lhs.question1 == rhs.question1 else {
-        return false
-      }
-      
-      guard lhs.question2 == rhs.question2 else {
-        return false
-      }
-      return true
+extension Duel: Equatable{
+  /// Checks if object is an exact match
+  static func == (lhs: Duel, rhs: Duel) -> Bool {
+    guard lhs.category == rhs.category else {
+      return false
     }
+    
+    guard lhs.magnitude == rhs.magnitude else {
+      return false
+    }
+    
+    guard lhs.pick == rhs.pick! else {
+      return false
+    }
+    
+    guard lhs.question1 == rhs.question1 else {
+      return false
+    }
+    
+    guard lhs.question2 == rhs.question2 else {
+      return false
+    }
+    return true
+  }
+  
+  /// Checks if questions match
+  static func *= (lhs: Duel, rhs: Duel) -> Bool {
+    guard lhs.question1 == rhs.question1 else {
+      return false
+    }
+    
+    guard lhs.question2 == rhs.question2 else {
+      return false
+    }
+    return true
+  }
 }

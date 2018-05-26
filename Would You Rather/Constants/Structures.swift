@@ -113,3 +113,7 @@ struct Images {
   static let image = UIImage(named: "")
 }
 
+struct File{
+  static let WWYRHistory = File.WWYRHistory
+}
+

@@ -215,14 +215,22 @@ class ViewController: UIViewController {
   func saveToHistory(){
     var duels:[Duel] = [Duel]()
     
-    if Storage.fileExists("WWYR-History", in: .documents){
-    duels = Storage.retrieve("WWYR-History", from: .documents, as: [Duel].self)
+    if Storage.fileExists(File.WWYRHistory, in: .documents){
+    duels = Storage.retrieve(File.WWYRHistory, from: .documents, as: [Duel].self)
     }
     
-    duels.append(self.duel!)
-    Storage.store(duels, to: Storage.Directory.documents, as: "WWYR-History")
+    if !duels.contains(duel!){
+      if questions.first?.scene.isEmpty == false && questions.last?.scene.isEmpty == false{
+        duels.append(self.duel!)
+      }
+    }else{
+      
+    }
+    
+    Storage.store(duels, to: Storage.Directory.documents, as: File.WWYRHistory)
+    
 //    database.saveData(duel: self.duel!)
-//    let url = Bundle.main.url(forResource: "WWYR-History", withExtension: "json")
+//    let url = Bundle.main.url(forResource: File.WWYRHistory, withExtension: "json")
 //
 //    let encoder = JSONEncoder()
 //    encoder.outputFormatting = .prettyPrinted
