@@ -9,6 +9,55 @@
 /* Begin PBXBuildFile section */
 		1ADE99FE3584001CD36B71D7 /* Pods_Would_You_Rather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24895057A0DE0ACDDC1A047F /* Pods_Would_You_Rather.framework */; };
 		41047FA2202B36F10002B96F /* CateogryTemplate.json in Resources */ = {isa = PBXBuildFile; fileRef = 41047FA1202B36F10002B96F /* CateogryTemplate.json */; };
+		410F5CED20B6A88800BCA8B9 /* WWYR-History.json in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CEC20B6A88800BCA8B9 /* WWYR-History.json */; };
+		410F5CF720B7838100BCA8B9 /* Matchfile in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CEF20B7838000BCA8B9 /* Matchfile */; };
+		410F5CF820B7838100BCA8B9 /* Deliverfile in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CF020B7838000BCA8B9 /* Deliverfile */; };
+		410F5CF920B7838100BCA8B9 /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CF120B7838000BCA8B9 /* Appfile */; };
+		410F5CFA20B7838100BCA8B9 /* devices.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CF220B7838000BCA8B9 /* devices.txt */; };
+		410F5CFB20B7838100BCA8B9 /* Gymfile in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CF320B7838000BCA8B9 /* Gymfile */; };
+		410F5CFC20B7838100BCA8B9 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CF420B7838000BCA8B9 /* Fastfile */; };
+		410F5CFD20B7838100BCA8B9 /* Scanfile in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CF520B7838000BCA8B9 /* Scanfile */; };
+		410F5CFE20B7838100BCA8B9 /* Snapfile in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CF620B7838100BCA8B9 /* Snapfile */; };
+		410F5D0120B783AD00BCA8B9 /* keyword.strings in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CFF20B783AC00BCA8B9 /* keyword.strings */; };
+		410F5D0220B783AD00BCA8B9 /* title.strings in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0020B783AD00BCA8B9 /* title.strings */; };
+		410F5D0420B783B800BCA8B9 /* Framefile.json in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0320B783B800BCA8B9 /* Framefile.json */; };
+		410F5D2A20B783E800BCA8B9 /* primary_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0620B783E300BCA8B9 /* primary_category.txt */; };
+		410F5D2B20B783E800BCA8B9 /* release_notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0720B783E400BCA8B9 /* release_notes.txt */; };
+		410F5D2C20B783E800BCA8B9 /* secondary_first_sub_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0820B783E400BCA8B9 /* secondary_first_sub_category.txt */; };
+		410F5D2D20B783E800BCA8B9 /* description.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0920B783E400BCA8B9 /* description.txt */; };
+		410F5D2E20B783E800BCA8B9 /* name.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0A20B783E400BCA8B9 /* name.txt */; };
+		410F5D2F20B783E800BCA8B9 /* primary_second_sub_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0B20B783E400BCA8B9 /* primary_second_sub_category.txt */; };
+		410F5D3020B783E800BCA8B9 /* trade_name.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0C20B783E400BCA8B9 /* trade_name.txt */; };
+		410F5D3120B783E800BCA8B9 /* keywords.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0D20B783E400BCA8B9 /* keywords.txt */; };
+		410F5D3220B783E800BCA8B9 /* first_name.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0E20B783E400BCA8B9 /* first_name.txt */; };
+		410F5D3320B783E800BCA8B9 /* demo_user.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0F20B783E400BCA8B9 /* demo_user.txt */; };
+		410F5D3420B783E800BCA8B9 /* email_address.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1020B783E400BCA8B9 /* email_address.txt */; };
+		410F5D3520B783E800BCA8B9 /* secondary_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1120B783E500BCA8B9 /* secondary_category.txt */; };
+		410F5D3620B783E800BCA8B9 /* country.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1220B783E500BCA8B9 /* country.txt */; };
+		410F5D3720B783E800BCA8B9 /* subtitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1320B783E500BCA8B9 /* subtitle.txt */; };
+		410F5D3820B783E800BCA8B9 /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1420B783E500BCA8B9 /* notes.txt */; };
+		410F5D3920B783E800BCA8B9 /* phone_number.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1520B783E500BCA8B9 /* phone_number.txt */; };
+		410F5D3A20B783E800BCA8B9 /* demo_password.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1620B783E500BCA8B9 /* demo_password.txt */; };
+		410F5D3B20B783E800BCA8B9 /* privacy_url.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1720B783E500BCA8B9 /* privacy_url.txt */; };
+		410F5D3C20B783E800BCA8B9 /* primary_first_sub_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1820B783E500BCA8B9 /* primary_first_sub_category.txt */; };
+		410F5D3D20B783E800BCA8B9 /* promotional_text.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1920B783E500BCA8B9 /* promotional_text.txt */; };
+		410F5D3E20B783E800BCA8B9 /* secondary_second_sub_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1A20B783E500BCA8B9 /* secondary_second_sub_category.txt */; };
+		410F5D3F20B783E800BCA8B9 /* state.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1B20B783E600BCA8B9 /* state.txt */; };
+		410F5D4020B783E800BCA8B9 /* last_name.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1C20B783E600BCA8B9 /* last_name.txt */; };
+		410F5D4120B783E800BCA8B9 /* address_line1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1D20B783E600BCA8B9 /* address_line1.txt */; };
+		410F5D4220B783E800BCA8B9 /* is_displayed_on_app_store.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1E20B783E600BCA8B9 /* is_displayed_on_app_store.txt */; };
+		410F5D4320B783E800BCA8B9 /* support_url.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1F20B783E600BCA8B9 /* support_url.txt */; };
+		410F5D4420B783E800BCA8B9 /* address_line3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2020B783E600BCA8B9 /* address_line3.txt */; };
+		410F5D4520B783E800BCA8B9 /* address_line2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2120B783E600BCA8B9 /* address_line2.txt */; };
+		410F5D4620B783E800BCA8B9 /* city_name.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2220B783E700BCA8B9 /* city_name.txt */; };
+		410F5D4720B783E800BCA8B9 /* last_name.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2320B783E700BCA8B9 /* last_name.txt */; };
+		410F5D4820B783E800BCA8B9 /* postal_code.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2420B783E700BCA8B9 /* postal_code.txt */; };
+		410F5D4920B783E800BCA8B9 /* copyright.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2520B783E700BCA8B9 /* copyright.txt */; };
+		410F5D4A20B783E800BCA8B9 /* email_address.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2620B783E700BCA8B9 /* email_address.txt */; };
+		410F5D4B20B783E800BCA8B9 /* phone_number.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2720B783E700BCA8B9 /* phone_number.txt */; };
+		410F5D4C20B783E800BCA8B9 /* first_name.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2820B783E700BCA8B9 /* first_name.txt */; };
+		410F5D4D20B783E800BCA8B9 /* marketing_url.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2920B783E800BCA8B9 /* marketing_url.txt */; };
+		410F5DB320B7FE1700BCA8B9 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410F5DB220B7FE1700BCA8B9 /* Database.swift */; };
 		41273891209FCBEF00E097EF /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41273890209FCBEF00E097EF /* SnapshotHelper.swift */; };
 		4127389320A04C3400E097EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4127389220A04C3400E097EF /* Assets.xcassets */; };
 		4143E215202583EA008492C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143E214202583EA008492C8 /* AppDelegate.swift */; };
@@ -21,6 +70,8 @@
 		4143E246202586A8008492C8 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143E245202586A8008492C8 /* Question.swift */; };
 		4143E24820258B6A008492C8 /* Details.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4143E24720258B6A008492C8 /* Details.rtf */; };
 		4148614C202654C4007AFA25 /* annoying.json in Resources */ = {isa = PBXBuildFile; fileRef = 4148614B202654C4007AFA25 /* annoying.json */; };
+		415334EC20B4C73600E32967 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415334EB20B4C73600E32967 /* HistoryTableViewController.swift */; };
+		415334EE20B5582500E32967 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415334ED20B5582500E32967 /* HistoryTableViewCell.swift */; };
 		417421EB202647FF00BFC6D7 /* romance.json in Resources */ = {isa = PBXBuildFile; fileRef = 417421EA202647FF00BFC6D7 /* romance.json */; };
 		417421F32026495A00BFC6D7 /* gross.json in Resources */ = {isa = PBXBuildFile; fileRef = 417421F22026495A00BFC6D7 /* gross.json */; };
 		417421F52026498B00BFC6D7 /* pain.json in Resources */ = {isa = PBXBuildFile; fileRef = 417421F42026498B00BFC6D7 /* pain.json */; };
@@ -57,6 +108,55 @@
 		24895057A0DE0ACDDC1A047F /* Pods_Would_You_Rather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Would_You_Rather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33BCABA85E87A3712EF74723 /* Pods-Would You RatherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Would You RatherUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Would You RatherUITests/Pods-Would You RatherUITests.release.xcconfig"; sourceTree = "<group>"; };
 		41047FA1202B36F10002B96F /* CateogryTemplate.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CateogryTemplate.json; sourceTree = "<group>"; };
+		410F5CEC20B6A88800BCA8B9 /* WWYR-History.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "WWYR-History.json"; sourceTree = "<group>"; };
+		410F5CEF20B7838000BCA8B9 /* Matchfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Matchfile; path = fastlane/Matchfile; sourceTree = SOURCE_ROOT; };
+		410F5CF020B7838000BCA8B9 /* Deliverfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Deliverfile; path = fastlane/Deliverfile; sourceTree = SOURCE_ROOT; };
+		410F5CF120B7838000BCA8B9 /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Appfile; path = fastlane/Appfile; sourceTree = SOURCE_ROOT; };
+		410F5CF220B7838000BCA8B9 /* devices.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = devices.txt; path = fastlane/devices.txt; sourceTree = SOURCE_ROOT; };
+		410F5CF320B7838000BCA8B9 /* Gymfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Gymfile; path = fastlane/Gymfile; sourceTree = SOURCE_ROOT; };
+		410F5CF420B7838000BCA8B9 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Fastfile; path = fastlane/Fastfile; sourceTree = SOURCE_ROOT; };
+		410F5CF520B7838000BCA8B9 /* Scanfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Scanfile; path = fastlane/Scanfile; sourceTree = SOURCE_ROOT; };
+		410F5CF620B7838100BCA8B9 /* Snapfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Snapfile; path = fastlane/Snapfile; sourceTree = SOURCE_ROOT; };
+		410F5CFF20B783AC00BCA8B9 /* keyword.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = keyword.strings; path = "fastlane/screenshots/en-US/keyword.strings"; sourceTree = SOURCE_ROOT; };
+		410F5D0020B783AD00BCA8B9 /* title.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = title.strings; path = "fastlane/screenshots/en-US/title.strings"; sourceTree = SOURCE_ROOT; };
+		410F5D0320B783B800BCA8B9 /* Framefile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Framefile.json; path = fastlane/screenshots/Framefile.json; sourceTree = SOURCE_ROOT; };
+		410F5D0620B783E300BCA8B9 /* primary_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = primary_category.txt; path = fastlane/metadata/primary_category.txt; sourceTree = SOURCE_ROOT; };
+		410F5D0720B783E400BCA8B9 /* release_notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = release_notes.txt; path = "fastlane/metadata/en-US/release_notes.txt"; sourceTree = SOURCE_ROOT; };
+		410F5D0820B783E400BCA8B9 /* secondary_first_sub_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = secondary_first_sub_category.txt; path = fastlane/metadata/secondary_first_sub_category.txt; sourceTree = SOURCE_ROOT; };
+		410F5D0920B783E400BCA8B9 /* description.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = description.txt; path = "fastlane/metadata/en-US/description.txt"; sourceTree = SOURCE_ROOT; };
+		410F5D0A20B783E400BCA8B9 /* name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = name.txt; path = "fastlane/metadata/en-US/name.txt"; sourceTree = SOURCE_ROOT; };
+		410F5D0B20B783E400BCA8B9 /* primary_second_sub_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = primary_second_sub_category.txt; path = fastlane/metadata/primary_second_sub_category.txt; sourceTree = SOURCE_ROOT; };
+		410F5D0C20B783E400BCA8B9 /* trade_name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = trade_name.txt; path = fastlane/metadata/trade_representative_contact_information/trade_name.txt; sourceTree = SOURCE_ROOT; };
+		410F5D0D20B783E400BCA8B9 /* keywords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = keywords.txt; path = "fastlane/metadata/en-US/keywords.txt"; sourceTree = SOURCE_ROOT; };
+		410F5D0E20B783E400BCA8B9 /* first_name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = first_name.txt; path = fastlane/metadata/review_information/first_name.txt; sourceTree = SOURCE_ROOT; };
+		410F5D0F20B783E400BCA8B9 /* demo_user.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = demo_user.txt; path = fastlane/metadata/review_information/demo_user.txt; sourceTree = SOURCE_ROOT; };
+		410F5D1020B783E400BCA8B9 /* email_address.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = email_address.txt; path = fastlane/metadata/trade_representative_contact_information/email_address.txt; sourceTree = SOURCE_ROOT; };
+		410F5D1120B783E500BCA8B9 /* secondary_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = secondary_category.txt; path = fastlane/metadata/secondary_category.txt; sourceTree = SOURCE_ROOT; };
+		410F5D1220B783E500BCA8B9 /* country.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = country.txt; path = fastlane/metadata/trade_representative_contact_information/country.txt; sourceTree = SOURCE_ROOT; };
+		410F5D1320B783E500BCA8B9 /* subtitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = subtitle.txt; path = "fastlane/metadata/en-US/subtitle.txt"; sourceTree = SOURCE_ROOT; };
+		410F5D1420B783E500BCA8B9 /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = notes.txt; path = fastlane/metadata/review_information/notes.txt; sourceTree = SOURCE_ROOT; };
+		410F5D1520B783E500BCA8B9 /* phone_number.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = phone_number.txt; path = fastlane/metadata/review_information/phone_number.txt; sourceTree = SOURCE_ROOT; };
+		410F5D1620B783E500BCA8B9 /* demo_password.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = demo_password.txt; path = fastlane/metadata/review_information/demo_password.txt; sourceTree = SOURCE_ROOT; };
+		410F5D1720B783E500BCA8B9 /* privacy_url.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = privacy_url.txt; path = "fastlane/metadata/en-US/privacy_url.txt"; sourceTree = SOURCE_ROOT; };
+		410F5D1820B783E500BCA8B9 /* primary_first_sub_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = primary_first_sub_category.txt; path = fastlane/metadata/primary_first_sub_category.txt; sourceTree = SOURCE_ROOT; };
+		410F5D1920B783E500BCA8B9 /* promotional_text.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = promotional_text.txt; path = "fastlane/metadata/en-US/promotional_text.txt"; sourceTree = SOURCE_ROOT; };
+		410F5D1A20B783E500BCA8B9 /* secondary_second_sub_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = secondary_second_sub_category.txt; path = fastlane/metadata/secondary_second_sub_category.txt; sourceTree = SOURCE_ROOT; };
+		410F5D1B20B783E600BCA8B9 /* state.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = state.txt; path = fastlane/metadata/trade_representative_contact_information/state.txt; sourceTree = SOURCE_ROOT; };
+		410F5D1C20B783E600BCA8B9 /* last_name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = last_name.txt; path = fastlane/metadata/trade_representative_contact_information/last_name.txt; sourceTree = SOURCE_ROOT; };
+		410F5D1D20B783E600BCA8B9 /* address_line1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = address_line1.txt; path = fastlane/metadata/trade_representative_contact_information/address_line1.txt; sourceTree = SOURCE_ROOT; };
+		410F5D1E20B783E600BCA8B9 /* is_displayed_on_app_store.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = is_displayed_on_app_store.txt; path = fastlane/metadata/trade_representative_contact_information/is_displayed_on_app_store.txt; sourceTree = SOURCE_ROOT; };
+		410F5D1F20B783E600BCA8B9 /* support_url.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = support_url.txt; path = "fastlane/metadata/en-US/support_url.txt"; sourceTree = SOURCE_ROOT; };
+		410F5D2020B783E600BCA8B9 /* address_line3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = address_line3.txt; path = fastlane/metadata/trade_representative_contact_information/address_line3.txt; sourceTree = SOURCE_ROOT; };
+		410F5D2120B783E600BCA8B9 /* address_line2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = address_line2.txt; path = fastlane/metadata/trade_representative_contact_information/address_line2.txt; sourceTree = SOURCE_ROOT; };
+		410F5D2220B783E700BCA8B9 /* city_name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = city_name.txt; path = fastlane/metadata/trade_representative_contact_information/city_name.txt; sourceTree = SOURCE_ROOT; };
+		410F5D2320B783E700BCA8B9 /* last_name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = last_name.txt; path = fastlane/metadata/review_information/last_name.txt; sourceTree = SOURCE_ROOT; };
+		410F5D2420B783E700BCA8B9 /* postal_code.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = postal_code.txt; path = fastlane/metadata/trade_representative_contact_information/postal_code.txt; sourceTree = SOURCE_ROOT; };
+		410F5D2520B783E700BCA8B9 /* copyright.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = copyright.txt; path = fastlane/metadata/copyright.txt; sourceTree = SOURCE_ROOT; };
+		410F5D2620B783E700BCA8B9 /* email_address.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = email_address.txt; path = fastlane/metadata/review_information/email_address.txt; sourceTree = SOURCE_ROOT; };
+		410F5D2720B783E700BCA8B9 /* phone_number.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = phone_number.txt; path = fastlane/metadata/trade_representative_contact_information/phone_number.txt; sourceTree = SOURCE_ROOT; };
+		410F5D2820B783E700BCA8B9 /* first_name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = first_name.txt; path = fastlane/metadata/trade_representative_contact_information/first_name.txt; sourceTree = SOURCE_ROOT; };
+		410F5D2920B783E800BCA8B9 /* marketing_url.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = marketing_url.txt; path = "fastlane/metadata/en-US/marketing_url.txt"; sourceTree = SOURCE_ROOT; };
+		410F5DB220B7FE1700BCA8B9 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		41273890209FCBEF00E097EF /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		4127389220A04C3400E097EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4143E211202583EA008492C8 /* Would You Rather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Would You Rather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +175,8 @@
 		4143E245202586A8008492C8 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		4143E24720258B6A008492C8 /* Details.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Details.rtf; sourceTree = "<group>"; };
 		4148614B202654C4007AFA25 /* annoying.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = annoying.json; sourceTree = "<group>"; };
+		415334EB20B4C73600E32967 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		415334ED20B5582500E32967 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
 		417421EA202647FF00BFC6D7 /* romance.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = romance.json; sourceTree = "<group>"; };
 		417421F22026495A00BFC6D7 /* gross.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = gross.json; sourceTree = "<group>"; };
 		417421F42026498B00BFC6D7 /* pain.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pain.json; sourceTree = "<group>"; };
@@ -117,6 +219,146 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		410F5CEE20B782FE00BCA8B9 /* Fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				410F5D0520B783CC00BCA8B9 /* Meta */,
+				410F5CF120B7838000BCA8B9 /* Appfile */,
+				410F5CF020B7838000BCA8B9 /* Deliverfile */,
+				410F5CF220B7838000BCA8B9 /* devices.txt */,
+				410F5CF420B7838000BCA8B9 /* Fastfile */,
+				410F5CF320B7838000BCA8B9 /* Gymfile */,
+				410F5CEF20B7838000BCA8B9 /* Matchfile */,
+				410F5CF520B7838000BCA8B9 /* Scanfile */,
+				410F5CF620B7838100BCA8B9 /* Snapfile */,
+				410F5CFF20B783AC00BCA8B9 /* keyword.strings */,
+				410F5D0020B783AD00BCA8B9 /* title.strings */,
+				410F5D0320B783B800BCA8B9 /* Framefile.json */,
+			);
+			path = Fastlane;
+			sourceTree = "<group>";
+		};
+		410F5D0520B783CC00BCA8B9 /* Meta */ = {
+			isa = PBXGroup;
+			children = (
+				410F5D1D20B783E600BCA8B9 /* address_line1.txt */,
+				410F5D2120B783E600BCA8B9 /* address_line2.txt */,
+				410F5D2020B783E600BCA8B9 /* address_line3.txt */,
+				410F5D2220B783E700BCA8B9 /* city_name.txt */,
+				410F5D2520B783E700BCA8B9 /* copyright.txt */,
+				410F5D1220B783E500BCA8B9 /* country.txt */,
+				410F5D1620B783E500BCA8B9 /* demo_password.txt */,
+				410F5D0F20B783E400BCA8B9 /* demo_user.txt */,
+				410F5D0920B783E400BCA8B9 /* description.txt */,
+				410F5D2620B783E700BCA8B9 /* email_address.txt */,
+				410F5D1020B783E400BCA8B9 /* email_address.txt */,
+				410F5D2820B783E700BCA8B9 /* first_name.txt */,
+				410F5D0E20B783E400BCA8B9 /* first_name.txt */,
+				410F5D1E20B783E600BCA8B9 /* is_displayed_on_app_store.txt */,
+				410F5D0D20B783E400BCA8B9 /* keywords.txt */,
+				410F5D2320B783E700BCA8B9 /* last_name.txt */,
+				410F5D1C20B783E600BCA8B9 /* last_name.txt */,
+				410F5D2920B783E800BCA8B9 /* marketing_url.txt */,
+				410F5D0A20B783E400BCA8B9 /* name.txt */,
+				410F5D1420B783E500BCA8B9 /* notes.txt */,
+				410F5D2720B783E700BCA8B9 /* phone_number.txt */,
+				410F5D1520B783E500BCA8B9 /* phone_number.txt */,
+				410F5D2420B783E700BCA8B9 /* postal_code.txt */,
+				410F5D0620B783E300BCA8B9 /* primary_category.txt */,
+				410F5D1820B783E500BCA8B9 /* primary_first_sub_category.txt */,
+				410F5D0B20B783E400BCA8B9 /* primary_second_sub_category.txt */,
+				410F5D1720B783E500BCA8B9 /* privacy_url.txt */,
+				410F5D1920B783E500BCA8B9 /* promotional_text.txt */,
+				410F5D0720B783E400BCA8B9 /* release_notes.txt */,
+				410F5D1120B783E500BCA8B9 /* secondary_category.txt */,
+				410F5D0820B783E400BCA8B9 /* secondary_first_sub_category.txt */,
+				410F5D1A20B783E500BCA8B9 /* secondary_second_sub_category.txt */,
+				410F5D1B20B783E600BCA8B9 /* state.txt */,
+				410F5D1320B783E500BCA8B9 /* subtitle.txt */,
+				410F5D1F20B783E600BCA8B9 /* support_url.txt */,
+				410F5D0C20B783E400BCA8B9 /* trade_name.txt */,
+			);
+			path = Meta;
+			sourceTree = "<group>";
+		};
+		410F5DAA20B7880600BCA8B9 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				410F5CEC20B6A88800BCA8B9 /* WWYR-History.json */,
+				41DA814D2025F10900587668 /* WouldYouRather.json */,
+				418D25D22026579900DBA2BE /* embarrassing.json */,
+				4148614B202654C4007AFA25 /* annoying.json */,
+				417421F42026498B00BFC6D7 /* pain.json */,
+				417421F820264A3E00BFC6D7 /* technology.json */,
+				417421F22026495A00BFC6D7 /* gross.json */,
+				41047FA1202B36F10002B96F /* CateogryTemplate.json */,
+				417421EA202647FF00BFC6D7 /* romance.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		410F5DAB20B7881500BCA8B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				415334ED20B5582500E32967 /* HistoryTableViewCell.swift */,
+				4143E216202583EA008492C8 /* ViewController.swift */,
+				415334EB20B4C73600E32967 /* HistoryTableViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		410F5DAC20B7883000BCA8B9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				41E34CA72026210D003B4AE7 /* Structures.swift */,
+				41E34CA5202620B3003B4AE7 /* GlobalVariables.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		410F5DAD20B7883D00BCA8B9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4143E245202586A8008492C8 /* Question.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		410F5DAE20B7884800BCA8B9 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				4143E218202583EA008492C8 /* Main.storyboard */,
+				4143E220202583EA008492C8 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		410F5DAF20B7885500BCA8B9 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				4127389220A04C3400E097EF /* Assets.xcassets */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		410F5DB020B7886400BCA8B9 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				4143E223202583EA008492C8 /* Info.plist */,
+				4143E214202583EA008492C8 /* AppDelegate.swift */,
+				4143E24720258B6A008492C8 /* Details.rtf */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		410F5DB120B7888500BCA8B9 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				4143E21B202583EA008492C8 /* Would_You_Rather.xcdatamodeld */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
 		4143E208202583EA008492C8 = {
 			isa = PBXGroup;
 			children = (
@@ -142,25 +384,16 @@
 		4143E213202583EA008492C8 /* Would You Rather */ = {
 			isa = PBXGroup;
 			children = (
-				41DA814D2025F10900587668 /* WouldYouRather.json */,
-				418D25D22026579900DBA2BE /* embarrassing.json */,
-				4148614B202654C4007AFA25 /* annoying.json */,
-				417421F42026498B00BFC6D7 /* pain.json */,
-				417421F820264A3E00BFC6D7 /* technology.json */,
-				417421F22026495A00BFC6D7 /* gross.json */,
-				41047FA1202B36F10002B96F /* CateogryTemplate.json */,
-				417421EA202647FF00BFC6D7 /* romance.json */,
-				4143E214202583EA008492C8 /* AppDelegate.swift */,
-				41E34CA72026210D003B4AE7 /* Structures.swift */,
-				41E34CA5202620B3003B4AE7 /* GlobalVariables.swift */,
-				4143E216202583EA008492C8 /* ViewController.swift */,
-				4143E245202586A8008492C8 /* Question.swift */,
-				4143E218202583EA008492C8 /* Main.storyboard */,
-				4127389220A04C3400E097EF /* Assets.xcassets */,
-				4143E220202583EA008492C8 /* LaunchScreen.storyboard */,
-				4143E223202583EA008492C8 /* Info.plist */,
-				4143E21B202583EA008492C8 /* Would_You_Rather.xcdatamodeld */,
-				4143E24720258B6A008492C8 /* Details.rtf */,
+				410F5DAD20B7883D00BCA8B9 /* Classes */,
+				410F5DAB20B7881500BCA8B9 /* Views */,
+				410F5DAE20B7884800BCA8B9 /* StoryBoards */,
+				410F5CEE20B782FE00BCA8B9 /* Fastlane */,
+				410F5DAA20B7880600BCA8B9 /* JSON */,
+				410F5DB020B7886400BCA8B9 /* Support */,
+				410F5DAC20B7883000BCA8B9 /* Constants */,
+				410F5DAF20B7885500BCA8B9 /* Media */,
+				410F5DB120B7888500BCA8B9 /* Core Data */,
+				410F5DB220B7FE1700BCA8B9 /* Database.swift */,
 			);
 			path = "Would You Rather";
 			sourceTree = "<group>";
@@ -221,6 +454,7 @@
 				F246AC2B8D56C81874BE34DD /* [CP] Embed Pods Frameworks */,
 				20D2FE9538ABF7C687450F99 /* [CP] Copy Pods Resources */,
 				41AEEE2020A12A9A00EF7BD4 /* Fabric */,
+				410F5CE920B591C900BCA8B9 /* Build Incrementer */,
 			);
 			buildRules = (
 			);
@@ -285,7 +519,7 @@
 				TargetAttributes = {
 					4143E210202583EA008492C8 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					4143E227202583EA008492C8 = {
 						CreatedOnToolsVersion = 9.2;
@@ -324,17 +558,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				410F5D4620B783E800BCA8B9 /* city_name.txt in Resources */,
 				4148614C202654C4007AFA25 /* annoying.json in Resources */,
 				4143E222202583EA008492C8 /* LaunchScreen.storyboard in Resources */,
 				4127389320A04C3400E097EF /* Assets.xcassets in Resources */,
+				410F5D2A20B783E800BCA8B9 /* primary_category.txt in Resources */,
+				410F5D4A20B783E800BCA8B9 /* email_address.txt in Resources */,
+				410F5D3720B783E800BCA8B9 /* subtitle.txt in Resources */,
+				410F5CFA20B7838100BCA8B9 /* devices.txt in Resources */,
+				410F5D3220B783E800BCA8B9 /* first_name.txt in Resources */,
+				410F5D2D20B783E800BCA8B9 /* description.txt in Resources */,
+				410F5D0120B783AD00BCA8B9 /* keyword.strings in Resources */,
+				410F5CFC20B7838100BCA8B9 /* Fastfile in Resources */,
+				410F5D4B20B783E800BCA8B9 /* phone_number.txt in Resources */,
+				410F5D4720B783E800BCA8B9 /* last_name.txt in Resources */,
+				410F5CFD20B7838100BCA8B9 /* Scanfile in Resources */,
+				410F5D2C20B783E800BCA8B9 /* secondary_first_sub_category.txt in Resources */,
+				410F5D3820B783E800BCA8B9 /* notes.txt in Resources */,
+				410F5D2B20B783E800BCA8B9 /* release_notes.txt in Resources */,
+				410F5D3F20B783E800BCA8B9 /* state.txt in Resources */,
+				410F5D4820B783E800BCA8B9 /* postal_code.txt in Resources */,
+				410F5D3420B783E800BCA8B9 /* email_address.txt in Resources */,
+				410F5D2E20B783E800BCA8B9 /* name.txt in Resources */,
 				41047FA2202B36F10002B96F /* CateogryTemplate.json in Resources */,
 				418D25D32026579900DBA2BE /* embarrassing.json in Resources */,
+				410F5D3C20B783E800BCA8B9 /* primary_first_sub_category.txt in Resources */,
+				410F5CF820B7838100BCA8B9 /* Deliverfile in Resources */,
+				410F5D3520B783E800BCA8B9 /* secondary_category.txt in Resources */,
 				417421F920264A3E00BFC6D7 /* technology.json in Resources */,
 				417421F52026498B00BFC6D7 /* pain.json in Resources */,
+				410F5CF920B7838100BCA8B9 /* Appfile in Resources */,
+				410F5D3B20B783E800BCA8B9 /* privacy_url.txt in Resources */,
+				410F5D3120B783E800BCA8B9 /* keywords.txt in Resources */,
+				410F5D4420B783E800BCA8B9 /* address_line3.txt in Resources */,
+				410F5D4C20B783E800BCA8B9 /* first_name.txt in Resources */,
+				410F5D3920B783E800BCA8B9 /* phone_number.txt in Resources */,
+				410F5CFE20B7838100BCA8B9 /* Snapfile in Resources */,
+				410F5D4520B783E800BCA8B9 /* address_line2.txt in Resources */,
 				4143E24820258B6A008492C8 /* Details.rtf in Resources */,
 				417421F32026495A00BFC6D7 /* gross.json in Resources */,
+				410F5D3020B783E800BCA8B9 /* trade_name.txt in Resources */,
+				410F5D3620B783E800BCA8B9 /* country.txt in Resources */,
+				410F5D4220B783E800BCA8B9 /* is_displayed_on_app_store.txt in Resources */,
+				410F5D0220B783AD00BCA8B9 /* title.strings in Resources */,
+				410F5D4D20B783E800BCA8B9 /* marketing_url.txt in Resources */,
+				410F5D0420B783B800BCA8B9 /* Framefile.json in Resources */,
+				410F5D3D20B783E800BCA8B9 /* promotional_text.txt in Resources */,
+				410F5D4020B783E800BCA8B9 /* last_name.txt in Resources */,
+				410F5CFB20B7838100BCA8B9 /* Gymfile in Resources */,
+				410F5D4920B783E800BCA8B9 /* copyright.txt in Resources */,
 				417421EB202647FF00BFC6D7 /* romance.json in Resources */,
+				410F5D3A20B783E800BCA8B9 /* demo_password.txt in Resources */,
+				410F5D3E20B783E800BCA8B9 /* secondary_second_sub_category.txt in Resources */,
 				4143E21A202583EA008492C8 /* Main.storyboard in Resources */,
+				410F5CED20B6A88800BCA8B9 /* WWYR-History.json in Resources */,
+				410F5CF720B7838100BCA8B9 /* Matchfile in Resources */,
+				410F5D2F20B783E800BCA8B9 /* primary_second_sub_category.txt in Resources */,
+				410F5D4320B783E800BCA8B9 /* support_url.txt in Resources */,
+				410F5D4120B783E800BCA8B9 /* address_line1.txt in Resources */,
+				410F5D3320B783E800BCA8B9 /* demo_user.txt in Resources */,
 				41DA814E2025F10900587668 /* WouldYouRather.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +670,20 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Would You Rather/Pods-Would You Rather-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		410F5CE920B591C900BCA8B9 /* Build Incrementer */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Incrementer";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\n#buildNumber=$(($buildNumber + 1))\n#/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
 		};
 		41AEEE2020A12A9A00EF7BD4 /* Fabric */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -550,8 +846,11 @@
 			files = (
 				41E34CA6202620B3003B4AE7 /* GlobalVariables.swift in Sources */,
 				41E34CA82026210D003B4AE7 /* Structures.swift in Sources */,
+				415334EE20B5582500E32967 /* HistoryTableViewCell.swift in Sources */,
 				4143E217202583EA008492C8 /* ViewController.swift in Sources */,
 				4143E246202586A8008492C8 /* Question.swift in Sources */,
+				415334EC20B4C73600E32967 /* HistoryTableViewController.swift in Sources */,
+				410F5DB320B7FE1700BCA8B9 /* Database.swift in Sources */,
 				4143E215202583EA008492C8 /* AppDelegate.swift in Sources */,
 				4143E21D202583EA008492C8 /* Would_You_Rather.xcdatamodeld in Sources */,
 			);
@@ -640,7 +939,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ZJWNZ643CG;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -660,6 +960,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -698,6 +999,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ZJWNZ643CG;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -710,6 +1012,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
@@ -722,16 +1025,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZJWNZ643CG;
-				INFOPLIST_FILE = "Would You Rather/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Would You Rather/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-Rather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3e5f1cf8-cc6e-4a7a-a274-3ddcaee5f185";
-				PROVISIONING_PROFILE_SPECIFIER = "com.BangBangStudios.Would-You-Rather AppStore";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -744,16 +1048,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZJWNZ643CG;
-				INFOPLIST_FILE = "Would You Rather/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Would You Rather/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-Rather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3e5f1cf8-cc6e-4a7a-a274-3ddcaee5f185";
-				PROVISIONING_PROFILE_SPECIFIER = "com.BangBangStudios.Would-You-Rather AppStore";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";

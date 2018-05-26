@@ -2,7 +2,7 @@ git_url("https://thankmelater23@bitbucket.org/thankmelater23/certificate")
 
 type("development") # The default type, can be: appstore, adhoc, enterprise or development
 
-# app_identifier(["com.BangBangStudios.Would-You-Rather"])
+app_identifier(["com.BangBangStudios.Would-You-Rather"])
 username("thankmelater23@me.com") # Your Apple Developer Portal username
 
 # For all available options run `fastlane match --help`

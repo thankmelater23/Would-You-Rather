@@ -5,6 +5,8 @@ apple_id "thankmelater23@me.com" # Your Apple email address
 itc_team_id "1572785" # iTunes Connect Team ID
 team_id "ZJWNZ643CG"# Developer Portal Team ID
 
+
+
 #team_name "Bang Bang Studios"
 
 #To select a team for iTunes Connect use
@@ -15,5 +17,8 @@ itunes_connect_id "thankmelater23@me.com"     # iTunes Connect Account
 
 scheme "Would You Rather"
 
+SLACK_URL "https://hooks.slack.com/services/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"
+
+FASTLANE_PASSWORD("aqvq-biar-dfbi-btnm")
 # For more information about the Appfile, see:
 #     https://docs.fastlane.tools/advanced/#appfile

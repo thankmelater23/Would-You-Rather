@@ -5,101 +5,111 @@
 #
 #     https://docs.fastlane.tools/actions
 #
-
 # Uncomment the line if you want fastlane to automatically update itself
 # update_fastlane
-
 default_platform(:ios)
-
 platform :ios do
-  desc "Description of what the lane does"
-  lane :custom_lane do
-    # add actions here: https://docs.fastlane.tools/actions
-  end
+  
 
-lane :version do
-    get_version_number
-  end
-
-  desc "Bumps version. Type: patch"
-  lane :version_patch do
-    increment_version_number(bump_type: "patch")
-    commit_version_bump
-    push_to_git_remote
-  end
-
-  desc "Bumps version. Type: minor"
-  lane :version_minor do
-    increment_version_number(bump_type: "minor")
-    commit_version_bump
-    push_to_git_remote
-  end
-
-  desc "Bumps version. Type: major"
-  lane :version_major do
-    increment_version_number(bump_type: "major")
-    commit_version_bump
-    push_to_git_remote
-  end
-
-  desc "Runs all the tests"
-  lane :tests do
-    scan
-    gcovr(
-  html: true,
-  html_details: true,
-  output: "./code-coverage/report.html"
-)
-
-  end
-
-lane :build do
-  notMess="Building application and testing"
-  notification(subtitle: "Running Build", message: notMess)
-  say notMess
-	# Before calling match, we make sure all our devices are registered on the Apple Developer Portal
-  #register_devices(devices_file: "devices.txt")
-
-  # After registering the new devices, we'll make sure to update the provisioning profile if necessary
-  # Note how we make sure to pass "adhoc" to get and use a provisioning profile for Ad Hoc distribution	sync_code_signing(force_for_new_devices: true,  type: "app-store")
-	tests
-  verify_pod_keys
-	gym
-	end
-
-desc "Sets Meta"
-  lane :meta do
-    notMess="Deliviring Meta"
-    notification(subtitle: "Running Meta", message: notMess)
-    say notMess
-    gym
-    jazzy
-    #increment_build_number
-    deliver(username: "thankmelater23@me.com", 
-      app_identifier: "com.BangBangStudios.Would-You-Rather", 
-      force: true)
-  end
-
-
-lane :screenShot do
-  notMess="Capturing and framing screenshots"
-  notification(subtitle: "Running Screen Shot", message: notMess)
-  say notMess
-snapshot(clear_previous_screenshots: TRUE)
-		#devices: ["iPhone 7", "iPhone X", "iPad Pro (12.9-inch)"])
-   frameit(white: true)
+desc "Practice"
+lane :p do
+# add actions here: https://docs.fastlane.tools/actions
+slack(message: "Screen shots captured for: WWYR",
+slack_url: "https://hooks.slack.com/services/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")
 end
 
+
+#*************Git************#
+lane :version do
+get_version_number
+end
+
+
+desc "Bumps version. Type: patch"
+lane :version_patch do
+increment_version_number(bump_type: "patch")
+commit_version_bump
+push_to_git_remote
+end
+
+
+desc "Bumps version. Type: minor"
+lane :version_minor do
+increment_version_number(bump_type: "minor")
+commit_version_bump
+push_to_git_remote
+end
+
+
+desc "Bumps version. Type: major"
+lane :version_major do
+increment_version_number(bump_type: "major")
+commit_version_bump
+push_to_git_remote
+end
+
+
+#*************Feature lanes************#
+desc "Runs all the tests"
+lane :tests do
+scan
+# gcovr(html: true, html_details: true, output: "./code-coverage/report.html")
+end
+
+
+desc "Build"
+lane :build do
+notMess="Building application and testing"
+notification(subtitle: "Running Build", message: notMess)
+say notMess
+# Before calling match, we make sure all our devices are registered on the Apple Developer Portal
+#register_devices(devices_file: "devices.txt")
+# After registering the new devices, we'll make sure to update the provisioning profile if necessary
+# Note how we make sure to pass "adhoc" to get and use a provisioning profile for Ad Hoc distribution sync_code_signing(force_for_new_devices: true,  type: "app-store")
+#verify_pod_keys
+gym
+tests
+slack(message: "Finished ""build"" lane: WWYR", success: true, slack_url: "https://hooks.slack.com/services/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")
+end
+
+
+desc "Sets Meta"
+lane :meta do
+notMess="Deliviring Meta"
+notification(subtitle: "Running Meta", message: notMess)
+say notMess
+gym
+jazzy
+#increment_build_number
+deliver(username: "thankmelater23@me.com",
+app_identifier: "com.BangBangStudios.Would-You-Rather",
+force: true)
+slack(message: "Finished ""Meta"" lane: WWYR",
+success: true,
+slack_url: "https://hooks.slack.com/services/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",
+payload: {  # Optional, lets you specify any number of your own Slack attachments.
+    "Build Date" => Time.new.to_s,
+    "ScreenShots" => "screenshots/screenshots.html"
+  }
+  )
+end
+
+
 desc "Sets Code Sign"
+lane :codeSign do
 notMess="Managing all provisioning and certificates"
 notification(subtitle: "Running Code sign", message: notMess)
 say notMess
-  lane :codeSign do
-    #cert will make sure you have a valid certificate and its private key installed on the local machine
-  	cert(username: "thankmelater23@me.com")
-    #sigh will make sure you have a valid provisioning profile installed locally, that matches the installed certificate
-  	sigh(force: true, username: "thankmelater23@me.com")
-    pem
+#cert will make sure you have a valid certificate and its private key installed on the local machine
+cert(force: true, username: "thankmelater23@me.com")
+#sigh will make sure you have a valid provisioning profile installed locally, that matches the installed certificate
+sigh(force: true, username: "thankmelater23@me.com", app_identifier: "com.BangBangStudios.Would-You-Rather")
+pem(username: "thankmelater23@me.com", app_identifier: "com.BangBangStudios.Would-You-Rather")
+#onesignal(auth_token: "MzBmOWQ4MDMtZGI3Ny00OWMwLTgyOGUtMWIzYTc5OTQyNjg3", app_name: "Would You Rather"
+  # apns_p12: "Path to Apple .p12 file (optional)",
+  # apns_p12_password: "Password for .p12 file (optional)",
+  # apns_env: "production/sandbox (defaults to production)"
+ 
 #     onesignal(
 #   auth_token: "Your OneSignal Auth Token",
 #   app_name: "Name for OneSignal App",
@@ -109,84 +119,112 @@ say notMess
 #   apns_p12_password: "Password for .p12 file (optional)",
 #   apns_env: "production/sandbox (defaults to production)"
 # )
-    # Automatically sync your iOS keys and profiles across all your team members using git
-    register_devices(devices_file: "./devices.txt")
-  # register_devices(
-  # devices: {
-  #   "Luka iPhone 6" => "1234567890123456789012345678901234567890",
-  #   "Felix iPad Air 2" => "abcdefghijklmnopqrstvuwxyzabcdefghijklmn"
-  # }
-    match(type: "appstore")
-
-    match(type: "development")
-
-    match(type: "adhoc")
-
-    match(type: "enterprise")
-  	end
-
- desc "Refreshes DSYMS"
- lane :refresh_dsyms do
-  notMess="Refreshing DSYMS and uploading"
-  notification(subtitle: "Running DSYMS Refresh", message: notMess)
-  say notMess
- 	download_dsyms
- 	upload_symbols_to_crashlytics
- 	clean_build_artifacts
- end
-
- desc "Creates Beta"
-  lane :beta do |values|
-    notMess="Creating and deploying beta .ipa"
-    notification(subtitle: "Running Beta", message: notMess)
-    say notMess
-    # Fabric generated this lane for deployment to Crashlytics Beta
-    # set 'export_method' to 'ad-hoc' if your Crashlytics Beta distribution uses ad-hoc provisioning
-    gym
-
-    refresh_dsyms
-
-    emails = values[:test_email] ? values[:test_email] : ['Andre@AndreVillanueva.com'] # You can list more emails here
-    groups = values[:test_email] ? nil : nil # You can define groups on the web and reference them here
-
-    # register_devices(devices_file: "./devices.txt")
-    match(force_for_new_devices: true)
-
-    changelog = File.read("metadata/en-US/release_notes.txt")
-    
-    # upload to testflight
-    pilot(skip_waiting_for_build_processing: true)
-
-    crashlytics(api_token: '4b84b1226e93ac404abf87cdd625fca3f2f67cb7',
-             build_secret: '9174c325d1ac51dcae9ee142e60f7bc1545e4d23a1ce0b5e09574eada9f888d3',
-                   emails: emails,
-                   groups: groups,
-                   notes: changelog,
-                    notes: 'Distributed with fastlane', # Check out the changelog_from_git_commits action
-            notifications: true) # Should this distribution notify your testers via email?
-     # for all available options run `fastlane action crashlytics`
-
-    # You can notify your team in chat that a beta build has been uploaded
-    # slack(
-    #   slack_url: "https://hooks.slack.com/services/YOUR/TEAM/INFO"
-    #   channel: "beta-releases",
-    #   message: "Successfully uploaded a beta release - see it at https://fabric.io/_/beta"
-    # )
-    # 
+# Automatically sync your iOS keys and profiles across all your team members using git
+#register_devices(devices_file: "./devices.txt")
+# register_devices(
+# devices: {
+#   "Luka iPhone 6" => "1234567890123456789012345678901234567890",
+#   "Felix iPad Air 2" => "abcdefghijklmnopqrstvuwxyzabcdefghijklmn"
+# } 
+slack(message: "Finished ""Codesign"" lane: WWYR",
+success: true,
+slack_url: "https://hooks.slack.com/services/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")
 end
 
-#desc "Deploy a new version to the App Store"
-  lane :deploy do
-    ensure_git_branch(branch: "master")
-    gym(use_legacy_build_api: true) # Build your app - more options available
-    refresh_dsyms
-    deliver(force: true, 
-      skip_screenshots: true, 
-      submit_for_review: true, 
-      automatic_release: true)
-    add_git_tag(tag: "v#{get_version_number}")
-    push_git_tags
 
+desc "Sets match for provisioning profiles"
+lane :matching do
+match(type: "appstore", app_identifier: "com.BangBangStudios.Would-You-Rather")
+match(type: "development", app_identifier: "com.BangBangStudios.Would-You-Rather")
+match(type: "adhoc", app_identifier: "com.BangBangStudios.Would-You-Rather")
+end 
+
+
+lane :oneSig do
+	onesignal(
+  auth_token: "MzBmOWQ4MDMtZGI3Ny00OWMwLTgyOGUtMWIzYTc5OTQyNjg3",
+  app_name: "Would You Rather"
+  # apns_p12: "Path to Apple .p12 file (optional)",
+  # apns_p12_password: "Password for .p12 file (optional)",
+  # apns_env: "production/sandbox (defaults to production)"
+) 
+end
+
+
+desc "Refreshes DSYMS"
+lane :refresh_dsyms do
+notMess="Refreshing DSYMS and uploading"
+notification(subtitle: "Running DSYMS Refresh", message: notMess)
+say notMess
+download_dsyms
+upload_symbols_to_crashlytics
+clean_build_artifacts
+slack(message: "Finished ""refresh_dsyms"" lane: WWYR",
+success: true,
+slack_url: "https://hooks.slack.com/services/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")
+end
+
+
+desc "Screenshots"
+lane :screenShot do
+notMess="Capturing and framing screenshots"
+notification(subtitle: "Running Screen Shot", message: notMess)
+say notMess
+snapshot(clear_previous_screenshots: TRUE)
+#devices: ["iPhone 7", "iPhone X", "iPad Pro (12.9-inch)"])
+frameit(white: true)
+slack(message: "Finished ""ScreenShot"" lane: WWYR",
+success: true,
+slack_url: "https://hooks.slack.com/services/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")
+end
+
+
+lane :silent_beta do
+beta(notifications: false)
+end
+
+desc "Creates Beta"
+lane :beta do |values|
+notMess="Creating and deploying beta .ipa"
+notification(subtitle: "Running Beta", message: notMess)
+say notMess
+# Fabric generated this lane for deployment to Crashlytics Beta
+# set 'export_method' to 'ad-hoc' if your Crashlytics Beta distribution uses ad-hoc provisioning
+gym
+refresh_dsyms
+emails = values[:test_email] ? values[:test_email] : ['Andre@AndreVillanueva.com'] # You can list more emails here
+groups = values[:test_email] ? nil : nil # You can define groups on the web and reference them here
+register_devices(devices_file: "./fastlane/devices.txt")
+match(force_for_new_devices: true)
+changelog = File.read("metadata/en-US/release_notes.txt")
+
+# upload to testflight
+pilot(changelog: changelog, distribute_external: true)
+crashlytics(api_token: '4b84b1226e93ac404abf87cdd625fca3f2f67cb7',
+build_secret: '9174c325d1ac51dcae9ee142e60f7bc1545e4d23a1ce0b5e09574eada9f888d3',
+emails: emails,
+groups: groups,
+notes: changelog,
+#notes: 'Distributed with fastlane', # Check out the changelog_from_git_commits action
+notifications: true) # Should this distribution notify your testers via email?
+# for all available options run `fastlane action crashlytics`
+slack(message: "Finished ""beta"" lane: WWYR",
+success: true,
+slack_url: "https://hooks.slack.com/services/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")
+end
+
+
+desc "Deploy a new version to the App Store"
+lane :deploy do
+ensure_git_branch(branch: "master")
+gym(use_legacy_build_api: true) # Build your app - more options available
+refresh_dsyms
+deliver(force: true,
+skip_screenshots: true,
+submit_for_review: true,
+automatic_release: true)
+add_git_tag(tag: "v#{get_version_number}")
+push_git_tags
 #     twitter(
 #   access_token: "XXXX",
 #   access_token_secret: "xxx",
@@ -194,7 +232,113 @@ end
 #   consumer_secret: "xxx",
 #   message: "WWYR has just been sent out for review.  Look out for a new WwYR coming to an app store near you!"
 # )
-  end
-
+slack(message: "Finished ""deploy"" lane: WWYR",
+success: true,
+slack_url: "https://hooks.slack.com/services/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")
 end
 
+
+
+#####Reactive Lanes#####
+def on_error(exception)
+slack(
+message: "Lane failed with exception : #{exception}",
+success: false,
+slack_url: "https://hooks.slack.com/services/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",
+attachment_properties: {
+fields: [
+{
+title: "Build number",
+value: ENV["BUILD_NUMBER"],
+},
+{
+title: "Error message",
+value: exception.to_s,
+short: false
+}
+]
+}
+)
+end
+
+
+  before_all do
+    ENV["SLACK_URL"] = "https://hooks.slack.com/services/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"
+  end
+
+
+after_all do |lane|
+# This block is called, only if the executed lane was successful
+notification(
+title: "Fastlane",
+# subtitle: "subtitle",
+message: "#{lane} finished successfully",
+sound: "Pop",
+activate: "com.apple.terminal",
+app_icon: "/metadata/app_icon.jpg",
+content_image: "/metadata/app_icon.jpg"
+)
+# slack(
+#   message: "Successfully deployed new App Update."
+# )
+end
+
+
+error do |lane, exception|
+notification(
+title: "Fastlane",
+# subtitle: "subtitle",
+message: "#{lane} failed",
+sound: "Basso",
+activate: "com.apple.terminal",
+app_icon: "/metadata/app_icon.jpg",
+content_image: "/metadata/app_icon.jpg")
+end
+#*************Patches************#
+desc "Screenshot Filler"
+lane :screenShotFiller do
+notMess="Getting missing screenshots"
+notification(subtitle: "Running Screen Shot  Filler", message: notMess)
+say notMess
+snapshot(clear_previous_screenshots: FALSE,
+		devices: [
+   # "iPhone 5s",
+   "iPhone 6s",
+   "iPhone SE",
+   "iPhone 8"
+  # "iPhone 8 Plus",
+  # "iPhone X",
+  # "iPad Pro (12.9-inch)",
+  # "iPad Pro (10.5-inch)",
+  # "iPad Pro (9.7-inch)"
+])
+frameit(white: true)
+slack(message: "Finished ""screenShotFiller"" Project: WWYR",
+success: true,
+slack_url: "https://hooks.slack.com/services/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")
+end
+
+
+desc "Testflight Update"
+lane :testFlightBeta do |values|
+notMess="Creating and deploying beta .ipa to testflight"
+notification(subtitle: "Running Beta", message: notMess)
+say notMess
+# Fabric generated this lane for deployment to Crashlytics Beta
+# set 'export_method' to 'ad-hoc' if your Crashlytics Beta distribution uses ad-hoc provisioning
+
+# refresh_dsyms
+emails = values[:test_email] ? values[:test_email] : ['Andre@AndreVillanueva.com'] # You can list more emails here
+groups = values[:test_email] ? nil : nil # You can define groups on the web and reference them here
+register_devices(devices_file: "./fastlane/devices.txt")
+match(force_for_new_devices: true)
+changelog = File.read("metadata/en-US/release_notes.txt")
+
+# upload to testflight
+pilot(changelog: changelog, distribute_external: true)
+slack(message: "Finished ""testFlight"" lane: WWYR",
+success: true,
+slack_url: "https://hooks.slack.com/services/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")
+end
+
+end

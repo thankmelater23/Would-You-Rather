@@ -1,1 +1,2 @@
-Device ID Device Name
+Device ID	Device Name
+918024d15bf3d2767fb7c9d3e47a4431b7b3b779	Andre - iPhone 7

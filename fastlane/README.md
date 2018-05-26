@@ -16,11 +16,11 @@ or alternatively using `brew cask install fastlane`
 
 # Available Actions
 ## iOS
-### ios custom_lane
+### ios p
 ```
-fastlane ios custom_lane
+fastlane ios p
 ```
-Description of what the lane does
+Practice
 ### ios version
 ```
 fastlane ios version
@@ -50,27 +50,42 @@ Runs all the tests
 ```
 fastlane ios build
 ```
-
+Build
 ### ios meta
 ```
 fastlane ios meta
 ```
 Sets Meta
-### ios screenShot
-```
-fastlane ios screenShot
-```
-
 ### ios codeSign
 ```
 fastlane ios codeSign
 ```
 Sets Code Sign
+### ios matching
+```
+fastlane ios matching
+```
+Sets match for provisioning profiles
+### ios oneSig
+```
+fastlane ios oneSig
+```
+
 ### ios refresh_dsyms
 ```
 fastlane ios refresh_dsyms
 ```
 Refreshes DSYMS
+### ios screenShot
+```
+fastlane ios screenShot
+```
+Screenshots
+### ios silent_beta
+```
+fastlane ios silent_beta
+```
+
 ### ios beta
 ```
 fastlane ios beta
@@ -80,7 +95,17 @@ Creates Beta
 ```
 fastlane ios deploy
 ```
-
+Deploy a new version to the App Store
+### ios screenShotFiller
+```
+fastlane ios screenShotFiller
+```
+Screenshot Filler
+### ios testFlightBeta
+```
+fastlane ios testFlightBeta
+```
+Testflight Update
 
 ----
 

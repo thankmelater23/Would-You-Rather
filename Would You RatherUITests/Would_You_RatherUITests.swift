@@ -26,7 +26,7 @@ class Would_You_RatherUITests: XCTestCase {
 
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
-    
+     
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
@@ -35,12 +35,15 @@ class Would_You_RatherUITests: XCTestCase {
     func testExample() {
       
       let app = XCUIApplication()
+      
+      snapshot("Main Menu")
+      
       app.buttons["Play"].tap()
       
       let element = app.otherElements.containing(.navigationBar, identifier:"Would You Rather").children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element
       let button = element.children(matching: .other).element(boundBy: 1).children(matching: .other).element.children(matching: .button).element
       
-      snapshot("Main Screen - History")
+      snapshot("History")
       
       button.tap()
       
@@ -57,7 +60,6 @@ class Would_You_RatherUITests: XCTestCase {
       button2.tap()
       nextButton.tap()
       
-      snapshot("Play 3 - Extreme")
       
       
       wouldYouRatherNavigationBar.buttons["Skip"].tap()
