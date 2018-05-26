@@ -195,7 +195,7 @@ refresh_dsyms
 emails = values[:test_email] ? values[:test_email] : ['Andre@AndreVillanueva.com'] # You can list more emails here
 groups = values[:test_email] ? nil : nil # You can define groups on the web and reference them here
 register_devices(devices_file: "./fastlane/devices.txt")
-match(force_for_new_devices: true)
+#match(force_for_new_devices: true)
 changelog = File.read("metadata/en-US/release_notes.txt")
 
 # upload to testflight

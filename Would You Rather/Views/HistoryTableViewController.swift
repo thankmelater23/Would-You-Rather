@@ -62,7 +62,7 @@ class HistoryTableViewController: UITableViewController {
     cell.setCell(duels[index], index: index)
     
     if index % 2 == 0{
-      cell.backgroundColor = UIColor.gray
+      cell.backgroundColor = UIColor.black
     }else{
       cell.backgroundColor = UIColor.white
     }

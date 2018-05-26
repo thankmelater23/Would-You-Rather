@@ -32,57 +32,51 @@ class Would_You_RatherUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-      
-      let app = XCUIApplication()
-      
-      snapshot("Main Menu")
-      
-      app.buttons["Play"].tap()
-      
-      let element = app.otherElements.containing(.navigationBar, identifier:"Would You Rather").children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element
-      let button = element.children(matching: .other).element(boundBy: 1).children(matching: .other).element.children(matching: .button).element
-      
-      snapshot("History")
-      
-      button.tap()
-      
-      snapshot("Play 1 - Fun")
-      
-      let wouldYouRatherNavigationBar = app.navigationBars["Would You Rather"]
-      let nextButton = wouldYouRatherNavigationBar.buttons["Next"]
-      
-      nextButton.tap()
-      
-      snapshot("Play 2 - Wacky")
-      
-      let button2 = element.children(matching: .other).element(boundBy: 2).children(matching: .button).element
-      button2.tap()
-      nextButton.tap()
-      
-      
-      
-      wouldYouRatherNavigationBar.buttons["Skip"].tap()
-      button.tap()
-      button2.tap()
-      button.tap()
-      nextButton.tap()
-      
-      
-      wouldYouRatherNavigationBar.buttons["Back"].tap()
-      app.buttons["Options"].tap()
-      app.buttons["About"].tap()
-      
-      snapshot("About - Us")
-      
-      app.navigationBars["About"].buttons["Back"].tap()
-      app.navigationBars["Prefrences"].buttons["Back"].tap()
-      
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-  
   func test_GET_SCREEN_SHOTS(){
+    
+    let app = XCUIApplication()
+    
+    snapshot("Main Menu")
+    
+    app.buttons["Play"].tap()
+    
+    let wouldYouRatherNavigationBar = app.navigationBars["Would You Rather"]
+    wouldYouRatherNavigationBar.buttons["Skip"].tap()
+    
+    let element = app.otherElements.containing(.navigationBar, identifier:"Would You Rather").children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element
+    let button = element.children(matching: .other).element(boundBy: 1).children(matching: .other).element.children(matching: .button).element
+    button.tap()
+    
+    let nextButton = wouldYouRatherNavigationBar.buttons["Next"]
+    nextButton.tap()
+    
+    let button2 = element.children(matching: .other).element(boundBy: 2).children(matching: .button).element
+    button2.tap()
+    snapshot("Play 1 - Fun")
+    nextButton.tap()
+    button.tap()
+    nextButton.tap()
+    button2.tap()
+    nextButton.tap()
+    button.tap()
+    snapshot("Play 2 - Wacky")
+    nextButton.tap()
+    button2.tap()
+    nextButton.tap()
+    button.tap()
+    nextButton.tap()
+    wouldYouRatherNavigationBar.buttons["Back"].tap()
+    app.buttons["History"].tap()
+    snapshot("History")
+    app.navigationBars["Would_You_Rather.HistoryTableView"].buttons["Back"].tap()
+    app.buttons["Options"].tap()
+    app.buttons["About"].tap()
+    snapshot("About - Us")
+    app.navigationBars["About"].buttons["Back"].tap()
+    app.buttons["Contact"].tap()
+    app.navigationBars["Contact"].buttons["Back"].tap()
+    app.navigationBars["Prefrences"].buttons["Back"].tap()
+    
   }
     
 }
