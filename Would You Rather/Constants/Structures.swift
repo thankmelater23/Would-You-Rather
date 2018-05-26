@@ -94,11 +94,13 @@ struct CellIdentifier {
 /// Segue keys
 struct Segue {
   // Boledo
-  static let Main_To_History = "Main_To_History"
+  static let main_to_options = "main_to_options"
+  static let main_to_history = "main_to_history"
+  static let options_to_main = "options_to_main"
   
   
   // Global
-  static let Unwind_To_ = "UnwindTo"
+  static let unwind_to_main = "unwind_to_main"
 }
 
 // MARK: - Constants
@@ -114,6 +116,6 @@ struct Images {
 }
 
 struct File{
-  static let WWYRHistory = File.WWYRHistory
+  static let WWYRHistory = "WWYR-History"
 }
 

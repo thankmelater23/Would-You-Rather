@@ -241,7 +241,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1508" y="98.50074962518741"/>
+            <point key="canvasLocation" x="2054" y="162"/>
         </scene>
         <!--History Table View Controller-->
         <scene sceneID="J9f-Qr-dPA">
@@ -304,7 +304,6 @@
                                             </constraints>
                                         </stackView>
                                     </subviews>
-                                    <color key="backgroundColor" red="0.95416272079999997" green="0.95416272079999997" blue="0.95416272079999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
                                         <constraint firstItem="7xY-hH-GD3" firstAttribute="top" secondItem="V8r-2g-cPU" secondAttribute="top" constant="20" symbolic="YES" id="AvX-fk-0dJ"/>
                                         <constraint firstItem="7xY-hH-GD3" firstAttribute="leading" secondItem="V8r-2g-cPU" secondAttribute="leading" constant="20" symbolic="YES" id="DZz-MO-Ve8"/>
@@ -312,7 +311,6 @@
                                         <constraint firstAttribute="trailing" secondItem="7xY-hH-GD3" secondAttribute="trailing" constant="20" symbolic="YES" id="lB5-7N-dRZ"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" notEnabled="YES"/>
                                 </accessibility>
@@ -332,12 +330,12 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fMI-mN-lAP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="825" y="772"/>
+            <point key="canvasLocation" x="825" y="909"/>
         </scene>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="VrV-oE-rwT">
             <objects>
-                <viewController id="mce-rd-rc5" sceneMemberID="viewController">
+                <viewController id="mce-rd-rc5" customClass="MainViewController" customModule="Would_You_Rather" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="is8-as-Rnx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -352,7 +350,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vdT-9L-3RX">
                                 <rect key="frame" x="47" y="167" width="281" height="333.5"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="240" verticalHuggingPriority="240" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HtZ-Tm-bnr" customClass="MenuLottoButtons" customModule="Belize_Lottery">
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="240" verticalHuggingPriority="240" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HtZ-Tm-bnr">
                                         <rect key="frame" x="0.0" y="0.0" width="281" height="104.5"/>
                                         <color key="backgroundColor" name="Bannana Yellow"/>
                                         <constraints>
@@ -381,7 +379,7 @@
                                             <segue destination="BYZ-38-t0r" kind="show" id="ZvM-2u-NtW"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="240" verticalHuggingPriority="240" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h57-r3-WvC" customClass="MenuLottoButtons" customModule="Belize_Lottery">
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="240" verticalHuggingPriority="240" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h57-r3-WvC">
                                         <rect key="frame" x="0.0" y="114.5" width="281" height="104.5"/>
                                         <color key="backgroundColor" name="Bannana Yellow"/>
                                         <constraints>
@@ -407,10 +405,10 @@
                                             </mask>
                                         </variation>
                                         <connections>
-                                            <segue destination="YbE-us-b8A" kind="show" id="D1G-tB-43L"/>
+                                            <action selector="segueMaintToOptions:" destination="mce-rd-rc5" eventType="touchUpInside" id="k1M-8k-MGL"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="240" verticalHuggingPriority="240" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nO2-mJ-80m" customClass="MenuLottoButtons" customModule="Belize_Lottery">
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="240" verticalHuggingPriority="240" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nO2-mJ-80m">
                                         <rect key="frame" x="0.0" y="229" width="281" height="104.5"/>
                                         <color key="backgroundColor" name="Bannana Yellow"/>
                                         <constraints>
@@ -462,6 +460,9 @@
                         <viewLayoutGuide key="safeArea" id="VM9-Ii-LeF"/>
                     </view>
                     <navigationItem key="navigationItem" id="gz5-as-y6S"/>
+                    <connections>
+                        <segue destination="YbE-us-b8A" kind="show" identifier="main_to_options" id="4rK-0q-SAR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D9N-n1-CG1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -624,12 +625,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bTM-bs-EK3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="142" y="-546"/>
+            <point key="canvasLocation" x="156" y="-724"/>
         </scene>
         <!--Prefrences-->
         <scene sceneID="ILc-CC-Beg">
             <objects>
-                <viewController hidesBottomBarWhenPushed="YES" id="YbE-us-b8A" customClass="PrefrencesMainViewController" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="YbE-us-b8A" customClass="OptionsViewController" customModule="Would_You_Rather" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HOh-NP-1Qw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -741,7 +742,7 @@
                         <leftBarButtonItems>
                             <barButtonItem title="Back" id="ag6-EI-Ynr">
                                 <connections>
-                                    <segue destination="mce-rd-rc5" kind="presentation" id="jLb-rc-hdP"/>
+                                    <action selector="segueOptionsToMain:" destination="YbE-us-b8A" id="ucF-ve-AnO"/>
                                 </connections>
                             </barButtonItem>
                             <barButtonItem title="Main Menu" style="done" id="3bB-7Z-EZ4">
@@ -755,10 +756,13 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <segue destination="mce-rd-rc5" kind="show" identifier="options_to_main" id="I6a-OX-I4w"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8zM-rw-408" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="825" y="-546"/>
+            <point key="canvasLocation" x="825" y="-725"/>
         </scene>
         <!--Contact-->
         <scene sceneID="FKu-h5-4zI">
@@ -869,7 +873,7 @@
         </namedColor>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="D1G-tB-43L"/>
-        <segue reference="jLb-rc-hdP"/>
+        <segue reference="4rK-0q-SAR"/>
+        <segue reference="I6a-OX-I4w"/>
     </inferredMetricsTieBreakers>
 </document>

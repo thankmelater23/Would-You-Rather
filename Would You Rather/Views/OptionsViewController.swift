@@ -1,5 +1,5 @@
 //
-//  MainViewController.swift
+//  OptionsViewController.swift
 //  Would You Rather
 //
 //  Created by Andre on 5/26/18.
@@ -8,19 +8,17 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
-  @IBAction func segueMaintToOptions(_ sender: UIButton) {
-    self.performSegue(withIdentifier: Segue.main_to_options, sender: nil)
+class OptionsViewController: UIViewController {
+  @IBAction func segueOptionsToMain(_ sender: Any) {
+//    performSegue(withIdentifier: Segue.unwind_to_main, sender: self)
+    self.performSegue(withIdentifier: Segue.options_to_main, sender: nil)
+//    self.dismiss(animated: true, completion: nil)
   }
   
-  /// Unwind to MainMenuVieController
-  @IBAction func unwindToMainMenuVC(segue _: UIStoryboardSegue) {}
-  
+  @IBOutlet weak var segueOptionsToMain: UIBarButtonItem!
   override func viewDidLoad() {
     super.viewDidLoad()
-    if !Storage.fileExists(File.WWYRHistory, in: .documents){
-      Storage.store([Duel](), to: Storage.Directory.documents, as: File.WWYRHistory)
-    }
+    
     // Do any additional setup after loading the view.
   }
   
