@@ -3,111 +3,111 @@
  {
  "scene": "Bad gas during the first date with your crush",
  "category": "romance",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "Getting Publicly Ditched By A Date",
  "category": "romance",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "",
  "category": "romance",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "",
  "category": "romance",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "",
  "category": "romance",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "Get pissy drunk on the first date and tell them you love them",
  "category": "romance",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "Never go on another datee",
  "category": "romance",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "Not having enough money to pay the bill on a date",
  "category": "romance",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "Spend a weekend with your ex and their new boo",
  "category": "romance",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "Fight and lose to your new bf/gf crazt ex",
  "category": "romance",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "Your Crush Admitting To Liking Your Friend Instead",
  "category": "romance",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "",
  "category": "romance",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "Overflow the toilet at your first date house",
  "category": "romance",
- "magnitude": "heavy"
+ "magnitude": "level_3"
  },
  {
- "scene": "",
+ "scene": "Never get over your ex's",
  "category": "romance",
- "magnitude": "heavy"
+ "magnitude": "level_3"
  },
  {
  "scene": "Spend a weekend with your ex and their new partner",
  "category": "romance",
- "magnitude": "heavy"
+ "magnitude": "level_3"
  },
  {
  "scene": "Never hold a relationship past 6 months",
  "category": "romance",
- "magnitude": "heavy"
+ "magnitude": "level_3"
  },
  {
  "scene": "",
  "category": "romance",
- "magnitude": "heavy"
+ "magnitude": "level_3"
  },
  {
  "scene": "",
  "category": "romance",
- "magnitude": "extreme"
+ "magnitude": "level_4"
  },
  {
  "scene": "",
  "category": "romance",
- "magnitude": "extreme"
+ "magnitude": "level_4"
  },
  {
  "scene": "",
  "category": "romance",
- "magnitude": "extreme"
+ "magnitude": "level_4"
  },
  {
- "scene": "",
+ "scene": "Every one you get in a relationship will evenutally cheat on you",
  "category": "romance",
- "magnitude": "extreme"
+ "magnitude": "level_4"
  },
  {
  "scene": "On your wedding day, your partner runs away with their ex",
  "category": "romance",
- "magnitude": "extreme"
+ "magnitude": "level_4"
  }
 ]

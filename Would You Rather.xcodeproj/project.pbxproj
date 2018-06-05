@@ -79,6 +79,7 @@
 		418D25D32026579900DBA2BE /* embarrassing.json in Resources */ = {isa = PBXBuildFile; fileRef = 418D25D22026579900DBA2BE /* embarrassing.json */; };
 		41BE2A0520B9475B00D88AC1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE2A0420B9475B00D88AC1 /* MainViewController.swift */; };
 		41BE2A0720B9685900D88AC1 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE2A0620B9685900D88AC1 /* OptionsViewController.swift */; };
+		41BE2A0920BEFF6800D88AC1 /* Duel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE2A0820BEFF6800D88AC1 /* Duel.swift */; };
 		41DA814E2025F10900587668 /* WouldYouRather.json in Resources */ = {isa = PBXBuildFile; fileRef = 41DA814D2025F10900587668 /* WouldYouRather.json */; };
 		41E34CA6202620B3003B4AE7 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E34CA5202620B3003B4AE7 /* GlobalVariables.swift */; };
 		41E34CA82026210D003B4AE7 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E34CA72026210D003B4AE7 /* Structures.swift */; };
@@ -186,6 +187,7 @@
 		418D25D22026579900DBA2BE /* embarrassing.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = embarrassing.json; sourceTree = "<group>"; };
 		41BE2A0420B9475B00D88AC1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		41BE2A0620B9685900D88AC1 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		41BE2A0820BEFF6800D88AC1 /* Duel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duel.swift; sourceTree = "<group>"; };
 		41DA814D2025F10900587668 /* WouldYouRather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WouldYouRather.json; sourceTree = "<group>"; };
 		41E34CA5202620B3003B4AE7 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
 		41E34CA72026210D003B4AE7 /* Structures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
@@ -295,8 +297,8 @@
 				417421F42026498B00BFC6D7 /* pain.json */,
 				417421F820264A3E00BFC6D7 /* technology.json */,
 				417421F22026495A00BFC6D7 /* gross.json */,
-				41047FA1202B36F10002B96F /* CateogryTemplate.json */,
 				417421EA202647FF00BFC6D7 /* romance.json */,
+				41047FA1202B36F10002B96F /* CateogryTemplate.json */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -326,6 +328,7 @@
 			isa = PBXGroup;
 			children = (
 				4143E245202586A8008492C8 /* Question.swift */,
+				41BE2A0820BEFF6800D88AC1 /* Duel.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -525,7 +528,7 @@
 				TargetAttributes = {
 					4143E210202583EA008492C8 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					4143E227202583EA008492C8 = {
 						CreatedOnToolsVersion = 9.2;
@@ -861,6 +864,7 @@
 				4143E215202583EA008492C8 /* AppDelegate.swift in Sources */,
 				4143E21D202583EA008492C8 /* Would_You_Rather.xcdatamodeld in Sources */,
 				41BE2A0520B9475B00D88AC1 /* MainViewController.swift in Sources */,
+				41BE2A0920BEFF6800D88AC1 /* Duel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1033,16 +1037,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZJWNZ643CG;
 				INFOPLIST_FILE = "$(SRCROOT)/Would You Rather/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-Rather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f5846c13-79d4-4184-ae91-d8df68f353ea";
-				PROVISIONING_PROFILE_SPECIFIER = "com.BangBangStudios.Would-You-Rather AppStore 1527158688";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1056,16 +1060,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZJWNZ643CG;
 				INFOPLIST_FILE = "$(SRCROOT)/Would You Rather/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-Rather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "f5846c13-79d4-4184-ae91-d8df68f353ea";
-				PROVISIONING_PROFILE_SPECIFIER = "com.BangBangStudios.Would-You-Rather AppStore 1527158688";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

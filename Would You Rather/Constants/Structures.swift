@@ -10,6 +10,43 @@ import Foundation
 
 import UIKit
 
+///Category of question
+enum QuestionCategory:String, Codable{
+  case romance, technology, annoying, pain, gross, embarrassing, psychological
+  
+  ///Returns one of the options randomly
+  static func randomCategory()->QuestionCategory{
+    typealias q = QuestionCategory
+    var arrayOfCategories = [q.romance, q.technology, q.annoying, q.pain, q.gross, q.embarrassing]
+    let count = arrayOfCategories.count
+    
+    //Random between 1-count
+    let randomNumber = Int.random(0, (count - 1))
+    let category = arrayOfCategories[randomNumber]
+    print("Number: \(randomNumber)/\(count - 1)\n\(category)")
+    return category
+  }
+}
+
+///Magnitude of question
+enum Magnitude:String, Codable{
+  case level_1, level_2, level_3, level_4
+  
+  ///Returns one of the options randomly
+  static func randomMagnitude()->Magnitude{
+    typealias m = Magnitude
+    var arrayOfMagnitudes = [m.level_1, m.level_2, m.level_3, m.level_4]
+    let count = arrayOfMagnitudes.count
+    
+    //Random between 1-count
+    let randomNumber = Int.random(0, (count - 1))
+    let magnitude = arrayOfMagnitudes[randomNumber]
+    print("Number: \(randomNumber)//\(count)\n\(magnitude)")
+    
+    return magnitude
+  }
+}
+
 // MARK: - Settings Keys
 /// Keys for userdefaults settings
 struct SettingsKeys {

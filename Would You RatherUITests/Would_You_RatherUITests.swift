@@ -31,7 +31,7 @@ class Would_You_RatherUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
+  
   func test_GET_SCREEN_SHOTS(){
     
     let app = XCUIApplication()
@@ -76,7 +76,5 @@ class Would_You_RatherUITests: XCTestCase {
     app.buttons["Contact"].tap()
     app.navigationBars["Contact"].buttons["Back"].tap()
     app.navigationBars["Prefrences"].buttons["Back"].tap()
-    
   }
-    
 }

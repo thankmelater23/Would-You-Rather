@@ -3,106 +3,106 @@
  {
  "scene": "erase every computer from history",
  "category": "technology",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "never be able to use any Google products ever again",
  "category": "technology",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "only be able to use the internet 20 minutes a day",
  "category": "technology",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "",
  "category": "technology",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "",
  "category": "technology",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "",
  "category": "technology",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "1 Week with no phone",
  "category": "technology",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "",
  "category": "technology",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "Facebook shut down for ever",
  "category": "technology",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "",
  "category": "technology",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "",
  "category": "technology",
- "magnitude": "stiff"
+ "magnitude": "level_2"
+ },
+ {
+ "scene": "",
+ "category": "technology",
+ "magnitude": "level_3"
+ },
+ {
+ "scene": "No internet on the weekends",
+ "category": "technology",
+ "magnitude": "level_3"
+ },
+ {
+ "scene": "",
+ "category": "technology",
+ "magnitude": "level_3"
+ },
+ {
+ "scene": "",
+ "category": "technology",
+ "magnitude": "level_3"
+ },
+ {
+ "scene": "",
+ "category": "technology",
+ "magnitude": "level_3"
+ },
+ {
+ "scene": "",
+ "category": "technology",
+ "magnitude": "level_4"
+ },
+ {
+ "scene": "",
+ "category": "technology",
+ "magnitude": "level_4"
+ },
+ {
+ "scene": "",
+ "category": "technology",
+ "magnitude": "level_4"
+ },
+ {
+ "scene": "",
+ "category": "technology",
+ "magnitude": "level_4"
  },
  {
  "scene": "All your social media deleted",
  "category": "technology",
- "magnitude": "heavy"
- },
- {
- "scene": "",
- "category": "technology",
- "magnitude": "heavy"
- },
- {
- "scene": "",
- "category": "technology",
- "magnitude": "heavy"
- },
- {
- "scene": "",
- "category": "technology",
- "magnitude": "heavy"
- },
- {
- "scene": "",
- "category": "technology",
- "magnitude": "heavy"
- },
- {
- "scene": "",
- "category": "technology",
- "magnitude": "extreme"
- },
- {
- "scene": "",
- "category": "technology",
- "magnitude": "extreme"
- },
- {
- "scene": "",
- "category": "technology",
- "magnitude": "extreme"
- },
- {
- "scene": "",
- "category": "technology",
- "magnitude": "extreme"
- },
- {
- "scene": "",
- "category": "technology",
- "magnitude": "extreme"
+ "magnitude": "level_4"
  },
  ]

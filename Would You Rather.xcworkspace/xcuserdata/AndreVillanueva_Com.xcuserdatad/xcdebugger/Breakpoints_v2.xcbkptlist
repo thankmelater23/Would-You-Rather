@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Would You Rather/Views/HistoryTableViewController.swift"
-            timestampString = "549033158.364949"
+            timestampString = "549387805.847083"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "27"
@@ -86,16 +86,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Would You Rather/Classes/Question.swift"
-            timestampString = "549033158.365795"
+            filePath = "Would You Rather/Database.swift"
+            timestampString = "549872505.617417"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
-            landmarkName = "init(question1:question2:pick:)"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "createLocalURL(path:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Would You Rather/Views/ViewController.swift"
+            timestampString = "549872505.6178319"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "getQuestionsWith(magnitude:category:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -105,14 +121,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Would You Rather/Database.swift"
-            timestampString = "549033158.365957"
+            filePath = "Would You Rather/Views/ViewController.swift"
+            timestampString = "549872505.6185859"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
-            landmarkName = "createLocalURL(path:)"
-            landmarkType = "9">
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "getQuestionsWith(magnitude:category:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

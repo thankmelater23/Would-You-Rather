@@ -2,101 +2,101 @@
   {
   "scene": "Lose your phone",
   "category": "embarrassing",
-  "magnitude": "light"
+  "magnitude": "level_1"
   },
   {
   "scene": "Always get picked last in competitions",
   "category": "embarrassing",
-  "magnitude": "light"
+  "magnitude": "level_1"
   },
   {
   "scene": "Loud fart durring an office meeting",
   "category": "embarrassing",
-  "magnitude": "light"
+  "magnitude": "level_1"
   },
   {
   "scene": "Wear 1 outfit for the entire week all year round.",
   "category": "embarrassing",
-  "magnitude": "light"
+  "magnitude": "level_1"
   },
   {
   "scene": "Fall down badly in front of your crush",
   "category": "embarrassing",
-  "magnitude": "light"
+  "magnitude": "level_1"
   },
   {
   "scene": "Run across the football field naked during super bowl halftime",
   "category": "embarrassing",
-  "magnitude": "stiff"
+  "magnitude": "level_2"
   },
   {
-  "scene": "All you personal photos leaked on your facebook and you can't log back in",
+  "scene": "",
   "category": "embarrassing",
-  "magnitude": "stiff"
+  "magnitude": "level_2"
   },
   {
   "scene": "Fart loudly durring office meeting",
   "category": "embarrassing",
-  "magnitude": "stiff"
+  "magnitude": "level_2"
   },
   {
-  "scene": "Wake up drunk and naked in front of your job",
+  "scene": "Always forget people names",
   "category": "embarrassing",
-  "magnitude": "stiff"
+  "magnitude": "level_2"
   },
   {
   "scene": "Crap your pants on a road trip with friends",
   "category": "embarrassing",
-  "magnitude": "stiff"
+  "magnitude": "level_2"
   },
   {
   "scene": "Walk in on your parents having sex",
   "category": "embarrassing",
-  "magnitude": "stiff"
+  "magnitude": "level_2"
+  },
+  {
+  "scene": "Forget your baby at the store",
+  "category": "embarrassing",
+  "magnitude": "level_3"
+  },
+  {
+  "scene": "Always lose your wallet",
+  "category": "embarrassing",
+  "magnitude": "level_3"
   },
   {
   "scene": "",
   "category": "embarrassing",
-  "magnitude": "heavy"
+  "magnitude": "level_3"
   },
   {
   "scene": "",
   "category": "embarrassing",
-  "magnitude": "heavy"
+  "magnitude": "level_3"
+  },
+  {
+  "scene": "Lose winning lottery ticket",
+  "category": "embarrassing",
+  "magnitude": "level_4"
   },
   {
   "scene": "",
   "category": "embarrassing",
-  "magnitude": "heavy"
+  "magnitude": "level_4"
   },
   {
   "scene": "",
   "category": "embarrassing",
-  "magnitude": "heavy"
+  "magnitude": "level_4"
   },
   {
-  "scene": "",
+  "scene": "Wake up drunk and naked in front of your job and co-workers",
   "category": "embarrassing",
-  "magnitude": "extreme"
-  },
-  {
-  "scene": "",
-  "category": "embarrassing",
-  "magnitude": "extreme"
-  },
-  {
-  "scene": "",
-  "category": "embarrassing",
-  "magnitude": "extreme"
-  },
-  {
-  "scene": "",
-  "category": "embarrassing",
-  "magnitude": "extreme"
+  "magnitude": "level_4"
   },
   {
   "scene": "All your private pictures and videos some how posted on facebook, and you can't log back in",
   "category": "embarrassing",
-  "magnitude": "extreme"
+  "magnitude": "level_4"
   }
   ]

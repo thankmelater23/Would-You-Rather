@@ -16,7 +16,7 @@ class OptionsViewController: UIViewController {
   }
   
   @IBOutlet weak var segueOptionsToMain: UIBarButtonItem!
-  override func viewDidLoad() {
+  override func viewDidLoad() { 
     super.viewDidLoad()
     
     // Do any additional setup after loading the view.

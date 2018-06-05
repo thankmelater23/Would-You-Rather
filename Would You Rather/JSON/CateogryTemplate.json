@@ -3,102 +3,102 @@
  {
  "scene": "",
  "category": "category",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "",
  "category": "category",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "",
  "category": "category",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "",
  "category": "category",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "",
  "category": "category",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "",
  "category": "category",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "",
  "category": "category",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "",
  "category": "category",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "",
  "category": "category",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "",
  "category": "category",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "",
  "category": "category",
- "magnitude": "heavy"
+ "magnitude": "level_3"
  },
  {
  "scene": "",
  "category": "category",
- "magnitude": "heavy"
+ "magnitude": "level_3"
  },
  {
  "scene": "",
  "category": "category",
- "magnitude": "heavy"
+ "magnitude": "level_3"
  },
  {
  "scene": "",
  "category": "category",
- "magnitude": "heavy"
+ "magnitude": "level_3"
  },
  {
  "scene": "",
  "category": "category",
- "magnitude": "heavy"
+ "magnitude": "level_3"
  },
  {
  "scene": "",
  "category": "category",
- "magnitude": "extreme"
+ "magnitude": "level_4"
  },
  {
  "scene": "",
  "category": "category",
- "magnitude": "extreme"
+ "magnitude": "level_4"
  },
  {
  "scene": "",
  "category": "category",
- "magnitude": "extreme"
+ "magnitude": "level_4"
  },
  {
  "scene": "",
  "category": "category",
- "magnitude": "extreme"
+ "magnitude": "level_4"
  },
  {
  "scene": "",
  "category": "category",
- "magnitude": "extreme"
+ "magnitude": "level_4"
  }
  ]
 

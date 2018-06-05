@@ -2,106 +2,106 @@
  {
   "scene": "Laugh out historically everytime someone tells you bad news about themselves",
   "category": "annoying",
-  "magnitude": "light"
+  "magnitude": "level_1"
+},
+{
+  "scene": "Flies in the area always pitches on your butt",
+  "category": "annoying",
+  "magnitude": "level_1"
 },
 {
   "scene": "",
   "category": "annoying",
-  "magnitude": "light"
+  "magnitude": "level_1"
 },
 {
   "scene": "",
   "category": "annoying",
-  "magnitude": "light"
+  "magnitude": "level_1"
 },
 {
   "scene": "",
   "category": "annoying",
-  "magnitude": "light"
+  "magnitude": "level_1"
 },
 {
   "scene": "",
   "category": "annoying",
-  "magnitude": "light"
-},
-{
-  "scene": "",
-  "category": "annoying",
-  "magnitude": "stiff"
+  "magnitude": "level_2"
 },
 {
   "scene": "Wake up every morning with a crook in your kneck",
   "category": "annoying",
-  "magnitude": "stiff"
+  "magnitude": "level_2"
 },
 {
   "scene": "Nose stuffed up when ever the sun goes down",
   "category": "annoying",
-  "magnitude": "stiff"
+  "magnitude": "level_2"
 },
 {
   "scene": "Lose your wallet with your rent money",
   "category": "annoying",
-  "magnitude": "stiff"
+  "magnitude": "level_2"
 },
 {
   "scene": "not kill someone but have everyone think you did",
   "category": "annoying",
-  "magnitude": "stiff"
+  "magnitude": "level_2"
 },
 {
   "scene": "Everytime a police officer see you they will arrest you release you the next day",
   "category": "annoying",
-  "magnitude": "heavy"
+  "magnitude": "level_3"
 },
 {
   "scene": "",
   "category": "annoying",
-  "magnitude": "heavy"
+  "magnitude": "level_3"
 },
 {
   "scene": "Get pull you over by the police where they plant an ounce of drugs on you",
   "category": "annoying",
-  "magnitude": "heavy"
+  "magnitude": "level_3"
 },
 {
   "scene": "",
   "category": "annoying",
-  "magnitude": "heavy"
+  "magnitude": "level_3"
 },
 {
   "scene": "Never have sex again",
   "category": "annoying",
-  "magnitude": "heavy"
+  "magnitude": "level_3"
 },
 {
   "scene": "",
   "category": "annoying",
-  "magnitude": "extreme"
+  "magnitude": "level_4"
 },
 {
   "scene": "",
   "category": "annoying",
-  "magnitude": "extreme"
+  "magnitude": "level_4"
 },
 {
   "scene": "",
   "category": "annoying",
-  "magnitude": "extreme"
+  "magnitude": "level_4"
 },
 {
   "scene": "",
   "category": "annoying",
-  "magnitude": "extreme"
+  "magnitude": "level_4"
 },
 {
   "scene": "",
   "category": "annoying",
-  "magnitude": "extreme"
+  "magnitude": "level_4"
 },
 {
   "scene": "Go to jail for murder you didn't commit or have anything to do with",
   "category": "annoying",
-  "magnitude": "extreme"
+  "magnitude": "level_4"
 }
 ]

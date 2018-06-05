@@ -3,106 +3,106 @@
  {
  "scene": "Always have multiple pimples on your face",
  "category": "gross",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "Lick a persons face every time they say a sentence to you",
  "category": "gross",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "",
  "category": "gross",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "Feet always stink",
  "category": "gross",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "Constant bad breath",
  "category": "gross",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "Constantly sweeting",
  "category": "gross",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "Lick the dirt of a homless person fingers",
  "category": "gross",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "Pimple filled eye brows",
  "category": "gross",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "have to eat a very moldy meal once a week",
  "category": "gross",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "Have an extra nipple",
  "category": "gross",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "Smell strong pungent vomit smell when ever you get tired",
  "category": "gross",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "Can only shower once a month",
  "category": "gross",
- "magnitude": "heavy"
+ "magnitude": "level_3"
  },
  {
  "scene": "",
  "category": "gross",
- "magnitude": "heavy"
+ "magnitude": "level_3"
  },
  {
  "scene": "",
  "category": "gross",
- "magnitude": "heavy"
+ "magnitude": "level_3"
  },
  {
  "scene": "Lick the seat of every porta potty at Cochella",
  "category": "gross",
- "magnitude": "heavy"
+ "magnitude": "level_3"
  },
  {
  "scene": "",
  "category": "gross",
- "magnitude": "heavy"
+ "magnitude": "level_3"
  },
  {
  "scene": "",
  "category": "gross",
- "magnitude": "extreme"
+ "magnitude": "level_4"
  },
  {
  "scene": "",
  "category": "gross",
- "magnitude": "extreme"
+ "magnitude": "level_4"
  },
  {
  "scene": "",
  "category": "gross",
- "magnitude": "extreme"
+ "magnitude": "level_4"
  },
  {
  "scene": "",
  "category": "gross",
- "magnitude": "extreme"
+ "magnitude": "level_4"
  },
  {
  "scene": "Eat vomit",
  "category": "gross",
- "magnitude": "extreme"
+ "magnitude": "level_4"
  }
  ]

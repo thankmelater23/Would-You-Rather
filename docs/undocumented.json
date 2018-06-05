@@ -1,6 +1,12 @@
 {
   "warnings": [
-
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Database.swift",
+      "line": 88,
+      "symbol": "Storage",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    }
   ],
   "source_directory": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather"
 }

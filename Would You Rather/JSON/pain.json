@@ -3,86 +3,86 @@
  {
  "scene": "Never be able to wear socks and shoes ever again",
  "category": "pain",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "Hear all voices & sounds at an annoying nails-on-chalkboard high pitch",
  "category": "pain",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "Jalepon pepper in the eye",
  "category": "pain",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "Cigarette burn",
  "category": "pain",
- "magnitude": "light"
+ "magnitude": "level_1"
  },
  {
  "scene": "Hit your foot on the metal part of the bed",
  "category": "pain",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "Intentionally break a glass bottle on your own head not covered by insurance",
  "category": "pain",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "Bare knuckle fight a pissed off Mike Tyson in his prime",
  "category": "pain",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "Be 1/100 humans to survive a major catestrophic event",
  "category": "pain",
- "magnitude": "stiff"
+ "magnitude": "level_2"
  },
  {
  "scene": "Get kicked in the genitalia everytime you use a noun",
  "category": "pain",
- "magnitude": "heavy"
+ "magnitude": "level_3"
  },
  {
  "scene": "Step on a bear trap",
  "category": "pain",
- "magnitude": "heavy"
+ "magnitude": "level_3"
  },
  {
  "scene": "Rip out all of your hair & every finger & toe nail",
  "category": "pain",
- "magnitude": "heavy"
+ "magnitude": "level_3"
  },
  {
  "scene": "Bad toothache when ever you sit still",
  "category": "pain",
- "magnitude": "heavy"
+ "magnitude": "level_3"
  },
  {
  "scene": "Hit by a car",
  "category": "pain",
- "magnitude": "heavy"
+ "magnitude": "level_3"
  },
  {
  "scene": "Not able remember anything new from this point on & have your memory reset every 6 hours",
  "category": "pain",
- "magnitude": "extreme"
+ "magnitude": "level_4"
  },
  {
  "scene": "Jam a tooth pick into your big toe nail & kick the wall as hard as you can",
  "category": "pain",
- "magnitude": "extreme"
+ "magnitude": "level_4"
  },
  {
  "scene": "Poop out a cocunut",
  "category": "pain",
- "magnitude": "extreme"
+ "magnitude": "level_4"
  },
  {
  "scene": "Mauled by a bear",
  "category": "pain",
- "magnitude": "extreme"
+ "magnitude": "level_4"
  }
  ]
