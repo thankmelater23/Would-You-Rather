@@ -71,18 +71,18 @@
  "magnitude": "level_3"
  },
  {
- "scene": "",
+ "scene": "Have no privacy anything to do with technology",
+ "category": "technology",
+ "magnitude": "level_3"
+ },
+ {
+ "scene": "All your social media deleted yearly",
  "category": "technology",
  "magnitude": "level_3"
  },
  {
  "scene": "",
  "category": "technology",
- "magnitude": "level_3"
- },
- {
- "scene": "",
- "category": "technology",
  "magnitude": "level_4"
  },
  {
@@ -96,7 +96,7 @@
  "magnitude": "level_4"
  },
  {
- "scene": "",
+ "scene": "Banned from all social media",
  "category": "technology",
  "magnitude": "level_4"
  },

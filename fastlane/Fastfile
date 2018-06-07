@@ -1,4 +1,4 @@
-# This file contains the fastlane.tools configuration
+                                                                                                                                                                                                                                                                                                                                                                            # This file contains the fastlane.tools configuration
 # You can find the documentation at https://docs.fastlane.tools
 #
 # For a list of all available actions, check out
@@ -170,7 +170,7 @@ lane :screenShot do
 notMess="Capturing and framing screenshots"
 notification(subtitle: "Running Screen Shot", message: notMess)
 say notMess
-snapshot(clear_previous_screenshots: TRUE)
+snapshot(clear_previous_screenshots: TRUE, reinstall_app: TRUE)
 #devices: ["iPhone 7", "iPhone X", "iPad Pro (12.9-inch)"])
 frameit(white: true)
 slack(message: "Finished ""ScreenShot"" lane: WWYR",
@@ -302,15 +302,15 @@ notification(subtitle: "Running Screen Shot  Filler", message: notMess)
 say notMess
 snapshot(clear_previous_screenshots: FALSE,
 		devices: [
-   # "iPhone 5s",
-   "iPhone 6s",
-   "iPhone SE",
-   "iPhone 8"
-  # "iPhone 8 Plus",
-  # "iPhone X",
-  # "iPad Pro (12.9-inch)",
-  # "iPad Pro (10.5-inch)",
-  # "iPad Pro (9.7-inch)"
+"iPhone 5s",
+"iPhone 6s",
+#"iPhone SE",
+#"iPhone 8",
+#"iPhone 8 Plus",
+#"iPhone X",
+#"iPad Pro (12.9-inch)",
+#"iPad Pro (10.5-inch)"
+"iPad Pro (9.7-inch)"
 ])
 frameit(white: true)
 slack(message: "Finished ""screenShotFiller"" Project: WWYR",

@@ -263,13 +263,13 @@
                                             <rect key="frame" x="20" y="20" width="335" height="79.5"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="iHg-q1-udD">
-                                                    <rect key="frame" x="0.0" y="0.0" width="40" height="79.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="40.5" height="79.5"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Green-Check-Mark" translatesAutoresizingMaskIntoConstraints="NO" id="CUv-n6-vNd">
-                                                            <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="40.5" height="40"/>
                                                         </imageView>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="red x circle" translatesAutoresizingMaskIntoConstraints="NO" id="cjr-ZC-xIL">
-                                                            <rect key="frame" x="0.0" y="40" width="40" height="39.5"/>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="red x" translatesAutoresizingMaskIntoConstraints="NO" id="cjr-ZC-xIL">
+                                                            <rect key="frame" x="0.0" y="40" width="40.5" height="39.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" secondItem="cjr-ZC-xIL" secondAttribute="height" multiplier="1:1" id="QCL-li-xA7"/>
                                                             </constraints>
@@ -280,17 +280,17 @@
                                                     </constraints>
                                                 </stackView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="SZj-Jt-77B">
-                                                    <rect key="frame" x="45" y="0.0" width="290" height="79.5"/>
+                                                    <rect key="frame" x="45.5" y="0.0" width="289.5" height="79.5"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scenerio #1" lineBreakMode="tailTruncation" numberOfLines="33" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xk2-HO-D1A">
-                                                            <rect key="frame" x="0.0" y="0.0" width="290" height="40"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="289.5" height="40"/>
                                                             <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scenerio #2" lineBreakMode="tailTruncation" numberOfLines="33" baselineAdjustment="alignBaselines" minimumFontSize="5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n0Z-4j-oMM">
-                                                            <rect key="frame" x="0.0" y="40" width="290" height="39.5"/>
+                                                            <rect key="frame" x="0.0" y="40" width="289.5" height="39.5"/>
                                                             <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
@@ -656,10 +656,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Uul-MU-9um">
-                                <rect key="frame" x="16" y="248.5" width="343" height="169"/>
+                                <rect key="frame" x="16" y="266.5" width="343" height="133"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KFW-e7-9BS">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="51"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="62.5"/>
                                         <color key="backgroundColor" red="0.98460525269999999" green="0.70476967099999999" blue="0.2272706032" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="BaQ-jH-31K"/>
@@ -681,7 +681,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KTu-aW-bAZ">
-                                        <rect key="frame" x="0.0" y="59" width="343" height="51"/>
+                                        <rect key="frame" x="0.0" y="70.5" width="343" height="62.5"/>
                                         <color key="backgroundColor" red="0.98460525269999999" green="0.70476967099999999" blue="0.2272706032" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="30"/>
                                         <state key="normal" title="Contact">
@@ -699,28 +699,10 @@
                                             <segue destination="aFc-zb-O75" kind="show" id="Y7Z-KA-N8c"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JSb-aC-3uA">
-                                        <rect key="frame" x="0.0" y="118" width="343" height="51"/>
-                                        <color key="backgroundColor" red="0.98460525269999999" green="0.70476967099999999" blue="0.2272706032" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="30"/>
-                                        <state key="normal" title="Remove Ads">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                                                <integer key="value" value="3"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="3"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="KTu-aW-bAZ" firstAttribute="height" secondItem="KFW-e7-9BS" secondAttribute="height" id="D0a-YS-Dfe"/>
                                     <constraint firstItem="KTu-aW-bAZ" firstAttribute="width" secondItem="KFW-e7-9BS" secondAttribute="width" id="iC8-rJ-4tb"/>
-                                    <constraint firstItem="JSb-aC-3uA" firstAttribute="height" secondItem="KFW-e7-9BS" secondAttribute="height" id="nl0-Tb-MMl"/>
-                                    <constraint firstItem="JSb-aC-3uA" firstAttribute="width" secondItem="KFW-e7-9BS" secondAttribute="width" id="tCo-7d-x2R"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -853,10 +835,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Green-Check-Mark" width="550" height="517"/>
+        <image name="Green-Check-Mark" width="600" height="600"/>
         <image name="IMG_1191" width="1024" height="1024"/>
         <image name="check-mark-button-hi" width="600" height="600"/>
-        <image name="red x circle" width="2000" height="2000"/>
+        <image name="red x" width="2000" height="2000"/>
         <image name="red-x-1" width="260" height="261"/>
         <namedColor name="Bannana Yellow">
             <color red="1" green="0.84705882349999995" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

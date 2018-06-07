@@ -45,8 +45,8 @@ class ViewController: UIViewController {
     }else{
         duel = Duel.init(question1: q1!, question2: q2!, pick: q1!)
       
-        topQuestionImageView.image = UIImage.init(named: "green check")
-        bottomQuestionImageView.image = UIImage.init(named: "red x circle")
+        topQuestionImageView.image = UIImage.init(named: "Green-Check-Mark")
+        bottomQuestionImageView.image = UIImage.init(named: "red x")
         skipNextBarButton.title = "Next"
         self.topQuestionImageView.isHidden = false
         self.bottomQuestionImageView.isHidden = false
@@ -65,8 +65,8 @@ class ViewController: UIViewController {
     }else{
         duel = Duel.init(question1: q1!, question2: q2!, pick: q2!)
       
-        bottomQuestionImageView.image = UIImage.init(named: "green check")
-        topQuestionImageView.image = UIImage.init(named: "red x circle")
+        bottomQuestionImageView.image = UIImage.init(named: "Green-Check-Mark")
+        topQuestionImageView.image = UIImage.init(named: "red x")
         skipNextBarButton.title = "Next"
         self.topQuestionImageView.isHidden = false
         self.bottomQuestionImageView.isHidden = false

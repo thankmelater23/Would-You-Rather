@@ -49,17 +49,17 @@ class Would_You_RatherUITests: XCTestCase {
     
     let nextButton = wouldYouRatherNavigationBar.buttons["Next"]
     nextButton.tap()
+    snapshot("Play 1 - Fun")
     
     let button2 = element.children(matching: .other).element(boundBy: 2).children(matching: .button).element
-    button2.tap()
-    snapshot("Play 1 - Fun")
-    nextButton.tap()
-    button.tap()
-    nextButton.tap()
     button2.tap()
     nextButton.tap()
     button.tap()
     snapshot("Play 2 - Wacky")
+    nextButton.tap()
+    button2.tap()
+    nextButton.tap()
+    button.tap()
     nextButton.tap()
     button2.tap()
     nextButton.tap()

@@ -6,7 +6,7 @@
  "magnitude": "level_1"
  },
  {
- "scene": "Lick a persons face every time they say a sentence to you",
+ "scene": "",
  "category": "gross",
  "magnitude": "level_1"
  },
@@ -31,7 +31,7 @@
  "magnitude": "level_1"
  },
  {
- "scene": "Lick the dirt of a homless person fingers",
+ "scene": "",
  "category": "gross",
  "magnitude": "level_2"
  },
@@ -61,6 +61,11 @@
  "magnitude": "level_3"
  },
  {
+ "scene": "Crap your pants randomly once a week",
+ "category": "gross",
+ "magnitude": "level_3"
+ },
+ {
  "scene": "",
  "category": "gross",
  "magnitude": "level_3"
@@ -69,34 +74,29 @@
  "scene": "",
  "category": "gross",
  "magnitude": "level_3"
+ },
+ {
+ "scene": "",
+ "category": "gross",
+ "magnitude": "level_3"
+ },
+ {
+ "scene": "",
+ "category": "gross",
+ "magnitude": "level_4"
+ },
+ {
+ "scene": "",
+ "category": "gross",
+ "magnitude": "level_4"
+ },
+ {
+ "scene": "",
+ "category": "gross",
+ "magnitude": "level_4"
  },
  {
  "scene": "Lick the seat of every porta potty at Cochella",
- "category": "gross",
- "magnitude": "level_3"
- },
- {
- "scene": "",
- "category": "gross",
- "magnitude": "level_3"
- },
- {
- "scene": "",
- "category": "gross",
- "magnitude": "level_4"
- },
- {
- "scene": "",
- "category": "gross",
- "magnitude": "level_4"
- },
- {
- "scene": "",
- "category": "gross",
- "magnitude": "level_4"
- },
- {
- "scene": "",
  "category": "gross",
  "magnitude": "level_4"
  },
