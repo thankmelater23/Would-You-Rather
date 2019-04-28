@@ -12,6 +12,7 @@ import SwiftyBeaver
 import Siren
 import Fabric
 import Crashlytics
+
 #if DEBUG
 import SimulatorStatusMagic
 #endif
@@ -22,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   var window: UIWindow?
   
   
-  func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+  func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     self.setup()
     
     Fabric.with([Crashlytics.self, Answers.self])
@@ -209,7 +210,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     /* Siren code should go below window?.makeKeyAndVisible() */
     
     // Siren is a singleton
-    let siren = Siren.shared
+//    let siren = Siren.shared
     
     // Required: Your app's iTunes App Store ID
     //        siren.appID = "1300481560"
@@ -220,10 +221,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
      Replace .Immediately with .Daily or .Weekly to specify a maximum daily or weekly frequency for version
      checks.
      */
-    siren.checkVersion(checkType: .daily)
-    
-    siren.alertType = .option // SirenAlertType.option
-    
-    siren.showAlertAfterCurrentVersionHasBeenReleasedForDays = 3
+//    siren.checkVersion(checkType: .daily)
+//
+//    siren.alertType = .option // SirenAlertType.option
+//
+//    siren.showAlertAfterCurrentVersionHasBeenReleasedForDays = 3
   }
 }

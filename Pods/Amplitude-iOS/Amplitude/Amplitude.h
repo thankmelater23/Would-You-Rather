@@ -4,6 +4,7 @@
 #import <Foundation/Foundation.h>
 #import "AMPIdentify.h"
 #import "AMPRevenue.h"
+#import "AMPTrackingOptions.h"
 
 
 /**
@@ -431,6 +432,10 @@
 
 - (void)setGroup:(NSString*) groupType groupName:(NSObject*) groupName;
 
+- (void)groupIdentifyWithGroupType:(NSString*) groupType groupName:(NSObject*) groupName groupIdentify:(AMPIdentify *) groupIdentify;
+
+- (void)groupIdentifyWithGroupType:(NSString*) groupType groupName:(NSObject*) groupName groupIdentify:(AMPIdentify *) groupIdentify outOfSession:(BOOL) outOfSession;
+
 /**-----------------------------------------------------------------------------
  * @name Setting User and Device Identifiers
  * -----------------------------------------------------------------------------
@@ -438,11 +443,10 @@
 
 /**
  Sets the userId.
-
  @param userId                  If your app has its own login system that you want to track users with, you can set the userId.
-
  @see [Setting Custom UserIds](https://github.com/amplitude/Amplitude-iOS#setting-custom-user-ids)
  */
+
 - (void)setUserId:(NSString*) userId;
 
 /**
@@ -525,6 +529,10 @@
  */
 - (void)disableIdfaTracking;
 
+- (void)setTrackingOptions:(AMPTrackingOptions*) options;
+
+- (void)setServerUrl:(NSString*) serverUrl;
+
 /**-----------------------------------------------------------------------------
  * @name Other Methods
  * -----------------------------------------------------------------------------
@@ -567,6 +575,10 @@
  */
 - (void)uploadEvents;
 
+/**
+ Call to check if the SDK is ready to start a new session at timestamp. Returns YES if a new session was started, otherwise NO and current session is extended. Only use if you know what you are doing. Recommended to use current time in UTC milliseconds for timestamp.
+ */
+- (BOOL)startOrContinueSession:(long long) timestamp;
 
 #pragma mark - Deprecated methods
 

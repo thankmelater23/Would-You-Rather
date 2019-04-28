@@ -19,7 +19,6 @@
 		410F5CFD20B7838100BCA8B9 /* Scanfile in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CF520B7838000BCA8B9 /* Scanfile */; };
 		410F5CFE20B7838100BCA8B9 /* Snapfile in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CF620B7838100BCA8B9 /* Snapfile */; };
 		410F5D0120B783AD00BCA8B9 /* keyword.strings in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CFF20B783AC00BCA8B9 /* keyword.strings */; };
-		410F5D0220B783AD00BCA8B9 /* title.strings in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0020B783AD00BCA8B9 /* title.strings */; };
 		410F5D0420B783B800BCA8B9 /* Framefile.json in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0320B783B800BCA8B9 /* Framefile.json */; };
 		410F5D2A20B783E800BCA8B9 /* primary_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0620B783E300BCA8B9 /* primary_category.txt */; };
 		410F5D2B20B783E800BCA8B9 /* release_notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0720B783E400BCA8B9 /* release_notes.txt */; };
@@ -29,14 +28,11 @@
 		410F5D2F20B783E800BCA8B9 /* primary_second_sub_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0B20B783E400BCA8B9 /* primary_second_sub_category.txt */; };
 		410F5D3020B783E800BCA8B9 /* trade_name.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0C20B783E400BCA8B9 /* trade_name.txt */; };
 		410F5D3120B783E800BCA8B9 /* keywords.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0D20B783E400BCA8B9 /* keywords.txt */; };
-		410F5D3220B783E800BCA8B9 /* first_name.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0E20B783E400BCA8B9 /* first_name.txt */; };
 		410F5D3320B783E800BCA8B9 /* demo_user.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0F20B783E400BCA8B9 /* demo_user.txt */; };
-		410F5D3420B783E800BCA8B9 /* email_address.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1020B783E400BCA8B9 /* email_address.txt */; };
 		410F5D3520B783E800BCA8B9 /* secondary_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1120B783E500BCA8B9 /* secondary_category.txt */; };
 		410F5D3620B783E800BCA8B9 /* country.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1220B783E500BCA8B9 /* country.txt */; };
 		410F5D3720B783E800BCA8B9 /* subtitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1320B783E500BCA8B9 /* subtitle.txt */; };
 		410F5D3820B783E800BCA8B9 /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1420B783E500BCA8B9 /* notes.txt */; };
-		410F5D3920B783E800BCA8B9 /* phone_number.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1520B783E500BCA8B9 /* phone_number.txt */; };
 		410F5D3A20B783E800BCA8B9 /* demo_password.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1620B783E500BCA8B9 /* demo_password.txt */; };
 		410F5D3B20B783E800BCA8B9 /* privacy_url.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1720B783E500BCA8B9 /* privacy_url.txt */; };
 		410F5D3C20B783E800BCA8B9 /* primary_first_sub_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1820B783E500BCA8B9 /* primary_first_sub_category.txt */; };
@@ -50,7 +46,6 @@
 		410F5D4420B783E800BCA8B9 /* address_line3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2020B783E600BCA8B9 /* address_line3.txt */; };
 		410F5D4520B783E800BCA8B9 /* address_line2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2120B783E600BCA8B9 /* address_line2.txt */; };
 		410F5D4620B783E800BCA8B9 /* city_name.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2220B783E700BCA8B9 /* city_name.txt */; };
-		410F5D4720B783E800BCA8B9 /* last_name.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2320B783E700BCA8B9 /* last_name.txt */; };
 		410F5D4820B783E800BCA8B9 /* postal_code.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2420B783E700BCA8B9 /* postal_code.txt */; };
 		410F5D4920B783E800BCA8B9 /* copyright.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2520B783E700BCA8B9 /* copyright.txt */; };
 		410F5D4A20B783E800BCA8B9 /* email_address.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2620B783E700BCA8B9 /* email_address.txt */; };
@@ -77,6 +72,7 @@
 		417421F52026498B00BFC6D7 /* pain.json in Resources */ = {isa = PBXBuildFile; fileRef = 417421F42026498B00BFC6D7 /* pain.json */; };
 		417421F920264A3E00BFC6D7 /* technology.json in Resources */ = {isa = PBXBuildFile; fileRef = 417421F820264A3E00BFC6D7 /* technology.json */; };
 		418D25D32026579900DBA2BE /* embarrassing.json in Resources */ = {isa = PBXBuildFile; fileRef = 418D25D22026579900DBA2BE /* embarrassing.json */; };
+		419C14AA22751AC9008FEFB6 /* title.strings in Resources */ = {isa = PBXBuildFile; fileRef = 419C14A922751AC9008FEFB6 /* title.strings */; };
 		41BE2A0520B9475B00D88AC1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE2A0420B9475B00D88AC1 /* MainViewController.swift */; };
 		41BE2A0720B9685900D88AC1 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE2A0620B9685900D88AC1 /* OptionsViewController.swift */; };
 		41BE2A0920BEFF6800D88AC1 /* Duel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE2A0820BEFF6800D88AC1 /* Duel.swift */; };
@@ -121,7 +117,6 @@
 		410F5CF520B7838000BCA8B9 /* Scanfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Scanfile; path = fastlane/Scanfile; sourceTree = SOURCE_ROOT; };
 		410F5CF620B7838100BCA8B9 /* Snapfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Snapfile; path = fastlane/Snapfile; sourceTree = SOURCE_ROOT; };
 		410F5CFF20B783AC00BCA8B9 /* keyword.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = keyword.strings; path = "fastlane/screenshots/en-US/keyword.strings"; sourceTree = SOURCE_ROOT; };
-		410F5D0020B783AD00BCA8B9 /* title.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = title.strings; path = "fastlane/screenshots/en-US/title.strings"; sourceTree = SOURCE_ROOT; };
 		410F5D0320B783B800BCA8B9 /* Framefile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Framefile.json; path = fastlane/screenshots/Framefile.json; sourceTree = SOURCE_ROOT; };
 		410F5D0620B783E300BCA8B9 /* primary_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = primary_category.txt; path = fastlane/metadata/primary_category.txt; sourceTree = SOURCE_ROOT; };
 		410F5D0720B783E400BCA8B9 /* release_notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = release_notes.txt; path = "fastlane/metadata/en-US/release_notes.txt"; sourceTree = SOURCE_ROOT; };
@@ -131,14 +126,11 @@
 		410F5D0B20B783E400BCA8B9 /* primary_second_sub_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = primary_second_sub_category.txt; path = fastlane/metadata/primary_second_sub_category.txt; sourceTree = SOURCE_ROOT; };
 		410F5D0C20B783E400BCA8B9 /* trade_name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = trade_name.txt; path = fastlane/metadata/trade_representative_contact_information/trade_name.txt; sourceTree = SOURCE_ROOT; };
 		410F5D0D20B783E400BCA8B9 /* keywords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = keywords.txt; path = "fastlane/metadata/en-US/keywords.txt"; sourceTree = SOURCE_ROOT; };
-		410F5D0E20B783E400BCA8B9 /* first_name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = first_name.txt; path = fastlane/metadata/review_information/first_name.txt; sourceTree = SOURCE_ROOT; };
 		410F5D0F20B783E400BCA8B9 /* demo_user.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = demo_user.txt; path = fastlane/metadata/review_information/demo_user.txt; sourceTree = SOURCE_ROOT; };
-		410F5D1020B783E400BCA8B9 /* email_address.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = email_address.txt; path = fastlane/metadata/trade_representative_contact_information/email_address.txt; sourceTree = SOURCE_ROOT; };
 		410F5D1120B783E500BCA8B9 /* secondary_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = secondary_category.txt; path = fastlane/metadata/secondary_category.txt; sourceTree = SOURCE_ROOT; };
 		410F5D1220B783E500BCA8B9 /* country.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = country.txt; path = fastlane/metadata/trade_representative_contact_information/country.txt; sourceTree = SOURCE_ROOT; };
 		410F5D1320B783E500BCA8B9 /* subtitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = subtitle.txt; path = "fastlane/metadata/en-US/subtitle.txt"; sourceTree = SOURCE_ROOT; };
 		410F5D1420B783E500BCA8B9 /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = notes.txt; path = fastlane/metadata/review_information/notes.txt; sourceTree = SOURCE_ROOT; };
-		410F5D1520B783E500BCA8B9 /* phone_number.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = phone_number.txt; path = fastlane/metadata/review_information/phone_number.txt; sourceTree = SOURCE_ROOT; };
 		410F5D1620B783E500BCA8B9 /* demo_password.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = demo_password.txt; path = fastlane/metadata/review_information/demo_password.txt; sourceTree = SOURCE_ROOT; };
 		410F5D1720B783E500BCA8B9 /* privacy_url.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = privacy_url.txt; path = "fastlane/metadata/en-US/privacy_url.txt"; sourceTree = SOURCE_ROOT; };
 		410F5D1820B783E500BCA8B9 /* primary_first_sub_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = primary_first_sub_category.txt; path = fastlane/metadata/primary_first_sub_category.txt; sourceTree = SOURCE_ROOT; };
@@ -152,7 +144,6 @@
 		410F5D2020B783E600BCA8B9 /* address_line3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = address_line3.txt; path = fastlane/metadata/trade_representative_contact_information/address_line3.txt; sourceTree = SOURCE_ROOT; };
 		410F5D2120B783E600BCA8B9 /* address_line2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = address_line2.txt; path = fastlane/metadata/trade_representative_contact_information/address_line2.txt; sourceTree = SOURCE_ROOT; };
 		410F5D2220B783E700BCA8B9 /* city_name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = city_name.txt; path = fastlane/metadata/trade_representative_contact_information/city_name.txt; sourceTree = SOURCE_ROOT; };
-		410F5D2320B783E700BCA8B9 /* last_name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = last_name.txt; path = fastlane/metadata/review_information/last_name.txt; sourceTree = SOURCE_ROOT; };
 		410F5D2420B783E700BCA8B9 /* postal_code.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = postal_code.txt; path = fastlane/metadata/trade_representative_contact_information/postal_code.txt; sourceTree = SOURCE_ROOT; };
 		410F5D2520B783E700BCA8B9 /* copyright.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = copyright.txt; path = fastlane/metadata/copyright.txt; sourceTree = SOURCE_ROOT; };
 		410F5D2620B783E700BCA8B9 /* email_address.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = email_address.txt; path = fastlane/metadata/review_information/email_address.txt; sourceTree = SOURCE_ROOT; };
@@ -185,6 +176,7 @@
 		417421F42026498B00BFC6D7 /* pain.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pain.json; sourceTree = "<group>"; };
 		417421F820264A3E00BFC6D7 /* technology.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = technology.json; sourceTree = "<group>"; };
 		418D25D22026579900DBA2BE /* embarrassing.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = embarrassing.json; sourceTree = "<group>"; };
+		419C14A922751AC9008FEFB6 /* title.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = title.strings; sourceTree = "<group>"; };
 		41BE2A0420B9475B00D88AC1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		41BE2A0620B9685900D88AC1 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		41BE2A0820BEFF6800D88AC1 /* Duel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duel.swift; sourceTree = "<group>"; };
@@ -233,12 +225,12 @@
 				410F5CF020B7838000BCA8B9 /* Deliverfile */,
 				410F5CF220B7838000BCA8B9 /* devices.txt */,
 				410F5CF420B7838000BCA8B9 /* Fastfile */,
+				419C14A922751AC9008FEFB6 /* title.strings */,
 				410F5CF320B7838000BCA8B9 /* Gymfile */,
 				410F5CEF20B7838000BCA8B9 /* Matchfile */,
 				410F5CF520B7838000BCA8B9 /* Scanfile */,
 				410F5CF620B7838100BCA8B9 /* Snapfile */,
 				410F5CFF20B783AC00BCA8B9 /* keyword.strings */,
-				410F5D0020B783AD00BCA8B9 /* title.strings */,
 				410F5D0320B783B800BCA8B9 /* Framefile.json */,
 			);
 			path = Fastlane;
@@ -257,18 +249,14 @@
 				410F5D0F20B783E400BCA8B9 /* demo_user.txt */,
 				410F5D0920B783E400BCA8B9 /* description.txt */,
 				410F5D2620B783E700BCA8B9 /* email_address.txt */,
-				410F5D1020B783E400BCA8B9 /* email_address.txt */,
 				410F5D2820B783E700BCA8B9 /* first_name.txt */,
-				410F5D0E20B783E400BCA8B9 /* first_name.txt */,
 				410F5D1E20B783E600BCA8B9 /* is_displayed_on_app_store.txt */,
 				410F5D0D20B783E400BCA8B9 /* keywords.txt */,
-				410F5D2320B783E700BCA8B9 /* last_name.txt */,
 				410F5D1C20B783E600BCA8B9 /* last_name.txt */,
 				410F5D2920B783E800BCA8B9 /* marketing_url.txt */,
 				410F5D0A20B783E400BCA8B9 /* name.txt */,
 				410F5D1420B783E500BCA8B9 /* notes.txt */,
 				410F5D2720B783E700BCA8B9 /* phone_number.txt */,
-				410F5D1520B783E500BCA8B9 /* phone_number.txt */,
 				410F5D2420B783E700BCA8B9 /* postal_code.txt */,
 				410F5D0620B783E300BCA8B9 /* primary_category.txt */,
 				410F5D1820B783E500BCA8B9 /* primary_first_sub_category.txt */,
@@ -461,7 +449,6 @@
 				4143E20E202583EA008492C8 /* Frameworks */,
 				4143E20F202583EA008492C8 /* Resources */,
 				F246AC2B8D56C81874BE34DD /* [CP] Embed Pods Frameworks */,
-				20D2FE9538ABF7C687450F99 /* [CP] Copy Pods Resources */,
 				41AEEE2020A12A9A00EF7BD4 /* Fabric */,
 				410F5CE920B591C900BCA8B9 /* Build Incrementer */,
 			);
@@ -482,8 +469,6 @@
 				4143E224202583EA008492C8 /* Sources */,
 				4143E225202583EA008492C8 /* Frameworks */,
 				4143E226202583EA008492C8 /* Resources */,
-				D3E3810BAEF77FE37AC5414B /* [CP] Embed Pods Frameworks */,
-				8B15E4986F53ECBF4E1C6A9F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -503,8 +488,6 @@
 				4143E22F202583EA008492C8 /* Sources */,
 				4143E230202583EA008492C8 /* Frameworks */,
 				4143E231202583EA008492C8 /* Resources */,
-				815BFBA49B540321B0990EFE /* [CP] Embed Pods Frameworks */,
-				9E1D1125292E2F6827DC5654 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -523,20 +506,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Andre;
 				TargetAttributes = {
 					4143E210202583EA008492C8 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Manual;
 					};
 					4143E227202583EA008492C8 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 4143E210202583EA008492C8;
 					};
 					4143E232202583EA008492C8 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 4143E210202583EA008492C8;
 					};
@@ -575,19 +561,17 @@
 				410F5D4A20B783E800BCA8B9 /* email_address.txt in Resources */,
 				410F5D3720B783E800BCA8B9 /* subtitle.txt in Resources */,
 				410F5CFA20B7838100BCA8B9 /* devices.txt in Resources */,
-				410F5D3220B783E800BCA8B9 /* first_name.txt in Resources */,
 				410F5D2D20B783E800BCA8B9 /* description.txt in Resources */,
 				410F5D0120B783AD00BCA8B9 /* keyword.strings in Resources */,
 				410F5CFC20B7838100BCA8B9 /* Fastfile in Resources */,
 				410F5D4B20B783E800BCA8B9 /* phone_number.txt in Resources */,
-				410F5D4720B783E800BCA8B9 /* last_name.txt in Resources */,
 				410F5CFD20B7838100BCA8B9 /* Scanfile in Resources */,
 				410F5D2C20B783E800BCA8B9 /* secondary_first_sub_category.txt in Resources */,
 				410F5D3820B783E800BCA8B9 /* notes.txt in Resources */,
+				419C14AA22751AC9008FEFB6 /* title.strings in Resources */,
 				410F5D2B20B783E800BCA8B9 /* release_notes.txt in Resources */,
 				410F5D3F20B783E800BCA8B9 /* state.txt in Resources */,
 				410F5D4820B783E800BCA8B9 /* postal_code.txt in Resources */,
-				410F5D3420B783E800BCA8B9 /* email_address.txt in Resources */,
 				410F5D2E20B783E800BCA8B9 /* name.txt in Resources */,
 				41047FA2202B36F10002B96F /* CateogryTemplate.json in Resources */,
 				418D25D32026579900DBA2BE /* embarrassing.json in Resources */,
@@ -601,7 +585,6 @@
 				410F5D3120B783E800BCA8B9 /* keywords.txt in Resources */,
 				410F5D4420B783E800BCA8B9 /* address_line3.txt in Resources */,
 				410F5D4C20B783E800BCA8B9 /* first_name.txt in Resources */,
-				410F5D3920B783E800BCA8B9 /* phone_number.txt in Resources */,
 				410F5CFE20B7838100BCA8B9 /* Snapfile in Resources */,
 				410F5D4520B783E800BCA8B9 /* address_line2.txt in Resources */,
 				4143E24820258B6A008492C8 /* Details.rtf in Resources */,
@@ -609,7 +592,6 @@
 				410F5D3020B783E800BCA8B9 /* trade_name.txt in Resources */,
 				410F5D3620B783E800BCA8B9 /* country.txt in Resources */,
 				410F5D4220B783E800BCA8B9 /* is_displayed_on_app_store.txt in Resources */,
-				410F5D0220B783AD00BCA8B9 /* title.strings in Resources */,
 				410F5D4D20B783E800BCA8B9 /* marketing_url.txt in Resources */,
 				410F5D0420B783B800BCA8B9 /* Framefile.json in Resources */,
 				410F5D3D20B783E800BCA8B9 /* promotional_text.txt in Resources */,
@@ -665,21 +647,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		20D2FE9538ABF7C687450F99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Would You Rather/Pods-Would You Rather-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		410F5CE920B591C900BCA8B9 /* Build Incrementer */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -692,7 +659,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\n#buildNumber=$(($buildNumber + 1))\n#/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+			shellScript = "#buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\n#buildNumber=$(($buildNumber + 1))\n#/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\n";
 		};
 		41AEEE2020A12A9A00EF7BD4 /* Fabric */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -707,51 +674,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "./Fabric.framework/run 4b84b1226e93ac404abf87cdd625fca3f2f67cb7 9174c325d1ac51dcae9ee142e60f7bc1545e4d23a1ce0b5e09574eada9f888d3";
-		};
-		815BFBA49B540321B0990EFE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Would You RatherUITests/Pods-Would You RatherUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8B15E4986F53ECBF4E1C6A9F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Would You RatherTests/Pods-Would You RatherTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9E1D1125292E2F6827DC5654 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Would You RatherUITests/Pods-Would You RatherUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		BE926BDE8FA014D27E4F3B90 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -769,21 +691,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D3E3810BAEF77FE37AC5414B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Would You RatherTests/Pods-Would You RatherTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ED71441A3AA5063B5206B855 /* [CP] Check Pods Manifest.lock */ = {
@@ -810,7 +717,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Would You Rather/Pods-Would You Rather-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Would You Rather/Pods-Would You Rather-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Amplitude-iOS/Amplitude_iOS.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
@@ -822,7 +729,6 @@
 				"${BUILT_PRODUCTS_DIR}/Siren/Siren.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftRandom/SwiftRandom.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftySound/SwiftySound.framework",
 				"${BUILT_PRODUCTS_DIR}/iRate/iRate.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -838,12 +744,11 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Siren.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftRandom.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftySound.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iRate.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Would You Rather/Pods-Would You Rather-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Would You Rather/Pods-Would You Rather-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -934,6 +839,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -941,6 +847,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -993,6 +900,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1000,6 +908,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1046,9 +955,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-Rather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "f5846c13-79d4-4184-ae91-d8df68f353ea";
-				PROVISIONING_PROFILE_SPECIFIER = "com.BangBangStudios.Would-You-Rather AppStore 1527158688";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.BangBangStudios.Would-You-Rather";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1069,9 +978,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-Rather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "f5846c13-79d4-4184-ae91-d8df68f353ea";
-				PROVISIONING_PROFILE_SPECIFIER = "com.BangBangStudios.Would-You-Rather AppStore 1527158688";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.BangBangStudios.Would-You-Rather";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1089,7 +998,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-RatherTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Would You Rather.app/Would You Rather";
 			};
@@ -1107,7 +1016,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-RatherTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Would You Rather.app/Would You Rather";
 			};
@@ -1124,7 +1033,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-RatherUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Would You Rather";
 			};
@@ -1141,7 +1050,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-RatherUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Would You Rather";
 			};

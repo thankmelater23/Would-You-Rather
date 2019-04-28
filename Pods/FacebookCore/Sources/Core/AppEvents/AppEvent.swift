@@ -39,7 +39,7 @@ public struct AppEvent: AppEventLoggable {
   /**
    Creates an app event.
 
-   - parameter name:       App event name.
+   - parameter name: App event name.
    - parameter parameters: Parameters dictionary. Default: empty.
    - parameter valueToSum: Optional value to sum. Default: `nil`.
    */
@@ -48,13 +48,11 @@ public struct AppEvent: AppEventLoggable {
     self.parameters = parameters
     self.valueToSum = valueToSum
   }
-}
 
-extension AppEvent {
   /**
    Creates an app event.
 
-   - parameter name:       String representation of app event name.
+   - parameter name: String representation of app event name.
    - parameter parameters: Parameters dictionary. Default: empty.
    - parameter valueToSum: Optional value to sum. Default: `nil`.
    */

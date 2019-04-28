@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1C88B19D522883F97D088830770CFE75"
+               BlueprintIdentifier = "60A478E1764EB70E2DC65C55B110C1AD"
                BuildableName = "Amplitude_iOS.framework"
                BlueprintName = "Amplitude-iOS"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1C88B19D522883F97D088830770CFE75"
+            BlueprintIdentifier = "60A478E1764EB70E2DC65C55B110C1AD"
             BuildableName = "Amplitude_iOS.framework"
             BlueprintName = "Amplitude-iOS"
             ReferencedContainer = "container:Pods.xcodeproj">
