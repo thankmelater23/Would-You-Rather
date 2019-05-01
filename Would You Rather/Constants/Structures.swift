@@ -62,7 +62,8 @@ struct SettingsKeys {
 /// Private keys for 3rd party system integrations
 struct PrivateKeys {
   static let fireBaseAnalytics = ""
-  static let googleAdAppIdKey = ""
+  static let googleAdAppIdKey = "ca-app-pub-9306645534991006~1604864867"
+  static let googleAdIDBannerKey = "ca-app-pub-9306645534991006/3105648795"
   static let googleAdFakeAppIdKey = ""
   static let oneSignalAppId = ""
   static let swiftBeaverAppid = "e1PxQR"
