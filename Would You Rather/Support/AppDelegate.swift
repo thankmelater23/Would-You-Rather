@@ -12,6 +12,7 @@ import SwiftyBeaver
 import Siren
 import Fabric
 import Crashlytics
+import GoogleMobileAds
 
 #if DEBUG
 import SimulatorStatusMagic
@@ -112,6 +113,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     self.swiftBeaverSetUp()
     self.printAppInfo()
     self.removeConstraintFromLogger()
+    self.googleAdConfig()
   }
   fileprivate func buddyBuildConfig() {
     log.verbose(#function)
@@ -226,5 +228,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //    siren.alertType = .option // SirenAlertType.option
 //
 //    siren.showAlertAfterCurrentVersionHasBeenReleasedForDays = 3
+  }
+  
+  func googleAdConfig() {
+    // Initialize the Google Mobile Ads SDK.
+    // Sample AdMob app ID: PrivateKeys.googleAdFakeAppIdKey)
+    // Belize Lottery Ad APP ID: PrivateKeys.googleAdAppIdKey
+//    GlobalMainQueue.async {
+      GADMobileAds.sharedInstance().start(completionHandler: nil)
+      //            GADMobileAds.configure(withApplicationID: PrivateKeys.googleAdFakeAppIdKey)
+//    }
   }
 }

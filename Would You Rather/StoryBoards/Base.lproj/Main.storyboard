@@ -430,6 +430,18 @@
                                     <constraint firstItem="nO2-mJ-80m" firstAttribute="height" secondItem="HtZ-Tm-bnr" secondAttribute="height" id="ZjU-5Q-Qla"/>
                                 </constraints>
                             </stackView>
+                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="375" placeholderIntrinsicHeight="50" translatesAutoresizingMaskIntoConstraints="NO" id="Sw8-D4-wfd" customClass="GADBannerView">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Oiq-ze-gxO">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="90"/>
+                                    </constraint>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="adUnitID" value="ca-app-pub-9306645534991006/3105648795"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -438,14 +450,17 @@
                             <constraint firstAttribute="trailingMargin" secondItem="mZ8-JT-W5e" secondAttribute="trailing" constant="16" id="KMf-WL-ezj"/>
                             <constraint firstItem="mZ8-JT-W5e" firstAttribute="leading" secondItem="is8-as-Rnx" secondAttribute="leadingMargin" constant="16" id="MBa-Ka-zsQ"/>
                             <constraint firstItem="mZ8-JT-W5e" firstAttribute="top" secondItem="is8-as-Rnx" secondAttribute="topMargin" id="R8x-kl-MAx"/>
+                            <constraint firstItem="Sw8-D4-wfd" firstAttribute="bottom" secondItem="VM9-Ii-LeF" secondAttribute="bottom" id="eaB-Wk-QTy"/>
                             <constraint firstItem="vdT-9L-3RX" firstAttribute="centerX" secondItem="is8-as-Rnx" secondAttribute="centerX" id="iT2-r0-ZOr"/>
                             <constraint firstItem="vdT-9L-3RX" firstAttribute="height" secondItem="is8-as-Rnx" secondAttribute="height" multiplier="0.5" id="mkG-5l-HDk"/>
+                            <constraint firstItem="Sw8-D4-wfd" firstAttribute="centerX" secondItem="vdT-9L-3RX" secondAttribute="centerX" id="oPr-Bc-1Ae"/>
                             <constraint firstItem="mZ8-JT-W5e" firstAttribute="height" secondItem="is8-as-Rnx" secondAttribute="height" multiplier="0.1" id="qsG-wC-g7p"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VM9-Ii-LeF"/>
                     </view>
                     <navigationItem key="navigationItem" id="gz5-as-y6S"/>
                     <connections>
+                        <outlet property="adBannerPlaceHolder" destination="Sw8-D4-wfd" id="bX0-ij-QcQ"/>
                         <segue destination="YbE-us-b8A" kind="show" identifier="main_to_options" id="4rK-0q-SAR"/>
                     </connections>
                 </viewController>

@@ -22,6 +22,7 @@ target 'Would You Rather' do
   pod 'Onboard'
   pod 'SwiftRandom'
   pod 'Fakery'
+  pod 'Google-Mobile-Ads-SDK'
 #  pod 'DateToolsSwift'
   pod 'Flurry-iOS-SDK/FlurrySDK'
   pod 'Amplitude-iOS'

@@ -7,8 +7,13 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
 class MainViewController: UIViewController {
+  /// Views AD bannerview placeholder
+  var bannerView: GADBannerView!
+  @IBOutlet weak var adBannerPlaceHolder: GADBannerView!
+  
   @IBAction func segueMaintToOptions(_ sender: UIButton) {
     self.performSegue(withIdentifier: Segue.main_to_options, sender: nil)
   }
@@ -18,6 +23,9 @@ class MainViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    adBannerInit()
+    
     if !Storage.fileExists(File.WWYRHistory, in: .documents){
       Storage.store([Duel](), to: Storage.Directory.documents, as: File.WWYRHistory)
     }

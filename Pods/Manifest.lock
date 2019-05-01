@@ -1,26 +1,52 @@
 PODS:
   - Amplitude-iOS (4.6.0)
-  - Bolts (1.9.0):
-    - Bolts/AppLinks (= 1.9.0)
-    - Bolts/Tasks (= 1.9.0)
-  - Bolts/AppLinks (1.9.0):
-    - Bolts/Tasks
-  - Bolts/Tasks (1.9.0)
   - Crashlytics (3.12.0):
     - Fabric (~> 1.9.0)
   - Fabric (1.9.0)
-  - FacebookCore (0.6.0):
-    - Bolts (~> 1.9)
-    - FBSDKCoreKit (~> 4.43)
+  - FacebookCore (0.7.0):
+    - FBSDKCoreKit (~> 5.0)
   - Fakery (4.0.0)
-  - FBSDKCoreKit (4.44.1):
-    - Bolts (~> 1.9)
+  - FBSDKCoreKit (5.0.0):
+    - FBSDKCoreKit/Basics (= 5.0.0)
+    - FBSDKCoreKit/Core (= 5.0.0)
+  - FBSDKCoreKit/Basics (5.0.0)
+  - FBSDKCoreKit/Core (5.0.0):
+    - FBSDKCoreKit/Basics
   - Flurry-iOS-SDK/FlurrySDK (9.3.1)
+  - Google-Mobile-Ads-SDK (7.43.0):
+    - GoogleAppMeasurement (~> 5.7)
+  - GoogleAppMeasurement (5.8.1):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleUtilities/AppDelegateSwizzler (5.8.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.8.0)
+  - GoogleUtilities/Logger (5.8.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.8.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.8.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.8.0)"
+  - GoogleUtilities/Reachability (5.8.0):
+    - GoogleUtilities/Logger
   - iRate (1.12.2)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
   - Onboard (2.3.3)
   - SimulatorStatusMagic (2.4.1)
   - Siren (5.0.1)
-  - SwiftLint (0.31.0)
+  - SwiftLint (0.32.0)
   - SwiftRandom (1.0.0)
   - SwiftyBeaver (1.7.0)
 
@@ -31,6 +57,7 @@ DEPENDENCIES:
   - FacebookCore
   - Fakery
   - Flurry-iOS-SDK/FlurrySDK
+  - Google-Mobile-Ads-SDK
   - iRate
   - Onboard
   - SimulatorStatusMagic
@@ -42,14 +69,17 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Amplitude-iOS
-    - Bolts
     - Crashlytics
     - Fabric
     - FacebookCore
     - Fakery
     - FBSDKCoreKit
     - Flurry-iOS-SDK
+    - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GoogleUtilities
     - iRate
+    - nanopb
     - Onboard
     - SimulatorStatusMagic
     - Siren
@@ -59,21 +89,24 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Amplitude-iOS: ac1715ae68104b7a51723209ad574f60ab22ae5f
-  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
   Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
   Fabric: f988e33c97f08930a413e08123064d2e5f68d655
-  FacebookCore: 38cd3a4078738d6f648eb9b6b9d35b02d693e9a1
+  FacebookCore: 4eee98476cb37a485af5d337eb21f8cd5b3c7e6c
   Fakery: 476f6d947de432f84703acc830a1e7166330299b
-  FBSDKCoreKit: a823ae35bdb60ebb8d7a7e51abe7c5d87d2bfced
+  FBSDKCoreKit: ba361d4a9d4dc29ff218822b849b22d4f869c7bb
   Flurry-iOS-SDK: 5d782d740c5e95389c327d38245b3db4bb471fd7
+  Google-Mobile-Ads-SDK: e911f5544fc6488f8372a183627a802c8bdb5e36
+  GoogleAppMeasurement: ffe513e90551844a739e7bcbb1d2aca1c28a4338
+  GoogleUtilities: 04fce34bcd5620c1ee76fb79172105c74a4df335
   iRate: 4fc69958788624545e5d050c8ffd20884013c3f1
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   Onboard: 4d6e943e20bdd6bc229df967a347dd7514bc2a6f
   SimulatorStatusMagic: 28d4a9d1a500ac7cea0b2b5a43c1c6ddb40ba56c
   Siren: 7ebe56fbd69b335cbe4329bcde985253be0e2d61
-  SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
+  SwiftLint: 009a898ef2a1c851f45e1b59349bf6ff2ddc990d
   SwiftRandom: 437275c63500ddf5a565cbd56996fb23f12cfc3d
   SwiftyBeaver: 4cc0080d2e23f980652e28978db11a5c9da39165
 
-PODFILE CHECKSUM: 8688da3760325256f580314700914182efafd32d
+PODFILE CHECKSUM: 43a94be2b0e191a1d0f7d609ac19bf23c51a8f55
 
 COCOAPODS: 1.6.1
