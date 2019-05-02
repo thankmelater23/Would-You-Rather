@@ -64,7 +64,7 @@ struct PrivateKeys {
   static let fireBaseAnalytics = ""
   static let googleAdAppIdKey = "ca-app-pub-9306645534991006~1604864867"
   static let googleAdIDBannerKey = "ca-app-pub-9306645534991006/3105648795"
-  static let googleAdFakeAppIdKey = ""
+  static let googleAdFakeAppIdKey = "ca-app-pub-3940256099942544/2934735716"
   static let oneSignalAppId = ""
   static let swiftBeaverAppid = "e1PxQR"
   static let swiftBeaverSecret = "tPebny1jdhkv3fivIhfLqSmtlxgst8wk"

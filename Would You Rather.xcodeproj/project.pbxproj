@@ -56,7 +56,7 @@
 		41273891209FCBEF00E097EF /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41273890209FCBEF00E097EF /* SnapshotHelper.swift */; };
 		4127389320A04C3400E097EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4127389220A04C3400E097EF /* Assets.xcassets */; };
 		4143E215202583EA008492C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143E214202583EA008492C8 /* AppDelegate.swift */; };
-		4143E217202583EA008492C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143E216202583EA008492C8 /* ViewController.swift */; };
+		4143E217202583EA008492C8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143E216202583EA008492C8 /* GameViewController.swift */; };
 		4143E21A202583EA008492C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4143E218202583EA008492C8 /* Main.storyboard */; };
 		4143E21D202583EA008492C8 /* Would_You_Rather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4143E21B202583EA008492C8 /* Would_You_Rather.xcdatamodeld */; };
 		4143E222202583EA008492C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4143E220202583EA008492C8 /* LaunchScreen.storyboard */; };
@@ -156,7 +156,7 @@
 		4127389220A04C3400E097EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4143E211202583EA008492C8 /* Would You Rather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Would You Rather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4143E214202583EA008492C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4143E216202583EA008492C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4143E216202583EA008492C8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		4143E219202583EA008492C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4143E21C202583EA008492C8 /* Would_You_Rather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Would_You_Rather.xcdatamodel; sourceTree = "<group>"; };
 		4143E221202583EA008492C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -297,7 +297,7 @@
 			isa = PBXGroup;
 			children = (
 				415334ED20B5582500E32967 /* HistoryTableViewCell.swift */,
-				4143E216202583EA008492C8 /* ViewController.swift */,
+				4143E216202583EA008492C8 /* GameViewController.swift */,
 				415334EB20B4C73600E32967 /* HistoryTableViewController.swift */,
 				41BE2A0420B9475B00D88AC1 /* MainViewController.swift */,
 				41BE2A0620B9685900D88AC1 /* OptionsViewController.swift */,
@@ -775,7 +775,7 @@
 				41BE2A0720B9685900D88AC1 /* OptionsViewController.swift in Sources */,
 				41E34CA82026210D003B4AE7 /* Structures.swift in Sources */,
 				415334EE20B5582500E32967 /* HistoryTableViewCell.swift in Sources */,
-				4143E217202583EA008492C8 /* ViewController.swift in Sources */,
+				4143E217202583EA008492C8 /* GameViewController.swift in Sources */,
 				4174CED0227A36A500F58910 /* AdExtensions.swift in Sources */,
 				4143E246202586A8008492C8 /* Question.swift in Sources */,
 				415334EC20B4C73600E32967 /* HistoryTableViewController.swift in Sources */,
@@ -969,7 +969,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-Rather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "f5846c13-79d4-4184-ae91-d8df68f353ea";
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.BangBangStudios.Would-You-Rather";
+				PROVISIONING_PROFILE_SPECIFIER = "com.BangBangStudios.Would-You-Rather AppStore";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -992,7 +992,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-Rather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "f5846c13-79d4-4184-ae91-d8df68f353ea";
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.BangBangStudios.Would-You-Rather";
+				PROVISIONING_PROFILE_SPECIFIER = "com.BangBangStudios.Would-You-Rather AppStore";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

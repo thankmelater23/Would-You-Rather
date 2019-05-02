@@ -1,16 +1,17 @@
-//
-//  ViewController.swift
-//  Would You Rather
-//
+
 //  Created by Andre on 2/2/18.
 //  Copyright © 2018 Andre. All rights reserved.
 //
 
 import UIKit
 import SwiftRandom
+import GoogleMobileAds
 
-class ViewController: UIViewController {
+class GameViewController: UIViewController {
   ///MARK: - Variables
+  var bannerView: GADBannerView!
+  @IBOutlet weak var adBannerPlaceHolder: GADBannerView!
+  
   var questions = [Question]()
   var playingQuestions = [Question]()
   var duel:Duel?
@@ -109,6 +110,7 @@ class ViewController: UIViewController {
     self.getData()
     self.setNewQuestions()
     self.setView()
+    self.adBannerInit()
   }
   ///Sets viewcontroller view
   func setView(){

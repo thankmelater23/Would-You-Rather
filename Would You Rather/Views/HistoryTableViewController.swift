@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
 class HistoryTableViewController: UITableViewController {
+  var bannerView: GADBannerView!
   var duels = [Duel]()
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    adBannerInit()
+    
     if Storage.fileExists(File.WWYRHistory, in: .documents){
       duels = Storage.retrieve(File.WWYRHistory, from: .documents, as: [Duel].self)
     }
