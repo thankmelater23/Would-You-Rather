@@ -11,6 +11,7 @@ class GameViewController: UIViewController {
   ///MARK: - Variables
   var bannerView: GADBannerView!
   @IBOutlet weak var adBannerPlaceHolder: GADBannerView!
+  @IBOutlet weak var orLabel: UILabel!
   
   var questions = [Question]()
   var playingQuestions = [Question]()

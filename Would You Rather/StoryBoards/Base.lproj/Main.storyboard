@@ -232,6 +232,7 @@
                         <outlet property="bottomQuestionLabel" destination="hh1-cf-hll" id="i39-mc-69t"/>
                         <outlet property="categoryLabel" destination="FYS-4r-qkh" id="L9m-55-pll"/>
                         <outlet property="magnitudeLabel" destination="tng-t9-MDr" id="mHV-Ir-GSU"/>
+                        <outlet property="orLabel" destination="FRL-hN-4PD" id="hku-3i-NS5"/>
                         <outlet property="skipNextBarButton" destination="fHu-rc-Q3N" id="iw2-8z-y0c"/>
                         <outlet property="topQuestionImageView" destination="vvQ-dX-hef" id="b3H-g8-D1e"/>
                         <outlet property="topQuestionLabel" destination="BeP-rs-m6E" id="XZw-8y-3OH"/>
@@ -239,7 +240,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2054" y="162"/>
+            <point key="canvasLocation" x="1486" y="132"/>
         </scene>
         <!--History Table View Controller-->
         <scene sceneID="J9f-Qr-dPA">
@@ -328,7 +329,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fMI-mN-lAP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="825" y="909"/>
+            <point key="canvasLocation" x="2154" y="132"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="VrV-oE-rwT">
@@ -377,37 +378,8 @@
                                             <segue destination="BYZ-38-t0r" kind="show" id="ZvM-2u-NtW"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="240" verticalHuggingPriority="240" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h57-r3-WvC">
-                                        <rect key="frame" x="0.0" y="114.5" width="281" height="104.5"/>
-                                        <color key="backgroundColor" name="Bannana Yellow"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="h57-r3-WvC" secondAttribute="height" multiplier="10:3" id="LDQ-0m-uaE"/>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="VSK-Ki-ZMf"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="30"/>
-                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" title="Options">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                                                <integer key="value" value="4"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <variation key="heightClass=regular">
-                                            <mask key="constraints">
-                                                <exclude reference="LDQ-0m-uaE"/>
-                                            </mask>
-                                        </variation>
-                                        <connections>
-                                            <action selector="segueMaintToOptions:" destination="mce-rd-rc5" eventType="touchUpInside" id="k1M-8k-MGL"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="240" verticalHuggingPriority="240" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nO2-mJ-80m">
-                                        <rect key="frame" x="0.0" y="229" width="281" height="104.5"/>
+                                        <rect key="frame" x="0.0" y="114.5" width="281" height="104.5"/>
                                         <color key="backgroundColor" name="Bannana Yellow"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="t4s-Bm-s3E"/>
@@ -433,6 +405,35 @@
                                         </variation>
                                         <connections>
                                             <segue destination="ChC-1v-qdS" kind="show" id="ckj-VR-Nei"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="240" verticalHuggingPriority="240" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h57-r3-WvC">
+                                        <rect key="frame" x="0.0" y="229" width="281" height="104.5"/>
+                                        <color key="backgroundColor" name="Bannana Yellow"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="h57-r3-WvC" secondAttribute="height" multiplier="10:3" id="LDQ-0m-uaE"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="VSK-Ki-ZMf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="30"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Options">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                                <integer key="value" value="4"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <variation key="heightClass=regular">
+                                            <mask key="constraints">
+                                                <exclude reference="LDQ-0m-uaE"/>
+                                            </mask>
+                                        </variation>
+                                        <connections>
+                                            <action selector="segueMaintToOptions:" destination="mce-rd-rc5" eventType="touchUpInside" id="k1M-8k-MGL"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -479,7 +480,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D9N-n1-CG1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="825" y="132"/>
+            <point key="canvasLocation" x="822" y="132"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="rVz-3f-uGg">
@@ -511,10 +512,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="n8F-Mo-RuD">
-                                <rect key="frame" x="32" y="199" width="311" height="269"/>
+                                <rect key="frame" x="32" y="155" width="311" height="357"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Would You Rather" textAlignment="center" lineBreakMode="middleTruncation" minimumFontSize="6" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PcN-aY-PLh" customClass="OptionLabel">
-                                        <rect key="frame" x="0.0" y="0.0" width="311" height="63.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="311" height="85.5"/>
                                         <color key="backgroundColor" red="0.72148895260000001" green="0.72161459920000004" blue="0.72148102520000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="50"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -526,7 +527,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bang Bang Studios" textAlignment="center" lineBreakMode="middleTruncation" minimumFontSize="6" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u2Y-Jl-vis" customClass="OptionLabel">
-                                        <rect key="frame" x="0.0" y="68.5" width="311" height="63.5"/>
+                                        <rect key="frame" x="0.0" y="90.5" width="311" height="85.5"/>
                                         <color key="backgroundColor" red="0.72148895260000001" green="0.72161459920000004" blue="0.72148102520000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="50"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -538,7 +539,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright: 2018" textAlignment="center" lineBreakMode="middleTruncation" minimumFontSize="6" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o60-Pq-VjH" customClass="OptionLabel">
-                                        <rect key="frame" x="0.0" y="137" width="311" height="63.5"/>
+                                        <rect key="frame" x="0.0" y="181" width="311" height="85.5"/>
                                         <color key="backgroundColor" red="0.72148895260000001" green="0.72161459920000004" blue="0.72148102520000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="50"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -550,7 +551,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version: 1.0.0 " textAlignment="center" lineBreakMode="middleTruncation" minimumFontSize="6" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CXB-BB-pXS" customClass="OptionLabel">
-                                        <rect key="frame" x="0.0" y="205.5" width="311" height="63.5"/>
+                                        <rect key="frame" x="0.0" y="271.5" width="311" height="85.5"/>
                                         <color key="backgroundColor" red="0.72148895260000001" green="0.72161459920000004" blue="0.72148102520000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="50"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -585,7 +586,7 @@
                                 </subviews>
                             </stackView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Would you rather is a  multiple choice question game" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="LSm-gH-af8">
-                                <rect key="frame" x="16" y="69" width="343" height="84"/>
+                                <rect key="frame" x="16" y="25" width="343" height="84"/>
                                 <color key="backgroundColor" red="0.95416272079999997" green="0.95416272079999997" blue="0.95416272079999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" link="YES"/>
@@ -638,7 +639,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bTM-bs-EK3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="156" y="-724"/>
+            <point key="canvasLocation" x="1486" y="-606"/>
         </scene>
         <!--Prefrences-->
         <scene sceneID="ILc-CC-Beg">
@@ -750,7 +751,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8zM-rw-408" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="7Jc-Ef-wal" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="863" y="-738"/>
+            <point key="canvasLocation" x="2153" y="-608"/>
         </scene>
         <!--Contact-->
         <scene sceneID="FKu-h5-4zI">
@@ -782,7 +783,7 @@
                                 </subviews>
                             </stackView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bQ8-0Z-dcA">
-                                <rect key="frame" x="16" y="69" width="343" height="84"/>
+                                <rect key="frame" x="16" y="25" width="343" height="84"/>
                                 <color key="backgroundColor" red="0.95416272079999997" green="0.95416272079999997" blue="0.95416272079999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" link="YES"/>
@@ -802,7 +803,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_1191" translatesAutoresizingMaskIntoConstraints="NO" id="vgR-rq-Ghe">
-                                <rect key="frame" x="16" y="161" width="343" height="343"/>
+                                <rect key="frame" x="16" y="117" width="343" height="343"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="vgR-rq-Ghe" secondAttribute="height" multiplier="1:1" id="diB-bk-L9k"/>
                                 </constraints>
@@ -844,7 +845,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="16S-gT-q96" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-492" y="-546.47676161919048"/>
+            <point key="canvasLocation" x="822" y="-607"/>
         </scene>
     </scenes>
     <resources>
@@ -861,6 +862,7 @@
         </namedColor>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="4rK-0q-SAR"/>
+        <segue reference="Y7Z-KA-N8c"/>
+        <segue reference="Dbs-a9-jGt"/>
     </inferredMetricsTieBreakers>
 </document>
