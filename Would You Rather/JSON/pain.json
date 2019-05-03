@@ -1,12 +1,17 @@
 
 [
  {
- "scene": "Never be able to wear socks and shoes ever again",
+ "scene": "Hair catches on fire",
  "category": "pain",
  "magnitude": "level_1"
  },
  {
- "scene": "Hear all voices & sounds at an annoying nails-on-chalkboard high pitch",
+   "scene": "Always have bad cough",
+   "category": "pain",
+   "magnitude": "level_1"
+ },
+ {
+ "scene": "Hear voices & sounds at an annoying nails-on-chalkboard high pitch",
  "category": "pain",
  "magnitude": "level_1"
  },
@@ -36,12 +41,27 @@
  "magnitude": "level_2"
  },
  {
- "scene": "Be 1/100 humans to survive a major catestrophic event",
+   "scene": "30 minute headache every time you wake up",
+   "category": "pain",
+   "magnitude": "level_2"
+ },
+ {
+   "scene": "Bad cold soars constantly on your lip",
+   "category": "pain",
+   "magnitude": "level_2"
+ },
+ {
+   "scene": "Bad hot flashes when ever in the sun",
+   "category": "pain",
+   "magnitude": "level_2"
+ },
+ {
+ "scene": "Water makes your skin burn",
  "category": "pain",
  "magnitude": "level_2"
  },
  {
- "scene": "Get kicked in the genitalia everytime you use a noun",
+ "scene": "Always burns when you pee",
  "category": "pain",
  "magnitude": "level_3"
  },
@@ -66,6 +86,16 @@
  "magnitude": "level_3"
  },
  {
+   "scene": "Head butt a bull",
+   "category": "pain",
+   "magnitude": "level_3"
+ },
+ {
+   "scene": "Get trapped under water",
+   "category": "pain",
+   "magnitude": "level_3"
+ },
+ {
  "scene": "Not able remember anything new from this point on & have your memory reset every 6 hours",
  "category": "pain",
  "magnitude": "level_4"
@@ -84,5 +114,10 @@
  "scene": "Mauled by a bear",
  "category": "pain",
  "magnitude": "level_4"
+ },
+ {
+   "scene": "Jump out of a plane with no parachute",
+   "category": "pain",
+   "magnitude": "level_4"
  }
  ]

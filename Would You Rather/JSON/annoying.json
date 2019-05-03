@@ -10,22 +10,32 @@
   "magnitude": "level_1"
 },
 {
-  "scene": "",
+  "scene": "Have bad luck",
   "category": "annoying",
   "magnitude": "level_1"
 },
 {
-  "scene": "",
+  "scene": "Breath always stink",
   "category": "annoying",
   "magnitude": "level_1"
 },
 {
-  "scene": "",
+  "scene": "Can't grow fingernails",
   "category": "annoying",
   "magnitude": "level_1"
 },
 {
-  "scene": "",
+  "scene": "Always feels like 40 degrees",
+  "category": "annoying",
+  "magnitude": "level_1"
+},
+{
+  "scene": "Always feels like 90 degrees",
+  "category": "annoying",
+  "magnitude": "level_1"
+},
+{
+  "scene": "Randomly lose a tooth every few years",
   "category": "annoying",
   "magnitude": "level_2"
 },
@@ -45,7 +55,7 @@
   "magnitude": "level_2"
 },
 {
-  "scene": "not kill someone but have everyone think you did",
+  "scene": "Not kill someone, but have everyone think you did",
   "category": "annoying",
   "magnitude": "level_2"
 },
@@ -60,22 +70,37 @@
   "magnitude": "level_3"
 },
 {
-  "scene": "Get pull you over by the police where they plant an ounce of drugs on you",
+  "scene": "Lose an arm",
   "category": "annoying",
   "magnitude": "level_3"
 },
 {
-  "scene": "",
+  "scene": "Lose a leg",
   "category": "annoying",
   "magnitude": "level_3"
 },
 {
-  "scene": "",
+  "scene": "Get drugs planted on you by the police",
   "category": "annoying",
   "magnitude": "level_3"
 },
 {
-  "scene": "",
+  "scene": "Go to jail for 3 years",
+  "category": "annoying",
+  "magnitude": "level_3"
+},
+{
+  "scene": "Get's queezy when ever sexually aroused",
+  "category": "annoying",
+  "magnitude": "level_3"
+},
+{
+  "scene": "Lose arms",
+  "category": "annoying",
+  "magnitude": "level_4"
+},
+{
+  "scene": "Lose legs",
   "category": "annoying",
   "magnitude": "level_4"
 },
@@ -91,6 +116,11 @@
 },
 {
   "scene": "",
+  "category": "annoying",
+  "magnitude": "level_4"
+},
+{
+  "scene": "Nobody EVER likes you",
   "category": "annoying",
   "magnitude": "level_4"
 },
@@ -100,8 +130,18 @@
   "magnitude": "level_4"
 },
 {
-  "scene": "Go to jail for murder you didn't commit or have anything to do with",
+  "scene": "",
   "category": "annoying",
   "magnitude": "level_4"
-}
+},
+{
+  "scene": "Go to jail 15 years",
+  "category": "annoying",
+  "magnitude": "level_4"
+},
+{
+  "scene": "Lose arms and legs",
+  "category": "annoying",
+  "magnitude": "level_4"
+},
 ]

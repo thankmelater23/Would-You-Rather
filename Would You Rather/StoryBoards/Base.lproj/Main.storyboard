@@ -574,7 +574,7 @@
                                             <constraint firstAttribute="height" constant="70" id="C5Y-UO-3nC"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2018 © All Rights reserved by Bang Bang Studios" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5HO-sg-G0u">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2019 © All Rights reserved by Bang Bang Studios" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5HO-sg-G0u">
                                         <rect key="frame" x="0.0" y="70" width="375" height="32"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="32" id="che-VT-JY0"/>
@@ -658,7 +658,7 @@
                                             <constraint firstAttribute="height" constant="70" id="WNI-II-bfy"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2018 © All Rights reserved by Bang Bang Studios" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r35-8L-cIq">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2019 © All Rights reserved by Bang Bang Studios" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r35-8L-cIq">
                                         <rect key="frame" x="0.0" y="70" width="375" height="32"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="32" id="yfL-e9-SCh"/>
@@ -771,7 +771,7 @@
                                             <constraint firstAttribute="height" constant="70" id="Yu1-DI-5Ly"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2018 © All Rights reserved by Bang Bang Studios" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVj-td-YbO">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2019 © All Rights reserved by Bang Bang Studios" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVj-td-YbO">
                                         <rect key="frame" x="0.0" y="70" width="375" height="32"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="32" id="fOv-Vv-lUU"/>
@@ -862,7 +862,6 @@
         </namedColor>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Y7Z-KA-N8c"/>
         <segue reference="Dbs-a9-jGt"/>
     </inferredMetricsTieBreakers>
 </document>
