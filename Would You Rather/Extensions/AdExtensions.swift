@@ -38,7 +38,7 @@ extension MainViewController: GADBannerViewDelegate {
       //    bannerView.adSize = kGADAdSizeSmartBannerPortrait
       
       // Sets ad type
-      bannerView.adUnitID = PrivateKeys.googleAdFakeAppIdKey
+      bannerView.adUnitID = PrivateKeys.google_Ad_ID_Key_MainMenuView
       
       // Sets delagate for banner
       bannerView.delegate = self
@@ -150,7 +150,7 @@ extension GameViewController: GADBannerViewDelegate {
     //    bannerView.adSize = kGADAdSizeSmartBannerPortrait
     
     // Sets ad type
-    bannerView.adUnitID = PrivateKeys.googleAdFakeAppIdKey
+    bannerView.adUnitID = PrivateKeys.google_Ad_ID_Key_GameView
     
     // Sets delagate for banner
     bannerView.delegate = self
@@ -261,7 +261,7 @@ extension HistoryTableViewController: GADBannerViewDelegate {
     //    bannerView.adSize = kGADAdSizeSmartBannerPortrait
     
     // Sets ad type
-    bannerView.adUnitID = PrivateKeys.googleAdFakeAppIdKey
+    bannerView.adUnitID = PrivateKeys.google_Ad_ID_Key_HistoryTable
     
     // Sets delagate for banner
     bannerView.delegate = self
