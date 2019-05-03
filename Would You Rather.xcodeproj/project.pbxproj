@@ -18,8 +18,6 @@
 		410F5CFC20B7838100BCA8B9 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CF420B7838000BCA8B9 /* Fastfile */; };
 		410F5CFD20B7838100BCA8B9 /* Scanfile in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CF520B7838000BCA8B9 /* Scanfile */; };
 		410F5CFE20B7838100BCA8B9 /* Snapfile in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CF620B7838100BCA8B9 /* Snapfile */; };
-		410F5D0120B783AD00BCA8B9 /* keyword.strings in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CFF20B783AC00BCA8B9 /* keyword.strings */; };
-		410F5D0420B783B800BCA8B9 /* Framefile.json in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0320B783B800BCA8B9 /* Framefile.json */; };
 		410F5D2A20B783E800BCA8B9 /* primary_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0620B783E300BCA8B9 /* primary_category.txt */; };
 		410F5D2B20B783E800BCA8B9 /* release_notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0720B783E400BCA8B9 /* release_notes.txt */; };
 		410F5D2C20B783E800BCA8B9 /* secondary_first_sub_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0820B783E400BCA8B9 /* secondary_first_sub_category.txt */; };
@@ -53,7 +51,6 @@
 		410F5D4C20B783E800BCA8B9 /* first_name.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2820B783E700BCA8B9 /* first_name.txt */; };
 		410F5D4D20B783E800BCA8B9 /* marketing_url.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2920B783E800BCA8B9 /* marketing_url.txt */; };
 		410F5DB320B7FE1700BCA8B9 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410F5DB220B7FE1700BCA8B9 /* Database.swift */; };
-		41273891209FCBEF00E097EF /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41273890209FCBEF00E097EF /* SnapshotHelper.swift */; };
 		4127389320A04C3400E097EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4127389220A04C3400E097EF /* Assets.xcassets */; };
 		4143E215202583EA008492C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143E214202583EA008492C8 /* AppDelegate.swift */; };
 		4143E217202583EA008492C8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143E216202583EA008492C8 /* GameViewController.swift */; };
@@ -61,7 +58,6 @@
 		4143E21D202583EA008492C8 /* Would_You_Rather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4143E21B202583EA008492C8 /* Would_You_Rather.xcdatamodeld */; };
 		4143E222202583EA008492C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4143E220202583EA008492C8 /* LaunchScreen.storyboard */; };
 		4143E22D202583EA008492C8 /* Would_You_RatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143E22C202583EA008492C8 /* Would_You_RatherTests.swift */; };
-		4143E238202583EA008492C8 /* Would_You_RatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143E237202583EA008492C8 /* Would_You_RatherUITests.swift */; };
 		4143E246202586A8008492C8 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143E245202586A8008492C8 /* Question.swift */; };
 		4143E24820258B6A008492C8 /* Details.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4143E24720258B6A008492C8 /* Details.rtf */; };
 		4148614C202654C4007AFA25 /* annoying.json in Resources */ = {isa = PBXBuildFile; fileRef = 4148614B202654C4007AFA25 /* annoying.json */; };
@@ -72,15 +68,17 @@
 		417421F52026498B00BFC6D7 /* pain.json in Resources */ = {isa = PBXBuildFile; fileRef = 417421F42026498B00BFC6D7 /* pain.json */; };
 		417421F920264A3E00BFC6D7 /* technology.json in Resources */ = {isa = PBXBuildFile; fileRef = 417421F820264A3E00BFC6D7 /* technology.json */; };
 		4174CED0227A36A500F58910 /* AdExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174CECF227A36A500F58910 /* AdExtensions.swift */; };
+		4174CED5227CB40300F58910 /* screenshots in Resources */ = {isa = PBXBuildFile; fileRef = 4174CED3227CB40300F58910 /* screenshots */; };
+		4174CED6227CB40300F58910 /* test_output in Resources */ = {isa = PBXBuildFile; fileRef = 4174CED4227CB40300F58910 /* test_output */; };
+		4174CEE0227CBB0D00F58910 /* WWYR_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174CEDF227CBB0D00F58910 /* WWYR_UITests.swift */; };
+		4174CEE7227CBB3600F58910 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41273890209FCBEF00E097EF /* SnapshotHelper.swift */; };
 		418D25D32026579900DBA2BE /* embarrassing.json in Resources */ = {isa = PBXBuildFile; fileRef = 418D25D22026579900DBA2BE /* embarrassing.json */; };
-		419C14AA22751AC9008FEFB6 /* title.strings in Resources */ = {isa = PBXBuildFile; fileRef = 419C14A922751AC9008FEFB6 /* title.strings */; };
 		41BE2A0520B9475B00D88AC1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE2A0420B9475B00D88AC1 /* MainViewController.swift */; };
 		41BE2A0720B9685900D88AC1 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE2A0620B9685900D88AC1 /* OptionsViewController.swift */; };
 		41BE2A0920BEFF6800D88AC1 /* Duel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE2A0820BEFF6800D88AC1 /* Duel.swift */; };
 		41DA814E2025F10900587668 /* WouldYouRather.json in Resources */ = {isa = PBXBuildFile; fileRef = 41DA814D2025F10900587668 /* WouldYouRather.json */; };
 		41E34CA6202620B3003B4AE7 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E34CA5202620B3003B4AE7 /* GlobalVariables.swift */; };
 		41E34CA82026210D003B4AE7 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E34CA72026210D003B4AE7 /* Structures.swift */; };
-		5FD3FA9FA77C4685A068FB47 /* Pods_Would_You_RatherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0860475613ABC758BE2BA85A /* Pods_Would_You_RatherUITests.framework */; };
 		AF839065E3BE0AEF498DDEBB /* Pods_Would_You_RatherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03423D79C94CFBA8DABC605 /* Pods_Would_You_RatherTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -92,7 +90,7 @@
 			remoteGlobalIDString = 4143E210202583EA008492C8;
 			remoteInfo = "Would You Rather";
 		};
-		4143E234202583EA008492C8 /* PBXContainerItemProxy */ = {
+		4174CEE2227CBB0D00F58910 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4143E209202583EA008492C8 /* Project object */;
 			proxyType = 1;
@@ -117,8 +115,6 @@
 		410F5CF420B7838000BCA8B9 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Fastfile; path = fastlane/Fastfile; sourceTree = SOURCE_ROOT; };
 		410F5CF520B7838000BCA8B9 /* Scanfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Scanfile; path = fastlane/Scanfile; sourceTree = SOURCE_ROOT; };
 		410F5CF620B7838100BCA8B9 /* Snapfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Snapfile; path = fastlane/Snapfile; sourceTree = SOURCE_ROOT; };
-		410F5CFF20B783AC00BCA8B9 /* keyword.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = keyword.strings; path = "fastlane/screenshots/en-US/keyword.strings"; sourceTree = SOURCE_ROOT; };
-		410F5D0320B783B800BCA8B9 /* Framefile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Framefile.json; path = fastlane/screenshots/Framefile.json; sourceTree = SOURCE_ROOT; };
 		410F5D0620B783E300BCA8B9 /* primary_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = primary_category.txt; path = fastlane/metadata/primary_category.txt; sourceTree = SOURCE_ROOT; };
 		410F5D0720B783E400BCA8B9 /* release_notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = release_notes.txt; path = "fastlane/metadata/en-US/release_notes.txt"; sourceTree = SOURCE_ROOT; };
 		410F5D0820B783E400BCA8B9 /* secondary_first_sub_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = secondary_first_sub_category.txt; path = fastlane/metadata/secondary_first_sub_category.txt; sourceTree = SOURCE_ROOT; };
@@ -152,7 +148,7 @@
 		410F5D2820B783E700BCA8B9 /* first_name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = first_name.txt; path = fastlane/metadata/trade_representative_contact_information/first_name.txt; sourceTree = SOURCE_ROOT; };
 		410F5D2920B783E800BCA8B9 /* marketing_url.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = marketing_url.txt; path = "fastlane/metadata/en-US/marketing_url.txt"; sourceTree = SOURCE_ROOT; };
 		410F5DB220B7FE1700BCA8B9 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
-		41273890209FCBEF00E097EF /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
+		41273890209FCBEF00E097EF /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = "WWYR UITests/SnapshotHelper.swift"; sourceTree = SOURCE_ROOT; };
 		4127389220A04C3400E097EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4143E211202583EA008492C8 /* Would You Rather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Would You Rather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4143E214202583EA008492C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -164,9 +160,6 @@
 		4143E228202583EA008492C8 /* Would You RatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Would You RatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4143E22C202583EA008492C8 /* Would_You_RatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Would_You_RatherTests.swift; sourceTree = "<group>"; };
 		4143E22E202583EA008492C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4143E233202583EA008492C8 /* Would You RatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Would You RatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4143E237202583EA008492C8 /* Would_You_RatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Would_You_RatherUITests.swift; sourceTree = "<group>"; };
-		4143E239202583EA008492C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4143E245202586A8008492C8 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		4143E24720258B6A008492C8 /* Details.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Details.rtf; sourceTree = "<group>"; };
 		4148614B202654C4007AFA25 /* annoying.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = annoying.json; sourceTree = "<group>"; };
@@ -177,8 +170,12 @@
 		417421F42026498B00BFC6D7 /* pain.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pain.json; sourceTree = "<group>"; };
 		417421F820264A3E00BFC6D7 /* technology.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = technology.json; sourceTree = "<group>"; };
 		4174CECF227A36A500F58910 /* AdExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdExtensions.swift; sourceTree = "<group>"; };
+		4174CED3227CB40300F58910 /* screenshots */ = {isa = PBXFileReference; lastKnownFileType = folder; name = screenshots; path = fastlane/screenshots; sourceTree = SOURCE_ROOT; };
+		4174CED4227CB40300F58910 /* test_output */ = {isa = PBXFileReference; lastKnownFileType = folder; name = test_output; path = fastlane/test_output; sourceTree = SOURCE_ROOT; };
+		4174CEDD227CBB0D00F58910 /* WWYR UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WWYR UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4174CEDF227CBB0D00F58910 /* WWYR_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWYR_UITests.swift; sourceTree = "<group>"; };
+		4174CEE1227CBB0D00F58910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		418D25D22026579900DBA2BE /* embarrassing.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = embarrassing.json; sourceTree = "<group>"; };
-		419C14A922751AC9008FEFB6 /* title.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = title.strings; sourceTree = "<group>"; };
 		41BE2A0420B9475B00D88AC1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		41BE2A0620B9685900D88AC1 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		41BE2A0820BEFF6800D88AC1 /* Duel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duel.swift; sourceTree = "<group>"; };
@@ -208,11 +205,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4143E230202583EA008492C8 /* Frameworks */ = {
+		4174CEDA227CBB0D00F58910 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FD3FA9FA77C4685A068FB47 /* Pods_Would_You_RatherUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,18 +218,17 @@
 		410F5CEE20B782FE00BCA8B9 /* Fastlane */ = {
 			isa = PBXGroup;
 			children = (
+				4174CED3227CB40300F58910 /* screenshots */,
+				4174CED4227CB40300F58910 /* test_output */,
 				410F5D0520B783CC00BCA8B9 /* Meta */,
 				410F5CF120B7838000BCA8B9 /* Appfile */,
 				410F5CF020B7838000BCA8B9 /* Deliverfile */,
 				410F5CF220B7838000BCA8B9 /* devices.txt */,
 				410F5CF420B7838000BCA8B9 /* Fastfile */,
-				419C14A922751AC9008FEFB6 /* title.strings */,
 				410F5CF320B7838000BCA8B9 /* Gymfile */,
 				410F5CEF20B7838000BCA8B9 /* Matchfile */,
 				410F5CF520B7838000BCA8B9 /* Scanfile */,
 				410F5CF620B7838100BCA8B9 /* Snapfile */,
-				410F5CFF20B783AC00BCA8B9 /* keyword.strings */,
-				410F5D0320B783B800BCA8B9 /* Framefile.json */,
 			);
 			path = Fastlane;
 			sourceTree = "<group>";
@@ -363,7 +358,7 @@
 			children = (
 				4143E213202583EA008492C8 /* Would You Rather */,
 				4143E22B202583EA008492C8 /* Would You RatherTests */,
-				4143E236202583EA008492C8 /* Would You RatherUITests */,
+				4174CEDE227CBB0D00F58910 /* WWYR UITests */,
 				4143E212202583EA008492C8 /* Products */,
 				8A11EBD0D9B010CA9E6298C3 /* Pods */,
 				96BD9AAE1848B1D9E541A405 /* Frameworks */,
@@ -375,7 +370,7 @@
 			children = (
 				4143E211202583EA008492C8 /* Would You Rather.app */,
 				4143E228202583EA008492C8 /* Would You RatherTests.xctest */,
-				4143E233202583EA008492C8 /* Would You RatherUITests.xctest */,
+				4174CEDD227CBB0D00F58910 /* WWYR UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -407,22 +402,22 @@
 			path = "Would You RatherTests";
 			sourceTree = "<group>";
 		};
-		4143E236202583EA008492C8 /* Would You RatherUITests */ = {
-			isa = PBXGroup;
-			children = (
-				41273890209FCBEF00E097EF /* SnapshotHelper.swift */,
-				4143E237202583EA008492C8 /* Would_You_RatherUITests.swift */,
-				4143E239202583EA008492C8 /* Info.plist */,
-			);
-			path = "Would You RatherUITests";
-			sourceTree = "<group>";
-		};
 		4174CECE227A367500F58910 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				4174CECF227A36A500F58910 /* AdExtensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4174CEDE227CBB0D00F58910 /* WWYR UITests */ = {
+			isa = PBXGroup;
+			children = (
+				41273890209FCBEF00E097EF /* SnapshotHelper.swift */,
+				4174CEDF227CBB0D00F58910 /* WWYR_UITests.swift */,
+				4174CEE1227CBB0D00F58910 /* Info.plist */,
+			);
+			path = "WWYR UITests";
 			sourceTree = "<group>";
 		};
 		8A11EBD0D9B010CA9E6298C3 /* Pods */ = {
@@ -491,23 +486,22 @@
 			productReference = 4143E228202583EA008492C8 /* Would You RatherTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4143E232202583EA008492C8 /* Would You RatherUITests */ = {
+		4174CEDC227CBB0D00F58910 /* WWYR UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4143E242202583EA008492C8 /* Build configuration list for PBXNativeTarget "Would You RatherUITests" */;
+			buildConfigurationList = 4174CEE4227CBB0D00F58910 /* Build configuration list for PBXNativeTarget "WWYR UITests" */;
 			buildPhases = (
-				ED71441A3AA5063B5206B855 /* [CP] Check Pods Manifest.lock */,
-				4143E22F202583EA008492C8 /* Sources */,
-				4143E230202583EA008492C8 /* Frameworks */,
-				4143E231202583EA008492C8 /* Resources */,
+				4174CED9227CBB0D00F58910 /* Sources */,
+				4174CEDA227CBB0D00F58910 /* Frameworks */,
+				4174CEDB227CBB0D00F58910 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4143E235202583EA008492C8 /* PBXTargetDependency */,
+				4174CEE3227CBB0D00F58910 /* PBXTargetDependency */,
 			);
-			name = "Would You RatherUITests";
-			productName = "Would You RatherUITests";
-			productReference = 4143E233202583EA008492C8 /* Would You RatherUITests.xctest */;
+			name = "WWYR UITests";
+			productName = "WWYR UITests";
+			productReference = 4174CEDD227CBB0D00F58910 /* WWYR UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -516,7 +510,7 @@
 		4143E209202583EA008492C8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Andre;
 				TargetAttributes = {
@@ -531,9 +525,8 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 4143E210202583EA008492C8;
 					};
-					4143E232202583EA008492C8 = {
-						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 1020;
+					4174CEDC227CBB0D00F58910 = {
+						CreatedOnToolsVersion = 10.2;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 4143E210202583EA008492C8;
 					};
@@ -554,7 +547,7 @@
 			targets = (
 				4143E210202583EA008492C8 /* Would You Rather */,
 				4143E227202583EA008492C8 /* Would You RatherTests */,
-				4143E232202583EA008492C8 /* Would You RatherUITests */,
+				4174CEDC227CBB0D00F58910 /* WWYR UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -573,19 +566,19 @@
 				410F5D3720B783E800BCA8B9 /* subtitle.txt in Resources */,
 				410F5CFA20B7838100BCA8B9 /* devices.txt in Resources */,
 				410F5D2D20B783E800BCA8B9 /* description.txt in Resources */,
-				410F5D0120B783AD00BCA8B9 /* keyword.strings in Resources */,
 				410F5CFC20B7838100BCA8B9 /* Fastfile in Resources */,
 				410F5D4B20B783E800BCA8B9 /* phone_number.txt in Resources */,
 				410F5CFD20B7838100BCA8B9 /* Scanfile in Resources */,
 				410F5D2C20B783E800BCA8B9 /* secondary_first_sub_category.txt in Resources */,
 				410F5D3820B783E800BCA8B9 /* notes.txt in Resources */,
-				419C14AA22751AC9008FEFB6 /* title.strings in Resources */,
 				410F5D2B20B783E800BCA8B9 /* release_notes.txt in Resources */,
 				410F5D3F20B783E800BCA8B9 /* state.txt in Resources */,
 				410F5D4820B783E800BCA8B9 /* postal_code.txt in Resources */,
+				4174CED5227CB40300F58910 /* screenshots in Resources */,
 				410F5D2E20B783E800BCA8B9 /* name.txt in Resources */,
 				41047FA2202B36F10002B96F /* CateogryTemplate.json in Resources */,
 				418D25D32026579900DBA2BE /* embarrassing.json in Resources */,
+				4174CED6227CB40300F58910 /* test_output in Resources */,
 				410F5D3C20B783E800BCA8B9 /* primary_first_sub_category.txt in Resources */,
 				410F5CF820B7838100BCA8B9 /* Deliverfile in Resources */,
 				410F5D3520B783E800BCA8B9 /* secondary_category.txt in Resources */,
@@ -604,7 +597,6 @@
 				410F5D3620B783E800BCA8B9 /* country.txt in Resources */,
 				410F5D4220B783E800BCA8B9 /* is_displayed_on_app_store.txt in Resources */,
 				410F5D4D20B783E800BCA8B9 /* marketing_url.txt in Resources */,
-				410F5D0420B783B800BCA8B9 /* Framefile.json in Resources */,
 				410F5D3D20B783E800BCA8B9 /* promotional_text.txt in Resources */,
 				410F5D4020B783E800BCA8B9 /* last_name.txt in Resources */,
 				410F5CFB20B7838100BCA8B9 /* Gymfile in Resources */,
@@ -630,7 +622,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4143E231202583EA008492C8 /* Resources */ = {
+		4174CEDB227CBB0D00F58910 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -698,24 +690,6 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Would You RatherTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ED71441A3AA5063B5206B855 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Would You RatherUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -795,12 +769,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4143E22F202583EA008492C8 /* Sources */ = {
+		4174CED9227CBB0D00F58910 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4143E238202583EA008492C8 /* Would_You_RatherUITests.swift in Sources */,
-				41273891209FCBEF00E097EF /* SnapshotHelper.swift in Sources */,
+				4174CEE0227CBB0D00F58910 /* WWYR_UITests.swift in Sources */,
+				4174CEE7227CBB3600F58910 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -812,10 +786,10 @@
 			target = 4143E210202583EA008492C8 /* Would You Rather */;
 			targetProxy = 4143E229202583EA008492C8 /* PBXContainerItemProxy */;
 		};
-		4143E235202583EA008492C8 /* PBXTargetDependency */ = {
+		4174CEE3227CBB0D00F58910 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4143E210202583EA008492C8 /* Would You Rather */;
-			targetProxy = 4143E234202583EA008492C8 /* PBXContainerItemProxy */;
+			targetProxy = 4174CEE2227CBB0D00F58910 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1036,34 +1010,40 @@
 			};
 			name = Release;
 		};
-		4143E243202583EA008492C8 /* Debug */ = {
+		4174CEE5227CBB0D00F58910 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9446AA8347CDF4FA6D860450 /* Pods-Would You RatherUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = ZJWNZ643CG;
-				INFOPLIST_FILE = "Would You RatherUITests/Info.plist";
+				INFOPLIST_FILE = "WWYR UITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-RatherUITests";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.WWYR-UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f5846c13-79d4-4184-ae91-d8df68f353ea";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Would You Rather";
 			};
 			name = Debug;
 		};
-		4143E244202583EA008492C8 /* Release */ = {
+		4174CEE6227CBB0D00F58910 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33BCABA85E87A3712EF74723 /* Pods-Would You RatherUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZJWNZ643CG;
-				INFOPLIST_FILE = "Would You RatherUITests/Info.plist";
+				INFOPLIST_FILE = "WWYR UITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-RatherUITests";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.WWYR-UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f5846c13-79d4-4184-ae91-d8df68f353ea";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Would You Rather";
@@ -1100,11 +1080,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		4143E242202583EA008492C8 /* Build configuration list for PBXNativeTarget "Would You RatherUITests" */ = {
+		4174CEE4227CBB0D00F58910 /* Build configuration list for PBXNativeTarget "WWYR UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4143E243202583EA008492C8 /* Debug */,
-				4143E244202583EA008492C8 /* Release */,
+				4174CEE5227CBB0D00F58910 /* Debug */,
+				4174CEE6227CBB0D00F58910 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

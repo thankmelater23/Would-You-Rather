@@ -62,6 +62,16 @@
                ReferencedContainer = "container:Would You Rather.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4174CEDC227CBB0D00F58910"
+               BuildableName = "WWYR UITests.xctest"
+               BlueprintName = "WWYR UITests"
+               ReferencedContainer = "container:Would You Rather.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

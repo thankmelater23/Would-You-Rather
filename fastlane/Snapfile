@@ -8,7 +8,9 @@ devices([
    "iPhone 8",
   "iPhone 8 Plus",
   "iPhone X",
+  "iPhone Xs Max",
   "iPad Pro (12.9-inch)",
+  "iPad Pro (12.9-inch) (3rd generation)",
   "iPad Pro (10.5-inch)",
   "iPad Pro (9.7-inch)"
 ])
@@ -23,7 +25,7 @@ languages([
 concurrent_simulators(true)
 
 # The name of the scheme which contains the UI Tests
-# scheme("SchemeName")
+ scheme("WWYR UITests")
 
 # Where should the resulting screenshots be stored?
 # output_directory("./screenshots")

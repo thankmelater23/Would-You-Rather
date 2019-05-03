@@ -538,7 +538,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright: 2018" textAlignment="center" lineBreakMode="middleTruncation" minimumFontSize="6" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o60-Pq-VjH" customClass="OptionLabel">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright: 2019" textAlignment="center" lineBreakMode="middleTruncation" minimumFontSize="6" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o60-Pq-VjH" customClass="OptionLabel">
                                         <rect key="frame" x="0.0" y="181" width="311" height="85.5"/>
                                         <color key="backgroundColor" red="0.72148895260000001" green="0.72161459920000004" blue="0.72148102520000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="50"/>
@@ -550,7 +550,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version: 1.0.0 " textAlignment="center" lineBreakMode="middleTruncation" minimumFontSize="6" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CXB-BB-pXS" customClass="OptionLabel">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version: 1.1.3" textAlignment="center" lineBreakMode="middleTruncation" minimumFontSize="6" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CXB-BB-pXS" customClass="OptionLabel">
                                         <rect key="frame" x="0.0" y="271.5" width="311" height="85.5"/>
                                         <color key="backgroundColor" red="0.72148895260000001" green="0.72161459920000004" blue="0.72148102520000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="50"/>
@@ -862,6 +862,6 @@
         </namedColor>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Dbs-a9-jGt"/>
+        <segue reference="oJd-tj-riV"/>
     </inferredMetricsTieBreakers>
 </document>
