@@ -24,8 +24,10 @@ languages([
 
 concurrent_simulators(true)
 
+app_identifier("com.BangBangStudios.Would-You-Rather")
+
 # The name of the scheme which contains the UI Tests
- scheme("WWYR UITests")
+scheme("WWYR UITests")
 
 # Where should the resulting screenshots be stored?
 # output_directory("./screenshots")

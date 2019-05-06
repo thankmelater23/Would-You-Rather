@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Would You Rather/Views/HistoryTableViewController.swift"
-            timestampString = "578603009.201859"
+            timestampString = "578613840.5724421"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "32"
@@ -138,7 +138,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Would You Rather/Support/AppDelegate.swift"
-            timestampString = "578603009.202395"
+            timestampString = "578613840.573002"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "207"
@@ -176,6 +176,22 @@
             startingLineNumber = "37"
             endingLineNumber = "37"
             landmarkName = "test_GET_SCREEN_SHOTS()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Would You Rather/Views/GameViewController.swift"
+            timestampString = "578868913.961208"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "313"
+            endingLineNumber = "313"
+            landmarkName = "interstitialDidDismissScreen(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

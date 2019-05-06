@@ -18,6 +18,9 @@ class GameViewController: UIViewController {
   var duel:Duel?
   var currentCategory: QuestionCategory = QuestionCategory.randomCategory()
   var database = Database()
+  var gamePlaysCountInitializer = 0
+  let adPlaysCount = 10
+  var interstitial = GADInterstitial()
   
   
   ///MARK: - IBOutlets
@@ -45,13 +48,13 @@ class GameViewController: UIViewController {
       self.bottomQuestionImageView.isHidden = true
       duel = nil
     }else{
-        duel = Duel.init(question1: q1!, question2: q2!, pick: q1!)
+      duel = Duel.init(question1: q1!, question2: q2!, pick: q1!)
       
-        topQuestionImageView.image = UIImage.init(named: "Green-Check-Mark")
-        bottomQuestionImageView.image = UIImage.init(named: "red x")
-        skipNextBarButton.title = "Next"
-        self.topQuestionImageView.isHidden = false
-        self.bottomQuestionImageView.isHidden = false
+      topQuestionImageView.image = UIImage.init(named: "Green-Check-Mark")
+      bottomQuestionImageView.image = UIImage.init(named: "red x")
+      skipNextBarButton.title = "Next"
+      self.topQuestionImageView.isHidden = false
+      self.bottomQuestionImageView.isHidden = false
     }
   }
   
@@ -65,13 +68,13 @@ class GameViewController: UIViewController {
       self.bottomQuestionImageView.isHidden = true
       duel = nil
     }else{
-        duel = Duel.init(question1: q1!, question2: q2!, pick: q2!)
+      duel = Duel.init(question1: q1!, question2: q2!, pick: q2!)
       
-        bottomQuestionImageView.image = UIImage.init(named: "Green-Check-Mark")
-        topQuestionImageView.image = UIImage.init(named: "red x")
-        skipNextBarButton.title = "Next"
-        self.topQuestionImageView.isHidden = false
-        self.bottomQuestionImageView.isHidden = false
+      bottomQuestionImageView.image = UIImage.init(named: "Green-Check-Mark")
+      topQuestionImageView.image = UIImage.init(named: "red x")
+      skipNextBarButton.title = "Next"
+      self.topQuestionImageView.isHidden = false
+      self.bottomQuestionImageView.isHidden = false
     }
   }
   
@@ -89,7 +92,7 @@ class GameViewController: UIViewController {
     }
   }
   
-
+  
   
   ///MARK: - View Functions
   override func viewDidLoad() {
@@ -97,7 +100,8 @@ class GameViewController: UIViewController {
     // Do any additional setup after loading the view, typically from a nib.
     
     self.setup()
-
+    self.loadVideoAd()
+    
   }
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
@@ -112,6 +116,7 @@ class GameViewController: UIViewController {
     self.setNewQuestions()
     self.setView()
     self.adBannerInit()
+    self.playVideoAd()
   }
   ///Sets viewcontroller view
   func setView(){
@@ -155,8 +160,8 @@ class GameViewController: UIViewController {
     if self.questions.count < 2{
       print("Not enough pairs for : \(category)")
       if questions.count > 0{
-      let backup = questions.first
-      questions.append(backup!)
+        let backup = questions.first
+        questions.append(backup!)
       }
     }
     
@@ -182,20 +187,20 @@ class GameViewController: UIViewController {
     
     var twoQustions = [filteredMagnitudes[index1], filteredMagnitudes[index2]]
     
-//    while (twoQustions.first?.scene.isEmpty)! || (twoQustions.last?.scene.isEmpty)!{
-//      twoQustions = [Question]()
-////      twoQustions = getQuestionsWith(magnitude: magnitude, category: category)
-//
-//      //Make sure the two objects aren't the same
-//        index1 = Int.random(0, amount)
-//        index2 = Int.random(0, amount)
-//
-//      twoQustions = [filteredMagnitudes[index1], filteredMagnitudes[index2]]
-//    }
+    //    while (twoQustions.first?.scene.isEmpty)! || (twoQustions.last?.scene.isEmpty)!{
+    //      twoQustions = [Question]()
+    ////      twoQustions = getQuestionsWith(magnitude: magnitude, category: category)
+    //
+    //      //Make sure the two objects aren't the same
+    //        index1 = Int.random(0, amount)
+    //        index2 = Int.random(0, amount)
+    //
+    //      twoQustions = [filteredMagnitudes[index1], filteredMagnitudes[index2]]
+    //    }
     
     return twoQustions
   }
-
+  
   func parseFile(file: String = "WouldYouRather"){
     self.questions = self.loadJson(filename: file)!
   }
@@ -213,13 +218,13 @@ class GameViewController: UIViewController {
     }
     return nil
   }
-
+  
   func saveToHistory(){
     
     var duels:[Duel] = [Duel]()
     
     if Storage.fileExists(File.WWYRHistory, in: .documents){
-    duels = Storage.retrieve(File.WWYRHistory, from: .documents, as: [Duel].self)
+      duels = Storage.retrieve(File.WWYRHistory, from: .documents, as: [Duel].self)
     }
     
     if !duels.contains(duel!){
@@ -232,23 +237,85 @@ class GameViewController: UIViewController {
     
     Storage.store(duels, to: Storage.Directory.documents, as: File.WWYRHistory)
     
-//    database.saveData(duel: self.duel!)
-//    let url = Bundle.main.url(forResource: File.WWYRHistory, withExtension: "json")
-//
-//    let encoder = JSONEncoder()
-//    encoder.outputFormatting = .prettyPrinted
-//    encoder.dateEncodingStrategy = .formatted(dateFormatter)
-//
-//    let data = try! encoder.encode(duel)
-//    print(data)
-//
-//    do {
-//      try data.write(to: url!)
-//      print("File Saved")
-//    } catch {
-//      print("Failed to write JSON data: \(error.localizedDescription)")
-//    }
+    //    database.saveData(duel: self.duel!)
+    //    let url = Bundle.main.url(forResource: File.WWYRHistory, withExtension: "json")
+    //
+    //    let encoder = JSONEncoder()
+    //    encoder.outputFormatting = .prettyPrinted
+    //    encoder.dateEncodingStrategy = .formatted(dateFormatter)
+    //
+    //    let data = try! encoder.encode(duel)
+    //    print(data)
+    //
+    //    do {
+    //      try data.write(to: url!)
+    //      print("File Saved")
+    //    } catch {
+    //      print("Failed to write JSON data: \(error.localizedDescription)")
+    //    }
   }
-
+  
 }
 
+extension GameViewController: GADInterstitialDelegate {
+  
+  func loadVideoAd(){
+    interstitial = GADInterstitial(adUnitID: PrivateKeys.Game_Count_Plays_Initializer)
+    let request = GADRequest()
+    interstitial.load(request)
+  }
+  
+  func gamePlaysCounter() -> Bool{
+    gamePlaysCountInitializer += 1
+    
+    if gamePlaysCountInitializer % adPlaysCount == 0{
+      return true
+    }else{ return false}
+    
+  }
+  
+  func playVideoAd(){
+    let key = gamePlaysCounter()
+    
+    if interstitial.isReady {
+      interstitial.present(fromRootViewController: self)
+    } else {
+      print("Ad wasn't ready")
+    }
+    
+    if key == true{
+      self.loadVideoAd()
+    }
+  }
+  
+  /// Tells the delegate an ad request succeeded.
+  func interstitialDidReceiveAd(_ ad: GADInterstitial) {
+    print("interstitialDidReceiveAd")
+  }
+  
+  /// Tells the delegate an ad request failed.
+  func interstitial(_ ad: GADInterstitial, didFailToReceiveAdWithError error: GADRequestError) {
+    print("interstitial:didFailToReceiveAdWithError: \(error.localizedDescription)")
+  }
+  
+  /// Tells the delegate that an interstitial will be presented.
+  func interstitialWillPresentScreen(_ ad: GADInterstitial) {
+    print("interstitialWillPresentScreen")
+  }
+  
+  /// Tells the delegate the interstitial is to be animated off the screen.
+  func interstitialWillDismissScreen(_ ad: GADInterstitial) {
+    print("interstitialWillDismissScreen")
+  }
+  
+  /// Tells the delegate the interstitial had been animated off the screen.
+  func interstitialDidDismissScreen(_ ad: GADInterstitial) {
+    print("interstitialDidDismissScreen")
+  }
+  
+  /// Tells the delegate that a user click will open another app
+  /// (such as the App Store), backgrounding the current app.
+  func interstitialWillLeaveApplication(_ ad: GADInterstitial) {
+    print("interstitialWillLeaveApplication")
+  }
+}

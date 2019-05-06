@@ -67,6 +67,7 @@ struct PrivateKeys {
   static let google_Ad_ID_Key_MainMenuView = "ca-app-pub-9306645534991006/3105648795"
   static let google_Ad_ID_Key_GameView = "ca-app-pub-9306645534991006/1130593279"
   static let google_Ad_ID_Key_HistoryTable = "ca-app-pub-9306645534991006/1293286945"
+  static let Game_Count_Plays_Initializer = "ca-app-pub-9306645534991006/8156850836"
   static let oneSignalAppId = ""
   static let swiftBeaverAppid = "e1PxQR"
   static let swiftBeaverSecret = "tPebny1jdhkv3fivIhfLqSmtlxgst8wk"

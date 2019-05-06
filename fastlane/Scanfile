@@ -19,10 +19,12 @@ devices([
 "iPhone 8",
 "iPhone 8 Plus",
 "iPhone X",
+"iPhone Xs Max",
 "iPad Pro (12.9-inch)",
+"iPad Pro (12.9-inch) (3rd generation)",
 "iPad Pro (10.5-inch)",
 "iPad Pro (9.7-inch)"
 ])
 
 # Enable skip_build to skip debug builds for faster test performance
-skip_build(true)
+#skip_build(true)
