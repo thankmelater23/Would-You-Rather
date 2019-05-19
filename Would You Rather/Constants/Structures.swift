@@ -81,7 +81,7 @@ struct PrivateKeys {
     static let facebookAnalyticsAppSecret = ""
     static let facebookAnalyticsClientToken = ""
     static let appAnalyticsAPIKey = " "
-    static let inappticsAnalyticsAPIKey = "898a76f076d711e9bfdd93f95e2e3327"
+    static let inappticsAnalyticsAPIKey = "01868d0079fe11e9930c1f2193f559d6"
 }
 
 // MARK: - Day Of Week

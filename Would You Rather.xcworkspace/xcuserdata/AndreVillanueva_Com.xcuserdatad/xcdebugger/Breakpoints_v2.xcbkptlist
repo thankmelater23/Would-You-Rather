@@ -97,6 +97,38 @@
             endingLineNumber = "58"
             landmarkName = "createLocalURL(path:)"
             landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "createLocalURL #1 (path: Swift.String) -&gt; Foundation.URL in Would_You_Rather.Database.saveData(duel: Would_You_Rather.Duel) -&gt; ()"
+                  moduleName = "Would You Rather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AndreVillanueva_Com/Dropbox/Xcode%206/My%20Projects/Would%20You%20Rather/Would%20You%20Rather/Database.swift"
+                  timestampString = "579939620.785162"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "1268">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "createLocalURL #1 (path: Swift.String) -&gt; Foundation.URL in Would_You_Rather.Database.saveData(duel: Would_You_Rather.Duel) -&gt; ()"
+                  moduleName = "Would You Rather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AndreVillanueva_Com/Dropbox/Xcode%206/My%20Projects/Would%20You%20Rather/Would%20You%20Rather/Database.swift"
+                  timestampString = "579939620.786945"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "1292">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -138,7 +170,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Would You Rather/Support/AppDelegate.swift"
-            timestampString = "579922128.539886"
+            timestampString = "579939620.244819"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "212"
