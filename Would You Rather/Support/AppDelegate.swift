@@ -13,9 +13,11 @@ import Siren
 import Fabric
 import Crashlytics
 import GoogleMobileAds
+import Inapptics
 
 #if DEBUG
 import SimulatorStatusMagic
+import FLEX
 #endif
 
 @UIApplicationMain
@@ -29,9 +31,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     Fabric.with([Crashlytics.self, Answers.self])
     
+    Inapptics.letsGo(withAppToken: PrivateKeys.inappticsAnalyticsAPIKey)
+    
     #if DEBUG
-//    SDStatusBarManager.sharedInstance().enableOverrides()
+    //    SDStatusBarManager.sharedInstance().enableOverrides()
     SDStatusBarManager.sharedInstance().disableOverrides()
+    FLEXManager.shared().showExplorer()
     #endif
     
     // Override point for customization after application launch.
@@ -106,7 +111,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       }
     }
   }
-
+  
   ///MARK: - Setup
   func setup(){
     self.buddyBuildConfig()
@@ -117,7 +122,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   }
   fileprivate func buddyBuildConfig() {
     log.verbose(#function)
-//    BuddyBuildSDK.setup()
+    //    BuddyBuildSDK.setup()
   }
   // MARK: - 3rd Party Integration
   /** Swifty Beaver logger configuration
@@ -206,37 +211,64 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     log.verbose(#function)
     UserDefaults.standard.setValue(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
   }
-
+  
   func sirenConfiguration() {
     log.verbose(#function)
-    /* Siren code should go below window?.makeKeyAndVisible() */
+    //     Siren code should go below window?.makeKeyAndVisible()
     
-    // Siren is a singleton
-//    let siren = Siren.shared
+    //     Siren is a singleton
+    Siren.shared.wail()
     
-    // Required: Your app's iTunes App Store ID
-    //        siren.appID = "1300481560"
+    //     Replace .Immediately with .Daily or .Weekly to specify a maximum daily or weekly frequency for version
+    //     checks.
+    //     */
+    //    siren.checkVersion(checkType: .daily)
     
-    // Optional: Defaults to .Option
+    //    siren.alertType = .option // SirenAlertType.option
     
-    /*
-     Replace .Immediately with .Daily or .Weekly to specify a maximum daily or weekly frequency for version
-     checks.
-     */
-//    siren.checkVersion(checkType: .daily)
-//
-//    siren.alertType = .option // SirenAlertType.option
-//
-//    siren.showAlertAfterCurrentVersionHasBeenReleasedForDays = 3
+    //    siren.showAlertAfterCurrentVersionHasBeenReleasedForDays = 3
+  }
+  
+  /// An example on how to customize multiple managers at once.
+  func complexExample() {
+    let siren = Siren.shared
+    siren.presentationManager = PresentationManager(alertTintColor: .blue,
+                                                    appName: "WWYR(What Would You Rather)",
+                                                    alertTitle: "Update Available NOW!",
+                                                    alertMessage: "Theres a new updated version of WWYR now!",
+                                                    nextTimeButtonTitle: "Next time, please!?", skipButtonTitle: "Click here to skip!")//forceLanguageLocalization: .spanish)
+    siren.rulesManager = RulesManager(majorUpdateRules: .critical,
+                                      minorUpdateRules: .annoying,
+                                      patchUpdateRules: .default,
+                                      revisionUpdateRules: .relaxed) 
+    
+    siren.wail { results in
+      switch results {
+      case .success(let updateResults):
+        print("AlertAction ", updateResults.alertAction)
+        print("Localization ", updateResults.localization)
+        print("Model ", updateResults.model)
+        print("UpdateType ", updateResults.updateType)
+      case .failure(let error):
+        print(error.localizedDescription)
+      }
+    }
   }
   
   func googleAdConfig() {
     // Initialize the Google Mobile Ads SDK.
     // Sample AdMob app ID: PrivateKeys.googleAdFakeAppIdKey)
     // Belize Lottery Ad APP ID: PrivateKeys.googleAdAppIdKey
-//    GlobalMainQueue.async {
-      GADMobileAds.sharedInstance().start(completionHandler: nil)
-      //            GADMobileAds.configure(withApplicationID: PrivateKeys.googleAdFakeAppIdKey)
-//    }
+    //    GlobalMainQueue.async {
+    GADMobileAds.sharedInstance().start(completionHandler: nil)
+    //            GADMobileAds.configure(withApplicationID: PrivateKeys.googleAdFakeAppIdKey)
+    //    }
   }
 }
+
+
+
+
+
+
+ 
