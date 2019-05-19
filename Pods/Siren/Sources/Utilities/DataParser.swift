@@ -20,7 +20,7 @@ struct DataParser {
         guard let installedVersion = installedVersion,
             let appStoreVersion = appStoreVersion,
             (installedVersion.compare(appStoreVersion, options: .numeric) == .orderedAscending) else {
-                return false
+            return false
         }
 
         return true
@@ -39,7 +39,7 @@ struct DataParser {
 
         guard systemVersion.compare(requiredOSVersion, options: .numeric) == .orderedDescending ||
             systemVersion.compare(requiredOSVersion, options: .numeric) == .orderedSame else {
-                return false
+            return false
         }
 
         return true
@@ -55,7 +55,7 @@ struct DataParser {
                                andAppStoreVersion appStoreVersion: String?) -> RulesManager.UpdateType {
         guard let installedVersion = installedVersion,
             let appStoreVersion = appStoreVersion else {
-                return .unknown
+            return .unknown
         }
 
         let oldVersion = split(version: installedVersion)
@@ -87,6 +87,6 @@ struct DataParser {
     ///
     /// - Returns: An array of integers representing a version of the app.
     private static func split(version: String) -> [Int] {
-        return version.lazy.split {$0 == "."}.map { String($0) }.map {Int($0) ?? 0}
+        return version.lazy.split { $0 == "." }.map { String($0) }.map { Int($0) ?? 0 }
     }
 }

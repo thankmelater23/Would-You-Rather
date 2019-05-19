@@ -58,15 +58,15 @@ public struct PresentationManager {
     ///     - forceLanguage: The language the alert to which the alert should be set. If `nil`, it falls back to the device's preferred locale.
     public init(alertTintColor tintColor: UIColor? = nil,
                 appName: String? = nil,
-                alertTitle: String  = AlertConstants.alertTitle,
-                alertMessage: String  = AlertConstants.alertMessage,
-                updateButtonTitle: String  = AlertConstants.updateButtonTitle,
-                nextTimeButtonTitle: String  = AlertConstants.nextTimeButtonTitle,
-                skipButtonTitle: String  = AlertConstants.skipButtonTitle,
+                alertTitle: String = AlertConstants.alertTitle,
+                alertMessage: String = AlertConstants.alertMessage,
+                updateButtonTitle: String = AlertConstants.updateButtonTitle,
+                nextTimeButtonTitle: String = AlertConstants.nextTimeButtonTitle,
+                skipButtonTitle: String = AlertConstants.skipButtonTitle,
                 forceLanguageLocalization forceLanguage: Localization.Language? = nil) {
         self.alertTitle = alertTitle
         self.alertMessage = alertMessage
-        self.localization = Localization(appName: appName, andForceLanguageLocalization: forceLanguage)
+        localization = Localization(appName: appName, andForceLanguageLocalization: forceLanguage)
         self.nextTimeButtonTitle = nextTimeButtonTitle
         self.updateButtonTitle = updateButtonTitle
         self.skipButtonTitle = skipButtonTitle
@@ -138,7 +138,6 @@ extension PresentationManager {
         // The latter prevents `UIAlertControllers` from appearing on top of each other.
         if rules.alertType != .none && updaterWindow.isHidden {
             alertController?.show(window: updaterWindow)
-
         }
     }
 
@@ -149,10 +148,10 @@ extension PresentationManager {
     /// - Returns: The `Update` alert action.
     private func updateAlertAction(completion handler: CompletionHandler?) -> UIAlertAction {
         let title: String
-        if self.updateButtonTitle == AlertConstants.updateButtonTitle {
+        if updateButtonTitle == AlertConstants.updateButtonTitle {
             title = localization.updateButtonTitle()
         } else {
-            title = self.updateButtonTitle
+            title = updateButtonTitle
         }
 
         let action = UIAlertAction(title: title, style: .default) { _ in
@@ -173,10 +172,10 @@ extension PresentationManager {
     /// - Returns: The `Next time` alert action.
     private func nextTimeAlertAction(completion handler: CompletionHandler?) -> UIAlertAction {
         let title: String
-        if self.nextTimeButtonTitle == AlertConstants.nextTimeButtonTitle {
+        if nextTimeButtonTitle == AlertConstants.nextTimeButtonTitle {
             title = localization.nextTimeButtonTitle()
         } else {
-            title = self.nextTimeButtonTitle
+            title = nextTimeButtonTitle
         }
 
         let action = UIAlertAction(title: title, style: .default) { _ in
@@ -197,10 +196,10 @@ extension PresentationManager {
     /// - Returns: The `Skip this version` alert action.
     private func skipAlertAction(forCurrentAppStoreVersion currentAppStoreVersion: String, completion handler: CompletionHandler?) -> UIAlertAction {
         let title: String
-        if self.skipButtonTitle == AlertConstants.skipButtonTitle {
+        if skipButtonTitle == AlertConstants.skipButtonTitle {
             title = localization.skipButtonTitle()
         } else {
-            title = self.skipButtonTitle
+            title = skipButtonTitle
         }
 
         let action = UIAlertAction(title: title, style: .default) { _ in
@@ -218,7 +217,7 @@ extension PresentationManager {
 
     /// Removes the `alertController` from memory.
     private func cleanUpAlertController() {
-        alertController?.hide(window: self.updaterWindow)
+        alertController?.hide(window: updaterWindow)
         alertController?.dismiss(animated: false, completion: nil)
     }
 }

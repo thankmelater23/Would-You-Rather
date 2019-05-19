@@ -97,8 +97,8 @@ public extension Siren {
     func launchAppStore() {
         guard let appID = appID,
             let url = URL(string: "https://itunes.apple.com/app/id\(appID)") else {
-                resultsHandler?(.failure(.malformedURL))
-                return
+            resultsHandler?(.failure(.malformedURL))
+            return
         }
 
         DispatchQueue.main.async {
@@ -119,9 +119,9 @@ private extension Siren {
         alertPresentationDate = UserDefaults.alertPresentationDate
         apiManager.performVersionCheckRequest { result in
             switch result {
-            case .success(let apiModel):
+            case let .success(apiModel):
                 self.validate(apiModel: apiModel)
-            case .failure(let error):
+            case let .failure(error):
                 self.resultsHandler?(.failure(error))
             }
         }
@@ -163,8 +163,8 @@ private extension Siren {
         // Check the release date of the current version.
         guard let currentVersionReleaseDate = apiModel.results.first?.currentVersionReleaseDate,
             let daysSinceRelease = Date.days(since: currentVersionReleaseDate) else {
-                resultsHandler?(.failure(.currentVersionReleaseDate))
-                return
+            resultsHandler?(.failure(.currentVersionReleaseDate))
+            return
         }
 
         // Check if applicaiton has been released for the amount of days defined by the app consuming Siren.
@@ -199,7 +199,7 @@ private extension Siren {
             currentAppStoreVersion == previouslySkippedVersion {
             resultsHandler?(.failure(.skipVersionUpdate(installedVersion: currentInstalledVersion,
                                                         appStoreVersion: currentAppStoreVersion)))
-                return
+            return
         }
 
         let updateType = DataParser.parseForUpdate(forInstalledVersion: currentInstalledVersion,
@@ -242,9 +242,9 @@ private extension Siren {
         presentationManager.presentAlert(withRules: rules, forCurrentAppStoreVersion: currentAppStoreVersion) { [weak self] alertAction in
             guard let self = self else { return }
             let results = UpdateResults(alertAction: alertAction,
-                                  localization: self.presentationManager.localization,
-                                  model: model,
-                                  updateType: updateType)
+                                        localization: self.presentationManager.localization,
+                                        model: model,
+                                        updateType: updateType)
             self.resultsHandler?(.success(results))
         }
     }
@@ -261,9 +261,9 @@ private extension Siren {
             .addObserver(forName: UIApplication.didBecomeActiveNotification,
                          object: nil,
                          queue: nil) { [weak self] _ in
-                            guard let self = self else { return }
-                            self.performVersionCheck()
-        }
+                guard let self = self else { return }
+                self.performVersionCheck()
+            }
     }
 
     /// Adds an observer that listens for when the user enters the app switcher
@@ -275,9 +275,9 @@ private extension Siren {
                 .addObserver(forName: UIApplication.willResignActiveNotification,
                              object: nil,
                              queue: nil) { [weak self] _ in
-                                guard let self = self else { return }
-                                self.presentationManager.alertController?.dismiss(animated: true, completion: nil)
-            }
+                    guard let self = self else { return }
+                    self.presentationManager.alertController?.dismiss(animated: true, completion: nil)
+                }
         }
 
         if didEnterBackgroundObserver == nil {
@@ -286,9 +286,9 @@ private extension Siren {
                 .addObserver(forName: UIApplication.didEnterBackgroundNotification,
                              object: nil,
                              queue: nil) { [weak self] _ in
-                                guard let self = self else { return }
-                                self.presentationManager.alertController?.dismiss(animated: true, completion: nil)
-            }
+                    guard let self = self else { return }
+                    self.presentationManager.alertController?.dismiss(animated: true, completion: nil)
+                }
         }
     }
 }
