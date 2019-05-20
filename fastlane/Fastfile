@@ -1,4 +1,4 @@
-                                                                                                                                                                                                                                                                                                                                                                            # This file contains the fastlane.tools configuration
+# This file contains the fastlane.tools configuration
 # You can find the documentation at https://docs.fastlane.tools
 #
 # For a list of all available actions, check out
@@ -52,6 +52,7 @@ end
 #*************Feature lanes************#
 desc "Runs all the tests"
 lane :tests do
+cocoapods
 scan
 # gcovr(html: true, html_details: true, output: "./code-coverage/report.html")
 end
@@ -68,7 +69,6 @@ say notMess
 # Note how we make sure to pass "adhoc" to get and use a provisioning profile for Ad Hoc distribution sync_code_signing(force_for_new_devices: true,  type: "app-store")
 #verify_pod_keys
 gym
-tests
 slack(message: "Finished ""build"" lane: WWYR", success: true, slack_url: "https://hooks.slack.com/services/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")
 end
 
@@ -78,6 +78,7 @@ lane :meta do
 notMess="Deliviring Meta"
 notification(subtitle: "Running Meta", message: notMess)
 say notMess
+ensure_git_branch(branch: "master")
 gym
 jazzy
 #increment_build_number
@@ -217,7 +218,7 @@ end
 desc "Deploy a new version to the App Store"
 lane :deploy do
 ensure_git_branch(branch: "master")
-gym(use_legacy_build_api: true) # Build your app - more options available
+gym#(use_legacy_build_api: true) # Build your app - more options available
 refresh_dsyms
 deliver(force: true,
 skip_screenshots: true,
