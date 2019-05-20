@@ -112,7 +112,7 @@
 		410F5CF120B7838000BCA8B9 /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Appfile; path = fastlane/Appfile; sourceTree = SOURCE_ROOT; };
 		410F5CF220B7838000BCA8B9 /* devices.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = devices.txt; path = fastlane/devices.txt; sourceTree = SOURCE_ROOT; };
 		410F5CF320B7838000BCA8B9 /* Gymfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Gymfile; path = fastlane/Gymfile; sourceTree = SOURCE_ROOT; };
-		410F5CF420B7838000BCA8B9 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Fastfile; path = fastlane/Fastfile; sourceTree = SOURCE_ROOT; };
+		410F5CF420B7838000BCA8B9 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Fastfile; path = fastlane/Fastfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		410F5CF520B7838000BCA8B9 /* Scanfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Scanfile; path = fastlane/Scanfile; sourceTree = SOURCE_ROOT; };
 		410F5CF620B7838100BCA8B9 /* Snapfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Snapfile; path = fastlane/Snapfile; sourceTree = SOURCE_ROOT; };
 		410F5D0620B783E300BCA8B9 /* primary_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = primary_category.txt; path = fastlane/metadata/primary_category.txt; sourceTree = SOURCE_ROOT; };
@@ -934,7 +934,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZJWNZ643CG;
@@ -944,7 +944,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[arch=*]" = "";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development com.BangBangStudios.Would-You-Rather";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.BangBangStudios.Would-You-Rather";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -958,7 +958,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZJWNZ643CG;
@@ -967,7 +967,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-Rather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development com.BangBangStudios.Would-You-Rather";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.BangBangStudios.Would-You-Rather";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
