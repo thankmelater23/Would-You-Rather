@@ -46,5 +46,4 @@ public struct Model {
         self.releaseNotes = releaseNotes
         self.version = version
     }
-
 }

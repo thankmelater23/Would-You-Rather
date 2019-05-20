@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+# platform :ios, '12.0'
 
 target 'Would You Rather' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
@@ -30,15 +30,19 @@ target 'Would You Rather' do
   pod 'SwiftLint'
   # Pods for Would You Rather
   pod 'SimulatorStatusMagic', :configurations => ['Debug']
+  pod 'Inapptics'
+  pod 'FLEX', '~> 2.0', :configurations => ['Debug']
   
   target 'Would You RatherTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'Would You RatherUITests' do
+  target 'WWYR UITests' do
     inherit! :search_paths
     # Pods for testing
   end
 
 end
+
+

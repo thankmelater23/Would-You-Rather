@@ -21,6 +21,6 @@ import Foundation
 
 /** AppEvents.Name Extension */
 public extension AppEvents.Name {
-  /** Parameter key used to specify a purchase. */
-  static let purchased: AppEvents.Name = AppEvents.Name(rawValue: "fb_mobile_purchase")
+    /** Parameter key used to specify a purchase. */
+    static let purchased: AppEvents.Name = AppEvents.Name(rawValue: "fb_mobile_purchase")
 }

@@ -55,14 +55,14 @@ public extension Int32 {
 public extension Double {
     /// SwiftRandom extension
     public static func random(_ lower: Double = 0, _ upper: Double = 100) -> Double {
-        return (Double(arc4random()) / 0xFFFFFFFF) * (upper - lower) + lower
+        return (Double(arc4random()) / 0xFFFF_FFFF) * (upper - lower) + lower
     }
 }
 
 public extension Float {
     /// SwiftRandom extension
     public static func random(_ lower: Float = 0, _ upper: Float = 100) -> Float {
-        return (Float(arc4random()) / 0xFFFFFFFF) * (upper - lower) + lower
+        return (Float(arc4random()) / 0xFFFF_FFFF) * (upper - lower) + lower
     }
 }
 
@@ -102,7 +102,6 @@ public extension Date {
         let randomTime = TimeInterval(arc4random_uniform(UInt32.max))
         return Date(timeIntervalSince1970: randomTime)
     }
-
 }
 
 public extension UIColor {
@@ -119,11 +118,11 @@ public extension UIColor {
 public extension Array {
     /// SwiftRandom extension
     public func randomItem() -> Element? {
-        guard self.count > 0 else {
+        guard count > 0 else {
             return nil
         }
 
-        let index = Int(arc4random_uniform(UInt32(self.count)))
+        let index = Int(arc4random_uniform(UInt32(count)))
         return self[index]
     }
 }
@@ -131,14 +130,14 @@ public extension Array {
 public extension ArraySlice {
     /// SwiftRandom extension
     public func randomItem() -> Element? {
-        guard self.count > 0 else {
+        guard count > 0 else {
             return nil
         }
 
         #if swift(>=3)
-            let index = Int.random(self.startIndex, self.count - 1)
+            let index = Int.random(startIndex, count - 1)
         #else
-            let index = Int.random(self.startIndex, self.endIndex)
+            let index = Int.random(startIndex, endIndex)
         #endif
 
         return self[index]
@@ -258,7 +257,7 @@ public struct Randoms {
     }
 
     public static func randomCurrency() -> String {
-        let currencyList = ["USD", "EUR", "GBP", "JPY", "AUD", "CAD", "ZAR", "NZD", "INR", "BRP", "CNY", "EGP", "KRW", "MXN", "SAR", "SGD" ]
+        let currencyList = ["USD", "EUR", "GBP", "JPY", "AUD", "CAD", "ZAR", "NZD", "INR", "BRP", "CNY", "EGP", "KRW", "MXN", "SAR", "SGD"]
 
         return currencyList.randomItem()!
     }
@@ -283,7 +282,7 @@ public struct Randoms {
         let request = URLRequest(url: URL(string: url)! as URL, cachePolicy: .reloadIgnoringLocalAndRemoteCacheData, timeoutInterval: 5.0)
         let session = URLSession.shared
 
-        session.dataTask(with: request as URLRequest, completionHandler: { (data, response, error) in
+        session.dataTask(with: request as URLRequest, completionHandler: { data, _, error in
             DispatchQueue.main.async {
                 if error == nil {
                     completion?(UIImage(data: data!), nil)
@@ -291,7 +290,7 @@ public struct Randoms {
                     completion?(nil, error)
                 }
             }
-                         }).resume()
+        }).resume()
     }
 
     public static func randomGravatar(_ size: Int = 80, completion: ((_ image: UIImage?, _ error: Error?) -> Void)?) {

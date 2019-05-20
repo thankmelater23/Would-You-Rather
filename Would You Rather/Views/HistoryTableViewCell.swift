@@ -9,12 +9,12 @@
 import UIKit
 
 class HistoryTableViewCell: UITableViewCell {
-  
-  @IBOutlet weak var scenerio1Image: UIImageView!
-  @IBOutlet weak var scenerio1Label: UILabel!
-  @IBOutlet weak var scenerio2Image: UIImageView!
-  @IBOutlet weak var scenerio2Label: UILabel!
-  
+
+    @IBOutlet weak var scenerio1Image: UIImageView!
+    @IBOutlet weak var scenerio1Label: UILabel!
+    @IBOutlet weak var scenerio2Image: UIImageView!
+    @IBOutlet weak var scenerio2Label: UILabel!
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -25,23 +25,22 @@ class HistoryTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-  
-  required init?(coder aDecoder: NSCoder) {
-    super.init(coder: aDecoder)
-  }
-  
-   func setCell(_ duel: Duel?, index: Int) {
-    
-    self.scenerio1Label.text = duel?.question1.scene
-    self.scenerio2Label.text = duel?.question2.scene
-    
-    if duel?.isQ1Selected == true{
-      self.scenerio1Image.image = UIImage.init(named: "Green-Check-Mark")
-      self.scenerio2Image.image = UIImage.init(named: "red x")
-    }else{
-      self.scenerio2Image.image = UIImage.init(named: "Green-Check-Mark")
-      self.scenerio1Image.image = UIImage.init(named: "red x")
+
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
     }
-  }
-  
+
+    func setCell(_ duel: Duel?, index _: Int) {
+
+        scenerio1Label.text = duel?.question1.scene
+        scenerio2Label.text = duel?.question2.scene
+
+        if duel?.isQ1Selected == true {
+            scenerio1Image.image = UIImage(named: "Green-Check-Mark")
+            scenerio2Image.image = UIImage(named: "red x")
+        } else {
+            scenerio2Image.image = UIImage(named: "Green-Check-Mark")
+            scenerio1Image.image = UIImage(named: "red x")
+        }
+    }
 }

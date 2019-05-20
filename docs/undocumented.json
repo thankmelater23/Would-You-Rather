@@ -1,10 +1,1123 @@
 {
   "warnings": [
     {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Classes/Duel.swift",
+      "line": null,
+      "symbol": "Duel",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Classes/Duel.swift",
+      "line": 11,
+      "symbol": "Duel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Classes/Duel.swift",
+      "line": 12,
+      "symbol": "Duel.question1",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Classes/Duel.swift",
+      "line": 13,
+      "symbol": "Duel.question2",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Classes/Duel.swift",
+      "line": 14,
+      "symbol": "Duel.pick",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Classes/Duel.swift",
+      "line": 15,
+      "symbol": "Duel.category",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Classes/Duel.swift",
+      "line": 16,
+      "symbol": "Duel.magnitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Classes/Duel.swift",
+      "line": 17,
+      "symbol": "Duel.isQ1Selected",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Classes/Duel.swift",
+      "line": 19,
+      "symbol": "Duel.init(question1:question2:pick:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Classes/Question.swift",
+      "line": null,
+      "symbol": "Question",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Classes/Question.swift",
+      "line": 11,
+      "symbol": "Question",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Classes/Question.swift",
+      "line": 12,
+      "symbol": "Question.scene",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Classes/Question.swift",
+      "line": 13,
+      "symbol": "Question.category",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Classes/Question.swift",
+      "line": 14,
+      "symbol": "Question.magnitude",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Classes/Question.swift",
+      "line": 16,
+      "symbol": "Question.init(scene:category:magnitude:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 15,
+      "symbol": "QuestionCategory.annoying",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 15,
+      "symbol": "QuestionCategory.embarrassing",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 15,
+      "symbol": "QuestionCategory.gross",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 15,
+      "symbol": "QuestionCategory.pain",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 15,
+      "symbol": "QuestionCategory.psychological",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 15,
+      "symbol": "QuestionCategory.romance",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 15,
+      "symbol": "QuestionCategory.technology",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 19,
+      "symbol": "QuestionCategory.randomCategory().q",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 33,
+      "symbol": "Magnitude.level_1",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 33,
+      "symbol": "Magnitude.level_2",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 33,
+      "symbol": "Magnitude.level_3",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 33,
+      "symbol": "Magnitude.level_4",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 37,
+      "symbol": "Magnitude.randomMagnitude().m",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 53,
+      "symbol": "SettingsKeys.adPurchased",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 54,
+      "symbol": "SettingsKeys.firstStart",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 55,
+      "symbol": "SettingsKeys.lastDateActive",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 56,
+      "symbol": "SettingsKeys.notificationsEnabled",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 57,
+      "symbol": "SettingsKeys.daysSinceNotActive",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 58,
+      "symbol": "SettingsKeys.onBoardComplete",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 64,
+      "symbol": "PrivateKeys.fireBaseAnalytics",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 65,
+      "symbol": "PrivateKeys.googleAdAppIdKey",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 66,
+      "symbol": "PrivateKeys.googleAdFakeAppIdKey",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 67,
+      "symbol": "PrivateKeys.google_Ad_ID_Key_MainMenuView",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 68,
+      "symbol": "PrivateKeys.google_Ad_ID_Key_GameView",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 69,
+      "symbol": "PrivateKeys.google_Ad_ID_Key_HistoryTable",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 70,
+      "symbol": "PrivateKeys.Game_Count_Plays_Initializer",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 71,
+      "symbol": "PrivateKeys.oneSignalAppId",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 72,
+      "symbol": "PrivateKeys.swiftBeaverAppid",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 73,
+      "symbol": "PrivateKeys.swiftBeaverSecret",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 74,
+      "symbol": "PrivateKeys.swiftBeaverEncryptionKey",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 75,
+      "symbol": "PrivateKeys.furryAppID",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 76,
+      "symbol": "PrivateKeys.amplitudeProjectID",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 77,
+      "symbol": "PrivateKeys.furryWatchAppID",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 78,
+      "symbol": "PrivateKeys.amplitudeAPIKey",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 79,
+      "symbol": "PrivateKeys.amplitudeSecretKey",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 80,
+      "symbol": "PrivateKeys.facebookAnalyticsAppID",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 81,
+      "symbol": "PrivateKeys.facebookAnalyticsAppSecret",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 82,
+      "symbol": "PrivateKeys.facebookAnalyticsClientToken",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 83,
+      "symbol": "PrivateKeys.appAnalyticsAPIKey",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 89,
+      "symbol": "DayOfTheWeek",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 90,
+      "symbol": "DayOfTheWeek.fri",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 90,
+      "symbol": "DayOfTheWeek.mon",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 90,
+      "symbol": "DayOfTheWeek.na",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 90,
+      "symbol": "DayOfTheWeek.sat",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 90,
+      "symbol": "DayOfTheWeek.sun",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 90,
+      "symbol": "DayOfTheWeek.thur",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 90,
+      "symbol": "DayOfTheWeek.tue",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 90,
+      "symbol": "DayOfTheWeek.wed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 124,
+      "symbol": "JSONLotteryiesKeyString.key",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 131,
+      "symbol": "CellIdentifier.historyCell",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 138,
+      "symbol": "Segue.main_to_options",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 139,
+      "symbol": "Segue.main_to_history",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 140,
+      "symbol": "Segue.options_to_main",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 144,
+      "symbol": "Segue.unwind_to_main",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 150,
+      "symbol": "Constants.NumberMockObjects",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 156,
+      "symbol": "Images.image",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 159,
+      "symbol": "File",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Constants/Structures.swift",
+      "line": 160,
+      "symbol": "File.WWYRHistory",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Database.swift",
+      "line": 11,
+      "symbol": "Database",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Database.swift",
+      "line": 12,
+      "symbol": "Database.duels",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Database.swift",
+      "line": 17,
+      "symbol": "Database.loadData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Database.swift",
+      "line": 54,
+      "symbol": "Database.saveData(duel:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Database.swift",
+      "line": 57,
+      "symbol": "Database.saveData(duel:).createLocalURL(path:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Database.swift",
       "line": 88,
       "symbol": "Storage",
       "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Database.swift",
+      "line": 90,
+      "symbol": "Storage.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Database.swift",
+      "line": 92,
+      "symbol": "Storage.Directory",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Database.swift",
+      "line": 94,
+      "symbol": "Storage.Directory.documents",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Database.swift",
+      "line": 97,
+      "symbol": "Storage.Directory.caches",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Extensions/AdExtensions.swift",
+      "line": 15,
+      "symbol": "MainViewController.animateAdStarting()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Extensions/AdExtensions.swift",
+      "line": 127,
+      "symbol": "GameViewController.animateAdStarting()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Extensions/AdExtensions.swift",
+      "line": 238,
+      "symbol": "HistoryTableViewController.animateAdStarting()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Support/AppDelegate.swift",
+      "line": 22,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Support/AppDelegate.swift",
+      "line": 24,
+      "symbol": "AppDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Support/AppDelegate.swift",
+      "line": 27,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Support/AppDelegate.swift",
+      "line": 41,
+      "symbol": "AppDelegate.applicationWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Support/AppDelegate.swift",
+      "line": 46,
+      "symbol": "AppDelegate.applicationDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Support/AppDelegate.swift",
+      "line": 51,
+      "symbol": "AppDelegate.applicationWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Support/AppDelegate.swift",
+      "line": 55,
+      "symbol": "AppDelegate.applicationDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Support/AppDelegate.swift",
+      "line": 59,
+      "symbol": "AppDelegate.applicationWillTerminate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Support/AppDelegate.swift",
+      "line": 67,
+      "symbol": "AppDelegate.persistentContainer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Support/AppDelegate.swift",
+      "line": 96,
+      "symbol": "AppDelegate.saveContext()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Support/AppDelegate.swift",
+      "line": 118,
+      "symbol": "AppDelegate.buddyBuildConfig()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Support/AppDelegate.swift",
+      "line": 210,
+      "symbol": "AppDelegate.sirenConfiguration()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Support/AppDelegate.swift",
+      "line": 233,
+      "symbol": "AppDelegate.googleAdConfig()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": null,
+      "symbol": "GameViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": null,
+      "symbol": "GameViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 10,
+      "symbol": "GameViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 13,
+      "symbol": "GameViewController.adBannerPlaceHolder",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 14,
+      "symbol": "GameViewController.orLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 16,
+      "symbol": "GameViewController.questions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 17,
+      "symbol": "GameViewController.playingQuestions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 18,
+      "symbol": "GameViewController.duel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 19,
+      "symbol": "GameViewController.currentCategory",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 20,
+      "symbol": "GameViewController.database",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 21,
+      "symbol": "GameViewController.gamePlaysCountInitializer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 22,
+      "symbol": "GameViewController.adPlaysCount",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 23,
+      "symbol": "GameViewController.interstitial",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 28,
+      "symbol": "GameViewController.bottomQuestionLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 29,
+      "symbol": "GameViewController.categoryLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 30,
+      "symbol": "GameViewController.magnitudeLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 32,
+      "symbol": "GameViewController.topQuestionImageView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 34,
+      "symbol": "GameViewController.bottomQuestionImageView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 36,
+      "symbol": "GameViewController.skipNextBarButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 61,
+      "symbol": "GameViewController.bottomQuestionButton(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 81,
+      "symbol": "GameViewController.nextDuel(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 85,
+      "symbol": "GameViewController.skipNextAction(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 106,
+      "symbol": "GameViewController.didReceiveMemoryWarning()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 149,
+      "symbol": "GameViewController.setNewQuestions()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 158,
+      "symbol": "GameViewController.getQuestionsWith(magnitude:category:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 204,
+      "symbol": "GameViewController.parseFile(file:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 208,
+      "symbol": "GameViewController.loadJson(filename:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 222,
+      "symbol": "GameViewController.saveToHistory()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 262,
+      "symbol": "GameViewController.loadVideoAd()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 268,
+      "symbol": "GameViewController.gamePlaysCounter()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/GameViewController.swift",
+      "line": 277,
+      "symbol": "GameViewController.playVideoAd()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/HistoryTableViewCell.swift",
+      "line": 11,
+      "symbol": "HistoryTableViewCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/HistoryTableViewCell.swift",
+      "line": 13,
+      "symbol": "HistoryTableViewCell.scenerio1Image",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/HistoryTableViewCell.swift",
+      "line": 14,
+      "symbol": "HistoryTableViewCell.scenerio1Label",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/HistoryTableViewCell.swift",
+      "line": 15,
+      "symbol": "HistoryTableViewCell.scenerio2Image",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/HistoryTableViewCell.swift",
+      "line": 16,
+      "symbol": "HistoryTableViewCell.scenerio2Label",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/HistoryTableViewCell.swift",
+      "line": 18,
+      "symbol": "HistoryTableViewCell.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/HistoryTableViewCell.swift",
+      "line": 23,
+      "symbol": "HistoryTableViewCell.setSelected(_:animated:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/HistoryTableViewCell.swift",
+      "line": 29,
+      "symbol": "HistoryTableViewCell.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/HistoryTableViewCell.swift",
+      "line": 33,
+      "symbol": "HistoryTableViewCell.setCell(_:index:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/HistoryTableViewController.swift",
+      "line": null,
+      "symbol": "HistoryTableViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/HistoryTableViewController.swift",
+      "line": 12,
+      "symbol": "HistoryTableViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/HistoryTableViewController.swift",
+      "line": 13,
+      "symbol": "HistoryTableViewController.bannerView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/HistoryTableViewController.swift",
+      "line": 14,
+      "symbol": "HistoryTableViewController.duels",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/HistoryTableViewController.swift",
+      "line": 16,
+      "symbol": "HistoryTableViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/HistoryTableViewController.swift",
+      "line": 31,
+      "symbol": "HistoryTableViewController.loadData()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/HistoryTableViewController.swift",
+      "line": 45,
+      "symbol": "HistoryTableViewController.didReceiveMemoryWarning()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/HistoryTableViewController.swift",
+      "line": 52,
+      "symbol": "HistoryTableViewController.numberOfSections(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/HistoryTableViewController.swift",
+      "line": 57,
+      "symbol": "HistoryTableViewController.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/HistoryTableViewController.swift",
+      "line": 63,
+      "symbol": "HistoryTableViewController.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/MainViewController.swift",
+      "line": null,
+      "symbol": "MainViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/MainViewController.swift",
+      "line": 12,
+      "symbol": "MainViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/MainViewController.swift",
+      "line": 15,
+      "symbol": "MainViewController.adBannerPlaceHolder",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/MainViewController.swift",
+      "line": 17,
+      "symbol": "MainViewController.segueMaintToOptions(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/MainViewController.swift",
+      "line": 24,
+      "symbol": "MainViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/MainViewController.swift",
+      "line": 35,
+      "symbol": "MainViewController.didReceiveMemoryWarning()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/OptionsViewController.swift",
+      "line": 11,
+      "symbol": "OptionsViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/OptionsViewController.swift",
+      "line": 12,
+      "symbol": "OptionsViewController.segueOptionsToMain(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/OptionsViewController.swift",
+      "line": 18,
+      "symbol": "OptionsViewController.segueOptionsToMain",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/OptionsViewController.swift",
+      "line": 19,
+      "symbol": "OptionsViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/AndreVillanueva_Com/Dropbox/Xcode 6/My Projects/Would You Rather/Would You Rather/Views/OptionsViewController.swift",
+      "line": 25,
+      "symbol": "OptionsViewController.didReceiveMemoryWarning()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     }
   ],

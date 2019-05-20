@@ -239,7 +239,6 @@ slack_url: "https://hooks.slack.com/services/TANG87DD1/BAPHEA2QN/jxcbfcQhdYMiYgl
 end
 
 
-
 #####Reactive Lanes#####
 def on_error(exception)
 slack(
@@ -283,6 +282,7 @@ content_image: "/metadata/app_icon.jpg"
 #   message: "Successfully deployed new App Update."
 # )
 end
+
 
 
 error do |lane, exception|
