@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "052EAC4A681EFEE67058D43E2D5275DF"
+               BlueprintIdentifier = "0E0176CCA7C8C85C89BC1E45EA82145D"
                BuildableName = "Fakery.framework"
                BlueprintName = "Fakery"
                ReferencedContainer = "container:Pods.xcodeproj">

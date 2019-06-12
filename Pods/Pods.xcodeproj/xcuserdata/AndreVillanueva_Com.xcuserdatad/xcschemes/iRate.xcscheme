@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9089F722A61277E39596FDF8080F3A1E"
+               BlueprintIdentifier = "84126886E76D449731B0A0FCF67406CF"
                BuildableName = "iRate.framework"
                BlueprintName = "iRate"
                ReferencedContainer = "container:Pods.xcodeproj">

@@ -355,14 +355,6 @@ Copyright 2019 Google
    limitations under the License.
 
 
-## Inapptics
-
-Inapptics License
-
-Copyright (c) 2018 Inapptics, Inc.
-
-Detailed content at https://inapptics.com/terms-of-use/
-
 ## Onboard
 
 Copyright (c) 2014 Michael Amaral

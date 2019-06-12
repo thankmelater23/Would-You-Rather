@@ -30,7 +30,7 @@ target 'Would You Rather' do
   pod 'SwiftLint'
   # Pods for Would You Rather
   pod 'SimulatorStatusMagic', :configurations => ['Debug']
-  pod 'Inapptics'
+  #  pod 'Inapptics' #Discontinued
   pod 'FLEX', '~> 2.0', :configurations => ['Debug']
   
   target 'Would You RatherTests' do
