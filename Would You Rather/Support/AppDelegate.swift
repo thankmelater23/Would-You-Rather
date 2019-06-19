@@ -13,6 +13,8 @@ import Siren
 import Fabric
 import Crashlytics
 import GoogleMobileAds
+import Firebase
+
 //import Inapptics
 
 #if DEBUG
@@ -26,6 +28,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   var window: UIWindow?
   
   func application(_: UIApplication, didFinishLaunchingWithOptions _: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+   
+    FirebaseApp.configure()
     
     self.setup()
     
@@ -244,7 +248,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     //            GADMobileAds.configure(withApplicationID: PrivateKeys.googleAdFakeAppIdKey)
     //    }
   }
-  
+  ///
   func flexInitialization(){
     #if DEBUG
     FLEXManager.shared().showExplorer()

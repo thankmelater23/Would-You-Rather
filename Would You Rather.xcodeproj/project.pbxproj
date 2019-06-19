@@ -73,6 +73,7 @@
 		4174CED6227CB40300F58910 /* test_output in Resources */ = {isa = PBXBuildFile; fileRef = 4174CED4227CB40300F58910 /* test_output */; };
 		4174CEE0227CBB0D00F58910 /* WWYR_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174CEDF227CBB0D00F58910 /* WWYR_UITests.swift */; };
 		4174CEE7227CBB3600F58910 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41273890209FCBEF00E097EF /* SnapshotHelper.swift */; };
+		417CD9B822B1EE440077C2A1 /* FakeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417CD9B722B1EE440077C2A1 /* FakeTest.swift */; };
 		418D25D32026579900DBA2BE /* embarrassing.json in Resources */ = {isa = PBXBuildFile; fileRef = 418D25D22026579900DBA2BE /* embarrassing.json */; };
 		41BE2A0520B9475B00D88AC1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE2A0420B9475B00D88AC1 /* MainViewController.swift */; };
 		41BE2A0720B9685900D88AC1 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BE2A0620B9685900D88AC1 /* OptionsViewController.swift */; };
@@ -80,6 +81,7 @@
 		41DA814E2025F10900587668 /* WouldYouRather.json in Resources */ = {isa = PBXBuildFile; fileRef = 41DA814D2025F10900587668 /* WouldYouRather.json */; };
 		41E34CA6202620B3003B4AE7 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E34CA5202620B3003B4AE7 /* GlobalVariables.swift */; };
 		41E34CA82026210D003B4AE7 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E34CA72026210D003B4AE7 /* Structures.swift */; };
+		41F57A0E22BA29D40076D4BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41F57A0D22BA29D40076D4BC /* GoogleService-Info.plist */; };
 		AF839065E3BE0AEF498DDEBB /* Pods_Would_You_RatherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03423D79C94CFBA8DABC605 /* Pods_Would_You_RatherTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -178,6 +180,7 @@
 		4174CEDD227CBB0D00F58910 /* WWYR UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WWYR UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4174CEDF227CBB0D00F58910 /* WWYR_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWYR_UITests.swift; sourceTree = "<group>"; };
 		4174CEE1227CBB0D00F58910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417CD9B722B1EE440077C2A1 /* FakeTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeTest.swift; sourceTree = "<group>"; };
 		418D25D22026579900DBA2BE /* embarrassing.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = embarrassing.json; sourceTree = "<group>"; };
 		41BE2A0420B9475B00D88AC1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		41BE2A0620B9685900D88AC1 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
@@ -185,6 +188,7 @@
 		41DA814D2025F10900587668 /* WouldYouRather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = WouldYouRather.json; sourceTree = "<group>"; };
 		41E34CA5202620B3003B4AE7 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
 		41E34CA72026210D003B4AE7 /* Structures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
+		41F57A0D22BA29D40076D4BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4E7F8EA5A485476F1A913ADD /* Pods-Would You Rather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Would You Rather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Would You Rather/Pods-Would You Rather.debug.xcconfig"; sourceTree = "<group>"; };
 		6F1A5CA53337FD8C1A9AA63E /* Pods-WWYR UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWYR UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWYR UITests/Pods-WWYR UITests.release.xcconfig"; sourceTree = "<group>"; };
 		933A220340772872BCAC5C5D /* Pods-Would You Rather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Would You Rather.release.xcconfig"; path = "Pods/Target Support Files/Pods-Would You Rather/Pods-Would You Rather.release.xcconfig"; sourceTree = "<group>"; };
@@ -343,6 +347,7 @@
 		410F5DB020B7886400BCA8B9 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				41F57A0D22BA29D40076D4BC /* GoogleService-Info.plist */,
 				4143E223202583EA008492C8 /* Info.plist */,
 				4143E214202583EA008492C8 /* AppDelegate.swift */,
 				4143E24720258B6A008492C8 /* Details.rtf */,
@@ -420,6 +425,7 @@
 			children = (
 				41273890209FCBEF00E097EF /* SnapshotHelper.swift */,
 				4174CEDF227CBB0D00F58910 /* WWYR_UITests.swift */,
+				417CD9B722B1EE440077C2A1 /* FakeTest.swift */,
 				4174CEE1227CBB0D00F58910 /* Info.plist */,
 			);
 			path = "WWYR UITests";
@@ -483,6 +489,7 @@
 				4143E224202583EA008492C8 /* Sources */,
 				4143E225202583EA008492C8 /* Frameworks */,
 				4143E226202583EA008492C8 /* Resources */,
+				648800275C577A3B29A518AF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -502,6 +509,7 @@
 				4174CED9227CBB0D00F58910 /* Sources */,
 				4174CEDA227CBB0D00F58910 /* Frameworks */,
 				4174CEDB227CBB0D00F58910 /* Resources */,
+				17257EFB051F5983D37C929D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -607,6 +615,7 @@
 				410F5D4220B783E800BCA8B9 /* is_displayed_on_app_store.txt in Resources */,
 				410F5D4D20B783E800BCA8B9 /* marketing_url.txt in Resources */,
 				410F5D3D20B783E800BCA8B9 /* promotional_text.txt in Resources */,
+				41F57A0E22BA29D40076D4BC /* GoogleService-Info.plist in Resources */,
 				410F5D4020B783E800BCA8B9 /* last_name.txt in Resources */,
 				410F5CFB20B7838100BCA8B9 /* Gymfile in Resources */,
 				410F5D4920B783E800BCA8B9 /* copyright.txt in Resources */,
@@ -659,6 +668,30 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		17257EFB051F5983D37C929D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WWYR UITests/Pods-WWYR UITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WWYR UITests/Pods-WWYR UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		410F5CE920B591C900BCA8B9 /* Build Incrementer */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -686,6 +719,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "./Fabric.framework/run 4b84b1226e93ac404abf87cdd625fca3f2f67cb7 9174c325d1ac51dcae9ee142e60f7bc1545e4d23a1ce0b5e09574eada9f888d3";
+		};
+		648800275C577A3B29A518AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Would You RatherTests/Pods-Would You RatherTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Would You RatherTests/Pods-Would You RatherTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		784F0BA5BC2F0A71ED3EF2DB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -740,6 +797,7 @@
 				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
 				"${BUILT_PRODUCTS_DIR}/Fakery/Fakery.framework",
 				"${BUILT_PRODUCTS_DIR}/Flurry-iOS-SDK/Flurry_iOS_SDK.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Onboard/Onboard.framework",
 				"${BUILT_PRODUCTS_DIR}/SimulatorStatusMagic/SimulatorStatusMagic.framework",
@@ -747,6 +805,7 @@
 				"${BUILT_PRODUCTS_DIR}/SwiftRandom/SwiftRandom.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
 				"${BUILT_PRODUCTS_DIR}/iRate/iRate.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -757,6 +816,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fakery.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flurry_iOS_SDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Onboard.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimulatorStatusMagic.framework",
@@ -764,6 +824,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftRandom.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iRate.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -807,6 +868,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4174CEE0227CBB0D00F58910 /* WWYR_UITests.swift in Sources */,
+				417CD9B822B1EE440077C2A1 /* FakeTest.swift in Sources */,
 				4174CEE7227CBB3600F58910 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

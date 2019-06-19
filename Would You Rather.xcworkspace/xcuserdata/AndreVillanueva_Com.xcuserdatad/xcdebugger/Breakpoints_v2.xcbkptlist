@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Would You Rather/Views/HistoryTableViewController.swift"
-            timestampString = "578613840.5724421"
+            timestampString = "582350023.789781"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "32"
@@ -106,7 +106,7 @@
                   moduleName = "Would You Rather"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/AndreVillanueva_Com/Dropbox/Xcode%206/My%20Projects/Would%20You%20Rather/Would%20You%20Rather/Database.swift"
-                  timestampString = "582012482.403312"
+                  timestampString = "582625762.068916"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "58"
@@ -121,7 +121,7 @@
                   moduleName = "Would You Rather"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/AndreVillanueva_Com/Dropbox/Xcode%206/My%20Projects/Would%20You%20Rather/Would%20You%20Rather/Database.swift"
-                  timestampString = "582012482.405075"
+                  timestampString = "582625762.070725"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "58"
@@ -170,12 +170,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Would You Rather/Support/AppDelegate.swift"
-            timestampString = "582012476.499929"
+            timestampString = "582625761.762118"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "207"
             endingLineNumber = "207"
-            landmarkName = "removeConstraintFromLogger()"
+            landmarkName = "printAppInfo()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -234,13 +234,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Would You Rather/Constants/Structures.swift"
-            timestampString = "580096056.014456"
+            timestampString = "582350023.792182"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "88"
             endingLineNumber = "88"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "PrivateKeys"
+            landmarkType = "14">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
@@ -250,7 +250,7 @@
                   moduleName = "Would You Rather"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/AndreVillanueva_Com/Dropbox/Xcode%206/My%20Projects/Would%20You%20Rather/Would%20You%20Rather/Constants/Structures.swift"
-                  timestampString = "582012482.415205"
+                  timestampString = "582625762.0870661"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "88"
@@ -265,7 +265,7 @@
                   moduleName = "Would You Rather"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/AndreVillanueva_Com/Dropbox/Xcode%206/My%20Projects/Would%20You%20Rather/Would%20You%20Rather/Constants/Structures.swift"
-                  timestampString = "582012482.416694"
+                  timestampString = "582625762.08903"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "88"
@@ -282,45 +282,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Would You Rather/Constants/Structures.swift"
-            timestampString = "580096056.014755"
+            timestampString = "582350023.7926739"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "93"
             endingLineNumber = "93"
-            landmarkName = "unknown"
-            landmarkType = "0">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Would You Rather/Extensions/AdExtensions.swift"
-            timestampString = "582012476.511228"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "adBannerInit()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Would You Rather/Extensions/AdExtensions.swift"
-            timestampString = "582012476.511645"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "adBannerInit()"
-            landmarkType = "7">
+            landmarkName = "PrivateKeys"
+            landmarkType = "14">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>336483398317-au2plb146nopvhp8mq7l8iqdpm9a465b.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.336483398317-au2plb146nopvhp8mq7l8iqdpm9a465b</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD8FAmxEEpH9tU4QBQG8nGnQjL8_TUDCsM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>336483398317</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.BangBangStudios.Would-You-Rather</string>
+	<key>PROJECT_ID</key>
+	<string>wwyr-fbe9b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>wwyr-fbe9b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:336483398317:ios:3440335044058d84</string>
+	<key>DATABASE_URL</key>
+	<string>https://wwyr-fbe9b.firebaseio.com</string>
+</dict>
+</plist>
