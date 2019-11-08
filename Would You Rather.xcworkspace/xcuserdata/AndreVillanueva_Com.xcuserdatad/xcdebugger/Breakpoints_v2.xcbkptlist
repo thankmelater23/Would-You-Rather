@@ -106,7 +106,7 @@
                   moduleName = "Would You Rather"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/AndreVillanueva_Com/Dropbox/Xcode%206/My%20Projects/Would%20You%20Rather/Would%20You%20Rather/Database.swift"
-                  timestampString = "582625762.068916"
+                  timestampString = "587168430.3563499"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "58"
@@ -121,7 +121,7 @@
                   moduleName = "Would You Rather"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/AndreVillanueva_Com/Dropbox/Xcode%206/My%20Projects/Would%20You%20Rather/Would%20You%20Rather/Database.swift"
-                  timestampString = "582625762.070725"
+                  timestampString = "587168430.357983"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "58"
@@ -160,22 +160,6 @@
             startingLineNumber = "153"
             endingLineNumber = "153"
             landmarkName = "getQuestionsWith(magnitude:category:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Would You Rather/Support/AppDelegate.swift"
-            timestampString = "582625761.762118"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "207"
-            endingLineNumber = "207"
-            landmarkName = "printAppInfo()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -250,7 +234,7 @@
                   moduleName = "Would You Rather"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/AndreVillanueva_Com/Dropbox/Xcode%206/My%20Projects/Would%20You%20Rather/Would%20You%20Rather/Constants/Structures.swift"
-                  timestampString = "582625762.0870661"
+                  timestampString = "587168430.371874"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "88"
@@ -265,7 +249,7 @@
                   moduleName = "Would You Rather"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/AndreVillanueva_Com/Dropbox/Xcode%206/My%20Projects/Would%20You%20Rather/Would%20You%20Rather/Constants/Structures.swift"
-                  timestampString = "582625762.08903"
+                  timestampString = "587168430.373608"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "88"

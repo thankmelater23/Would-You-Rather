@@ -16,7 +16,6 @@
 // IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-import FBSDKCoreKit
 import Foundation
 import UIKit
 
@@ -24,20 +23,20 @@ import UIKit
  FBProfilePictureView Extension
  */
 public extension FBProfilePictureView {
-    /**
-     Create a new instance of `UserProfilePictureView`.
+  /**
+   Create a new instance of `UserProfilePictureView`.
 
-     - Parameter frame: Optional frame rectangle for the view, measured in points.
-     - Parameter profile: Optional profile to display a picture for. Default: `UserProfile.current`.
-     */
-    convenience init(frame: CGRect = .zero, profile: Profile? = nil) {
-        self.init(frame: frame)
+   - Parameter frame: Optional frame rectangle for the view, measured in points.
+   - Parameter profile: Optional profile to display a picture for. Default: `UserProfile.current`.
+   */
+  convenience init(frame: CGRect = .zero, profile: Profile? = nil) {
+    self.init(frame: frame)
 
-        if let profile = profile {
-            profileID = profile.userID
-        }
-
-        autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        setNeedsImageUpdate()
+    if let profile = profile {
+      profileID = profile.userID
     }
+
+    autoresizingMask = [.flexibleWidth, .flexibleHeight]
+    setNeedsImageUpdate()
+  }
 }

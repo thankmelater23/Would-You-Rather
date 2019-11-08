@@ -196,7 +196,7 @@ refresh_dsyms
 emails = values[:test_email] ? values[:test_email] : ['Andre@AndreVillanueva.com'] # You can list more emails here
 groups = values[:test_email] ? nil : nil # You can define groups on the web and reference them here
 register_devices(devices_file: "./fastlane/devices.txt")
-#match(force_for_new_devices: true)
+match(force_for_new_devices: true)
 changelog = File.read("metadata/en-US/release_notes.txt")
 
 # upload to testflight
@@ -313,10 +313,18 @@ snapshot(clear_previous_screenshots: FALSE,
 #"iPad Pro (10.5-inch)"
 "iPad Pro (9.7-inch)"
 ])
-frameit(white: true)
+frameit
 slack(message: "Finished ""screenShotFiller"" Project: WWYR",
 success: true,
 slack_url: "https://hooks.slack.com/services/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")
+end
+
+# It matches the filename to the framed device orientation
+frameit(
+path: "./fastlane/screenshots",
+debug_mode: true,
+resume: true,
+white: true)
 end
 
 
@@ -340,6 +348,4 @@ pilot(changelog: changelog, distribute_external: true)
 slack(message: "Finished ""testFlight"" lane: WWYR",
 success: true,
 slack_url: "https://hooks.slack.com/services/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")
-end
-
 end

@@ -11,7 +11,7 @@ import UIKit
 /// PresentationManager for Siren
 public struct PresentationManager {
     /// Return results or errors obtained from performing a version check with Siren.
-    typealias CompletionHandler = (AlertAction) -> Void
+    typealias CompletionHandler = (AlertAction, String?) -> Void
 
     /// The localization data structure that will be used to construct localized strings for the update alert.
     let localization: Localization
@@ -38,12 +38,7 @@ public struct PresentationManager {
     var alertController: UIAlertController?
 
     /// The `UIWindow` instance that presents the `SirenViewController`.
-    private var updaterWindow: UIWindow {
-        let window = UIWindow(frame: UIScreen.main.bounds)
-        window.rootViewController = SirenViewController()
-        window.windowLevel = UIWindow.Level.alert + 1
-        return window
-    }
+    private let updaterWindow = createWindow()
 
     /// `PresentationManager`'s public initializer.
     ///
@@ -58,15 +53,15 @@ public struct PresentationManager {
     ///     - forceLanguage: The language the alert to which the alert should be set. If `nil`, it falls back to the device's preferred locale.
     public init(alertTintColor tintColor: UIColor? = nil,
                 appName: String? = nil,
-                alertTitle: String = AlertConstants.alertTitle,
-                alertMessage: String = AlertConstants.alertMessage,
-                updateButtonTitle: String = AlertConstants.updateButtonTitle,
-                nextTimeButtonTitle: String = AlertConstants.nextTimeButtonTitle,
-                skipButtonTitle: String = AlertConstants.skipButtonTitle,
+                alertTitle: String  = AlertConstants.alertTitle,
+                alertMessage: String  = AlertConstants.alertMessage,
+                updateButtonTitle: String  = AlertConstants.updateButtonTitle,
+                nextTimeButtonTitle: String  = AlertConstants.nextTimeButtonTitle,
+                skipButtonTitle: String  = AlertConstants.skipButtonTitle,
                 forceLanguageLocalization forceLanguage: Localization.Language? = nil) {
         self.alertTitle = alertTitle
         self.alertMessage = alertMessage
-        localization = Localization(appName: appName, andForceLanguageLocalization: forceLanguage)
+        self.localization = Localization(appName: appName, andForceLanguageLocalization: forceLanguage)
         self.nextTimeButtonTitle = nextTimeButtonTitle
         self.updateButtonTitle = updateButtonTitle
         self.skipButtonTitle = skipButtonTitle
@@ -81,6 +76,8 @@ public struct PresentationManager {
     /// - The strings are all set to that of the user's device localization (if supported) or it falls back to English.
     public static let `default` = PresentationManager()
 }
+
+// MARK: - Alert Lifecycle
 
 extension PresentationManager {
 
@@ -130,35 +127,48 @@ extension PresentationManager {
             alertController?.addAction(nextTimeAlertAction(completion: handler))
             alertController?.addAction(skipAlertAction(forCurrentAppStoreVersion: currentAppStoreVersion, completion: handler))
         case .none:
-            handler?(.unknown)
+            handler?(.unknown, nil)
         }
 
         // If the alertType is .none, an alert will not be presented.
         // If the `updaterWindow` is not hidden, then an alert is already presented.
-        // The latter prevents `UIAlertControllers` from appearing on top of each other.
-        if rules.alertType != .none && updaterWindow.isHidden {
+        // The latter prevents `UIAlertController`'s from appearing on top of each other.
+        if rules.alertType != .none, updaterWindow.isHidden {
             alertController?.show(window: updaterWindow)
+        } else {
+            // This is a safety precaution to avoid multiple windows from presenting on top of each other.
+            cleanUp()
         }
     }
+
+    /// Removes the `alertController` from memory.
+    func cleanUp() {
+        alertController?.hide(window: updaterWindow)
+        alertController?.dismiss(animated: true, completion: nil)
+        updaterWindow.resignKey()
+    }
+}
+
+// MARK: - Alert Actions
+
+private extension PresentationManager {
 
     /// The `UIAlertAction` that is executed when the `Update` option is selected.
     ///
     /// - Parameters:
     ///   - handler: The completion handler that returns the `.update` option.
     /// - Returns: The `Update` alert action.
-    private func updateAlertAction(completion handler: CompletionHandler?) -> UIAlertAction {
+    func updateAlertAction(completion handler: CompletionHandler?) -> UIAlertAction {
         let title: String
-        if updateButtonTitle == AlertConstants.updateButtonTitle {
+        if self.updateButtonTitle == AlertConstants.updateButtonTitle {
             title = localization.updateButtonTitle()
         } else {
-            title = updateButtonTitle
+            title = self.updateButtonTitle
         }
 
         let action = UIAlertAction(title: title, style: .default) { _ in
-            self.cleanUpAlertController()
-            Siren.shared.launchAppStore()
-
-            handler?(.appStore)
+            self.cleanUp()
+            handler?(.appStore, nil)
             return
         }
 
@@ -170,18 +180,17 @@ extension PresentationManager {
     /// - Parameters:
     ///   - handler: The completion handler that returns the `.nextTime` option.
     /// - Returns: The `Next time` alert action.
-    private func nextTimeAlertAction(completion handler: CompletionHandler?) -> UIAlertAction {
+    func nextTimeAlertAction(completion handler: CompletionHandler?) -> UIAlertAction {
         let title: String
-        if nextTimeButtonTitle == AlertConstants.nextTimeButtonTitle {
+        if self.nextTimeButtonTitle == AlertConstants.nextTimeButtonTitle {
             title = localization.nextTimeButtonTitle()
         } else {
-            title = nextTimeButtonTitle
+            title = self.nextTimeButtonTitle
         }
 
         let action = UIAlertAction(title: title, style: .default) { _ in
-            self.cleanUpAlertController()
-
-            handler?(.nextTime)
+            self.cleanUp()
+            handler?(.nextTime, nil)
             return
         }
 
@@ -194,30 +203,35 @@ extension PresentationManager {
     ///   - currentAppStoreVersion: The current version of the app in the App Store.
     ///   - handler: The completion handler that returns the `.skip` option.
     /// - Returns: The `Skip this version` alert action.
-    private func skipAlertAction(forCurrentAppStoreVersion currentAppStoreVersion: String, completion handler: CompletionHandler?) -> UIAlertAction {
+    func skipAlertAction(forCurrentAppStoreVersion currentAppStoreVersion: String, completion handler: CompletionHandler?) -> UIAlertAction {
         let title: String
-        if skipButtonTitle == AlertConstants.skipButtonTitle {
+        if self.skipButtonTitle == AlertConstants.skipButtonTitle {
             title = localization.skipButtonTitle()
         } else {
-            title = skipButtonTitle
+            title = self.skipButtonTitle
         }
 
         let action = UIAlertAction(title: title, style: .default) { _ in
-            UserDefaults.storedSkippedVersion = currentAppStoreVersion
-            UserDefaults.standard.synchronize()
-
-            self.cleanUpAlertController()
-
-            handler?(.skip)
+            self.cleanUp()
+            handler?(.skip, currentAppStoreVersion)
             return
         }
 
         return action
     }
+}
 
-    /// Removes the `alertController` from memory.
-    private func cleanUpAlertController() {
-        alertController?.hide(window: updaterWindow)
-        alertController?.dismiss(animated: false, completion: nil)
+// MARK: - Helpers
+
+private extension PresentationManager {
+    static func createWindow() -> UIWindow {
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        window.windowLevel = UIWindow.Level.alert + 1
+
+        let viewController = SirenViewController()
+        viewController.retainedWindow = window
+
+        window.rootViewController = viewController
+        return window
     }
 }

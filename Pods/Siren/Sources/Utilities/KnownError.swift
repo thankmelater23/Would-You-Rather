@@ -18,7 +18,7 @@ public enum KnownError: LocalizedError {
     case appStoreDataRetrievalFailure(underlyingError: Error?)
     /// Error parsing App Store JSON data.
     case appStoreJSONParsingFailure(underlyingError: Error)
-    /// The version of iOS on the device is lower than that of the one required by the app verison update.
+    /// The version of iOS on the device is lower than that of the one required by the app version update.
     case appStoreOSVersionUnsupported
     /// Error retrieving App Store verson number as the JSON does not contain a `version` key.
     case appStoreVersionArrayFailure
@@ -42,16 +42,16 @@ public enum KnownError: LocalizedError {
         switch self {
         case .appStoreAppIDFailure:
             return "\(KnownError.sirenError) Error retrieving trackId as the JSON does not contain a `trackId` key."
-        case let .appStoreDataRetrievalFailure(error?):
+        case .appStoreDataRetrievalFailure(let error?):
             return "\(KnownError.sirenError) Error retrieving App Store data as an error was returned\nAlso, the following system level error was returned: \(error)"
         case .appStoreDataRetrievalEmptyResults:
             return "\(KnownError.sirenError) Error retrieving App Store data as the JSON results were empty. Is your app available in the US? If not, change the `countryCode` variable to fix this error."
         case .appStoreDataRetrievalFailure(.none):
             return "\(KnownError.sirenError) Error retrieving App Store data as an error was returned."
-        case let .appStoreJSONParsingFailure(error):
+        case .appStoreJSONParsingFailure(let error):
             return "\(KnownError.sirenError) Error parsing App Store JSON data.\nAlso, the following system level error was returned: \(error)"
         case .appStoreOSVersionUnsupported:
-            return "\(KnownError.sirenError) The version of iOS on the device is lower than that of the one required by the app verison update."
+            return "\(KnownError.sirenError) The version of iOS on the device is lower than that of the one required by the app version update."
         case .appStoreVersionArrayFailure:
             return "\(KnownError.sirenError) Error retrieving App Store verson number as the JSON does not contain a `version` key."
         case .currentVersionReleaseDate:
@@ -64,9 +64,9 @@ public enum KnownError: LocalizedError {
             return "\(KnownError.sirenError) No new update available."
         case .recentlyPrompted:
             return "\(KnownError.sirenError) Siren will not present an update alert if it performed one too recently. If you would like to present an alert every time Siren is called, please consider setting the `\(Rules.UpdatePromptFrequency.self).immediately` rule in `\(RulesManager.self)`"
-        case let .releasedTooSoon(daysSinceRelease, releasedForDays):
+        case .releasedTooSoon(let daysSinceRelease, let releasedForDays):
             return "\(KnownError.sirenError) The app has been released for \(daysSinceRelease) days, but Siren cannot prompt the user until \(releasedForDays) days have passed."
-        case let .skipVersionUpdate(installedVersion, appStoreVersion):
+        case .skipVersionUpdate(let installedVersion, let appStoreVersion):
             return "\(KnownError.sirenError) The user has opted to skip updating their current version of the app (\(installedVersion)) to the current App Store version (\(appStoreVersion))."
         }
     }

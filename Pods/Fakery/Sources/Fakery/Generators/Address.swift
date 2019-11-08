@@ -1,122 +1,123 @@
 import Foundation
 #if os(Linux)
-    public struct Location {
-        let latitude: Double
-        let longitude: Double
-    }
-
+public struct Location {
+  let latitude: Double
+  let longitude: Double
+}
 #else
-    import CoreLocation
-    public typealias Location = CLLocationCoordinate2D
+import CoreLocation
+public typealias Location = CLLocationCoordinate2D
 #endif
 
-public final class Address: Generator {
+extension Faker {
+  public final class Address: Generator {
     public func city() -> String {
-        return generate("address.city")
+      return generate("address.city")
     }
 
     public func streetName() -> String {
-        return generate("address.street_name")
+      return generate("address.street_name")
     }
 
     public func secondaryAddress() -> String {
-        return numerify(generate("address.secondary_address"))
+      return numerify(generate("address.secondary_address"))
     }
 
     public func streetAddress(includeSecondary: Bool = false) -> String {
-        var streetAddress = numerify(generate("address.street_address"))
+      var streetAddress = numerify(generate("address.street_address"))
 
-        if includeSecondary {
-            streetAddress += " " + secondaryAddress()
-        }
+      if includeSecondary {
+        streetAddress += " " + secondaryAddress()
+      }
 
-        return streetAddress
+      return streetAddress
     }
 
     public func buildingNumber() -> String {
-        return bothify(generate("address.building_number"))
+      return bothify(generate("address.building_number"))
     }
 
     public func postcode(stateAbbreviation: String = "") -> String {
-        if stateAbbreviation.isEmpty {
-            return bothify(generate("address.postcode"))
-        }
+      if stateAbbreviation.isEmpty {
+        return bothify(generate("address.postcode"))
+      }
 
-        return bothify(generate("address.postcode_by_state.\(stateAbbreviation)"))
+      return bothify(generate("address.postcode_by_state.\(stateAbbreviation)"))
     }
 
     public func timeZone() -> String {
-        return generate("address.time_zone")
+      return generate("address.time_zone")
     }
 
     public func streetSuffix() -> String {
-        return generate("address.street_suffix")
+      return generate("address.street_suffix")
     }
 
     public func citySuffix() -> String {
-        return generate("address.city_suffix")
+      return generate("address.city_suffix")
     }
 
     public func cityPrefix() -> String {
-        return generate("address.city_prefix")
+      return generate("address.city_prefix")
     }
 
     public func stateAbbreviation() -> String {
-        return generate("address.state_abbr")
+      return generate("address.state_abbr")
     }
 
     public func state() -> String {
-        return generate("address.state")
+      return generate("address.state")
     }
 
     public func county() -> String {
-        return generate("address.county")
+      return generate("address.county")
     }
 
     public func country() -> String {
-        return generate("address.country")
+      return generate("address.country")
     }
 
     public func countryCode() -> String {
-        return generate("address.country_code")
+      return generate("address.country_code")
     }
 
     public func latitude() -> Double {
-        return drand48() * 180.0 - 90.0
+      return drand48() * 180.0 - 90.0
     }
 
     public func longitude() -> Double {
-        return drand48() * 360.0 - 180.0
+      return drand48() * 360.0 - 180.0
     }
 
     public func coordinate(inRadius radius: Double, fromCenter center: Location) -> Location {
-        let y0 = center.latitude
-        let x0 = center.longitude
+      let y0 = center.latitude
+      let x0 = center.longitude
 
-        // Convert meters to degrees for radius
-        let radiusInDegrees = radius / 111_300.0
+      // Convert meters to degrees for radius
+      let radiusInDegrees = radius / 111300.0
 
-        // Random point in circle
-        #if swift(>=4.2)
-            let u = Double.random(in: 0 ..< Double.greatestFiniteMagnitude) / 0xFFFF_FFFF
-            let v = Double.random(in: 0 ..< Double.greatestFiniteMagnitude) / 0xFFFF_FFFF
-        #else
-            let u = Double(arc4random()) / 0xFFFF_FFFF
-            let v = Double(arc4random()) / 0xFFFF_FFFF
-        #endif
-        let w = radiusInDegrees * sqrt(u)
-        let t = 2 * .pi * v
-        let x = w * cos(t)
-        let y = w * sin(t)
+      // Random point in circle
+      #if swift(>=4.2)
+      let rhoRandom = Double.random(in: 0..<Double.greatestFiniteMagnitude) / 0xFFFFFFFF
+      let phiRandom = Double.random(in: 0..<Double.greatestFiniteMagnitude) / 0xFFFFFFFF
+      #else
+      let rhoRandom = Double(arc4random()) / 0xFFFFFFFF
+      let phiRandom = Double(arc4random()) / 0xFFFFFFFF
+      #endif
+      let rho = radiusInDegrees * sqrt(rhoRandom)
+      let phi = 2 * .pi * phiRandom
+      let xPos = rho * cos(phi)
+      let yPos = rho * sin(phi)
 
-        // Adjust longitude (x) to adjust for east-west shrinking in distance
-        let latRadians = y0 * .pi / 180
-        let newx = x / cos(latRadians)
+      // Adjust longitude (x) to adjust for east-west shrinking in distance
+      let latRadians = y0 * .pi / 180
+      let newx = xPos / cos(latRadians)
 
-        // Set found random point
-        let foundLatitude = y + y0
-        let foundLongitude = newx + x0
+      // Set found random point
+      let foundLatitude = yPos + y0
+      let foundLongitude = newx + x0
 
-        return Location(latitude: foundLatitude, longitude: foundLongitude)
+      return Location(latitude: foundLatitude, longitude: foundLongitude)
     }
+  }
 }
