@@ -11,25 +11,25 @@ import Foundation
 extension String {
     /// cross-Swift compatible characters count
     var length: Int {
-        return count
+        return self.count
     }
 
     /// cross-Swift-compatible first character
     var firstChar: Character? {
-        return first
+        return self.first
     }
 
     /// cross-Swift-compatible last character
     var lastChar: Character? {
-        return last
+        return self.last
     }
 
     /// cross-Swift-compatible index
     func find(_ char: Character) -> Index? {
         #if swift(>=5)
-            return firstIndex(of: char)
+            return self.firstIndex(of: char)
         #else
-            return index(of: char)
+            return self.index(of: char)
         #endif
     }
 }

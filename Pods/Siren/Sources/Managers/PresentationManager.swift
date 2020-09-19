@@ -9,7 +9,7 @@
 import UIKit
 
 /// PresentationManager for Siren
-public struct PresentationManager {
+public class PresentationManager {
     /// Return results or errors obtained from performing a version check with Siren.
     typealias CompletionHandler = (AlertAction, String?) -> Void
 
@@ -38,7 +38,7 @@ public struct PresentationManager {
     var alertController: UIAlertController?
 
     /// The `UIWindow` instance that presents the `SirenViewController`.
-    private let updaterWindow = createWindow()
+    private lazy var updaterWindow = createWindow()
 
     /// `PresentationManager`'s public initializer.
     ///
@@ -53,15 +53,15 @@ public struct PresentationManager {
     ///     - forceLanguage: The language the alert to which the alert should be set. If `nil`, it falls back to the device's preferred locale.
     public init(alertTintColor tintColor: UIColor? = nil,
                 appName: String? = nil,
-                alertTitle: String = AlertConstants.alertTitle,
-                alertMessage: String = AlertConstants.alertMessage,
-                updateButtonTitle: String = AlertConstants.updateButtonTitle,
-                nextTimeButtonTitle: String = AlertConstants.nextTimeButtonTitle,
-                skipButtonTitle: String = AlertConstants.skipButtonTitle,
+                alertTitle: String  = AlertConstants.alertTitle,
+                alertMessage: String  = AlertConstants.alertMessage,
+                updateButtonTitle: String  = AlertConstants.updateButtonTitle,
+                nextTimeButtonTitle: String  = AlertConstants.nextTimeButtonTitle,
+                skipButtonTitle: String  = AlertConstants.skipButtonTitle,
                 forceLanguageLocalization forceLanguage: Localization.Language? = nil) {
         self.alertTitle = alertTitle
         self.alertMessage = alertMessage
-        localization = Localization(appName: appName, andForceLanguageLocalization: forceLanguage)
+        self.localization = Localization(appName: appName, andForceLanguageLocalization: forceLanguage)
         self.nextTimeButtonTitle = nextTimeButtonTitle
         self.updateButtonTitle = updateButtonTitle
         self.skipButtonTitle = skipButtonTitle
@@ -87,9 +87,9 @@ extension PresentationManager {
     ///   - rules: The rules that are used to define the type of alert that should be presented.
     ///   - currentAppStoreVersion: The current version of the app in the App Store.
     ///   - handler: The completion handler that returns the an `AlertAction` depending on the type of action the end-user took.
-    mutating func presentAlert(withRules rules: Rules,
-                               forCurrentAppStoreVersion currentAppStoreVersion: String,
-                               completion handler: CompletionHandler?) {
+    func presentAlert(withRules rules: Rules,
+                      forCurrentAppStoreVersion currentAppStoreVersion: String,
+                      completion handler: CompletionHandler?) {
         UserDefaults.alertPresentationDate = Date()
 
         // Alert Title
@@ -133,7 +133,7 @@ extension PresentationManager {
         // If the alertType is .none, an alert will not be presented.
         // If the `updaterWindow` is not hidden, then an alert is already presented.
         // The latter prevents `UIAlertController`'s from appearing on top of each other.
-        if rules.alertType != .none, updaterWindow.isHidden {
+        if rules.alertType != .none, let updaterWindow = updaterWindow, updaterWindow.isHidden {
             alertController?.show(window: updaterWindow)
         } else {
             // This is a safety precaution to avoid multiple windows from presenting on top of each other.
@@ -143,6 +143,7 @@ extension PresentationManager {
 
     /// Removes the `alertController` from memory.
     func cleanUp() {
+        guard let updaterWindow = updaterWindow else { return }
         alertController?.hide(window: updaterWindow)
         alertController?.dismiss(animated: true, completion: nil)
         updaterWindow.resignKey()
@@ -224,8 +225,15 @@ private extension PresentationManager {
 // MARK: - Helpers
 
 private extension PresentationManager {
-    static func createWindow() -> UIWindow {
-        let window = UIWindow(frame: UIScreen.main.bounds)
+    private func createWindow() -> UIWindow? {
+        var window = UIWindow()
+        if #available(iOS 13.0, *) {
+            guard let windowScene = getFirstForegroundScene() else { return nil }
+            window = UIWindow(windowScene: windowScene)
+        } else {
+            window = UIWindow(frame: UIScreen.main.bounds)
+        }
+
         window.windowLevel = UIWindow.Level.alert + 1
 
         let viewController = SirenViewController()
@@ -233,5 +241,15 @@ private extension PresentationManager {
 
         window.rootViewController = viewController
         return window
+    }
+
+    @available(iOS 13.0, *)
+    private func getFirstForegroundScene() -> UIWindowScene? {
+        let connectedScenes = UIApplication.shared.connectedScenes
+        if let windowActiveScene = connectedScenes.first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene {
+            return windowActiveScene
+        } else {
+            return connectedScenes.first(where: { $0.activationState == .foregroundInactive }) as? UIWindowScene
+        }
     }
 }

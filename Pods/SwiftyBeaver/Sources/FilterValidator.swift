@@ -48,14 +48,14 @@ struct FilterValidator {
 
     // Result wrapper object
     enum Result {
-        case allFiltersMatch // All filters fully match the log entry (condition + minimum log level)
-        case someFiltersMatch(PartialMatchData) // Only some filters fully match the log entry (condition + minimum log level)
-        case noFiltersMatchingType // There are no filters set for a particular type (excluded, required, nonRequired)
+        case allFiltersMatch                            // All filters fully match the log entry (condition + minimum log level)
+        case someFiltersMatch(PartialMatchData)         // Only some filters fully match the log entry (condition + minimum log level)
+        case noFiltersMatchingType                      // There are no filters set for a particular type (excluded, required, nonRequired)
 
         struct PartialMatchData {
-            let fullMatchCount: Int // Number of filters that match both the condition and the minimum log level of the log entry
-            let conditionMatchCount: Int // Number of filters that match ONLY the condition of the log entry (path, function, message)
-            let logLevelMatchCount: Int // Number of filters that match ONLY the minimum log level of the log entry
+            let fullMatchCount: Int                     // Number of filters that match both the condition and the minimum log level of the log entry
+            let conditionMatchCount: Int                // Number of filters that match ONLY the condition of the log entry (path, function, message)
+            let logLevelMatchCount: Int                 // Number of filters that match ONLY the minimum log level of the log entry
         }
     }
 
@@ -101,26 +101,26 @@ struct FilterValidator {
         return results
     }
 
-    private static func filterMatchesCondition(_ filter: FilterType, level _: SwiftyBeaver.Level,
-                                               path: String, function: String, message: String?) -> Bool {
-        let passes: Bool
+    private static func filterMatchesCondition(_ filter: FilterType, level: SwiftyBeaver.Level,
+                                                path: String, function: String, message: String?) -> Bool {
+            let passes: Bool
 
-        switch filter.getTarget() {
-        case .Path:
-            passes = filter.apply(path)
+            switch filter.getTarget() {
+            case .Path(_):
+                passes = filter.apply(path)
 
-        case .Function:
-            passes = filter.apply(function)
+            case .Function(_):
+                passes = filter.apply(function)
 
-        case .Message:
-            guard let message = message else {
-                return false
+            case .Message(_):
+                guard let message = message else {
+                    return false
+                }
+
+                passes = filter.apply(message)
             }
 
-            passes = filter.apply(message)
-        }
-
-        return passes
+            return passes
     }
 
     private static func filterMatchesMinLogLevel(_ filter: FilterType, level: SwiftyBeaver.Level) -> Bool {
