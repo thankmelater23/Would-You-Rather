@@ -10387,6 +10387,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Fakery";
+				DEVELOPMENT_TEAM = ZJWNZ643CG;
 				IBSC_MODULE = Fakery;
 				INFOPLIST_FILE = "Target Support Files/Fakery/ResourceBundle-Faker-Fakery-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -11148,6 +11149,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Fakery";
+				DEVELOPMENT_TEAM = ZJWNZ643CG;
 				IBSC_MODULE = Fakery;
 				INFOPLIST_FILE = "Target Support Files/Fakery/ResourceBundle-Faker-Fakery-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
