@@ -80,11 +80,12 @@ notification(subtitle: "Running Meta", message: notMess)
 say notMess
 ensure_git_branch(branch: "master")
 gym
-jazzy
+#jazzy
 #increment_build_number
 deliver(username: "thankmelater23@me.com",
 app_identifier: "com.BangBangStudios.Would-You-Rather",
-force: true)
+force: true,
+skip_screenshots: true)
 slack(message: "Finished ""Meta"" lane: WWYR",
 success: true,
 slack_url: "https://hooks.slack.com/services/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",

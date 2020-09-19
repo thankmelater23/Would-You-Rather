@@ -1042,7 +1042,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Would You Rather/Would You Rather.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZJWNZ643CG;
 				INFOPLIST_FILE = "$(SRCROOT)/Would You Rather/Support/Info.plist";
@@ -1070,7 +1070,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Would You Rather/Would You Rather.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZJWNZ643CG;
 				INFOPLIST_FILE = "$(SRCROOT)/Would You Rather/Support/Info.plist";

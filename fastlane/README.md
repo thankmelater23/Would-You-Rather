@@ -12,9 +12,17 @@ Install _fastlane_ using
 ```
 [sudo] gem install fastlane -NV
 ```
-or alternatively using `brew cask install fastlane`
+or alternatively using `brew install fastlane`
 
 # Available Actions
+### testFlightBeta
+```
+fastlane testFlightBeta
+```
+Testflight Update
+
+----
+
 ## iOS
 ### ios p
 ```
@@ -101,11 +109,6 @@ Deploy a new version to the App Store
 fastlane ios screenShotFiller
 ```
 Screenshot Filler
-### ios testFlightBeta
-```
-fastlane ios testFlightBeta
-```
-Testflight Update
 
 ----
 
