@@ -14,15 +14,6 @@ final class SirenViewController: UIViewController {
     /// This is needed to retain the UIAlertController in iOS 13.0+
     var retainedWindow: UIWindow?
 
-    /// `UIStatusBarStyle` override.
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        if #available(iOS 13.0, *) {
-            return retainedWindow?.windowScene?.statusBarManager?.statusBarStyle ?? .default
-        } else {
-            return UIApplication.shared.statusBarStyle
-        }
-    }
-
     deinit {
         retainedWindow = nil
     }

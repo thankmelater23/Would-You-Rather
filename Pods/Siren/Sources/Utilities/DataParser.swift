@@ -19,8 +19,8 @@ struct DataParser {
     static func isAppStoreVersionNewer(installedVersion: String?, appStoreVersion: String?) -> Bool {
         guard let installedVersion = installedVersion,
             let appStoreVersion = appStoreVersion,
-            installedVersion.compare(appStoreVersion, options: .numeric) == .orderedAscending else {
-            return false
+            (installedVersion.compare(appStoreVersion, options: .numeric) == .orderedAscending) else {
+                return false
         }
 
         return true
@@ -39,7 +39,7 @@ struct DataParser {
 
         guard systemVersion.compare(requiredOSVersion, options: .numeric) == .orderedDescending ||
             systemVersion.compare(requiredOSVersion, options: .numeric) == .orderedSame else {
-            return false
+                return false
         }
 
         return true
@@ -55,7 +55,7 @@ struct DataParser {
                                andAppStoreVersion appStoreVersion: String?) -> RulesManager.UpdateType {
         guard let installedVersion = installedVersion,
             let appStoreVersion = appStoreVersion else {
-            return .unknown
+                return .unknown
         }
 
         let oldVersion = split(version: installedVersion)
@@ -68,11 +68,11 @@ struct DataParser {
 
         if newVersionFirst > oldVersionFirst { // A.b.c.d
             return .major
-        } else if newVersion.count > 1, oldVersion.count <= 1 || newVersion[1] > oldVersion[1] { // a.B.c.d
+        } else if newVersion.count > 1 && (oldVersion.count <= 1 || newVersion[1] > oldVersion[1]) { // a.B.c.d
             return .minor
-        } else if newVersion.count > 2, oldVersion.count <= 2 || newVersion[2] > oldVersion[2] { // a.b.C.d
+        } else if newVersion.count > 2 && (oldVersion.count <= 2 || newVersion[2] > oldVersion[2]) { // a.b.C.d
             return .patch
-        } else if newVersion.count > 3, oldVersion.count <= 3 || newVersion[3] > oldVersion[3] { // a.b.c.D
+        } else if newVersion.count > 3 && (oldVersion.count <= 3 || newVersion[3] > oldVersion[3]) { // a.b.c.D
             return .revision
         } else {
             return .unknown
@@ -87,6 +87,6 @@ struct DataParser {
     ///
     /// - Returns: An array of integers representing a version of the app.
     private static func split(version: String) -> [Int] {
-        return version.lazy.split { $0 == "." }.map { String($0) }.map { Int($0) ?? 0 }
+        return version.lazy.split {$0 == "."}.map { String($0) }.map {Int($0) ?? 0}
     }
 }

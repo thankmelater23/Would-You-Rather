@@ -1,14 +1,11 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '12.0'
+ platform :ios, '13.0'
 
 target 'Would You Rather' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-  use_frameworks!
-  pod 'Fabric'
-  pod 'Crashlytics'
+  use_frameworks! 
   #    pod 'Branch'
   pod 'SwiftyBeaver'#, '~> 0.2' Logger with tags
-  pod 'iRate'#(1.11.4) Ask's user to rate app after x amount of days
   pod 'Siren'#This will be done when the app has an app id number
   pod 'Firebase/Analytics'
 #  pod 'Firebase/Core'
@@ -55,16 +52,6 @@ target 'Would You Rather' do
     pod 'Firebase/Database', :inhibit_warnings => true
     pod 'Firebase/Auth', :inhibit_warnings => true
   end
-  
-  target 'App Clip' do
-    # Pods for testing
-    pod 'Firebase'#Temporary putin
-    pod 'Firebase/Core'
-    pod 'Firebase/Database'
-    pod 'Firebase/Auth'
-    pod 'SwiftRandom'
-    pod 'Fakery'
-    end
 end
 
 

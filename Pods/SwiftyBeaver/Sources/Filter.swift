@@ -17,7 +17,7 @@ import Foundation
 /// A filter must contain a target, which identifies what it filters against
 /// A filter can be required meaning that all required filters against a specific
 /// target must pass in order for the message to be logged.
-public protocol FilterType: class {
+public protocol FilterType : class {
     func apply(_ value: String?) -> Bool
     func getTarget() -> Filter.TargetType
     func isRequired() -> Bool
@@ -54,17 +54,17 @@ public class Filter {
     let minLevel: SwiftyBeaver.Level
 
     public init(_ target: Filter.TargetType, required: Bool, minLevel: SwiftyBeaver.Level) {
-        targetType = target
+        self.targetType = target
         self.required = required
         self.minLevel = minLevel
     }
 
     public func getTarget() -> Filter.TargetType {
-        return targetType
+        return self.targetType
     }
 
     public func isRequired() -> Bool {
-        return required
+        return self.required
     }
 
     public func isExcluded() -> Bool {
@@ -73,7 +73,7 @@ public class Filter {
 
     /// returns true of set minLevel is >= as given level
     public func reachedMinLevel(_ level: SwiftyBeaver.Level) -> Bool {
-        // print("checking if given level \(level) >= \(minLevel)")
+        //print("checking if given level \(level) >= \(minLevel)")
         return level.rawValue >= minLevel.rawValue
     }
 }
@@ -82,13 +82,14 @@ public class Filter {
 /// starts with, contains or ends with a specific string. CompareFilters can be
 /// case sensitive.
 public class CompareFilter: Filter, FilterType {
+
     private var filterComparisonType: Filter.ComparisonType?
 
-    public override init(_ target: Filter.TargetType, required: Bool, minLevel: SwiftyBeaver.Level) {
+    override public init(_ target: Filter.TargetType, required: Bool, minLevel: SwiftyBeaver.Level) {
         super.init(target, required: required, minLevel: minLevel)
 
         let comparisonType: Filter.ComparisonType?
-        switch getTarget() {
+        switch self.getTarget() {
         case let .Function(comparison):
             comparisonType = comparison
 
@@ -98,10 +99,10 @@ public class CompareFilter: Filter, FilterType {
         case let .Message(comparison):
             comparisonType = comparison
 
-            /* default:
-             comparisonType = nil */
+            /*default:
+             comparisonType = nil*/
         }
-        filterComparisonType = comparisonType
+        self.filterComparisonType = comparisonType
     }
 
     public func apply(_ value: String?) -> Bool {
@@ -117,33 +118,33 @@ public class CompareFilter: Filter, FilterType {
         switch filterComparisonType {
         case let .Contains(strings, caseSensitive):
             matches = !strings.filter { string in
-                caseSensitive ? value.contains(string) :
+                return caseSensitive ? value.contains(string) :
                     value.lowercased().contains(string.lowercased())
-            }.isEmpty
+                }.isEmpty
 
         case let .Excludes(strings, caseSensitive):
             matches = !strings.filter { string in
-                caseSensitive ? !value.contains(string) :
+                return caseSensitive ? !value.contains(string) :
                     !value.lowercased().contains(string.lowercased())
-            }.isEmpty
+                }.isEmpty
 
         case let .StartsWith(strings, caseSensitive):
             matches = !strings.filter { string in
-                caseSensitive ? value.hasPrefix(string) :
+                return caseSensitive ? value.hasPrefix(string) :
                     value.lowercased().hasPrefix(string.lowercased())
-            }.isEmpty
+                }.isEmpty
 
         case let .EndsWith(strings, caseSensitive):
             matches = !strings.filter { string in
-                caseSensitive ? value.hasSuffix(string) :
+                return caseSensitive ? value.hasSuffix(string) :
                     value.lowercased().hasSuffix(string.lowercased())
-            }.isEmpty
+                }.isEmpty
 
         case let .Equals(strings, caseSensitive):
             matches = !strings.filter { string in
-                caseSensitive ? value == string :
+                return caseSensitive ? value == string :
                     value.lowercased() == string.lowercased()
-            }.isEmpty
+                }.isEmpty
         case let .Custom(predicate):
             matches = predicate(value)
         }
@@ -151,7 +152,7 @@ public class CompareFilter: Filter, FilterType {
         return matches
     }
 
-    public override func isExcluded() -> Bool {
+    override public func isExcluded() -> Bool {
         guard let filterComparisonType = self.filterComparisonType else { return false }
 
         switch filterComparisonType {
@@ -259,12 +260,14 @@ public class PathFilterFactory {
     }
 }
 
-extension Filter.TargetType: Equatable {}
+extension Filter.TargetType: Equatable {
+}
 
 // The == does not compare associated values for each enum. Instead == evaluates to true
 // if both enums are the same "types", ignoring the associated values of each enum
 public func == (lhs: Filter.TargetType, rhs: Filter.TargetType) -> Bool {
     switch (lhs, rhs) {
+
     case (.Path, .Path):
         return true
 

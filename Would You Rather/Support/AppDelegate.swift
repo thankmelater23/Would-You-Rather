@@ -6,9 +6,7 @@
 //  Copyright © 2018 Andre. All rights reserved.
 //
 
-import CoreData
-import Crashlytics
-import Fabric
+import CoreData 
 import Firebase
 import GoogleMobileAds
 import Siren
@@ -268,7 +266,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func fabricInitialization() {
-        Fabric.with([Crashlytics.self, Answers.self])
+//        Fabric.with([Crashlytics.self, Answers.self])
     }
 
     func developmentSettings() {

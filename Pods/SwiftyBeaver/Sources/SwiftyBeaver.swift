@@ -10,10 +10,11 @@
 import Foundation
 
 open class SwiftyBeaver {
+
     /// version string of framework
-    public static let version = "1.9.2" // UPDATE ON RELEASE!
+    public static let version = "1.9.3"  // UPDATE ON RELEASE!
     /// build number of framework
-    public static let build = 1920 // version 1.6.2 -> 1620, UPDATE ON RELEASE!
+    public static let build = 1930 // version 1.6.2 -> 1620, UPDATE ON RELEASE!
 
     public enum Level: Int {
         case verbose = 0
@@ -60,6 +61,7 @@ open class SwiftyBeaver {
 
     /// returns the current thread name
     class func threadName() -> String {
+
         #if os(Linux)
             // on 9/30/2016 not yet implemented in server-side Swift:
             // > import Foundation
@@ -81,9 +83,9 @@ open class SwiftyBeaver {
     open class func verbose(_ message: @autoclosure () -> Any, _
         file: String = #file, _ function: String = #function, line: Int = #line, context: Any? = nil) {
         #if swift(>=5)
-            custom(level: .verbose, message: message(), file: file, function: function, line: line, context: context)
+        custom(level: .verbose, message: message(), file: file, function: function, line: line, context: context)
         #else
-            custom(level: .verbose, message: message, file: file, function: function, line: line, context: context)
+        custom(level: .verbose, message: message, file: file, function: function, line: line, context: context)
         #endif
     }
 
@@ -91,9 +93,9 @@ open class SwiftyBeaver {
     open class func debug(_ message: @autoclosure () -> Any, _
         file: String = #file, _ function: String = #function, line: Int = #line, context: Any? = nil) {
         #if swift(>=5)
-            custom(level: .debug, message: message(), file: file, function: function, line: line, context: context)
+        custom(level: .debug, message: message(), file: file, function: function, line: line, context: context)
         #else
-            custom(level: .debug, message: message, file: file, function: function, line: line, context: context)
+        custom(level: .debug, message: message, file: file, function: function, line: line, context: context)
         #endif
     }
 
@@ -101,9 +103,9 @@ open class SwiftyBeaver {
     open class func info(_ message: @autoclosure () -> Any, _
         file: String = #file, _ function: String = #function, line: Int = #line, context: Any? = nil) {
         #if swift(>=5)
-            custom(level: .info, message: message(), file: file, function: function, line: line, context: context)
+        custom(level: .info, message: message(), file: file, function: function, line: line, context: context)
         #else
-            custom(level: .info, message: message, file: file, function: function, line: line, context: context)
+        custom(level: .info, message: message, file: file, function: function, line: line, context: context)
         #endif
     }
 
@@ -111,9 +113,9 @@ open class SwiftyBeaver {
     open class func warning(_ message: @autoclosure () -> Any, _
         file: String = #file, _ function: String = #function, line: Int = #line, context: Any? = nil) {
         #if swift(>=5)
-            custom(level: .warning, message: message(), file: file, function: function, line: line, context: context)
+        custom(level: .warning, message: message(), file: file, function: function, line: line, context: context)
         #else
-            custom(level: .warning, message: message, file: file, function: function, line: line, context: context)
+        custom(level: .warning, message: message, file: file, function: function, line: line, context: context)
         #endif
     }
 
@@ -121,29 +123,30 @@ open class SwiftyBeaver {
     open class func error(_ message: @autoclosure () -> Any, _
         file: String = #file, _ function: String = #function, line: Int = #line, context: Any? = nil) {
         #if swift(>=5)
-            custom(level: .error, message: message(), file: file, function: function, line: line, context: context)
+        custom(level: .error, message: message(), file: file, function: function, line: line, context: context)
         #else
-            custom(level: .error, message: message, file: file, function: function, line: line, context: context)
+        custom(level: .error, message: message, file: file, function: function, line: line, context: context)
         #endif
     }
 
     /// custom logging to manually adjust values, should just be used by other frameworks
-    public class func custom(level: SwiftyBeaver.Level, message: @autoclosure () -> Any,
+    open class func custom(level: SwiftyBeaver.Level, message: @autoclosure () -> Any,
                              file: String = #file, function: String = #function, line: Int = #line, context: Any? = nil) {
         #if swift(>=5)
-            dispatch_send(level: level, message: message(), thread: threadName(),
-                          file: file, function: function, line: line, context: context)
+        dispatch_send(level: level, message: message(), thread: threadName(),
+                      file: file, function: function, line: line, context: context)
         #else
-            dispatch_send(level: level, message: message, thread: threadName(),
-                          file: file, function: function, line: line, context: context)
+        dispatch_send(level: level, message: message, thread: threadName(),
+                      file: file, function: function, line: line, context: context)
         #endif
     }
 
     /// internal helper which dispatches send to dedicated queue if minLevel is ok
     class func dispatch_send(level: SwiftyBeaver.Level, message: @autoclosure () -> Any,
-                             thread: String, file: String, function: String, line: Int, context: Any?) {
+        thread: String, file: String, function: String, line: Int, context: Any?) {
         var resolvedMessage: String?
         for dest in destinations {
+
             guard let queue = dest.queue else {
                 continue
             }
@@ -174,20 +177,21 @@ open class SwiftyBeaver {
 
      - returns: true if all messages flushed, false if timeout or error occurred
      */
-    public class func flush(secondTimeout _: Int64) -> Bool {
+    public class func flush(secondTimeout: Int64) -> Bool {
+
         /*
-         guard let grp = dispatch_group_create() else { return false }
-         for dest in destinations {
-             if let queue = dest.queue {
-                 dispatch_group_enter(grp)
-                 queue.asynchronously(execute: {
-                     dest.flush()
-                     grp.leave()
-                 })
-             }
-         }
-         let waitUntil = DispatchTime.now(dispatch_time_t(DISPATCH_TIME_NOW), secondTimeout * 1000000000)
-         return dispatch_group_wait(grp, waitUntil) == 0
+        guard let grp = dispatch_group_create() else { return false }
+        for dest in destinations {
+            if let queue = dest.queue {
+                dispatch_group_enter(grp)
+                queue.asynchronously(execute: {
+                    dest.flush()
+                    grp.leave()
+                })
+            }
+        }
+        let waitUntil = DispatchTime.now(dispatch_time_t(DISPATCH_TIME_NOW), secondTimeout * 1000000000)
+        return dispatch_group_wait(grp, waitUntil) == 0
          */
         return true
     }
@@ -197,9 +201,9 @@ open class SwiftyBeaver {
         var f = function
         if let indexOfBrace = f.find("(") {
             #if swift(>=4.0)
-                f = String(f[..<indexOfBrace])
+            f = String(f[..<indexOfBrace])
             #else
-                f = f.substring(to: indexOfBrace)
+            f = f.substring(to: indexOfBrace)
             #endif
         }
         f += "()"

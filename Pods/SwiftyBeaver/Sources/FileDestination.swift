@@ -10,6 +10,7 @@
 import Foundation
 
 public class FileDestination: BaseDestination {
+
     public var logFileURL: URL?
     public var syncAfterEachWrite: Bool = false
     public var colored: Bool = false {
@@ -20,11 +21,11 @@ public class FileDestination: BaseDestination {
                 // uses the 256-color table from http://bit.ly/1W1qJuH
                 reset = "\u{001b}[0m"
                 escape = "\u{001b}[38;5;"
-                levelColor.verbose = "251m" // silver
-                levelColor.debug = "35m" // green
-                levelColor.info = "38m" // blue
-                levelColor.warning = "178m" // yellow
-                levelColor.error = "197m" // red
+                levelColor.verbose = "251m"     // silver
+                levelColor.debug = "35m"        // green
+                levelColor.info = "38m"         // blue
+                levelColor.warning = "178m"     // yellow
+                levelColor.error = "197m"       // red
             } else {
                 reset = ""
                 escape = ""
@@ -37,7 +38,7 @@ public class FileDestination: BaseDestination {
         }
     }
 
-    public override var defaultHashValue: Int { return 2 }
+    override public var defaultHashValue: Int {return 2}
     let fileManager = FileManager.default
 
     public init(logFileURL: URL? = nil) {
@@ -83,8 +84,8 @@ public class FileDestination: BaseDestination {
     }
 
     // append to file. uses full base class functionality
-    public override func send(_ level: SwiftyBeaver.Level, msg: String, thread: String,
-                              file: String, function: String, line: Int, context: Any? = nil) -> String? {
+    override public func send(_ level: SwiftyBeaver.Level, msg: String, thread: String,
+        file: String, function: String, line: Int, context: Any? = nil) -> String? {
         let formattedString = super.send(level, msg: msg, thread: thread, file: file, function: function, line: line, context: context)
 
         if let str = formattedString {
@@ -105,12 +106,17 @@ public class FileDestination: BaseDestination {
     }
 
     private func write(data: Data, to url: URL) -> Bool {
+        
+        #if os(Linux)
+            return true
+        #else
         var success = false
         let coordinator = NSFileCoordinator(filePresenter: nil)
         var error: NSError?
         coordinator.coordinate(writingItemAt: url, error: &error) { url in
             do {
                 if fileManager.fileExists(atPath: url.path) == false {
+
                     let directoryURL = url.deletingLastPathComponent()
                     if fileManager.fileExists(atPath: directoryURL.path) == false {
                         try fileManager.createDirectory(
@@ -121,11 +127,11 @@ public class FileDestination: BaseDestination {
                     fileManager.createFile(atPath: url.path, contents: nil)
 
                     #if os(iOS) || os(watchOS)
-                        if #available(iOS 10.0, watchOS 3.0, *) {
-                            var attributes = try fileManager.attributesOfItem(atPath: url.path)
-                            attributes[FileAttributeKey.protectionKey] = FileProtectionType.none
-                            try fileManager.setAttributes(attributes, ofItemAtPath: url.path)
-                        }
+                    if #available(iOS 10.0, watchOS 3.0, *) {
+                        var attributes = try fileManager.attributesOfItem(atPath: url.path)
+                        attributes[FileAttributeKey.protectionKey] = FileProtectionType.none
+                        try fileManager.setAttributes(attributes, ofItemAtPath: url.path)
+                    }
                     #endif
                 }
 
@@ -148,6 +154,7 @@ public class FileDestination: BaseDestination {
         }
 
         return success
+        #endif
     }
 
     /// deletes log file.

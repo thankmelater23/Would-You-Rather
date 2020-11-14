@@ -14,7 +14,7 @@ extension UIAlertController {
     ///
     /// - Parameter window: The `UIWindow` that _should_ reference Siren's `UIAlertController`.
     func show(window: UIWindow) {
-        guard !isBeingPresented else { return }
+        guard !self.isBeingPresented else { return }
         window.makeKeyAndVisible()
         window.rootViewController?.present(self, animated: true, completion: nil)
     }
