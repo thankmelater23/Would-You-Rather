@@ -10,6 +10,7 @@ import Foundation
 import GoogleMobileAds
 
 // MARK: - MainViewController Ad functions
+
 /// MainViewController GADBannerViewDelegate Extension
 extension MainViewController: GADBannerViewDelegate {
     func animateAdStarting() {
@@ -78,7 +79,7 @@ extension MainViewController: GADBannerViewDelegate {
                                    attribute: .centerX,
                                    multiplier: 1,
                                    constant: 0),
-        ])
+            ])
     }
 
     /// Tells the delegate an ad request loaded an ad.
@@ -124,6 +125,7 @@ extension MainViewController: GADBannerViewDelegate {
 }
 
 // MARK: - GameViewController Ad Extension
+
 /// GameViewController GADBannerViewDelegate Extension
 extension GameViewController: GADBannerViewDelegate {
     func animateAdStarting() {
@@ -192,7 +194,7 @@ extension GameViewController: GADBannerViewDelegate {
                                    attribute: .centerX,
                                    multiplier: 1,
                                    constant: 0),
-        ])
+            ])
     }
 
     /// Tells the delegate an ad request loaded an ad.
@@ -238,6 +240,7 @@ extension GameViewController: GADBannerViewDelegate {
 }
 
 // MARK: - HistoryTableViewController Ad Extension
+
 /// HistoryTableViewController GADBannerViewDelegate Extension
 extension HistoryTableViewController: GADBannerViewDelegate {
     func animateAdStarting() {
@@ -306,7 +309,7 @@ extension HistoryTableViewController: GADBannerViewDelegate {
                                    attribute: .centerX,
                                    multiplier: 1,
                                    constant: 0),
-        ])
+            ])
     }
 
     /// Tells the delegate an ad request loaded an ad.

@@ -53,7 +53,6 @@ class Database {
         duels?.append(duel)
 
         func createLocalURL(path _: String) -> URL {
-
             if let url = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first {
                 return url
             } else {
@@ -84,7 +83,6 @@ class Database {
 }
 
 public class Storage {
-
     fileprivate init() {}
 
     enum Directory {

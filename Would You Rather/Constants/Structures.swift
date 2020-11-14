@@ -21,7 +21,7 @@ enum QuestionCategory: String, Codable {
         let count = arrayOfCategories.count
 
         // Random between 1-count
-        let randomNumber = Int.random(0, (count - 1))
+        let randomNumber = Int.random(0, count - 1)
         let category = arrayOfCategories[randomNumber]
         print("Number: \(randomNumber)/\(count - 1)\n\(category)")
         return category
@@ -39,7 +39,7 @@ enum Magnitude: String, Codable {
         let count = arrayOfMagnitudes.count
 
         // Random between 1-count
-        let randomNumber = Int.random(0, (count - 1))
+        let randomNumber = Int.random(0, count - 1)
         let magnitude = arrayOfMagnitudes[randomNumber]
         print("Number: \(randomNumber)//\(count)\n\(magnitude)")
 
@@ -48,6 +48,7 @@ enum Magnitude: String, Codable {
 }
 
 // MARK: - Settings Keys
+
 /// Keys for userdefaults settings
 struct SettingsKeys {
     static let adPurchased = "adPurchased"
@@ -59,9 +60,9 @@ struct SettingsKeys {
 }
 
 // MARK: - Private Keys
+
 /// Private keys for 3rd party system integrations
 struct PrivateKeys {
-
     static let fireBaseAnalytics = ""
     static let googleAdAppIdKey = "ca-app-pub-9306645534991006~1604864867"
     static let googleAdFakeAppIdKey = "ca-app-pub-3940256099942544/2934735716"
@@ -98,6 +99,7 @@ struct PrivateKeys {
 }
 
 // MARK: - Day Of Week
+
 // Day Of The Week enum that returns day of week abriviated
 enum DayOfTheWeek: String {
     case mon, tue, wed, thur, fri, sat, sun, na
@@ -131,6 +133,7 @@ enum DayOfTheWeek: String {
 }
 
 // MARK: - JSON Keys
+
 /// JSON keys for Lotteries
 struct JSONLotteryiesKeyString {
     // Lottery
@@ -138,12 +141,14 @@ struct JSONLotteryiesKeyString {
 }
 
 // MARK: - Cell Identifiers
+
 /// Tableview Cells Identifiers
 struct CellIdentifier {
     static let historyCell = "history cell"
 }
 
 // MARK: - Segues
+
 /// Segue keys
 struct Segue {
     // Boledo
@@ -156,12 +161,14 @@ struct Segue {
 }
 
 // MARK: - Constants
+
 /// Constants
 struct Constants {
     static let NumberMockObjects = 10000
 }
 
 // MARK: - Images
+
 /// Common app images
 struct Images {
     static let image = UIImage(named: "")

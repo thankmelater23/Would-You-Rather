@@ -6,29 +6,27 @@
 //  Copyright © 2018 Andre. All rights reserved.
 //
 
-import UIKit
 import CoreData
-import SwiftyBeaver
-import Siren
-import Fabric
 import Crashlytics
-import GoogleMobileAds
+import Fabric
 import Firebase
+import GoogleMobileAds
+import Siren
+import SwiftyBeaver
+import UIKit
 
 // import Inapptics
 
 #if DEBUG
-    import SimulatorStatusMagic
     import FLEX
+    import SimulatorStatusMagic
 #endif
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
 
     func application(_: UIApplication, didFinishLaunchingWithOptions _: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-
         FirebaseApp.configure()
 
         setup()
@@ -106,7 +104,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
 
-    /// MARK: - Setup
+    // MARK: - Setup
+
     func setup() {
         buddyBuildConfig()
         swiftBeaverSetUp()
@@ -125,6 +124,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     // MARK: - 3rd Party Integration
+
     /** Swifty Beaver logger configuration
 
      -  Note: Logger
@@ -146,7 +146,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     /// Logs app details
     func printAppInfo() {
-
         if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
             log.info("Version Running: \(version)")
         }

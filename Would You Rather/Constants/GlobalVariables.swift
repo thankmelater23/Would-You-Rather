@@ -10,5 +10,6 @@ import Foundation
 import SwiftyBeaver
 
 // MARK: - Global Variables
+
 /// Swifty Beaver logger
 let log = SwiftyBeaver.self

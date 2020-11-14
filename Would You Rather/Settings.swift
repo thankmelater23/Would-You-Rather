@@ -9,13 +9,14 @@
 import Foundation
 
 // MARK: - Settings
+
 class Settings {
     // MARK: - Variable
 
     // MARK: - Setup
+
     /// Makes class singleton
-    private init() {
-    }
+    private init() {}
 
     /// Gets and sets Userdefaults if ads was "In-App" purchased.
     class var adPurchased: Bool {
@@ -157,7 +158,6 @@ class Settings {
         let path = getStringPath()
 
         if !fileManager.fileExists(atPath: path) {
-
             let data: [String: AnyObject] = [
                 "adPurchased": false as AnyObject,
                 "firstStart": false as AnyObject,

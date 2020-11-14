@@ -6,8 +6,8 @@
 //  Copyright © 2018 Andre. All rights reserved.
 //
 
-import UIKit
 import GoogleMobileAds
+import UIKit
 
 class HistoryTableViewController: UITableViewController {
     var bannerView: GADBannerView!

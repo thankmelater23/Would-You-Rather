@@ -7,17 +7,17 @@
 		<key>WWYR UITests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>24</integer>
+			<integer>2</integer>
 		</dict>
 		<key>Would You Rather.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>22</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Would You RatherUITests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>23</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -33,6 +33,21 @@
 			<true/>
 		</dict>
 		<key>4143E232202583EA008492C8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>415248742516B46500DF2DDE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4152488A2516B46900DF2DDE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>415248952516B46A00DF2DDE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

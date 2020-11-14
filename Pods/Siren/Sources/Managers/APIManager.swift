@@ -59,7 +59,7 @@ extension APIManager {
         do {
             let url = try makeITunesURL()
             let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalAndRemoteCacheData, timeoutInterval: 30)
-            URLSession.shared.dataTask(with: request) { (data, response, error) in
+            URLSession.shared.dataTask(with: request) { data, response, error in
                 URLCache.shared.removeCachedResponse(for: request)
                 self.processVersionCheckResults(withData: data, response: response, error: error, completion: handler)
             }.resume()
@@ -76,7 +76,7 @@ extension APIManager {
     ///   - error: The error returned from the request.
     ///   - handler: The completion handler to call once the results of the request has been processed.
     private func processVersionCheckResults(withData data: Data?,
-                                            response: URLResponse?,
+                                            response _: URLResponse?,
                                             error: Error?,
                                             completion handler: CompletionHandler?) {
         if let error = error {

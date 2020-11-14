@@ -64,7 +64,7 @@ extension Duel: Equatable {
         let ls = [lhs.question1, lhs.question2]
         let rs = [rhs.question1, rhs.question2]
 
-        guard rs.contains(lhs.question1) && rs.contains(lhs.question2) else { return false }
+        guard rs.contains(lhs.question1), rs.contains(lhs.question2) else { return false }
 
         return true
     }
@@ -74,7 +74,7 @@ extension Duel: Equatable {
         let ls = [lhs.question1, lhs.question2]
         let rs = [rhs.question1, rhs.question2]
 
-        guard rs.contains(lhs.question1) && rs.contains(lhs.question2) else { return false }
+        guard rs.contains(lhs.question1), rs.contains(lhs.question2) else { return false }
 
         return true
     }

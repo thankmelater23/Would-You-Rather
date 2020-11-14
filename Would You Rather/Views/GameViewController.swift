@@ -3,15 +3,16 @@
 //  Copyright © 2018 Andre. All rights reserved.
 //
 
-import UIKit
-import SwiftRandom
 import GoogleMobileAds
+import SwiftRandom
+import UIKit
 
 class GameViewController: UIViewController {
-    /// MARK: - Variables
+    // MARK: - Variables
+
     var bannerView: GADBannerView!
-    @IBOutlet weak var adBannerPlaceHolder: GADBannerView!
-    @IBOutlet weak var orLabel: UILabel!
+    @IBOutlet var adBannerPlaceHolder: GADBannerView!
+    @IBOutlet var orLabel: UILabel!
 
     var questions = [Question]()
     var playingQuestions = [Question]()
@@ -22,19 +23,21 @@ class GameViewController: UIViewController {
     let adPlaysCount = 10
     var interstitial = GADInterstitial()
 
-    /// MARK: - IBOutlets
-    @IBOutlet weak var topQuestionLabel: UILabel!
-    @IBOutlet weak var bottomQuestionLabel: UILabel!
-    @IBOutlet weak var categoryLabel: UILabel!
-    @IBOutlet weak var magnitudeLabel: UILabel!
+    // MARK: - IBOutlets
 
-    @IBOutlet weak var topQuestionImageView: UIImageView!
+    @IBOutlet var topQuestionLabel: UILabel!
+    @IBOutlet var bottomQuestionLabel: UILabel!
+    @IBOutlet var categoryLabel: UILabel!
+    @IBOutlet var magnitudeLabel: UILabel!
 
-    @IBOutlet weak var bottomQuestionImageView: UIImageView!
+    @IBOutlet var topQuestionImageView: UIImageView!
 
-    @IBOutlet weak var skipNextBarButton: UIBarButtonItem!
+    @IBOutlet var bottomQuestionImageView: UIImageView!
 
-    /// MARK: - IBActions
+    @IBOutlet var skipNextBarButton: UIBarButtonItem!
+
+    // MARK: - IBActions
+
     @IBAction func topQuestionButton(_: Any) {
         let q1 = playingQuestions.first
         let q2 = playingQuestions.last
@@ -77,8 +80,7 @@ class GameViewController: UIViewController {
         }
     }
 
-    @IBAction func nextDuel(_: Any) {
-    }
+    @IBAction func nextDuel(_: Any) {}
 
     @IBAction func skipNextAction(_ sender: UIBarButtonItem) {
         setup()
@@ -90,7 +92,8 @@ class GameViewController: UIViewController {
         }
     }
 
-    /// MARK: - View Functions
+    // MARK: - View Functions
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -104,7 +107,8 @@ class GameViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    /// MARK: - Setup
+    // MARK: - Setup
+
     /// Setup function
     func setup() {
         getData()
@@ -123,23 +127,24 @@ class GameViewController: UIViewController {
         let bottomQuestionText = (q2?.scene)?.capitalized
         let categoryText = q1?.category.rawValue
         var magnitudeText = q1?.magnitude.rawValue
-        magnitudeText = magnitudeText.map({ $0.capitalized })
-        topQuestionLabel.text = topQuestionText.map({ $0.capitalized })
-        bottomQuestionLabel.text = bottomQuestionText.map({ $0.capitalized })
-        categoryLabel.text = categoryText.map({ $0.capitalized })
-        magnitudeLabel.text = magnitudeText.map({ $0.capitalized })?.replacingOccurrences(of: "_", with: " ", options: .literal, range: nil)
+        magnitudeText = magnitudeText.map { $0.capitalized }
+        topQuestionLabel.text = topQuestionText.map { $0.capitalized }
+        bottomQuestionLabel.text = bottomQuestionText.map { $0.capitalized }
+        categoryLabel.text = categoryText.map { $0.capitalized }
+        magnitudeLabel.text = magnitudeText.map { $0.capitalized }?.replacingOccurrences(of: "_", with: " ", options: .literal, range: nil)
 
         topQuestionImageView.isHidden = true
         bottomQuestionImageView.isHidden = true
     }
 
-    /// MARK: - Setup Data
+    // MARK: - Setup Data
+
     func getData() {
         questions.removeAll()
 
         currentCategory = QuestionCategory.randomCategory()
-        let categoryString = currentCategory.self.rawValue
-        self.parseFile(file: categoryString)
+        let categoryString = currentCategory.rawValue
+        parseFile(file: categoryString)
     }
 
     func setNewQuestions() {
@@ -148,7 +153,7 @@ class GameViewController: UIViewController {
         let categoryType = QuestionCategory.randomCategory()
         let magnitudeType = Magnitude.randomMagnitude()
 
-        playingQuestions = self.getQuestionsWith(magnitude: magnitudeType, category: currentCategory)
+        playingQuestions = getQuestionsWith(magnitude: magnitudeType, category: currentCategory)
     }
 
     func getQuestionsWith(magnitude: Magnitude, category: QuestionCategory) -> [Question] {
@@ -161,7 +166,7 @@ class GameViewController: UIViewController {
             }
         }
 
-        var filteredMagnitudes = questions.filter({ $0.magnitude == magnitude })
+        var filteredMagnitudes = questions.filter { $0.magnitude == magnitude }
         if filteredMagnitudes.count < 2 {
             print("Not enough pairs for : \(magnitude)")
             if filteredMagnitudes.count > 0 {
@@ -216,7 +221,6 @@ class GameViewController: UIViewController {
     }
 
     func saveToHistory() {
-
         var duels: [Duel] = [Duel]()
 
         if Storage.fileExists(File.WWYRHistory, in: .documents) {
@@ -224,11 +228,10 @@ class GameViewController: UIViewController {
         }
 
         if !duels.contains(duel!) {
-            if questions.first?.scene.isEmpty == false && questions.last?.scene.isEmpty == false {
+            if questions.first?.scene.isEmpty == false, questions.last?.scene.isEmpty == false {
                 duels.append(duel!)
             }
-        } else {
-        }
+        } else {}
 
         Storage.store(duels, to: Storage.Directory.documents, as: File.WWYRHistory)
 
@@ -252,7 +255,6 @@ class GameViewController: UIViewController {
 }
 
 extension GameViewController: GADInterstitialDelegate {
-
     func loadVideoAd() {
         interstitial = GADInterstitial(adUnitID: PrivateKeys.Game_Count_Plays_Initializer)
         let request = GADRequest()

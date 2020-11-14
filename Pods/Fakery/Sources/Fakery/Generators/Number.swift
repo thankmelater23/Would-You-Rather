@@ -20,7 +20,7 @@ extension Faker {
                 rand = rand & Int.max // Make the number positive
             #endif
 
-            if max >= 0 && max - Int.max >= min {
+            if max >= 0, max - Int.max >= min {
                 return min + rand
             }
 

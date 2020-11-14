@@ -11,14 +11,14 @@ import UIKit
 
 public extension Bool {
     /// SwiftRandom extension
-    public static func random() -> Bool {
+    static func random() -> Bool {
         return Int.random() % 2 == 0
     }
 }
 
 public extension Int {
     /// SwiftRandom extension
-    public static func random(_ range: Range<Int>) -> Int {
+    static func random(_ range: Range<Int>) -> Int {
         #if swift(>=3)
             return random(range.lowerBound, range.upperBound - 1)
         #else
@@ -27,26 +27,26 @@ public extension Int {
     }
 
     /// SwiftRandom extension
-    public static func random(_ range: ClosedRange<Int>) -> Int {
+    static func random(_ range: ClosedRange<Int>) -> Int {
         return random(range.lowerBound, range.upperBound)
     }
 
     /// SwiftRandom extension
-    public static func random(_ lower: Int = 0, _ upper: Int = 100) -> Int {
+    static func random(_ lower: Int = 0, _ upper: Int = 100) -> Int {
         return lower + Int(arc4random_uniform(UInt32(upper - lower + 1)))
     }
 }
 
 public extension Int32 {
     /// SwiftRandom extension
-    public static func random(_ range: Range<Int>) -> Int32 {
+    static func random(_ range: Range<Int>) -> Int32 {
         return random(range.upperBound, range.lowerBound)
     }
 
     /// SwiftRandom extension
     ///
     /// - note: Using `Int` as parameter type as we usually just want to write `Int32.random(13, 37)` and not `Int32.random(Int32(13), Int32(37))`
-    public static func random(_ lower: Int = 0, _ upper: Int = 100) -> Int32 {
+    static func random(_ lower: Int = 0, _ upper: Int = 100) -> Int32 {
         let r = arc4random_uniform(UInt32(Int64(upper) - Int64(lower)))
         return Int32(Int64(r) + Int64(lower))
     }
@@ -54,28 +54,28 @@ public extension Int32 {
 
 public extension Double {
     /// SwiftRandom extension
-    public static func random(_ lower: Double = 0, _ upper: Double = 100) -> Double {
+    static func random(_ lower: Double = 0, _ upper: Double = 100) -> Double {
         return (Double(arc4random()) / 0xFFFF_FFFF) * (upper - lower) + lower
     }
 }
 
 public extension Float {
     /// SwiftRandom extension
-    public static func random(_ lower: Float = 0, _ upper: Float = 100) -> Float {
+    static func random(_ lower: Float = 0, _ upper: Float = 100) -> Float {
         return (Float(arc4random()) / 0xFFFF_FFFF) * (upper - lower) + lower
     }
 }
 
 public extension CGFloat {
     /// SwiftRandom extension
-    public static func random(_ lower: CGFloat = 0, _ upper: CGFloat = 1) -> CGFloat {
+    static func random(_ lower: CGFloat = 0, _ upper: CGFloat = 1) -> CGFloat {
         return CGFloat(Float(arc4random()) / Float(UINT32_MAX)) * (upper - lower) + lower
     }
 }
 
 public extension Date {
     /// SwiftRandom extension
-    public static func randomWithinDaysBeforeToday(_ days: Int) -> Date {
+    static func randomWithinDaysBeforeToday(_ days: Int) -> Date {
         let today = Date()
         let gregorian = Calendar(identifier: Calendar.Identifier.gregorian)
 
@@ -98,7 +98,7 @@ public extension Date {
     }
 
     /// SwiftRandom extension
-    public static func random() -> Date {
+    static func random() -> Date {
         let randomTime = TimeInterval(arc4random_uniform(UInt32.max))
         return Date(timeIntervalSince1970: randomTime)
     }
@@ -106,7 +106,7 @@ public extension Date {
 
 public extension UIColor {
     /// SwiftRandom extension
-    public static func random(_ randomAlpha: Bool = false) -> UIColor {
+    static func random(_ randomAlpha: Bool = false) -> UIColor {
         let randomRed = CGFloat.random()
         let randomGreen = CGFloat.random()
         let randomBlue = CGFloat.random()
@@ -117,7 +117,7 @@ public extension UIColor {
 
 public extension Array {
     /// SwiftRandom extension
-    public func randomItem() -> Element? {
+    func randomItem() -> Element? {
         guard count > 0 else {
             return nil
         }
@@ -129,7 +129,7 @@ public extension Array {
 
 public extension ArraySlice {
     /// SwiftRandom extension
-    public func randomItem() -> Element? {
+    func randomItem() -> Element? {
         guard count > 0 else {
             return nil
         }
@@ -146,16 +146,17 @@ public extension ArraySlice {
 
 public extension URL {
     /// SwiftRandom extension
-    public static func random() -> URL {
+    static func random() -> URL {
         let urlList = ["http://www.google.com", "http://leagueoflegends.com/", "https://github.com/", "http://stackoverflow.com/", "https://medium.com/", "http://9gag.com/gag/6715049", "http://imgur.com/gallery/s9zoqs9", "https://www.youtube.com/watch?v=uelHwf8o7_U"]
         return URL(string: urlList.randomItem()!)!
     }
 }
 
 public struct Randoms {
-
     //==========================================================================================================
+
     // MARK: - Object randoms
+
     //==========================================================================================================
 
     public static func randomBool() -> Bool {
@@ -211,7 +212,9 @@ public struct Randoms {
     }
 
     //==========================================================================================================
+
     // MARK: - Fake random data generators
+
     //==========================================================================================================
 
     public static func randomFakeName() -> String {

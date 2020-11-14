@@ -9,7 +9,6 @@
 import XCTest
 
 class WWYR_UITests: XCTestCase {
-
     override func setUp() {
         super.setUp()
         let app = XCUIApplication()

@@ -10,7 +10,6 @@
 		0999B8E0B59E1DFA7D3DED59 /* Pods_WWYR_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265316A3B51900868492135A /* Pods_WWYR_UITests.framework */; };
 		1ADE99FE3584001CD36B71D7 /* Pods_Would_You_Rather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24895057A0DE0ACDDC1A047F /* Pods_Would_You_Rather.framework */; };
 		41047FA2202B36F10002B96F /* CateogryTemplate.json in Resources */ = {isa = PBXBuildFile; fileRef = 41047FA1202B36F10002B96F /* CateogryTemplate.json */; };
-		410F5CED20B6A88800BCA8B9 /* WWYR-History.json in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CEC20B6A88800BCA8B9 /* WWYR-History.json */; };
 		410F5CF720B7838100BCA8B9 /* Matchfile in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CEF20B7838000BCA8B9 /* Matchfile */; };
 		410F5CF820B7838100BCA8B9 /* Deliverfile in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CF020B7838000BCA8B9 /* Deliverfile */; };
 		410F5CF920B7838100BCA8B9 /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CF120B7838000BCA8B9 /* Appfile */; };
@@ -102,7 +101,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		415248A32516B46A00DF2DDE /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		079E70643B91B0FB4275F84C /* Pods-Would You Rather-App Clip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Would You Rather-App Clip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Would You Rather-App Clip/Pods-Would You Rather-App Clip.debug.xcconfig"; sourceTree = "<group>"; };
 		0860475613ABC758BE2BA85A /* Pods_Would_You_RatherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Would_You_RatherUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13341EC1AB55EA2F7BC55DCF /* Pods-Would You RatherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Would You RatherTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Would You RatherTests/Pods-Would You RatherTests.debug.xcconfig"; sourceTree = "<group>"; };
 		20ABB50F0B6CD202B4C4545D /* Pods-Would You RatherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Would You RatherTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Would You RatherTests/Pods-Would You RatherTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -111,7 +124,6 @@
 		33BCABA85E87A3712EF74723 /* Pods-Would You RatherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Would You RatherUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Would You RatherUITests/Pods-Would You RatherUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3D8A0448B33693DE6C730294 /* Pods-WWYR UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWYR UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWYR UITests/Pods-WWYR UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		41047FA1202B36F10002B96F /* CateogryTemplate.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CateogryTemplate.json; sourceTree = "<group>"; };
-		410F5CEC20B6A88800BCA8B9 /* WWYR-History.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "WWYR-History.json"; sourceTree = "<group>"; };
 		410F5CEF20B7838000BCA8B9 /* Matchfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Matchfile; path = fastlane/Matchfile; sourceTree = SOURCE_ROOT; };
 		410F5CF020B7838000BCA8B9 /* Deliverfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Deliverfile; path = fastlane/Deliverfile; sourceTree = SOURCE_ROOT; };
 		410F5CF120B7838000BCA8B9 /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Appfile; path = fastlane/Appfile; sourceTree = SOURCE_ROOT; };
@@ -169,6 +181,8 @@
 		4143E245202586A8008492C8 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		4143E24720258B6A008492C8 /* Details.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Details.rtf; sourceTree = "<group>"; };
 		4148614B202654C4007AFA25 /* annoying.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = annoying.json; sourceTree = "<group>"; };
+		4152488B2516B46900DF2DDE /* App ClipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App ClipTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		415248962516B46A00DF2DDE /* App ClipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App ClipUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		415334EB20B4C73600E32967 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
 		415334ED20B5582500E32967 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
 		417421EA202647FF00BFC6D7 /* romance.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = romance.json; sourceTree = "<group>"; };
@@ -191,9 +205,13 @@
 		41E34CA72026210D003B4AE7 /* Structures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
 		41F57A0D22BA29D40076D4BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4E7F8EA5A485476F1A913ADD /* Pods-Would You Rather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Would You Rather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Would You Rather/Pods-Would You Rather.debug.xcconfig"; sourceTree = "<group>"; };
+		5038BCC8C9FF93E00A12FC3D /* Pods-App Clip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App Clip.release.xcconfig"; path = "Pods/Target Support Files/Pods-App Clip/Pods-App Clip.release.xcconfig"; sourceTree = "<group>"; };
+		5FA5B3FB38E5203C523B571F /* Pods-Would You Rather-App Clip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Would You Rather-App Clip.release.xcconfig"; path = "Pods/Target Support Files/Pods-Would You Rather-App Clip/Pods-Would You Rather-App Clip.release.xcconfig"; sourceTree = "<group>"; };
 		6F1A5CA53337FD8C1A9AA63E /* Pods-WWYR UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWYR UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WWYR UITests/Pods-WWYR UITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F97C81C27E2A012E3363F96 /* Pods_Would_You_Rather_App_Clip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Would_You_Rather_App_Clip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		933A220340772872BCAC5C5D /* Pods-Would You Rather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Would You Rather.release.xcconfig"; path = "Pods/Target Support Files/Pods-Would You Rather/Pods-Would You Rather.release.xcconfig"; sourceTree = "<group>"; };
 		9446AA8347CDF4FA6D860450 /* Pods-Would You RatherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Would You RatherUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Would You RatherUITests/Pods-Would You RatherUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D0B3B2DCC8D21667C9949D9 /* Pods-App Clip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App Clip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-App Clip/Pods-App Clip.debug.xcconfig"; sourceTree = "<group>"; };
 		C03423D79C94CFBA8DABC605 /* Pods_Would_You_RatherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Would_You_RatherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -211,6 +229,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF839065E3BE0AEF498DDEBB /* Pods_Would_You_RatherTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415248882516B46900DF2DDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415248932516B46A00DF2DDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +317,6 @@
 		410F5DAA20B7880600BCA8B9 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
-				410F5CEC20B6A88800BCA8B9 /* WWYR-History.json */,
 				41DA814D2025F10900587668 /* WouldYouRather.json */,
 				418D25D22026579900DBA2BE /* embarrassing.json */,
 				4148614B202654C4007AFA25 /* annoying.json */,
@@ -382,6 +413,8 @@
 				4143E211202583EA008492C8 /* Would You Rather.app */,
 				4143E228202583EA008492C8 /* Would You RatherTests.xctest */,
 				4174CEDD227CBB0D00F58910 /* WWYR UITests.xctest */,
+				4152488B2516B46900DF2DDE /* App ClipTests.xctest */,
+				415248962516B46A00DF2DDE /* App ClipUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -444,6 +477,10 @@
 				33BCABA85E87A3712EF74723 /* Pods-Would You RatherUITests.release.xcconfig */,
 				3D8A0448B33693DE6C730294 /* Pods-WWYR UITests.debug.xcconfig */,
 				6F1A5CA53337FD8C1A9AA63E /* Pods-WWYR UITests.release.xcconfig */,
+				9D0B3B2DCC8D21667C9949D9 /* Pods-App Clip.debug.xcconfig */,
+				5038BCC8C9FF93E00A12FC3D /* Pods-App Clip.release.xcconfig */,
+				079E70643B91B0FB4275F84C /* Pods-Would You Rather-App Clip.debug.xcconfig */,
+				5FA5B3FB38E5203C523B571F /* Pods-Would You Rather-App Clip.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -455,6 +492,7 @@
 				C03423D79C94CFBA8DABC605 /* Pods_Would_You_RatherTests.framework */,
 				0860475613ABC758BE2BA85A /* Pods_Would_You_RatherUITests.framework */,
 				265316A3B51900868492135A /* Pods_WWYR_UITests.framework */,
+				6F97C81C27E2A012E3363F96 /* Pods_Would_You_Rather_App_Clip.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -473,6 +511,7 @@
 				F246AC2B8D56C81874BE34DD /* [CP] Embed Pods Frameworks */,
 				41AEEE2020A12A9A00EF7BD4 /* Fabric */,
 				410F5CE920B591C900BCA8B9 /* Build Incrementer */,
+				415248A32516B46A00DF2DDE /* Embed App Clips */,
 			);
 			buildRules = (
 			);
@@ -503,6 +542,40 @@
 			productReference = 4143E228202583EA008492C8 /* Would You RatherTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		4152488A2516B46900DF2DDE /* App ClipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 415248A42516B46A00DF2DDE /* Build configuration list for PBXNativeTarget "App ClipTests" */;
+			buildPhases = (
+				415248872516B46900DF2DDE /* Sources */,
+				415248882516B46900DF2DDE /* Frameworks */,
+				415248892516B46900DF2DDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "App ClipTests";
+			productName = "App ClipTests";
+			productReference = 4152488B2516B46900DF2DDE /* App ClipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		415248952516B46A00DF2DDE /* App ClipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 415248A72516B46A00DF2DDE /* Build configuration list for PBXNativeTarget "App ClipUITests" */;
+			buildPhases = (
+				415248922516B46A00DF2DDE /* Sources */,
+				415248932516B46A00DF2DDE /* Frameworks */,
+				415248942516B46A00DF2DDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "App ClipUITests";
+			productName = "App ClipUITests";
+			productReference = 415248962516B46A00DF2DDE /* App ClipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		4174CEDC227CBB0D00F58910 /* WWYR UITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4174CEE4227CBB0D00F58910 /* Build configuration list for PBXNativeTarget "WWYR UITests" */;
@@ -529,7 +602,7 @@
 		4143E209202583EA008492C8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
+				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = Andre;
 				TargetAttributes = {
@@ -543,6 +616,16 @@
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 4143E210202583EA008492C8;
+					};
+					4152488A2516B46900DF2DDE = {
+						CreatedOnToolsVersion = 12.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 415248742516B46500DF2DDE;
+					};
+					415248952516B46A00DF2DDE = {
+						CreatedOnToolsVersion = 12.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 415248742516B46500DF2DDE;
 					};
 					4174CEDC227CBB0D00F58910 = {
 						CreatedOnToolsVersion = 10.2;
@@ -567,6 +650,8 @@
 				4143E210202583EA008492C8 /* Would You Rather */,
 				4143E227202583EA008492C8 /* Would You RatherTests */,
 				4174CEDC227CBB0D00F58910 /* WWYR UITests */,
+				4152488A2516B46900DF2DDE /* App ClipTests */,
+				415248952516B46A00DF2DDE /* App ClipUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -625,7 +710,6 @@
 				410F5D3A20B783E800BCA8B9 /* demo_password.txt in Resources */,
 				410F5D3E20B783E800BCA8B9 /* secondary_second_sub_category.txt in Resources */,
 				4143E21A202583EA008492C8 /* Main.storyboard in Resources */,
-				410F5CED20B6A88800BCA8B9 /* WWYR-History.json in Resources */,
 				410F5CF720B7838100BCA8B9 /* Matchfile in Resources */,
 				410F5D2F20B783E800BCA8B9 /* primary_second_sub_category.txt in Resources */,
 				410F5D4320B783E800BCA8B9 /* support_url.txt in Resources */,
@@ -636,6 +720,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4143E226202583EA008492C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415248892516B46900DF2DDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415248942516B46A00DF2DDE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -871,6 +969,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		415248872516B46900DF2DDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415248922516B46A00DF2DDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4174CED9227CBB0D00F58910 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1037,17 +1149,18 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E7F8EA5A485476F1A913ADD /* Pods-Would You Rather.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = "Would You Rather/Would You Rather.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZJWNZ643CG;
 				INFOPLIST_FILE = "$(SRCROOT)/Would You Rather/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.4;
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-Rather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1065,17 +1178,18 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 933A220340772872BCAC5C5D /* Pods-Would You Rather.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = "Would You Rather/Would You Rather.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZJWNZ643CG;
 				INFOPLIST_FILE = "$(SRCROOT)/Would You Rather/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.4;
+				MARKETING_VERSION = 1.5;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-Rather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -1122,6 +1236,88 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Would You Rather.app/Would You Rather";
+			};
+			name = Release;
+		};
+		415248A52516B46A00DF2DDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ZJWNZ643CG;
+				INFOPLIST_FILE = "App ClipTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-Rather.App-ClipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App Clip.app/App Clip";
+			};
+			name = Debug;
+		};
+		415248A62516B46A00DF2DDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJWNZ643CG;
+				INFOPLIST_FILE = "App ClipTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-Rather.App-ClipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App Clip.app/App Clip";
+			};
+			name = Release;
+		};
+		415248A82516B46A00DF2DDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ZJWNZ643CG;
+				INFOPLIST_FILE = "App ClipUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-Rather.App-ClipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "App Clip";
+			};
+			name = Debug;
+		};
+		415248A92516B46A00DF2DDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZJWNZ643CG;
+				INFOPLIST_FILE = "App ClipUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BangBangStudios.Would-You-Rather.App-ClipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "App Clip";
 			};
 			name = Release;
 		};
@@ -1193,6 +1389,24 @@
 			buildConfigurations = (
 				4143E240202583EA008492C8 /* Debug */,
 				4143E241202583EA008492C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		415248A42516B46A00DF2DDE /* Build configuration list for PBXNativeTarget "App ClipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415248A52516B46A00DF2DDE /* Debug */,
+				415248A62516B46A00DF2DDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		415248A72516B46A00DF2DDE /* Build configuration list for PBXNativeTarget "App ClipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415248A82516B46A00DF2DDE /* Debug */,
+				415248A92516B46A00DF2DDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

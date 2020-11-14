@@ -9,11 +9,10 @@
 import UIKit
 
 class HistoryTableViewCell: UITableViewCell {
-
-    @IBOutlet weak var scenerio1Image: UIImageView!
-    @IBOutlet weak var scenerio1Label: UILabel!
-    @IBOutlet weak var scenerio2Image: UIImageView!
-    @IBOutlet weak var scenerio2Label: UILabel!
+    @IBOutlet var scenerio1Image: UIImageView!
+    @IBOutlet var scenerio1Label: UILabel!
+    @IBOutlet var scenerio2Image: UIImageView!
+    @IBOutlet var scenerio2Label: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -31,7 +30,6 @@ class HistoryTableViewCell: UITableViewCell {
     }
 
     func setCell(_ duel: Duel?, index _: Int) {
-
         scenerio1Label.text = duel?.question1.scene
         scenerio2Label.text = duel?.question2.scene
 

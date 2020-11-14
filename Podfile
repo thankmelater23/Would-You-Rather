@@ -10,6 +10,7 @@ target 'Would You Rather' do
   pod 'SwiftyBeaver'#, '~> 0.2' Logger with tags
   pod 'iRate'#(1.11.4) Ask's user to rate app after x amount of days
   pod 'Siren'#This will be done when the app has an app id number
+  pod 'Firebase/Analytics'
 #  pod 'Firebase/Core'
 #  pod 'FirebaseDatabase'
 #  pod 'Firebase/Performance'
@@ -54,7 +55,16 @@ target 'Would You Rather' do
     pod 'Firebase/Database', :inhibit_warnings => true
     pod 'Firebase/Auth', :inhibit_warnings => true
   end
-
+  
+  target 'App Clip' do
+    # Pods for testing
+    pod 'Firebase'#Temporary putin
+    pod 'Firebase/Core'
+    pod 'Firebase/Database'
+    pod 'Firebase/Auth'
+    pod 'SwiftRandom'
+    pod 'Fakery'
+    end
 end
 
 

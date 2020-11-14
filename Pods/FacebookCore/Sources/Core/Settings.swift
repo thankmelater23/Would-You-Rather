@@ -19,7 +19,9 @@
 import Foundation
 
 // --------------------------------------
+
 // MARK: - SDKSettings
+
 // --------------------------------------
 
 /**
@@ -27,7 +29,9 @@ import Foundation
  */
 public extension Settings {
     // --------------------------------------
+
     // MARK: - SDKSettings + Logging Behavior
+
     // --------------------------------------
 
     /**

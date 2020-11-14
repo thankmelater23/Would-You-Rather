@@ -15,7 +15,7 @@ class OptionsViewController: UIViewController {
         //    self.dismiss(animated: true, completion: nil)
     }
 
-    @IBOutlet weak var segueOptionsToMain: UIBarButtonItem!
+    @IBOutlet var segueOptionsToMain: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
 

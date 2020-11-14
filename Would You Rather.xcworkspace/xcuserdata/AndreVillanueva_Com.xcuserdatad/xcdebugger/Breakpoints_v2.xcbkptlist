@@ -104,38 +104,6 @@
             endingLineNumber = "58"
             landmarkName = "createLocalURL(path:)"
             landmarkType = "9">
-            <Locations>
-               <Location
-                  uuid = "6D8A2D7F-8608-4700-BAD4-C82A5995C7D2 - cfc17ad2ed4c0182"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "createLocalURL #1 (path: Swift.String) -&gt; Foundation.URL in Would_You_Rather.Database.saveData(duel: Would_You_Rather.Duel) -&gt; ()"
-                  moduleName = "Would You Rather"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/AndreVillanueva_Com/Dropbox/Andre%20Villanueva/Dropbox/Xcode%206/My%20Projects/Would%20You%20Rather/Would%20You%20Rather/Database.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "1328">
-               </Location>
-               <Location
-                  uuid = "6D8A2D7F-8608-4700-BAD4-C82A5995C7D2 - cfc17ad2ed4c0182"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "createLocalURL #1 (path: Swift.String) -&gt; Foundation.URL in Would_You_Rather.Database.saveData(duel: Would_You_Rather.Duel) -&gt; ()"
-                  moduleName = "Would You Rather"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/AndreVillanueva_Com/Dropbox/Andre%20Villanueva/Dropbox/Xcode%206/My%20Projects/Would%20You%20Rather/Would%20You%20Rather/Database.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "1444">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -219,7 +187,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "313"
             endingLineNumber = "313"
-            landmarkName = "interstitialDidDismissScreen(_:)"
+            landmarkName = "interstitialWillLeaveApplication(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -238,38 +206,6 @@
             endingLineNumber = "88"
             landmarkName = "PrivateKeys"
             landmarkType = "14">
-            <Locations>
-               <Location
-                  uuid = "682FBEF0-B5E5-4A09-B10E-FE96CBF8C0E6 - 6d612b701b88360a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "globalinit_33_929730811CD1959D8D944DEA8C6F4884_func23"
-                  moduleName = "Would You Rather"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/AndreVillanueva_Com/Dropbox/Andre%20Villanueva/Dropbox/Xcode%206/My%20Projects/Would%20You%20Rather/Would%20You%20Rather/Constants/Structures.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "88"
-                  endingLineNumber = "88"
-                  offsetFromSymbolStart = "28">
-               </Location>
-               <Location
-                  uuid = "682FBEF0-B5E5-4A09-B10E-FE96CBF8C0E6 - 4afa2be25c28aff"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Would_You_Rather.PrivateKeys.google_Ad_ID_Key_MainMenuView.unsafeMutableAddressor : Swift.String"
-                  moduleName = "Would You Rather"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/AndreVillanueva_Com/Dropbox/Andre%20Villanueva/Dropbox/Xcode%206/My%20Projects/Would%20You%20Rather/Would%20You%20Rather/Constants/Structures.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "88"
-                  endingLineNumber = "88"
-                  offsetFromSymbolStart = "8">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -287,6 +223,131 @@
             endingLineNumber = "93"
             landmarkName = "PrivateKeys"
             landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "473F2181-3A61-409D-8930-D065A4CA83C4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App Clip/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "MainViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "473F2181-3A61-409D-8930-D065A4CA83C4 - 24b6b8995d08e5c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "App_Clip.MainViewController.__deallocating_deinit"
+                  moduleName = "App Clip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AndreVillanueva_Com/Dropbox/Dropbox/Xcode%206/My%20Projects/Would%20You%20Rather/App%20Clip/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "473F2181-3A61-409D-8930-D065A4CA83C4 - 1e968ba8bf1c7220"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "App_Clip.MainViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; App_Clip.MainViewController"
+                  moduleName = "App Clip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AndreVillanueva_Com/Dropbox/Dropbox/Xcode%206/My%20Projects/Would%20You%20Rather/App%20Clip/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "473F2181-3A61-409D-8930-D065A4CA83C4 - 4f557fb2a89a73ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "App_Clip.MainViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; App_Clip.MainViewController"
+                  moduleName = "App Clip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AndreVillanueva_Com/Dropbox/Dropbox/Xcode%206/My%20Projects/Would%20You%20Rather/App%20Clip/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "944">
+               </Location>
+               <Location
+                  uuid = "473F2181-3A61-409D-8930-D065A4CA83C4 - dda989fecc42bfa2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "App_Clip.MainViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;App_Clip.MainViewController&gt;"
+                  moduleName = "App Clip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AndreVillanueva_Com/Dropbox/Dropbox/Xcode%206/My%20Projects/Would%20You%20Rather/App%20Clip/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "473F2181-3A61-409D-8930-D065A4CA83C4 - 2b4acfbb27c68193"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "App_Clip.MainViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;App_Clip.MainViewController&gt;"
+                  moduleName = "App Clip"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AndreVillanueva_Com/Dropbox/Dropbox/Xcode%206/My%20Projects/Would%20You%20Rather/App%20Clip/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "736">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0F83FF6-E14D-456C-B456-A067754E0095"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App Clip/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F6FDD59-E5E6-487E-A7AD-7EF0850E25C1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "App Clip/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

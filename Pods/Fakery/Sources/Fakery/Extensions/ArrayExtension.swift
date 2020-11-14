@@ -2,7 +2,7 @@ import Foundation
 
 extension Array {
     func at(_ index: Int?) -> Element? {
-        guard let index = index, index >= 0 && index < endIndex else {
+        guard let index = index, index >= 0, index < endIndex else {
             return nil
         }
 

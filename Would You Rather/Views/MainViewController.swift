@@ -6,13 +6,13 @@
 //  Copyright © 2018 Andre. All rights reserved.
 //
 
-import UIKit
 import GoogleMobileAds
+import UIKit
 
 class MainViewController: UIViewController {
     /// Views AD bannerview placeholder
     var bannerView: GADBannerView!
-    @IBOutlet weak var adBannerPlaceHolder: GADBannerView!
+    @IBOutlet var adBannerPlaceHolder: GADBannerView!
 
     @IBAction func segueMaintToOptions(_: UIButton) {
         performSegue(withIdentifier: Segue.main_to_options, sender: nil)
