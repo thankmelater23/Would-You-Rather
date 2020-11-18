@@ -103,7 +103,7 @@ private extension Bundle {
         guard let preferredLocalization = Bundle.main.preferredLocalizations.first,
             preferredLocalization != Constants.englishLocalization,
             let preferredLanguage = Localization.Language(rawValue: preferredLocalization) else {
-                return nil
+            return nil
         }
 
         return preferredLanguage

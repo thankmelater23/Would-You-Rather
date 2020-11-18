@@ -53,15 +53,15 @@ public class PresentationManager {
     ///     - forceLanguage: The language the alert to which the alert should be set. If `nil`, it falls back to the device's preferred locale.
     public init(alertTintColor tintColor: UIColor? = nil,
                 appName: String? = nil,
-                alertTitle: String  = AlertConstants.alertTitle,
-                alertMessage: String  = AlertConstants.alertMessage,
-                updateButtonTitle: String  = AlertConstants.updateButtonTitle,
-                nextTimeButtonTitle: String  = AlertConstants.nextTimeButtonTitle,
-                skipButtonTitle: String  = AlertConstants.skipButtonTitle,
+                alertTitle: String = AlertConstants.alertTitle,
+                alertMessage: String = AlertConstants.alertMessage,
+                updateButtonTitle: String = AlertConstants.updateButtonTitle,
+                nextTimeButtonTitle: String = AlertConstants.nextTimeButtonTitle,
+                skipButtonTitle: String = AlertConstants.skipButtonTitle,
                 forceLanguageLocalization forceLanguage: Localization.Language? = nil) {
         self.alertTitle = alertTitle
         self.alertMessage = alertMessage
-        self.localization = Localization(appName: appName, andForceLanguageLocalization: forceLanguage)
+        localization = Localization(appName: appName, andForceLanguageLocalization: forceLanguage)
         self.nextTimeButtonTitle = nextTimeButtonTitle
         self.updateButtonTitle = updateButtonTitle
         self.skipButtonTitle = skipButtonTitle
@@ -80,7 +80,6 @@ public class PresentationManager {
 // MARK: - Alert Lifecycle
 
 extension PresentationManager {
-
     /// Constructs the localized update alert `UIAlertController` object.
     ///
     /// - Parameters:
@@ -153,7 +152,6 @@ extension PresentationManager {
 // MARK: - Alert Actions
 
 private extension PresentationManager {
-
     /// The `UIAlertAction` that is executed when the `Update` option is selected.
     ///
     /// - Parameters:

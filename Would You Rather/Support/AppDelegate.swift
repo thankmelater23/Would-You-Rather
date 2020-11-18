@@ -6,7 +6,7 @@
 //  Copyright © 2018 Andre. All rights reserved.
 //
 
-import CoreData 
+import CoreData
 import Firebase
 import GoogleMobileAds
 import Siren

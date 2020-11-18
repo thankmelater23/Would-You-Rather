@@ -42,13 +42,13 @@ public enum KnownError: LocalizedError {
         switch self {
         case .appStoreAppIDFailure:
             return "\(KnownError.sirenError) Error retrieving trackId as the JSON does not contain a `trackId` key."
-        case .appStoreDataRetrievalFailure(let error?):
+        case let .appStoreDataRetrievalFailure(error?):
             return "\(KnownError.sirenError) Error retrieving App Store data as an error was returned\nAlso, the following system level error was returned: \(error)"
         case .appStoreDataRetrievalEmptyResults:
             return "\(KnownError.sirenError) Error retrieving App Store data as the JSON results were empty. Is your app available in the US? If not, change the `countryCode` variable to fix this error."
         case .appStoreDataRetrievalFailure(.none):
             return "\(KnownError.sirenError) Error retrieving App Store data as an error was returned."
-        case .appStoreJSONParsingFailure(let error):
+        case let .appStoreJSONParsingFailure(error):
             return "\(KnownError.sirenError) Error parsing App Store JSON data.\nAlso, the following system level error was returned: \(error)"
         case .appStoreOSVersionUnsupported:
             return "\(KnownError.sirenError) The version of iOS on the device is lower than that of the one required by the app version update."
@@ -64,9 +64,9 @@ public enum KnownError: LocalizedError {
             return "\(KnownError.sirenError) No new update available."
         case .recentlyPrompted:
             return "\(KnownError.sirenError) Siren will not present an update alert if it performed one too recently. If you would like to present an alert every time Siren is called, please consider setting the `\(Rules.UpdatePromptFrequency.self).immediately` rule in `\(RulesManager.self)`"
-        case .releasedTooSoon(let daysSinceRelease, let releasedForDays):
+        case let .releasedTooSoon(daysSinceRelease, releasedForDays):
             return "\(KnownError.sirenError) The app has been released for \(daysSinceRelease) days, but Siren cannot prompt the user until \(releasedForDays) days have passed."
-        case .skipVersionUpdate(let installedVersion, let appStoreVersion):
+        case let .skipVersionUpdate(installedVersion, appStoreVersion):
             return "\(KnownError.sirenError) The user has opted to skip updating their current version of the app (\(installedVersion)) to the current App Store version (\(appStoreVersion))."
         }
     }
