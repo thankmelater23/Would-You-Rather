@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PAT.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>2864CF606BAD74B851D1872499B6B44E51EC1E34</string>
+				<key>dateExpires</key>
+				<string>9/18/21</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2864CF606BAD74B851D1872499B6B44E51EC1E34</string>
+						<key>dateExpires</key>
+						<string>9/18/21</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>Devices.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>ZJWNZ643CG</string>
+						<key>name</key>
+						<string>Andra Villanuevia</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2864CF606BAD74B851D1872499B6B44E51EC1E34</string>
+						<key>dateExpires</key>
+						<string>9/18/21</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>FBLPromises.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>ZJWNZ643CG</string>
+						<key>name</key>
+						<string>Andra Villanuevia</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2864CF606BAD74B851D1872499B6B44E51EC1E34</string>
+						<key>dateExpires</key>
+						<string>9/18/21</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>FirebaseCore.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>ZJWNZ643CG</string>
+						<key>name</key>
+						<string>Andra Villanuevia</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2864CF606BAD74B851D1872499B6B44E51EC1E34</string>
+						<key>dateExpires</key>
+						<string>9/18/21</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>FirebaseCoreDiagnostics.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>ZJWNZ643CG</string>
+						<key>name</key>
+						<string>Andra Villanuevia</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2864CF606BAD74B851D1872499B6B44E51EC1E34</string>
+						<key>dateExpires</key>
+						<string>9/18/21</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>FirebaseInstallations.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>ZJWNZ643CG</string>
+						<key>name</key>
+						<string>Andra Villanuevia</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2864CF606BAD74B851D1872499B6B44E51EC1E34</string>
+						<key>dateExpires</key>
+						<string>9/18/21</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>GoogleDataTransport.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>ZJWNZ643CG</string>
+						<key>name</key>
+						<string>Andra Villanuevia</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2864CF606BAD74B851D1872499B6B44E51EC1E34</string>
+						<key>dateExpires</key>
+						<string>9/18/21</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>GoogleUtilities.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>ZJWNZ643CG</string>
+						<key>name</key>
+						<string>Andra Villanuevia</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2864CF606BAD74B851D1872499B6B44E51EC1E34</string>
+						<key>dateExpires</key>
+						<string>9/18/21</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>Siren.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>ZJWNZ643CG</string>
+						<key>name</key>
+						<string>Andra Villanuevia</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2864CF606BAD74B851D1872499B6B44E51EC1E34</string>
+						<key>dateExpires</key>
+						<string>9/18/21</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>SwiftRater.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>ZJWNZ643CG</string>
+						<key>name</key>
+						<string>Andra Villanuevia</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2864CF606BAD74B851D1872499B6B44E51EC1E34</string>
+						<key>dateExpires</key>
+						<string>9/18/21</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>SwiftyBeaver.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>ZJWNZ643CG</string>
+						<key>name</key>
+						<string>Andra Villanuevia</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2864CF606BAD74B851D1872499B6B44E51EC1E34</string>
+						<key>dateExpires</key>
+						<string>9/18/21</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>nanopb.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>ZJWNZ643CG</string>
+						<key>name</key>
+						<string>Andra Villanuevia</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>ZJWNZ643CG.com.BangBangStudios.PAT</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>ZJWNZ643CG</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>PAT.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>a510a1f5-bce8-4ad0-aedb-0ac77d435584</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: com.BangBangStudios.PAT</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>ZJWNZ643CG</string>
+				<key>name</key>
+				<string>Andra Villanuevia</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

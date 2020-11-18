@@ -10,47 +10,148 @@
 		0999B8E0B59E1DFA7D3DED59 /* Pods_WWYR_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265316A3B51900868492135A /* Pods_WWYR_UITests.framework */; };
 		1ADE99FE3584001CD36B71D7 /* Pods_Would_You_Rather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24895057A0DE0ACDDC1A047F /* Pods_Would_You_Rather.framework */; };
 		41047FA2202B36F10002B96F /* CateogryTemplate.json in Resources */ = {isa = PBXBuildFile; fileRef = 41047FA1202B36F10002B96F /* CateogryTemplate.json */; };
-		410F5CF720B7838100BCA8B9 /* Matchfile in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CEF20B7838000BCA8B9 /* Matchfile */; };
-		410F5CF820B7838100BCA8B9 /* Deliverfile in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CF020B7838000BCA8B9 /* Deliverfile */; };
-		410F5CF920B7838100BCA8B9 /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CF120B7838000BCA8B9 /* Appfile */; };
-		410F5CFA20B7838100BCA8B9 /* devices.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CF220B7838000BCA8B9 /* devices.txt */; };
-		410F5CFB20B7838100BCA8B9 /* Gymfile in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CF320B7838000BCA8B9 /* Gymfile */; };
-		410F5CFC20B7838100BCA8B9 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CF420B7838000BCA8B9 /* Fastfile */; };
-		410F5CFD20B7838100BCA8B9 /* Scanfile in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CF520B7838000BCA8B9 /* Scanfile */; };
-		410F5CFE20B7838100BCA8B9 /* Snapfile in Resources */ = {isa = PBXBuildFile; fileRef = 410F5CF620B7838100BCA8B9 /* Snapfile */; };
-		410F5D2A20B783E800BCA8B9 /* primary_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0620B783E300BCA8B9 /* primary_category.txt */; };
-		410F5D2B20B783E800BCA8B9 /* release_notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0720B783E400BCA8B9 /* release_notes.txt */; };
-		410F5D2C20B783E800BCA8B9 /* secondary_first_sub_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0820B783E400BCA8B9 /* secondary_first_sub_category.txt */; };
-		410F5D2D20B783E800BCA8B9 /* description.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0920B783E400BCA8B9 /* description.txt */; };
-		410F5D2E20B783E800BCA8B9 /* name.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0A20B783E400BCA8B9 /* name.txt */; };
-		410F5D2F20B783E800BCA8B9 /* primary_second_sub_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0B20B783E400BCA8B9 /* primary_second_sub_category.txt */; };
-		410F5D3020B783E800BCA8B9 /* trade_name.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0C20B783E400BCA8B9 /* trade_name.txt */; };
-		410F5D3120B783E800BCA8B9 /* keywords.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0D20B783E400BCA8B9 /* keywords.txt */; };
-		410F5D3320B783E800BCA8B9 /* demo_user.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D0F20B783E400BCA8B9 /* demo_user.txt */; };
-		410F5D3520B783E800BCA8B9 /* secondary_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1120B783E500BCA8B9 /* secondary_category.txt */; };
-		410F5D3620B783E800BCA8B9 /* country.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1220B783E500BCA8B9 /* country.txt */; };
-		410F5D3720B783E800BCA8B9 /* subtitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1320B783E500BCA8B9 /* subtitle.txt */; };
-		410F5D3820B783E800BCA8B9 /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1420B783E500BCA8B9 /* notes.txt */; };
-		410F5D3A20B783E800BCA8B9 /* demo_password.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1620B783E500BCA8B9 /* demo_password.txt */; };
-		410F5D3B20B783E800BCA8B9 /* privacy_url.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1720B783E500BCA8B9 /* privacy_url.txt */; };
-		410F5D3C20B783E800BCA8B9 /* primary_first_sub_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1820B783E500BCA8B9 /* primary_first_sub_category.txt */; };
-		410F5D3D20B783E800BCA8B9 /* promotional_text.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1920B783E500BCA8B9 /* promotional_text.txt */; };
-		410F5D3E20B783E800BCA8B9 /* secondary_second_sub_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1A20B783E500BCA8B9 /* secondary_second_sub_category.txt */; };
-		410F5D3F20B783E800BCA8B9 /* state.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1B20B783E600BCA8B9 /* state.txt */; };
-		410F5D4020B783E800BCA8B9 /* last_name.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1C20B783E600BCA8B9 /* last_name.txt */; };
-		410F5D4120B783E800BCA8B9 /* address_line1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1D20B783E600BCA8B9 /* address_line1.txt */; };
-		410F5D4220B783E800BCA8B9 /* is_displayed_on_app_store.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1E20B783E600BCA8B9 /* is_displayed_on_app_store.txt */; };
-		410F5D4320B783E800BCA8B9 /* support_url.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D1F20B783E600BCA8B9 /* support_url.txt */; };
-		410F5D4420B783E800BCA8B9 /* address_line3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2020B783E600BCA8B9 /* address_line3.txt */; };
-		410F5D4520B783E800BCA8B9 /* address_line2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2120B783E600BCA8B9 /* address_line2.txt */; };
-		410F5D4620B783E800BCA8B9 /* city_name.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2220B783E700BCA8B9 /* city_name.txt */; };
-		410F5D4820B783E800BCA8B9 /* postal_code.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2420B783E700BCA8B9 /* postal_code.txt */; };
-		410F5D4920B783E800BCA8B9 /* copyright.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2520B783E700BCA8B9 /* copyright.txt */; };
-		410F5D4A20B783E800BCA8B9 /* email_address.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2620B783E700BCA8B9 /* email_address.txt */; };
-		410F5D4B20B783E800BCA8B9 /* phone_number.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2720B783E700BCA8B9 /* phone_number.txt */; };
-		410F5D4C20B783E800BCA8B9 /* first_name.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2820B783E700BCA8B9 /* first_name.txt */; };
-		410F5D4D20B783E800BCA8B9 /* marketing_url.txt in Resources */ = {isa = PBXBuildFile; fileRef = 410F5D2920B783E800BCA8B9 /* marketing_url.txt */; };
 		410F5DB320B7FE1700BCA8B9 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410F5DB220B7FE1700BCA8B9 /* Database.swift */; };
+		41185EA725603451001084E2 /* Gymfile in Resources */ = {isa = PBXBuildFile; fileRef = 41185E132560344F001084E2 /* Gymfile */; };
+		41185EA825603451001084E2 /* devices.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E142560344F001084E2 /* devices.txt */; };
+		41185EA925603451001084E2 /* Preview.html in Resources */ = {isa = PBXBuildFile; fileRef = 41185E152560344F001084E2 /* Preview.html */; };
+		41185EAA25603451001084E2 /* Framefile.json in Resources */ = {isa = PBXBuildFile; fileRef = 41185E172560344F001084E2 /* Framefile.json */; };
+		41185EAB25603451001084E2 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41185E182560344F001084E2 /* background.jpg */; };
+		41185EAC25603451001084E2 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E192560344F001084E2 /* README.txt */; };
+		41185EAD25603451001084E2 /* iPad Pro (12.9-inch)-About - Us_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E1B2560344F001084E2 /* iPad Pro (12.9-inch)-About - Us_framed.png */; };
+		41185EAE25603451001084E2 /* iPhone X-History_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E1C2560344F001084E2 /* iPhone X-History_framed.png */; };
+		41185EAF25603451001084E2 /* iPad Pro (12.9-inch)-Main Menu_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E1D2560344F001084E2 /* iPad Pro (12.9-inch)-Main Menu_framed.png */; };
+		41185EB025603451001084E2 /* iPhone 8-History_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E1E2560344F001084E2 /* iPhone 8-History_framed.png */; };
+		41185EB125603451001084E2 /* iPhone 8 Plus-About - Us_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E1F2560344F001084E2 /* iPhone 8 Plus-About - Us_framed.png */; };
+		41185EB225603451001084E2 /* iPad Pro (9.7-inch)-About - Us.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E202560344F001084E2 /* iPad Pro (9.7-inch)-About - Us.png */; };
+		41185EB325603451001084E2 /* keyword.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41185E212560344F001084E2 /* keyword.strings */; };
+		41185EB425603451001084E2 /* iPhone 8-Play 2 - Wacky.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E222560344F001084E2 /* iPhone 8-Play 2 - Wacky.png */; };
+		41185EB525603451001084E2 /* iPad Pro (12.9-inch) (3rd generation)-Play 1 - Fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E232560344F001084E2 /* iPad Pro (12.9-inch) (3rd generation)-Play 1 - Fun.png */; };
+		41185EB625603451001084E2 /* iPhone 6s-Play 2 - Wacky_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E242560344F001084E2 /* iPhone 6s-Play 2 - Wacky_framed.png */; };
+		41185EB725603451001084E2 /* iPad Pro (10.5-inch)-Main Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E252560344F001084E2 /* iPad Pro (10.5-inch)-Main Menu.png */; };
+		41185EB825603451001084E2 /* iPhone X-Play 2 - Wacky.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E262560344F001084E2 /* iPhone X-Play 2 - Wacky.png */; };
+		41185EB925603451001084E2 /* iPhone 8 Plus-Main Menu_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E272560344F001084E2 /* iPhone 8 Plus-Main Menu_framed.png */; };
+		41185EBA25603451001084E2 /* iPhone 8-Play 1 - Fun_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E282560344F001084E2 /* iPhone 8-Play 1 - Fun_framed.png */; };
+		41185EBB25603451001084E2 /* iPad Pro (9.7-inch)-Main Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E292560344F001084E2 /* iPad Pro (9.7-inch)-Main Menu.png */; };
+		41185EBC25603451001084E2 /* iPad Pro (9.7-inch)-Main Menu_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E2A2560344F001084E2 /* iPad Pro (9.7-inch)-Main Menu_framed.png */; };
+		41185EBD25603451001084E2 /* iPhone 8-Main Menu_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E2B2560344F001084E2 /* iPhone 8-Main Menu_framed.png */; };
+		41185EBE25603451001084E2 /* iPhone Xs Max-Main Menu_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E2C2560344F001084E2 /* iPhone Xs Max-Main Menu_framed.png */; };
+		41185EBF25603451001084E2 /* iPhone 8 Plus-Play 2 - Wacky_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E2D2560344F001084E2 /* iPhone 8 Plus-Play 2 - Wacky_framed.png */; };
+		41185EC025603451001084E2 /* iPhone SE-Play 2 - Wacky_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E2E2560344F001084E2 /* iPhone SE-Play 2 - Wacky_framed.png */; };
+		41185EC125603451001084E2 /* iPhone 6s-Play 1 - Fun_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E2F2560344F001084E2 /* iPhone 6s-Play 1 - Fun_framed.png */; };
+		41185EC225603451001084E2 /* iPhone SE-Play 1 - Fun_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E302560344F001084E2 /* iPhone SE-Play 1 - Fun_framed.png */; };
+		41185EC325603451001084E2 /* iPad Pro (12.9-inch) (3rd generation)-History.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E312560344F001084E2 /* iPad Pro (12.9-inch) (3rd generation)-History.png */; };
+		41185EC425603451001084E2 /* iPhone X-Main Menu_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E322560344F001084E2 /* iPhone X-Main Menu_framed.png */; };
+		41185EC525603451001084E2 /* iPad Pro (12.9-inch) (3rd generation)-About - Us.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E332560344F001084E2 /* iPad Pro (12.9-inch) (3rd generation)-About - Us.png */; };
+		41185EC625603451001084E2 /* iPhone Xs Max-Main Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E342560344F001084E2 /* iPhone Xs Max-Main Menu.png */; };
+		41185EC725603451001084E2 /* iPhone 8 Plus-Main Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E352560344F001084E2 /* iPhone 8 Plus-Main Menu.png */; };
+		41185EC825603451001084E2 /* iPad Pro (10.5-inch)-Play 1 - Fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E362560344F001084E2 /* iPad Pro (10.5-inch)-Play 1 - Fun.png */; };
+		41185EC925603451001084E2 /* iPhone Xs Max-About - Us.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E372560344F001084E2 /* iPhone Xs Max-About - Us.png */; };
+		41185ECA25603451001084E2 /* iPad Pro (10.5-inch)-Play 2 - Wacky.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E382560344F001084E2 /* iPad Pro (10.5-inch)-Play 2 - Wacky.png */; };
+		41185ECB25603451001084E2 /* iPhone SE-Play 1 - Fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E392560344F001084E2 /* iPhone SE-Play 1 - Fun.png */; };
+		41185ECC25603451001084E2 /* iPhone 8-Play 1 - Fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E3A2560344F001084E2 /* iPhone 8-Play 1 - Fun.png */; };
+		41185ECD25603451001084E2 /* iPad Pro (12.9-inch)-History.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E3B2560344F001084E2 /* iPad Pro (12.9-inch)-History.png */; };
+		41185ECE25603451001084E2 /* iPhone Xs Max-About - Us_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E3C2560344F001084E2 /* iPhone Xs Max-About - Us_framed.png */; };
+		41185ECF25603451001084E2 /* iPad Pro (10.5-inch)-About - Us.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E3D2560344F001084E2 /* iPad Pro (10.5-inch)-About - Us.png */; };
+		41185ED025603451001084E2 /* iPhone X-History.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E3E2560344F001084E2 /* iPhone X-History.png */; };
+		41185ED125603451001084E2 /* iPad Pro (12.9-inch)-Main Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E3F2560344F001084E2 /* iPad Pro (12.9-inch)-Main Menu.png */; };
+		41185ED225603451001084E2 /* iPhone 8 Plus-Play 1 - Fun_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E402560344F001084E2 /* iPhone 8 Plus-Play 1 - Fun_framed.png */; };
+		41185ED325603451001084E2 /* title.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41185E412560344F001084E2 /* title.strings */; };
+		41185ED425603451001084E2 /* iPad Pro (10.5-inch)-History.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E422560344F001084E2 /* iPad Pro (10.5-inch)-History.png */; };
+		41185ED525603451001084E2 /* iPhone SE-History.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E432560344F001084E2 /* iPhone SE-History.png */; };
+		41185ED625603451001084E2 /* iPhone Xs Max-Play 2 - Wacky.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E442560344F001084E2 /* iPhone Xs Max-Play 2 - Wacky.png */; };
+		41185ED725603451001084E2 /* iPad Pro (9.7-inch)-Play 1 - Fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E452560344F001084E2 /* iPad Pro (9.7-inch)-Play 1 - Fun.png */; };
+		41185ED825603451001084E2 /* iPhone 8-History.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E462560344F001084E2 /* iPhone 8-History.png */; };
+		41185ED925603451001084E2 /* iPad Pro (9.7-inch)-Play 2 - Wacky_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E472560344F001084E2 /* iPad Pro (9.7-inch)-Play 2 - Wacky_framed.png */; };
+		41185EDA25603451001084E2 /* iPhone SE-About - Us_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E482560344F001084E2 /* iPhone SE-About - Us_framed.png */; };
+		41185EDB25603451001084E2 /* iPhone 8-Main Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E492560344F001084E2 /* iPhone 8-Main Menu.png */; };
+		41185EDC25603451001084E2 /* iPhone 6s-History.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E4A2560344F001084E2 /* iPhone 6s-History.png */; };
+		41185EDD25603451001084E2 /* iPhone X-Play 2 - Wacky_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E4B2560344F001084E2 /* iPhone X-Play 2 - Wacky_framed.png */; };
+		41185EDE25603451001084E2 /* iPhone 6s-Play 1 - Fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E4C2560344F001084E2 /* iPhone 6s-Play 1 - Fun.png */; };
+		41185EDF25603451001084E2 /* iPhone Xs Max-Play 1 - Fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E4D2560344F001084E2 /* iPhone Xs Max-Play 1 - Fun.png */; };
+		41185EE025603451001084E2 /* iPad Pro (12.9-inch)-Play 1 - Fun_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E4E2560344F001084E2 /* iPad Pro (12.9-inch)-Play 1 - Fun_framed.png */; };
+		41185EE125603451001084E2 /* iPhone 6s-Main Menu_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E4F2560344F001084E2 /* iPhone 6s-Main Menu_framed.png */; };
+		41185EE225603451001084E2 /* iPad Pro (12.9-inch)-History_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E502560344F001084E2 /* iPad Pro (12.9-inch)-History_framed.png */; };
+		41185EE325603451001084E2 /* iPhone SE-Main Menu_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E512560344F001084E2 /* iPhone SE-Main Menu_framed.png */; };
+		41185EE425603451001084E2 /* iPhone 8-About - Us_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E522560344F001084E2 /* iPhone 8-About - Us_framed.png */; };
+		41185EE525603451001084E2 /* iPhone 6s-Main Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E532560344F001084E2 /* iPhone 6s-Main Menu.png */; };
+		41185EE625603451001084E2 /* iPhone SE-About - Us.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E542560344F001084E2 /* iPhone SE-About - Us.png */; };
+		41185EE725603451001084E2 /* iPhone Xs Max-History_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E552560344F001084E2 /* iPhone Xs Max-History_framed.png */; };
+		41185EE825603451001084E2 /* iPhone 8 Plus-Play 1 - Fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E562560344F001084E2 /* iPhone 8 Plus-Play 1 - Fun.png */; };
+		41185EE925603451001084E2 /* iPad Pro (12.9-inch)-Play 2 - Wacky.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E572560344F001084E2 /* iPad Pro (12.9-inch)-Play 2 - Wacky.png */; };
+		41185EEA25603451001084E2 /* iPhone 8 Plus-About - Us.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E582560344F001084E2 /* iPhone 8 Plus-About - Us.png */; };
+		41185EEB25603451001084E2 /* iPhone Xs Max-Play 1 - Fun_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E592560344F001084E2 /* iPhone Xs Max-Play 1 - Fun_framed.png */; };
+		41185EEC25603451001084E2 /* iPad Pro (12.9-inch)-Play 2 - Wacky_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E5A2560344F001084E2 /* iPad Pro (12.9-inch)-Play 2 - Wacky_framed.png */; };
+		41185EED25603451001084E2 /* iPhone 8-Play 2 - Wacky_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E5B2560344F001084E2 /* iPhone 8-Play 2 - Wacky_framed.png */; };
+		41185EEE25603451001084E2 /* iPad Pro (9.7-inch)-Play 1 - Fun_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E5C2560344F001084E2 /* iPad Pro (9.7-inch)-Play 1 - Fun_framed.png */; };
+		41185EEF25603451001084E2 /* iPhone 8 Plus-Play 2 - Wacky.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E5D2560344F001084E2 /* iPhone 8 Plus-Play 2 - Wacky.png */; };
+		41185EF025603451001084E2 /* iPad Pro (9.7-inch)-History.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E5E2560344F001084E2 /* iPad Pro (9.7-inch)-History.png */; };
+		41185EF125603451001084E2 /* iPhone X-Main Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E5F2560344F001084E2 /* iPhone X-Main Menu.png */; };
+		41185EF225603451001084E2 /* iPhone SE-History_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E602560344F001084E2 /* iPhone SE-History_framed.png */; };
+		41185EF325603451001084E2 /* iPhone 6s-History_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E612560344F001084E2 /* iPhone 6s-History_framed.png */; };
+		41185EF425603451001084E2 /* iPhone 8 Plus-History.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E622560344F001084E2 /* iPhone 8 Plus-History.png */; };
+		41185EF525603451001084E2 /* iPad Pro (9.7-inch)-Play 2 - Wacky.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E632560344F001084E2 /* iPad Pro (9.7-inch)-Play 2 - Wacky.png */; };
+		41185EF625603451001084E2 /* iPad Pro (12.9-inch)-About - Us.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E642560344F001084E2 /* iPad Pro (12.9-inch)-About - Us.png */; };
+		41185EF725603451001084E2 /* iPhone X-About - Us_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E652560344F001084E2 /* iPhone X-About - Us_framed.png */; };
+		41185EF825603451001084E2 /* iPad Pro (12.9-inch)-Play 1 - Fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E662560344F001084E2 /* iPad Pro (12.9-inch)-Play 1 - Fun.png */; };
+		41185EF925603451001084E2 /* iPad Pro (12.9-inch) (3rd generation)-Main Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E672560344F001084E2 /* iPad Pro (12.9-inch) (3rd generation)-Main Menu.png */; };
+		41185EFA25603451001084E2 /* iPhone 6s-About - Us_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E682560344F001084E2 /* iPhone 6s-About - Us_framed.png */; };
+		41185EFB25603451001084E2 /* iPhone 6s-About - Us.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E6925603450001084E2 /* iPhone 6s-About - Us.png */; };
+		41185EFC25603451001084E2 /* iPhone 8 Plus-History_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E6A25603450001084E2 /* iPhone 8 Plus-History_framed.png */; };
+		41185EFD25603451001084E2 /* iPhone SE-Main Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E6B25603450001084E2 /* iPhone SE-Main Menu.png */; };
+		41185EFE25603451001084E2 /* iPhone Xs Max-History.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E6C25603450001084E2 /* iPhone Xs Max-History.png */; };
+		41185EFF25603451001084E2 /* iPhone X-About - Us.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E6D25603450001084E2 /* iPhone X-About - Us.png */; };
+		41185F0025603451001084E2 /* iPhone X-Play 1 - Fun_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E6E25603450001084E2 /* iPhone X-Play 1 - Fun_framed.png */; };
+		41185F0125603451001084E2 /* iPhone X-Play 1 - Fun.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E6F25603450001084E2 /* iPhone X-Play 1 - Fun.png */; };
+		41185F0225603451001084E2 /* iPad Pro (9.7-inch)-About - Us_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E7025603450001084E2 /* iPad Pro (9.7-inch)-About - Us_framed.png */; };
+		41185F0325603451001084E2 /* iPhone SE-Play 2 - Wacky.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E7125603450001084E2 /* iPhone SE-Play 2 - Wacky.png */; };
+		41185F0425603451001084E2 /* iPhone 8-About - Us.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E7225603450001084E2 /* iPhone 8-About - Us.png */; };
+		41185F0525603451001084E2 /* iPad Pro (9.7-inch)-History_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E7325603450001084E2 /* iPad Pro (9.7-inch)-History_framed.png */; };
+		41185F0625603451001084E2 /* iPad Pro (12.9-inch) (3rd generation)-Play 2 - Wacky.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E7425603450001084E2 /* iPad Pro (12.9-inch) (3rd generation)-Play 2 - Wacky.png */; };
+		41185F0725603451001084E2 /* iPhone 6s-Play 2 - Wacky.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E7525603450001084E2 /* iPhone 6s-Play 2 - Wacky.png */; };
+		41185F0825603451001084E2 /* iPhone Xs Max-Play 2 - Wacky_framed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41185E7625603450001084E2 /* iPhone Xs Max-Play 2 - Wacky_framed.png */; };
+		41185F0925603451001084E2 /* screenshots.html in Resources */ = {isa = PBXBuildFile; fileRef = 41185E7725603450001084E2 /* screenshots.html */; };
+		41185F0A25603451001084E2 /* report.html in Resources */ = {isa = PBXBuildFile; fileRef = 41185E7925603450001084E2 /* report.html */; };
+		41185F0B25603451001084E2 /* report.junit in Resources */ = {isa = PBXBuildFile; fileRef = 41185E7A25603450001084E2 /* report.junit */; };
+		41185F0C25603451001084E2 /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = 41185E7B25603450001084E2 /* Appfile */; };
+		41185F0D25603451001084E2 /* Deliverfile in Resources */ = {isa = PBXBuildFile; fileRef = 41185E7C25603450001084E2 /* Deliverfile */; };
+		41185F0E25603451001084E2 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 41185E7D25603450001084E2 /* Fastfile */; };
+		41185F0F25603451001084E2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 41185E7E25603450001084E2 /* README.md */; };
+		41185F1025603451001084E2 /* Scanfile in Resources */ = {isa = PBXBuildFile; fileRef = 41185E7F25603450001084E2 /* Scanfile */; };
+		41185F1125603451001084E2 /* Matchfile in Resources */ = {isa = PBXBuildFile; fileRef = 41185E8025603450001084E2 /* Matchfile */; };
+		41185F1225603451001084E2 /* copyright.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E8225603450001084E2 /* copyright.txt */; };
+		41185F1325603451001084E2 /* phone_number.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E8425603450001084E2 /* phone_number.txt */; };
+		41185F1425603451001084E2 /* address_line1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E8525603450001084E2 /* address_line1.txt */; };
+		41185F1525603452001084E2 /* country.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E8625603450001084E2 /* country.txt */; };
+		41185F1625603452001084E2 /* city_name.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E8725603450001084E2 /* city_name.txt */; };
+		41185F1725603452001084E2 /* address_line3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E8825603450001084E2 /* address_line3.txt */; };
+		41185F1825603452001084E2 /* address_line2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E8925603450001084E2 /* address_line2.txt */; };
+		41185F1925603452001084E2 /* trade_name.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E8A25603450001084E2 /* trade_name.txt */; };
+		41185F1A25603452001084E2 /* is_displayed_on_app_store.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E8B25603450001084E2 /* is_displayed_on_app_store.txt */; };
+		41185F1B25603452001084E2 /* last_name.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E8C25603450001084E2 /* last_name.txt */; };
+		41185F1C25603452001084E2 /* postal_code.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E8D25603450001084E2 /* postal_code.txt */; };
+		41185F1D25603452001084E2 /* first_name.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E8E25603450001084E2 /* first_name.txt */; };
+		41185F1E25603452001084E2 /* state.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E8F25603450001084E2 /* state.txt */; };
+		41185F1F25603452001084E2 /* secondary_first_sub_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E9025603450001084E2 /* secondary_first_sub_category.txt */; };
+		41185F2025603452001084E2 /* secondary_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E9125603450001084E2 /* secondary_category.txt */; };
+		41185F2125603452001084E2 /* secondary_second_sub_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E9225603450001084E2 /* secondary_second_sub_category.txt */; };
+		41185F2225603452001084E2 /* primary_second_sub_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E9325603450001084E2 /* primary_second_sub_category.txt */; };
+		41185F2325603452001084E2 /* demo_user.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E9525603450001084E2 /* demo_user.txt */; };
+		41185F2425603452001084E2 /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E9625603450001084E2 /* notes.txt */; };
+		41185F2525603452001084E2 /* email_address.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E9725603450001084E2 /* email_address.txt */; };
+		41185F2625603452001084E2 /* demo_password.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E9825603450001084E2 /* demo_password.txt */; };
+		41185F2725603452001084E2 /* primary_first_sub_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E9925603450001084E2 /* primary_first_sub_category.txt */; };
+		41185F2825603452001084E2 /* privacy_url.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E9B25603450001084E2 /* privacy_url.txt */; };
+		41185F2925603452001084E2 /* subtitle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E9C25603450001084E2 /* subtitle.txt */; };
+		41185F2A25603452001084E2 /* support_url.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E9D25603450001084E2 /* support_url.txt */; };
+		41185F2B25603452001084E2 /* keywords.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E9E25603450001084E2 /* keywords.txt */; };
+		41185F2C25603452001084E2 /* promotional_text.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185E9F25603450001084E2 /* promotional_text.txt */; };
+		41185F2D25603452001084E2 /* release_notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185EA025603450001084E2 /* release_notes.txt */; };
+		41185F2E25603452001084E2 /* name.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185EA125603450001084E2 /* name.txt */; };
+		41185F2F25603452001084E2 /* marketing_url.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185EA225603450001084E2 /* marketing_url.txt */; };
+		41185F3025603452001084E2 /* description.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185EA325603450001084E2 /* description.txt */; };
+		41185F3125603452001084E2 /* primary_category.txt in Resources */ = {isa = PBXBuildFile; fileRef = 41185EA425603450001084E2 /* primary_category.txt */; };
+		41185F3225603452001084E2 /* report.xml in Resources */ = {isa = PBXBuildFile; fileRef = 41185EA525603450001084E2 /* report.xml */; };
+		41185F3325603452001084E2 /* Snapfile in Resources */ = {isa = PBXBuildFile; fileRef = 41185EA625603450001084E2 /* Snapfile */; };
 		4127389320A04C3400E097EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4127389220A04C3400E097EF /* Assets.xcassets */; };
 		4143E215202583EA008492C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143E214202583EA008492C8 /* AppDelegate.swift */; };
 		4143E217202583EA008492C8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143E216202583EA008492C8 /* GameViewController.swift */; };
@@ -68,8 +169,6 @@
 		417421F52026498B00BFC6D7 /* pain.json in Resources */ = {isa = PBXBuildFile; fileRef = 417421F42026498B00BFC6D7 /* pain.json */; };
 		417421F920264A3E00BFC6D7 /* technology.json in Resources */ = {isa = PBXBuildFile; fileRef = 417421F820264A3E00BFC6D7 /* technology.json */; };
 		4174CED0227A36A500F58910 /* AdExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174CECF227A36A500F58910 /* AdExtensions.swift */; };
-		4174CED5227CB40300F58910 /* screenshots in Resources */ = {isa = PBXBuildFile; fileRef = 4174CED3227CB40300F58910 /* screenshots */; };
-		4174CED6227CB40300F58910 /* test_output in Resources */ = {isa = PBXBuildFile; fileRef = 4174CED4227CB40300F58910 /* test_output */; };
 		4174CEE0227CBB0D00F58910 /* WWYR_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4174CEDF227CBB0D00F58910 /* WWYR_UITests.swift */; };
 		4174CEE7227CBB3600F58910 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41273890209FCBEF00E097EF /* SnapshotHelper.swift */; };
 		417CD9B822B1EE440077C2A1 /* FakeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417CD9B722B1EE440077C2A1 /* FakeTest.swift */; };
@@ -124,47 +223,148 @@
 		33BCABA85E87A3712EF74723 /* Pods-Would You RatherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Would You RatherUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Would You RatherUITests/Pods-Would You RatherUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3D8A0448B33693DE6C730294 /* Pods-WWYR UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWYR UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WWYR UITests/Pods-WWYR UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		41047FA1202B36F10002B96F /* CateogryTemplate.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CateogryTemplate.json; sourceTree = "<group>"; };
-		410F5CEF20B7838000BCA8B9 /* Matchfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Matchfile; path = fastlane/Matchfile; sourceTree = SOURCE_ROOT; };
-		410F5CF020B7838000BCA8B9 /* Deliverfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Deliverfile; path = fastlane/Deliverfile; sourceTree = SOURCE_ROOT; };
-		410F5CF120B7838000BCA8B9 /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Appfile; path = fastlane/Appfile; sourceTree = SOURCE_ROOT; };
-		410F5CF220B7838000BCA8B9 /* devices.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = devices.txt; path = fastlane/devices.txt; sourceTree = SOURCE_ROOT; };
-		410F5CF320B7838000BCA8B9 /* Gymfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Gymfile; path = fastlane/Gymfile; sourceTree = SOURCE_ROOT; };
-		410F5CF420B7838000BCA8B9 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Fastfile; path = fastlane/Fastfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		410F5CF520B7838000BCA8B9 /* Scanfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Scanfile; path = fastlane/Scanfile; sourceTree = SOURCE_ROOT; };
-		410F5CF620B7838100BCA8B9 /* Snapfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Snapfile; path = fastlane/Snapfile; sourceTree = SOURCE_ROOT; };
-		410F5D0620B783E300BCA8B9 /* primary_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = primary_category.txt; path = fastlane/metadata/primary_category.txt; sourceTree = SOURCE_ROOT; };
-		410F5D0720B783E400BCA8B9 /* release_notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = release_notes.txt; path = "fastlane/metadata/en-US/release_notes.txt"; sourceTree = SOURCE_ROOT; };
-		410F5D0820B783E400BCA8B9 /* secondary_first_sub_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = secondary_first_sub_category.txt; path = fastlane/metadata/secondary_first_sub_category.txt; sourceTree = SOURCE_ROOT; };
-		410F5D0920B783E400BCA8B9 /* description.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = description.txt; path = "fastlane/metadata/en-US/description.txt"; sourceTree = SOURCE_ROOT; };
-		410F5D0A20B783E400BCA8B9 /* name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = name.txt; path = "fastlane/metadata/en-US/name.txt"; sourceTree = SOURCE_ROOT; };
-		410F5D0B20B783E400BCA8B9 /* primary_second_sub_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = primary_second_sub_category.txt; path = fastlane/metadata/primary_second_sub_category.txt; sourceTree = SOURCE_ROOT; };
-		410F5D0C20B783E400BCA8B9 /* trade_name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = trade_name.txt; path = fastlane/metadata/trade_representative_contact_information/trade_name.txt; sourceTree = SOURCE_ROOT; };
-		410F5D0D20B783E400BCA8B9 /* keywords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = keywords.txt; path = "fastlane/metadata/en-US/keywords.txt"; sourceTree = SOURCE_ROOT; };
-		410F5D0F20B783E400BCA8B9 /* demo_user.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = demo_user.txt; path = fastlane/metadata/review_information/demo_user.txt; sourceTree = SOURCE_ROOT; };
-		410F5D1120B783E500BCA8B9 /* secondary_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = secondary_category.txt; path = fastlane/metadata/secondary_category.txt; sourceTree = SOURCE_ROOT; };
-		410F5D1220B783E500BCA8B9 /* country.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = country.txt; path = fastlane/metadata/trade_representative_contact_information/country.txt; sourceTree = SOURCE_ROOT; };
-		410F5D1320B783E500BCA8B9 /* subtitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = subtitle.txt; path = "fastlane/metadata/en-US/subtitle.txt"; sourceTree = SOURCE_ROOT; };
-		410F5D1420B783E500BCA8B9 /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = notes.txt; path = fastlane/metadata/review_information/notes.txt; sourceTree = SOURCE_ROOT; };
-		410F5D1620B783E500BCA8B9 /* demo_password.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = demo_password.txt; path = fastlane/metadata/review_information/demo_password.txt; sourceTree = SOURCE_ROOT; };
-		410F5D1720B783E500BCA8B9 /* privacy_url.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = privacy_url.txt; path = "fastlane/metadata/en-US/privacy_url.txt"; sourceTree = SOURCE_ROOT; };
-		410F5D1820B783E500BCA8B9 /* primary_first_sub_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = primary_first_sub_category.txt; path = fastlane/metadata/primary_first_sub_category.txt; sourceTree = SOURCE_ROOT; };
-		410F5D1920B783E500BCA8B9 /* promotional_text.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = promotional_text.txt; path = "fastlane/metadata/en-US/promotional_text.txt"; sourceTree = SOURCE_ROOT; };
-		410F5D1A20B783E500BCA8B9 /* secondary_second_sub_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = secondary_second_sub_category.txt; path = fastlane/metadata/secondary_second_sub_category.txt; sourceTree = SOURCE_ROOT; };
-		410F5D1B20B783E600BCA8B9 /* state.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = state.txt; path = fastlane/metadata/trade_representative_contact_information/state.txt; sourceTree = SOURCE_ROOT; };
-		410F5D1C20B783E600BCA8B9 /* last_name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = last_name.txt; path = fastlane/metadata/trade_representative_contact_information/last_name.txt; sourceTree = SOURCE_ROOT; };
-		410F5D1D20B783E600BCA8B9 /* address_line1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = address_line1.txt; path = fastlane/metadata/trade_representative_contact_information/address_line1.txt; sourceTree = SOURCE_ROOT; };
-		410F5D1E20B783E600BCA8B9 /* is_displayed_on_app_store.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = is_displayed_on_app_store.txt; path = fastlane/metadata/trade_representative_contact_information/is_displayed_on_app_store.txt; sourceTree = SOURCE_ROOT; };
-		410F5D1F20B783E600BCA8B9 /* support_url.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = support_url.txt; path = "fastlane/metadata/en-US/support_url.txt"; sourceTree = SOURCE_ROOT; };
-		410F5D2020B783E600BCA8B9 /* address_line3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = address_line3.txt; path = fastlane/metadata/trade_representative_contact_information/address_line3.txt; sourceTree = SOURCE_ROOT; };
-		410F5D2120B783E600BCA8B9 /* address_line2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = address_line2.txt; path = fastlane/metadata/trade_representative_contact_information/address_line2.txt; sourceTree = SOURCE_ROOT; };
-		410F5D2220B783E700BCA8B9 /* city_name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = city_name.txt; path = fastlane/metadata/trade_representative_contact_information/city_name.txt; sourceTree = SOURCE_ROOT; };
-		410F5D2420B783E700BCA8B9 /* postal_code.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = postal_code.txt; path = fastlane/metadata/trade_representative_contact_information/postal_code.txt; sourceTree = SOURCE_ROOT; };
-		410F5D2520B783E700BCA8B9 /* copyright.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = copyright.txt; path = fastlane/metadata/copyright.txt; sourceTree = SOURCE_ROOT; };
-		410F5D2620B783E700BCA8B9 /* email_address.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = email_address.txt; path = fastlane/metadata/review_information/email_address.txt; sourceTree = SOURCE_ROOT; };
-		410F5D2720B783E700BCA8B9 /* phone_number.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = phone_number.txt; path = fastlane/metadata/trade_representative_contact_information/phone_number.txt; sourceTree = SOURCE_ROOT; };
-		410F5D2820B783E700BCA8B9 /* first_name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = first_name.txt; path = fastlane/metadata/trade_representative_contact_information/first_name.txt; sourceTree = SOURCE_ROOT; };
-		410F5D2920B783E800BCA8B9 /* marketing_url.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = marketing_url.txt; path = "fastlane/metadata/en-US/marketing_url.txt"; sourceTree = SOURCE_ROOT; };
 		410F5DB220B7FE1700BCA8B9 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		41185E132560344F001084E2 /* Gymfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gymfile; sourceTree = "<group>"; };
+		41185E142560344F001084E2 /* devices.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = devices.txt; sourceTree = "<group>"; };
+		41185E152560344F001084E2 /* Preview.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Preview.html; sourceTree = "<group>"; };
+		41185E172560344F001084E2 /* Framefile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Framefile.json; sourceTree = "<group>"; };
+		41185E182560344F001084E2 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		41185E192560344F001084E2 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		41185E1B2560344F001084E2 /* iPad Pro (12.9-inch)-About - Us_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (12.9-inch)-About - Us_framed.png"; sourceTree = "<group>"; };
+		41185E1C2560344F001084E2 /* iPhone X-History_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone X-History_framed.png"; sourceTree = "<group>"; };
+		41185E1D2560344F001084E2 /* iPad Pro (12.9-inch)-Main Menu_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (12.9-inch)-Main Menu_framed.png"; sourceTree = "<group>"; };
+		41185E1E2560344F001084E2 /* iPhone 8-History_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8-History_framed.png"; sourceTree = "<group>"; };
+		41185E1F2560344F001084E2 /* iPhone 8 Plus-About - Us_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8 Plus-About - Us_framed.png"; sourceTree = "<group>"; };
+		41185E202560344F001084E2 /* iPad Pro (9.7-inch)-About - Us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (9.7-inch)-About - Us.png"; sourceTree = "<group>"; };
+		41185E212560344F001084E2 /* keyword.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = keyword.strings; sourceTree = "<group>"; };
+		41185E222560344F001084E2 /* iPhone 8-Play 2 - Wacky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8-Play 2 - Wacky.png"; sourceTree = "<group>"; };
+		41185E232560344F001084E2 /* iPad Pro (12.9-inch) (3rd generation)-Play 1 - Fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (12.9-inch) (3rd generation)-Play 1 - Fun.png"; sourceTree = "<group>"; };
+		41185E242560344F001084E2 /* iPhone 6s-Play 2 - Wacky_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6s-Play 2 - Wacky_framed.png"; sourceTree = "<group>"; };
+		41185E252560344F001084E2 /* iPad Pro (10.5-inch)-Main Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (10.5-inch)-Main Menu.png"; sourceTree = "<group>"; };
+		41185E262560344F001084E2 /* iPhone X-Play 2 - Wacky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone X-Play 2 - Wacky.png"; sourceTree = "<group>"; };
+		41185E272560344F001084E2 /* iPhone 8 Plus-Main Menu_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8 Plus-Main Menu_framed.png"; sourceTree = "<group>"; };
+		41185E282560344F001084E2 /* iPhone 8-Play 1 - Fun_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8-Play 1 - Fun_framed.png"; sourceTree = "<group>"; };
+		41185E292560344F001084E2 /* iPad Pro (9.7-inch)-Main Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (9.7-inch)-Main Menu.png"; sourceTree = "<group>"; };
+		41185E2A2560344F001084E2 /* iPad Pro (9.7-inch)-Main Menu_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (9.7-inch)-Main Menu_framed.png"; sourceTree = "<group>"; };
+		41185E2B2560344F001084E2 /* iPhone 8-Main Menu_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8-Main Menu_framed.png"; sourceTree = "<group>"; };
+		41185E2C2560344F001084E2 /* iPhone Xs Max-Main Menu_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone Xs Max-Main Menu_framed.png"; sourceTree = "<group>"; };
+		41185E2D2560344F001084E2 /* iPhone 8 Plus-Play 2 - Wacky_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8 Plus-Play 2 - Wacky_framed.png"; sourceTree = "<group>"; };
+		41185E2E2560344F001084E2 /* iPhone SE-Play 2 - Wacky_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone SE-Play 2 - Wacky_framed.png"; sourceTree = "<group>"; };
+		41185E2F2560344F001084E2 /* iPhone 6s-Play 1 - Fun_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6s-Play 1 - Fun_framed.png"; sourceTree = "<group>"; };
+		41185E302560344F001084E2 /* iPhone SE-Play 1 - Fun_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone SE-Play 1 - Fun_framed.png"; sourceTree = "<group>"; };
+		41185E312560344F001084E2 /* iPad Pro (12.9-inch) (3rd generation)-History.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (12.9-inch) (3rd generation)-History.png"; sourceTree = "<group>"; };
+		41185E322560344F001084E2 /* iPhone X-Main Menu_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone X-Main Menu_framed.png"; sourceTree = "<group>"; };
+		41185E332560344F001084E2 /* iPad Pro (12.9-inch) (3rd generation)-About - Us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (12.9-inch) (3rd generation)-About - Us.png"; sourceTree = "<group>"; };
+		41185E342560344F001084E2 /* iPhone Xs Max-Main Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone Xs Max-Main Menu.png"; sourceTree = "<group>"; };
+		41185E352560344F001084E2 /* iPhone 8 Plus-Main Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8 Plus-Main Menu.png"; sourceTree = "<group>"; };
+		41185E362560344F001084E2 /* iPad Pro (10.5-inch)-Play 1 - Fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (10.5-inch)-Play 1 - Fun.png"; sourceTree = "<group>"; };
+		41185E372560344F001084E2 /* iPhone Xs Max-About - Us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone Xs Max-About - Us.png"; sourceTree = "<group>"; };
+		41185E382560344F001084E2 /* iPad Pro (10.5-inch)-Play 2 - Wacky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (10.5-inch)-Play 2 - Wacky.png"; sourceTree = "<group>"; };
+		41185E392560344F001084E2 /* iPhone SE-Play 1 - Fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone SE-Play 1 - Fun.png"; sourceTree = "<group>"; };
+		41185E3A2560344F001084E2 /* iPhone 8-Play 1 - Fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8-Play 1 - Fun.png"; sourceTree = "<group>"; };
+		41185E3B2560344F001084E2 /* iPad Pro (12.9-inch)-History.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (12.9-inch)-History.png"; sourceTree = "<group>"; };
+		41185E3C2560344F001084E2 /* iPhone Xs Max-About - Us_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone Xs Max-About - Us_framed.png"; sourceTree = "<group>"; };
+		41185E3D2560344F001084E2 /* iPad Pro (10.5-inch)-About - Us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (10.5-inch)-About - Us.png"; sourceTree = "<group>"; };
+		41185E3E2560344F001084E2 /* iPhone X-History.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone X-History.png"; sourceTree = "<group>"; };
+		41185E3F2560344F001084E2 /* iPad Pro (12.9-inch)-Main Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (12.9-inch)-Main Menu.png"; sourceTree = "<group>"; };
+		41185E402560344F001084E2 /* iPhone 8 Plus-Play 1 - Fun_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8 Plus-Play 1 - Fun_framed.png"; sourceTree = "<group>"; };
+		41185E412560344F001084E2 /* title.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = title.strings; sourceTree = "<group>"; };
+		41185E422560344F001084E2 /* iPad Pro (10.5-inch)-History.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (10.5-inch)-History.png"; sourceTree = "<group>"; };
+		41185E432560344F001084E2 /* iPhone SE-History.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone SE-History.png"; sourceTree = "<group>"; };
+		41185E442560344F001084E2 /* iPhone Xs Max-Play 2 - Wacky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone Xs Max-Play 2 - Wacky.png"; sourceTree = "<group>"; };
+		41185E452560344F001084E2 /* iPad Pro (9.7-inch)-Play 1 - Fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (9.7-inch)-Play 1 - Fun.png"; sourceTree = "<group>"; };
+		41185E462560344F001084E2 /* iPhone 8-History.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8-History.png"; sourceTree = "<group>"; };
+		41185E472560344F001084E2 /* iPad Pro (9.7-inch)-Play 2 - Wacky_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (9.7-inch)-Play 2 - Wacky_framed.png"; sourceTree = "<group>"; };
+		41185E482560344F001084E2 /* iPhone SE-About - Us_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone SE-About - Us_framed.png"; sourceTree = "<group>"; };
+		41185E492560344F001084E2 /* iPhone 8-Main Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8-Main Menu.png"; sourceTree = "<group>"; };
+		41185E4A2560344F001084E2 /* iPhone 6s-History.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6s-History.png"; sourceTree = "<group>"; };
+		41185E4B2560344F001084E2 /* iPhone X-Play 2 - Wacky_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone X-Play 2 - Wacky_framed.png"; sourceTree = "<group>"; };
+		41185E4C2560344F001084E2 /* iPhone 6s-Play 1 - Fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6s-Play 1 - Fun.png"; sourceTree = "<group>"; };
+		41185E4D2560344F001084E2 /* iPhone Xs Max-Play 1 - Fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone Xs Max-Play 1 - Fun.png"; sourceTree = "<group>"; };
+		41185E4E2560344F001084E2 /* iPad Pro (12.9-inch)-Play 1 - Fun_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (12.9-inch)-Play 1 - Fun_framed.png"; sourceTree = "<group>"; };
+		41185E4F2560344F001084E2 /* iPhone 6s-Main Menu_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6s-Main Menu_framed.png"; sourceTree = "<group>"; };
+		41185E502560344F001084E2 /* iPad Pro (12.9-inch)-History_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (12.9-inch)-History_framed.png"; sourceTree = "<group>"; };
+		41185E512560344F001084E2 /* iPhone SE-Main Menu_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone SE-Main Menu_framed.png"; sourceTree = "<group>"; };
+		41185E522560344F001084E2 /* iPhone 8-About - Us_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8-About - Us_framed.png"; sourceTree = "<group>"; };
+		41185E532560344F001084E2 /* iPhone 6s-Main Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6s-Main Menu.png"; sourceTree = "<group>"; };
+		41185E542560344F001084E2 /* iPhone SE-About - Us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone SE-About - Us.png"; sourceTree = "<group>"; };
+		41185E552560344F001084E2 /* iPhone Xs Max-History_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone Xs Max-History_framed.png"; sourceTree = "<group>"; };
+		41185E562560344F001084E2 /* iPhone 8 Plus-Play 1 - Fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8 Plus-Play 1 - Fun.png"; sourceTree = "<group>"; };
+		41185E572560344F001084E2 /* iPad Pro (12.9-inch)-Play 2 - Wacky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (12.9-inch)-Play 2 - Wacky.png"; sourceTree = "<group>"; };
+		41185E582560344F001084E2 /* iPhone 8 Plus-About - Us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8 Plus-About - Us.png"; sourceTree = "<group>"; };
+		41185E592560344F001084E2 /* iPhone Xs Max-Play 1 - Fun_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone Xs Max-Play 1 - Fun_framed.png"; sourceTree = "<group>"; };
+		41185E5A2560344F001084E2 /* iPad Pro (12.9-inch)-Play 2 - Wacky_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (12.9-inch)-Play 2 - Wacky_framed.png"; sourceTree = "<group>"; };
+		41185E5B2560344F001084E2 /* iPhone 8-Play 2 - Wacky_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8-Play 2 - Wacky_framed.png"; sourceTree = "<group>"; };
+		41185E5C2560344F001084E2 /* iPad Pro (9.7-inch)-Play 1 - Fun_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (9.7-inch)-Play 1 - Fun_framed.png"; sourceTree = "<group>"; };
+		41185E5D2560344F001084E2 /* iPhone 8 Plus-Play 2 - Wacky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8 Plus-Play 2 - Wacky.png"; sourceTree = "<group>"; };
+		41185E5E2560344F001084E2 /* iPad Pro (9.7-inch)-History.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (9.7-inch)-History.png"; sourceTree = "<group>"; };
+		41185E5F2560344F001084E2 /* iPhone X-Main Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone X-Main Menu.png"; sourceTree = "<group>"; };
+		41185E602560344F001084E2 /* iPhone SE-History_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone SE-History_framed.png"; sourceTree = "<group>"; };
+		41185E612560344F001084E2 /* iPhone 6s-History_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6s-History_framed.png"; sourceTree = "<group>"; };
+		41185E622560344F001084E2 /* iPhone 8 Plus-History.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8 Plus-History.png"; sourceTree = "<group>"; };
+		41185E632560344F001084E2 /* iPad Pro (9.7-inch)-Play 2 - Wacky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (9.7-inch)-Play 2 - Wacky.png"; sourceTree = "<group>"; };
+		41185E642560344F001084E2 /* iPad Pro (12.9-inch)-About - Us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (12.9-inch)-About - Us.png"; sourceTree = "<group>"; };
+		41185E652560344F001084E2 /* iPhone X-About - Us_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone X-About - Us_framed.png"; sourceTree = "<group>"; };
+		41185E662560344F001084E2 /* iPad Pro (12.9-inch)-Play 1 - Fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (12.9-inch)-Play 1 - Fun.png"; sourceTree = "<group>"; };
+		41185E672560344F001084E2 /* iPad Pro (12.9-inch) (3rd generation)-Main Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (12.9-inch) (3rd generation)-Main Menu.png"; sourceTree = "<group>"; };
+		41185E682560344F001084E2 /* iPhone 6s-About - Us_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6s-About - Us_framed.png"; sourceTree = "<group>"; };
+		41185E6925603450001084E2 /* iPhone 6s-About - Us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6s-About - Us.png"; sourceTree = "<group>"; };
+		41185E6A25603450001084E2 /* iPhone 8 Plus-History_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8 Plus-History_framed.png"; sourceTree = "<group>"; };
+		41185E6B25603450001084E2 /* iPhone SE-Main Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone SE-Main Menu.png"; sourceTree = "<group>"; };
+		41185E6C25603450001084E2 /* iPhone Xs Max-History.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone Xs Max-History.png"; sourceTree = "<group>"; };
+		41185E6D25603450001084E2 /* iPhone X-About - Us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone X-About - Us.png"; sourceTree = "<group>"; };
+		41185E6E25603450001084E2 /* iPhone X-Play 1 - Fun_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone X-Play 1 - Fun_framed.png"; sourceTree = "<group>"; };
+		41185E6F25603450001084E2 /* iPhone X-Play 1 - Fun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone X-Play 1 - Fun.png"; sourceTree = "<group>"; };
+		41185E7025603450001084E2 /* iPad Pro (9.7-inch)-About - Us_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (9.7-inch)-About - Us_framed.png"; sourceTree = "<group>"; };
+		41185E7125603450001084E2 /* iPhone SE-Play 2 - Wacky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone SE-Play 2 - Wacky.png"; sourceTree = "<group>"; };
+		41185E7225603450001084E2 /* iPhone 8-About - Us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8-About - Us.png"; sourceTree = "<group>"; };
+		41185E7325603450001084E2 /* iPad Pro (9.7-inch)-History_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (9.7-inch)-History_framed.png"; sourceTree = "<group>"; };
+		41185E7425603450001084E2 /* iPad Pro (12.9-inch) (3rd generation)-Play 2 - Wacky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Pro (12.9-inch) (3rd generation)-Play 2 - Wacky.png"; sourceTree = "<group>"; };
+		41185E7525603450001084E2 /* iPhone 6s-Play 2 - Wacky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 6s-Play 2 - Wacky.png"; sourceTree = "<group>"; };
+		41185E7625603450001084E2 /* iPhone Xs Max-Play 2 - Wacky_framed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone Xs Max-Play 2 - Wacky_framed.png"; sourceTree = "<group>"; };
+		41185E7725603450001084E2 /* screenshots.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = screenshots.html; sourceTree = "<group>"; };
+		41185E7925603450001084E2 /* report.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = report.html; sourceTree = "<group>"; };
+		41185E7A25603450001084E2 /* report.junit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = report.junit; sourceTree = "<group>"; };
+		41185E7B25603450001084E2 /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Appfile; sourceTree = "<group>"; };
+		41185E7C25603450001084E2 /* Deliverfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Deliverfile; sourceTree = "<group>"; };
+		41185E7D25603450001084E2 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
+		41185E7E25603450001084E2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		41185E7F25603450001084E2 /* Scanfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Scanfile; sourceTree = "<group>"; };
+		41185E8025603450001084E2 /* Matchfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Matchfile; sourceTree = "<group>"; };
+		41185E8225603450001084E2 /* copyright.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = copyright.txt; sourceTree = "<group>"; };
+		41185E8425603450001084E2 /* phone_number.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = phone_number.txt; sourceTree = "<group>"; };
+		41185E8525603450001084E2 /* address_line1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = address_line1.txt; sourceTree = "<group>"; };
+		41185E8625603450001084E2 /* country.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = country.txt; sourceTree = "<group>"; };
+		41185E8725603450001084E2 /* city_name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = city_name.txt; sourceTree = "<group>"; };
+		41185E8825603450001084E2 /* address_line3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = address_line3.txt; sourceTree = "<group>"; };
+		41185E8925603450001084E2 /* address_line2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = address_line2.txt; sourceTree = "<group>"; };
+		41185E8A25603450001084E2 /* trade_name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trade_name.txt; sourceTree = "<group>"; };
+		41185E8B25603450001084E2 /* is_displayed_on_app_store.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = is_displayed_on_app_store.txt; sourceTree = "<group>"; };
+		41185E8C25603450001084E2 /* last_name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = last_name.txt; sourceTree = "<group>"; };
+		41185E8D25603450001084E2 /* postal_code.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = postal_code.txt; sourceTree = "<group>"; };
+		41185E8E25603450001084E2 /* first_name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = first_name.txt; sourceTree = "<group>"; };
+		41185E8F25603450001084E2 /* state.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = state.txt; sourceTree = "<group>"; };
+		41185E9025603450001084E2 /* secondary_first_sub_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = secondary_first_sub_category.txt; sourceTree = "<group>"; };
+		41185E9125603450001084E2 /* secondary_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = secondary_category.txt; sourceTree = "<group>"; };
+		41185E9225603450001084E2 /* secondary_second_sub_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = secondary_second_sub_category.txt; sourceTree = "<group>"; };
+		41185E9325603450001084E2 /* primary_second_sub_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = primary_second_sub_category.txt; sourceTree = "<group>"; };
+		41185E9525603450001084E2 /* demo_user.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = demo_user.txt; sourceTree = "<group>"; };
+		41185E9625603450001084E2 /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes.txt; sourceTree = "<group>"; };
+		41185E9725603450001084E2 /* email_address.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = email_address.txt; sourceTree = "<group>"; };
+		41185E9825603450001084E2 /* demo_password.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = demo_password.txt; sourceTree = "<group>"; };
+		41185E9925603450001084E2 /* primary_first_sub_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = primary_first_sub_category.txt; sourceTree = "<group>"; };
+		41185E9B25603450001084E2 /* privacy_url.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = privacy_url.txt; sourceTree = "<group>"; };
+		41185E9C25603450001084E2 /* subtitle.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = subtitle.txt; sourceTree = "<group>"; };
+		41185E9D25603450001084E2 /* support_url.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = support_url.txt; sourceTree = "<group>"; };
+		41185E9E25603450001084E2 /* keywords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		41185E9F25603450001084E2 /* promotional_text.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = promotional_text.txt; sourceTree = "<group>"; };
+		41185EA025603450001084E2 /* release_notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.txt; sourceTree = "<group>"; };
+		41185EA125603450001084E2 /* name.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = name.txt; sourceTree = "<group>"; };
+		41185EA225603450001084E2 /* marketing_url.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marketing_url.txt; sourceTree = "<group>"; };
+		41185EA325603450001084E2 /* description.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = description.txt; sourceTree = "<group>"; };
+		41185EA425603450001084E2 /* primary_category.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = primary_category.txt; sourceTree = "<group>"; };
+		41185EA525603450001084E2 /* report.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = report.xml; sourceTree = "<group>"; };
+		41185EA625603450001084E2 /* Snapfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snapfile; sourceTree = "<group>"; };
 		4126661F2515B54000E25D6D /* Would You Rather.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Would You Rather.entitlements"; sourceTree = "<group>"; };
 		41273890209FCBEF00E097EF /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = "WWYR UITests/SnapshotHelper.swift"; sourceTree = SOURCE_ROOT; };
 		4127389220A04C3400E097EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -190,8 +390,6 @@
 		417421F42026498B00BFC6D7 /* pain.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pain.json; sourceTree = "<group>"; };
 		417421F820264A3E00BFC6D7 /* technology.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = technology.json; sourceTree = "<group>"; };
 		4174CECF227A36A500F58910 /* AdExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdExtensions.swift; sourceTree = "<group>"; };
-		4174CED3227CB40300F58910 /* screenshots */ = {isa = PBXFileReference; lastKnownFileType = folder; name = screenshots; path = fastlane/screenshots; sourceTree = SOURCE_ROOT; };
-		4174CED4227CB40300F58910 /* test_output */ = {isa = PBXFileReference; lastKnownFileType = folder; name = test_output; path = fastlane/test_output; sourceTree = SOURCE_ROOT; };
 		4174CEDD227CBB0D00F58910 /* WWYR UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WWYR UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4174CEDF227CBB0D00F58910 /* WWYR_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWYR_UITests.swift; sourceTree = "<group>"; };
 		4174CEE1227CBB0D00F58910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -257,63 +455,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		410F5CEE20B782FE00BCA8B9 /* Fastlane */ = {
-			isa = PBXGroup;
-			children = (
-				4174CED3227CB40300F58910 /* screenshots */,
-				4174CED4227CB40300F58910 /* test_output */,
-				410F5D0520B783CC00BCA8B9 /* Meta */,
-				410F5CF120B7838000BCA8B9 /* Appfile */,
-				410F5CF020B7838000BCA8B9 /* Deliverfile */,
-				410F5CF220B7838000BCA8B9 /* devices.txt */,
-				410F5CF420B7838000BCA8B9 /* Fastfile */,
-				410F5CF320B7838000BCA8B9 /* Gymfile */,
-				410F5CEF20B7838000BCA8B9 /* Matchfile */,
-				410F5CF520B7838000BCA8B9 /* Scanfile */,
-				410F5CF620B7838100BCA8B9 /* Snapfile */,
-			);
-			path = Fastlane;
-			sourceTree = "<group>";
-		};
-		410F5D0520B783CC00BCA8B9 /* Meta */ = {
-			isa = PBXGroup;
-			children = (
-				410F5D1D20B783E600BCA8B9 /* address_line1.txt */,
-				410F5D2120B783E600BCA8B9 /* address_line2.txt */,
-				410F5D2020B783E600BCA8B9 /* address_line3.txt */,
-				410F5D2220B783E700BCA8B9 /* city_name.txt */,
-				410F5D2520B783E700BCA8B9 /* copyright.txt */,
-				410F5D1220B783E500BCA8B9 /* country.txt */,
-				410F5D1620B783E500BCA8B9 /* demo_password.txt */,
-				410F5D0F20B783E400BCA8B9 /* demo_user.txt */,
-				410F5D0920B783E400BCA8B9 /* description.txt */,
-				410F5D2620B783E700BCA8B9 /* email_address.txt */,
-				410F5D2820B783E700BCA8B9 /* first_name.txt */,
-				410F5D1E20B783E600BCA8B9 /* is_displayed_on_app_store.txt */,
-				410F5D0D20B783E400BCA8B9 /* keywords.txt */,
-				410F5D1C20B783E600BCA8B9 /* last_name.txt */,
-				410F5D2920B783E800BCA8B9 /* marketing_url.txt */,
-				410F5D0A20B783E400BCA8B9 /* name.txt */,
-				410F5D1420B783E500BCA8B9 /* notes.txt */,
-				410F5D2720B783E700BCA8B9 /* phone_number.txt */,
-				410F5D2420B783E700BCA8B9 /* postal_code.txt */,
-				410F5D0620B783E300BCA8B9 /* primary_category.txt */,
-				410F5D1820B783E500BCA8B9 /* primary_first_sub_category.txt */,
-				410F5D0B20B783E400BCA8B9 /* primary_second_sub_category.txt */,
-				410F5D1720B783E500BCA8B9 /* privacy_url.txt */,
-				410F5D1920B783E500BCA8B9 /* promotional_text.txt */,
-				410F5D0720B783E400BCA8B9 /* release_notes.txt */,
-				410F5D1120B783E500BCA8B9 /* secondary_category.txt */,
-				410F5D0820B783E400BCA8B9 /* secondary_first_sub_category.txt */,
-				410F5D1A20B783E500BCA8B9 /* secondary_second_sub_category.txt */,
-				410F5D1B20B783E600BCA8B9 /* state.txt */,
-				410F5D1320B783E500BCA8B9 /* subtitle.txt */,
-				410F5D1F20B783E600BCA8B9 /* support_url.txt */,
-				410F5D0C20B783E400BCA8B9 /* trade_name.txt */,
-			);
-			path = Meta;
-			sourceTree = "<group>";
-		};
 		410F5DAA20B7880600BCA8B9 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
@@ -395,6 +536,210 @@
 			path = "Core Data";
 			sourceTree = "<group>";
 		};
+		41185E122560344F001084E2 /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				41185E132560344F001084E2 /* Gymfile */,
+				41185E142560344F001084E2 /* devices.txt */,
+				41185E152560344F001084E2 /* Preview.html */,
+				41185E162560344F001084E2 /* screenshots */,
+				41185E7825603450001084E2 /* test_output */,
+				41185E7B25603450001084E2 /* Appfile */,
+				41185E7C25603450001084E2 /* Deliverfile */,
+				41185E7D25603450001084E2 /* Fastfile */,
+				41185E7E25603450001084E2 /* README.md */,
+				41185E7F25603450001084E2 /* Scanfile */,
+				41185E8025603450001084E2 /* Matchfile */,
+				41185E8125603450001084E2 /* metadata */,
+				41185EA525603450001084E2 /* report.xml */,
+				41185EA625603450001084E2 /* Snapfile */,
+			);
+			path = fastlane;
+			sourceTree = SOURCE_ROOT;
+		};
+		41185E162560344F001084E2 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				41185E172560344F001084E2 /* Framefile.json */,
+				41185E182560344F001084E2 /* background.jpg */,
+				41185E192560344F001084E2 /* README.txt */,
+				41185E1A2560344F001084E2 /* en-US */,
+				41185E7725603450001084E2 /* screenshots.html */,
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
+		41185E1A2560344F001084E2 /* en-US */ = {
+			isa = PBXGroup;
+			children = (
+				41185E1B2560344F001084E2 /* iPad Pro (12.9-inch)-About - Us_framed.png */,
+				41185E1C2560344F001084E2 /* iPhone X-History_framed.png */,
+				41185E1D2560344F001084E2 /* iPad Pro (12.9-inch)-Main Menu_framed.png */,
+				41185E1E2560344F001084E2 /* iPhone 8-History_framed.png */,
+				41185E1F2560344F001084E2 /* iPhone 8 Plus-About - Us_framed.png */,
+				41185E202560344F001084E2 /* iPad Pro (9.7-inch)-About - Us.png */,
+				41185E212560344F001084E2 /* keyword.strings */,
+				41185E222560344F001084E2 /* iPhone 8-Play 2 - Wacky.png */,
+				41185E232560344F001084E2 /* iPad Pro (12.9-inch) (3rd generation)-Play 1 - Fun.png */,
+				41185E242560344F001084E2 /* iPhone 6s-Play 2 - Wacky_framed.png */,
+				41185E252560344F001084E2 /* iPad Pro (10.5-inch)-Main Menu.png */,
+				41185E262560344F001084E2 /* iPhone X-Play 2 - Wacky.png */,
+				41185E272560344F001084E2 /* iPhone 8 Plus-Main Menu_framed.png */,
+				41185E282560344F001084E2 /* iPhone 8-Play 1 - Fun_framed.png */,
+				41185E292560344F001084E2 /* iPad Pro (9.7-inch)-Main Menu.png */,
+				41185E2A2560344F001084E2 /* iPad Pro (9.7-inch)-Main Menu_framed.png */,
+				41185E2B2560344F001084E2 /* iPhone 8-Main Menu_framed.png */,
+				41185E2C2560344F001084E2 /* iPhone Xs Max-Main Menu_framed.png */,
+				41185E2D2560344F001084E2 /* iPhone 8 Plus-Play 2 - Wacky_framed.png */,
+				41185E2E2560344F001084E2 /* iPhone SE-Play 2 - Wacky_framed.png */,
+				41185E2F2560344F001084E2 /* iPhone 6s-Play 1 - Fun_framed.png */,
+				41185E302560344F001084E2 /* iPhone SE-Play 1 - Fun_framed.png */,
+				41185E312560344F001084E2 /* iPad Pro (12.9-inch) (3rd generation)-History.png */,
+				41185E322560344F001084E2 /* iPhone X-Main Menu_framed.png */,
+				41185E332560344F001084E2 /* iPad Pro (12.9-inch) (3rd generation)-About - Us.png */,
+				41185E342560344F001084E2 /* iPhone Xs Max-Main Menu.png */,
+				41185E352560344F001084E2 /* iPhone 8 Plus-Main Menu.png */,
+				41185E362560344F001084E2 /* iPad Pro (10.5-inch)-Play 1 - Fun.png */,
+				41185E372560344F001084E2 /* iPhone Xs Max-About - Us.png */,
+				41185E382560344F001084E2 /* iPad Pro (10.5-inch)-Play 2 - Wacky.png */,
+				41185E392560344F001084E2 /* iPhone SE-Play 1 - Fun.png */,
+				41185E3A2560344F001084E2 /* iPhone 8-Play 1 - Fun.png */,
+				41185E3B2560344F001084E2 /* iPad Pro (12.9-inch)-History.png */,
+				41185E3C2560344F001084E2 /* iPhone Xs Max-About - Us_framed.png */,
+				41185E3D2560344F001084E2 /* iPad Pro (10.5-inch)-About - Us.png */,
+				41185E3E2560344F001084E2 /* iPhone X-History.png */,
+				41185E3F2560344F001084E2 /* iPad Pro (12.9-inch)-Main Menu.png */,
+				41185E402560344F001084E2 /* iPhone 8 Plus-Play 1 - Fun_framed.png */,
+				41185E412560344F001084E2 /* title.strings */,
+				41185E422560344F001084E2 /* iPad Pro (10.5-inch)-History.png */,
+				41185E432560344F001084E2 /* iPhone SE-History.png */,
+				41185E442560344F001084E2 /* iPhone Xs Max-Play 2 - Wacky.png */,
+				41185E452560344F001084E2 /* iPad Pro (9.7-inch)-Play 1 - Fun.png */,
+				41185E462560344F001084E2 /* iPhone 8-History.png */,
+				41185E472560344F001084E2 /* iPad Pro (9.7-inch)-Play 2 - Wacky_framed.png */,
+				41185E482560344F001084E2 /* iPhone SE-About - Us_framed.png */,
+				41185E492560344F001084E2 /* iPhone 8-Main Menu.png */,
+				41185E4A2560344F001084E2 /* iPhone 6s-History.png */,
+				41185E4B2560344F001084E2 /* iPhone X-Play 2 - Wacky_framed.png */,
+				41185E4C2560344F001084E2 /* iPhone 6s-Play 1 - Fun.png */,
+				41185E4D2560344F001084E2 /* iPhone Xs Max-Play 1 - Fun.png */,
+				41185E4E2560344F001084E2 /* iPad Pro (12.9-inch)-Play 1 - Fun_framed.png */,
+				41185E4F2560344F001084E2 /* iPhone 6s-Main Menu_framed.png */,
+				41185E502560344F001084E2 /* iPad Pro (12.9-inch)-History_framed.png */,
+				41185E512560344F001084E2 /* iPhone SE-Main Menu_framed.png */,
+				41185E522560344F001084E2 /* iPhone 8-About - Us_framed.png */,
+				41185E532560344F001084E2 /* iPhone 6s-Main Menu.png */,
+				41185E542560344F001084E2 /* iPhone SE-About - Us.png */,
+				41185E552560344F001084E2 /* iPhone Xs Max-History_framed.png */,
+				41185E562560344F001084E2 /* iPhone 8 Plus-Play 1 - Fun.png */,
+				41185E572560344F001084E2 /* iPad Pro (12.9-inch)-Play 2 - Wacky.png */,
+				41185E582560344F001084E2 /* iPhone 8 Plus-About - Us.png */,
+				41185E592560344F001084E2 /* iPhone Xs Max-Play 1 - Fun_framed.png */,
+				41185E5A2560344F001084E2 /* iPad Pro (12.9-inch)-Play 2 - Wacky_framed.png */,
+				41185E5B2560344F001084E2 /* iPhone 8-Play 2 - Wacky_framed.png */,
+				41185E5C2560344F001084E2 /* iPad Pro (9.7-inch)-Play 1 - Fun_framed.png */,
+				41185E5D2560344F001084E2 /* iPhone 8 Plus-Play 2 - Wacky.png */,
+				41185E5E2560344F001084E2 /* iPad Pro (9.7-inch)-History.png */,
+				41185E5F2560344F001084E2 /* iPhone X-Main Menu.png */,
+				41185E602560344F001084E2 /* iPhone SE-History_framed.png */,
+				41185E612560344F001084E2 /* iPhone 6s-History_framed.png */,
+				41185E622560344F001084E2 /* iPhone 8 Plus-History.png */,
+				41185E632560344F001084E2 /* iPad Pro (9.7-inch)-Play 2 - Wacky.png */,
+				41185E642560344F001084E2 /* iPad Pro (12.9-inch)-About - Us.png */,
+				41185E652560344F001084E2 /* iPhone X-About - Us_framed.png */,
+				41185E662560344F001084E2 /* iPad Pro (12.9-inch)-Play 1 - Fun.png */,
+				41185E672560344F001084E2 /* iPad Pro (12.9-inch) (3rd generation)-Main Menu.png */,
+				41185E682560344F001084E2 /* iPhone 6s-About - Us_framed.png */,
+				41185E6925603450001084E2 /* iPhone 6s-About - Us.png */,
+				41185E6A25603450001084E2 /* iPhone 8 Plus-History_framed.png */,
+				41185E6B25603450001084E2 /* iPhone SE-Main Menu.png */,
+				41185E6C25603450001084E2 /* iPhone Xs Max-History.png */,
+				41185E6D25603450001084E2 /* iPhone X-About - Us.png */,
+				41185E6E25603450001084E2 /* iPhone X-Play 1 - Fun_framed.png */,
+				41185E6F25603450001084E2 /* iPhone X-Play 1 - Fun.png */,
+				41185E7025603450001084E2 /* iPad Pro (9.7-inch)-About - Us_framed.png */,
+				41185E7125603450001084E2 /* iPhone SE-Play 2 - Wacky.png */,
+				41185E7225603450001084E2 /* iPhone 8-About - Us.png */,
+				41185E7325603450001084E2 /* iPad Pro (9.7-inch)-History_framed.png */,
+				41185E7425603450001084E2 /* iPad Pro (12.9-inch) (3rd generation)-Play 2 - Wacky.png */,
+				41185E7525603450001084E2 /* iPhone 6s-Play 2 - Wacky.png */,
+				41185E7625603450001084E2 /* iPhone Xs Max-Play 2 - Wacky_framed.png */,
+			);
+			path = "en-US";
+			sourceTree = "<group>";
+		};
+		41185E7825603450001084E2 /* test_output */ = {
+			isa = PBXGroup;
+			children = (
+				41185E7925603450001084E2 /* report.html */,
+				41185E7A25603450001084E2 /* report.junit */,
+			);
+			path = test_output;
+			sourceTree = "<group>";
+		};
+		41185E8125603450001084E2 /* metadata */ = {
+			isa = PBXGroup;
+			children = (
+				41185E8225603450001084E2 /* copyright.txt */,
+				41185E8325603450001084E2 /* trade_representative_contact_information */,
+				41185E9025603450001084E2 /* secondary_first_sub_category.txt */,
+				41185E9125603450001084E2 /* secondary_category.txt */,
+				41185E9225603450001084E2 /* secondary_second_sub_category.txt */,
+				41185E9325603450001084E2 /* primary_second_sub_category.txt */,
+				41185E9425603450001084E2 /* review_information */,
+				41185E9925603450001084E2 /* primary_first_sub_category.txt */,
+				41185E9A25603450001084E2 /* en-US */,
+				41185EA425603450001084E2 /* primary_category.txt */,
+			);
+			path = metadata;
+			sourceTree = "<group>";
+		};
+		41185E8325603450001084E2 /* trade_representative_contact_information */ = {
+			isa = PBXGroup;
+			children = (
+				41185E8425603450001084E2 /* phone_number.txt */,
+				41185E8525603450001084E2 /* address_line1.txt */,
+				41185E8625603450001084E2 /* country.txt */,
+				41185E8725603450001084E2 /* city_name.txt */,
+				41185E8825603450001084E2 /* address_line3.txt */,
+				41185E8925603450001084E2 /* address_line2.txt */,
+				41185E8A25603450001084E2 /* trade_name.txt */,
+				41185E8B25603450001084E2 /* is_displayed_on_app_store.txt */,
+				41185E8C25603450001084E2 /* last_name.txt */,
+				41185E8D25603450001084E2 /* postal_code.txt */,
+				41185E8E25603450001084E2 /* first_name.txt */,
+				41185E8F25603450001084E2 /* state.txt */,
+			);
+			path = trade_representative_contact_information;
+			sourceTree = "<group>";
+		};
+		41185E9425603450001084E2 /* review_information */ = {
+			isa = PBXGroup;
+			children = (
+				41185E9525603450001084E2 /* demo_user.txt */,
+				41185E9625603450001084E2 /* notes.txt */,
+				41185E9725603450001084E2 /* email_address.txt */,
+				41185E9825603450001084E2 /* demo_password.txt */,
+			);
+			path = review_information;
+			sourceTree = "<group>";
+		};
+		41185E9A25603450001084E2 /* en-US */ = {
+			isa = PBXGroup;
+			children = (
+				41185E9B25603450001084E2 /* privacy_url.txt */,
+				41185E9C25603450001084E2 /* subtitle.txt */,
+				41185E9D25603450001084E2 /* support_url.txt */,
+				41185E9E25603450001084E2 /* keywords.txt */,
+				41185E9F25603450001084E2 /* promotional_text.txt */,
+				41185EA025603450001084E2 /* release_notes.txt */,
+				41185EA125603450001084E2 /* name.txt */,
+				41185EA225603450001084E2 /* marketing_url.txt */,
+				41185EA325603450001084E2 /* description.txt */,
+			);
+			path = "en-US";
+			sourceTree = "<group>";
+		};
 		4143E208202583EA008492C8 = {
 			isa = PBXGroup;
 			children = (
@@ -423,11 +768,11 @@
 			isa = PBXGroup;
 			children = (
 				4126661F2515B54000E25D6D /* Would You Rather.entitlements */,
+				41185E122560344F001084E2 /* fastlane */,
 				4174CECE227A367500F58910 /* Extensions */,
 				410F5DAD20B7883D00BCA8B9 /* Classes */,
 				410F5DAB20B7881500BCA8B9 /* Views */,
 				410F5DAE20B7884800BCA8B9 /* StoryBoards */,
-				410F5CEE20B782FE00BCA8B9 /* Fastlane */,
 				410F5DAA20B7880600BCA8B9 /* JSON */,
 				410F5DB020B7886400BCA8B9 /* Support */,
 				410F5DAC20B7883000BCA8B9 /* Constants */,
@@ -660,60 +1005,159 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				410F5D4620B783E800BCA8B9 /* city_name.txt in Resources */,
+				41185F0E25603451001084E2 /* Fastfile in Resources */,
+				41185EC925603451001084E2 /* iPhone Xs Max-About - Us.png in Resources */,
+				41185ED125603451001084E2 /* iPad Pro (12.9-inch)-Main Menu.png in Resources */,
+				41185ED525603451001084E2 /* iPhone SE-History.png in Resources */,
+				41185F1F25603452001084E2 /* secondary_first_sub_category.txt in Resources */,
+				41185EDC25603451001084E2 /* iPhone 6s-History.png in Resources */,
+				41185F3025603452001084E2 /* description.txt in Resources */,
+				41185F2925603452001084E2 /* subtitle.txt in Resources */,
+				41185EE225603451001084E2 /* iPad Pro (12.9-inch)-History_framed.png in Resources */,
+				41185EF725603451001084E2 /* iPhone X-About - Us_framed.png in Resources */,
+				41185ECC25603451001084E2 /* iPhone 8-Play 1 - Fun.png in Resources */,
+				41185EC125603451001084E2 /* iPhone 6s-Play 1 - Fun_framed.png in Resources */,
+				41185EF525603451001084E2 /* iPad Pro (9.7-inch)-Play 2 - Wacky.png in Resources */,
+				41185ED425603451001084E2 /* iPad Pro (10.5-inch)-History.png in Resources */,
+				41185F2525603452001084E2 /* email_address.txt in Resources */,
+				41185ECA25603451001084E2 /* iPad Pro (10.5-inch)-Play 2 - Wacky.png in Resources */,
+				41185EB425603451001084E2 /* iPhone 8-Play 2 - Wacky.png in Resources */,
+				41185EF925603451001084E2 /* iPad Pro (12.9-inch) (3rd generation)-Main Menu.png in Resources */,
+				41185EB225603451001084E2 /* iPad Pro (9.7-inch)-About - Us.png in Resources */,
+				41185EEC25603451001084E2 /* iPad Pro (12.9-inch)-Play 2 - Wacky_framed.png in Resources */,
+				41185F2C25603452001084E2 /* promotional_text.txt in Resources */,
+				41185EC625603451001084E2 /* iPhone Xs Max-Main Menu.png in Resources */,
 				4148614C202654C4007AFA25 /* annoying.json in Resources */,
+				41185EB825603451001084E2 /* iPhone X-Play 2 - Wacky.png in Resources */,
+				41185ECB25603451001084E2 /* iPhone SE-Play 1 - Fun.png in Resources */,
+				41185EBF25603451001084E2 /* iPhone 8 Plus-Play 2 - Wacky_framed.png in Resources */,
+				41185EB625603451001084E2 /* iPhone 6s-Play 2 - Wacky_framed.png in Resources */,
+				41185EDA25603451001084E2 /* iPhone SE-About - Us_framed.png in Resources */,
+				41185F1A25603452001084E2 /* is_displayed_on_app_store.txt in Resources */,
+				41185EE725603451001084E2 /* iPhone Xs Max-History_framed.png in Resources */,
+				41185F1425603451001084E2 /* address_line1.txt in Resources */,
+				41185F0F25603451001084E2 /* README.md in Resources */,
+				41185ECF25603451001084E2 /* iPad Pro (10.5-inch)-About - Us.png in Resources */,
+				41185F0725603451001084E2 /* iPhone 6s-Play 2 - Wacky.png in Resources */,
+				41185EA925603451001084E2 /* Preview.html in Resources */,
 				4143E222202583EA008492C8 /* LaunchScreen.storyboard in Resources */,
+				41185EAA25603451001084E2 /* Framefile.json in Resources */,
+				41185EDF25603451001084E2 /* iPhone Xs Max-Play 1 - Fun.png in Resources */,
+				41185F1625603452001084E2 /* city_name.txt in Resources */,
+				41185F2225603452001084E2 /* primary_second_sub_category.txt in Resources */,
+				41185ED325603451001084E2 /* title.strings in Resources */,
+				41185F0D25603451001084E2 /* Deliverfile in Resources */,
 				4127389320A04C3400E097EF /* Assets.xcassets in Resources */,
-				410F5D2A20B783E800BCA8B9 /* primary_category.txt in Resources */,
-				410F5D4A20B783E800BCA8B9 /* email_address.txt in Resources */,
-				410F5D3720B783E800BCA8B9 /* subtitle.txt in Resources */,
-				410F5CFA20B7838100BCA8B9 /* devices.txt in Resources */,
-				410F5D2D20B783E800BCA8B9 /* description.txt in Resources */,
-				410F5CFC20B7838100BCA8B9 /* Fastfile in Resources */,
-				410F5D4B20B783E800BCA8B9 /* phone_number.txt in Resources */,
-				410F5CFD20B7838100BCA8B9 /* Scanfile in Resources */,
-				410F5D2C20B783E800BCA8B9 /* secondary_first_sub_category.txt in Resources */,
-				410F5D3820B783E800BCA8B9 /* notes.txt in Resources */,
-				410F5D2B20B783E800BCA8B9 /* release_notes.txt in Resources */,
-				410F5D3F20B783E800BCA8B9 /* state.txt in Resources */,
-				410F5D4820B783E800BCA8B9 /* postal_code.txt in Resources */,
-				4174CED5227CB40300F58910 /* screenshots in Resources */,
-				410F5D2E20B783E800BCA8B9 /* name.txt in Resources */,
+				41185EFF25603451001084E2 /* iPhone X-About - Us.png in Resources */,
+				41185EF125603451001084E2 /* iPhone X-Main Menu.png in Resources */,
+				41185EC025603451001084E2 /* iPhone SE-Play 2 - Wacky_framed.png in Resources */,
+				41185EEA25603451001084E2 /* iPhone 8 Plus-About - Us.png in Resources */,
+				41185ED225603451001084E2 /* iPhone 8 Plus-Play 1 - Fun_framed.png in Resources */,
+				41185F2B25603452001084E2 /* keywords.txt in Resources */,
+				41185EA825603451001084E2 /* devices.txt in Resources */,
+				41185F2625603452001084E2 /* demo_password.txt in Resources */,
+				41185F2025603452001084E2 /* secondary_category.txt in Resources */,
+				41185EBB25603451001084E2 /* iPad Pro (9.7-inch)-Main Menu.png in Resources */,
+				41185F0325603451001084E2 /* iPhone SE-Play 2 - Wacky.png in Resources */,
+				41185F1925603452001084E2 /* trade_name.txt in Resources */,
+				41185F2125603452001084E2 /* secondary_second_sub_category.txt in Resources */,
 				41047FA2202B36F10002B96F /* CateogryTemplate.json in Resources */,
 				418D25D32026579900DBA2BE /* embarrassing.json in Resources */,
-				4174CED6227CB40300F58910 /* test_output in Resources */,
-				410F5D3C20B783E800BCA8B9 /* primary_first_sub_category.txt in Resources */,
-				410F5CF820B7838100BCA8B9 /* Deliverfile in Resources */,
-				410F5D3520B783E800BCA8B9 /* secondary_category.txt in Resources */,
+				41185EEF25603451001084E2 /* iPhone 8 Plus-Play 2 - Wacky.png in Resources */,
+				41185F0625603451001084E2 /* iPad Pro (12.9-inch) (3rd generation)-Play 2 - Wacky.png in Resources */,
+				41185F1325603451001084E2 /* phone_number.txt in Resources */,
+				41185EF325603451001084E2 /* iPhone 6s-History_framed.png in Resources */,
+				41185EB725603451001084E2 /* iPad Pro (10.5-inch)-Main Menu.png in Resources */,
+				41185F3225603452001084E2 /* report.xml in Resources */,
+				41185EE425603451001084E2 /* iPhone 8-About - Us_framed.png in Resources */,
+				41185ED925603451001084E2 /* iPad Pro (9.7-inch)-Play 2 - Wacky_framed.png in Resources */,
+				41185F2D25603452001084E2 /* release_notes.txt in Resources */,
+				41185EB925603451001084E2 /* iPhone 8 Plus-Main Menu_framed.png in Resources */,
+				41185EE925603451001084E2 /* iPad Pro (12.9-inch)-Play 2 - Wacky.png in Resources */,
+				41185F0A25603451001084E2 /* report.html in Resources */,
+				41185EEB25603451001084E2 /* iPhone Xs Max-Play 1 - Fun_framed.png in Resources */,
+				41185F2725603452001084E2 /* primary_first_sub_category.txt in Resources */,
+				41185EAF25603451001084E2 /* iPad Pro (12.9-inch)-Main Menu_framed.png in Resources */,
+				41185EAE25603451001084E2 /* iPhone X-History_framed.png in Resources */,
+				41185F0925603451001084E2 /* screenshots.html in Resources */,
+				41185F2F25603452001084E2 /* marketing_url.txt in Resources */,
 				417421F920264A3E00BFC6D7 /* technology.json in Resources */,
+				41185EAD25603451001084E2 /* iPad Pro (12.9-inch)-About - Us_framed.png in Resources */,
+				41185F1025603451001084E2 /* Scanfile in Resources */,
+				41185F0B25603451001084E2 /* report.junit in Resources */,
+				41185F2825603452001084E2 /* privacy_url.txt in Resources */,
+				41185EB025603451001084E2 /* iPhone 8-History_framed.png in Resources */,
+				41185F2A25603452001084E2 /* support_url.txt in Resources */,
+				41185EF625603451001084E2 /* iPad Pro (12.9-inch)-About - Us.png in Resources */,
+				41185F0825603451001084E2 /* iPhone Xs Max-Play 2 - Wacky_framed.png in Resources */,
+				41185EE825603451001084E2 /* iPhone 8 Plus-Play 1 - Fun.png in Resources */,
+				41185F0425603451001084E2 /* iPhone 8-About - Us.png in Resources */,
+				41185F2E25603452001084E2 /* name.txt in Resources */,
+				41185EAB25603451001084E2 /* background.jpg in Resources */,
+				41185EBE25603451001084E2 /* iPhone Xs Max-Main Menu_framed.png in Resources */,
+				41185EF225603451001084E2 /* iPhone SE-History_framed.png in Resources */,
+				41185EFD25603451001084E2 /* iPhone SE-Main Menu.png in Resources */,
+				41185F1125603451001084E2 /* Matchfile in Resources */,
+				41185EE325603451001084E2 /* iPhone SE-Main Menu_framed.png in Resources */,
+				41185ED625603451001084E2 /* iPhone Xs Max-Play 2 - Wacky.png in Resources */,
+				41185ECD25603451001084E2 /* iPad Pro (12.9-inch)-History.png in Resources */,
+				41185ED725603451001084E2 /* iPad Pro (9.7-inch)-Play 1 - Fun.png in Resources */,
+				41185F1525603452001084E2 /* country.txt in Resources */,
 				417421F52026498B00BFC6D7 /* pain.json in Resources */,
-				410F5CF920B7838100BCA8B9 /* Appfile in Resources */,
-				410F5D3B20B783E800BCA8B9 /* privacy_url.txt in Resources */,
-				410F5D3120B783E800BCA8B9 /* keywords.txt in Resources */,
-				410F5D4420B783E800BCA8B9 /* address_line3.txt in Resources */,
-				410F5D4C20B783E800BCA8B9 /* first_name.txt in Resources */,
-				410F5CFE20B7838100BCA8B9 /* Snapfile in Resources */,
-				410F5D4520B783E800BCA8B9 /* address_line2.txt in Resources */,
+				41185F0C25603451001084E2 /* Appfile in Resources */,
+				41185EBC25603451001084E2 /* iPad Pro (9.7-inch)-Main Menu_framed.png in Resources */,
+				41185EC525603451001084E2 /* iPad Pro (12.9-inch) (3rd generation)-About - Us.png in Resources */,
+				41185EBA25603451001084E2 /* iPhone 8-Play 1 - Fun_framed.png in Resources */,
+				41185EC325603451001084E2 /* iPad Pro (12.9-inch) (3rd generation)-History.png in Resources */,
 				4143E24820258B6A008492C8 /* Details.rtf in Resources */,
+				41185EF825603451001084E2 /* iPad Pro (12.9-inch)-Play 1 - Fun.png in Resources */,
+				41185EC725603451001084E2 /* iPhone 8 Plus-Main Menu.png in Resources */,
+				41185F2425603452001084E2 /* notes.txt in Resources */,
+				41185F2325603452001084E2 /* demo_user.txt in Resources */,
+				41185EB125603451001084E2 /* iPhone 8 Plus-About - Us_framed.png in Resources */,
+				41185EFA25603451001084E2 /* iPhone 6s-About - Us_framed.png in Resources */,
+				41185EFB25603451001084E2 /* iPhone 6s-About - Us.png in Resources */,
+				41185F0025603451001084E2 /* iPhone X-Play 1 - Fun_framed.png in Resources */,
 				417421F32026495A00BFC6D7 /* gross.json in Resources */,
-				410F5D3020B783E800BCA8B9 /* trade_name.txt in Resources */,
-				410F5D3620B783E800BCA8B9 /* country.txt in Resources */,
-				410F5D4220B783E800BCA8B9 /* is_displayed_on_app_store.txt in Resources */,
-				410F5D4D20B783E800BCA8B9 /* marketing_url.txt in Resources */,
-				410F5D3D20B783E800BCA8B9 /* promotional_text.txt in Resources */,
+				41185EC825603451001084E2 /* iPad Pro (10.5-inch)-Play 1 - Fun.png in Resources */,
+				41185EC425603451001084E2 /* iPhone X-Main Menu_framed.png in Resources */,
+				41185F0525603451001084E2 /* iPad Pro (9.7-inch)-History_framed.png in Resources */,
+				41185EED25603451001084E2 /* iPhone 8-Play 2 - Wacky_framed.png in Resources */,
+				41185EE525603451001084E2 /* iPhone 6s-Main Menu.png in Resources */,
 				41F57A0E22BA29D40076D4BC /* GoogleService-Info.plist in Resources */,
-				410F5D4020B783E800BCA8B9 /* last_name.txt in Resources */,
-				410F5CFB20B7838100BCA8B9 /* Gymfile in Resources */,
-				410F5D4920B783E800BCA8B9 /* copyright.txt in Resources */,
+				41185EF425603451001084E2 /* iPhone 8 Plus-History.png in Resources */,
+				41185EA725603451001084E2 /* Gymfile in Resources */,
+				41185EE025603451001084E2 /* iPad Pro (12.9-inch)-Play 1 - Fun_framed.png in Resources */,
+				41185F1D25603452001084E2 /* first_name.txt in Resources */,
+				41185F1225603451001084E2 /* copyright.txt in Resources */,
+				41185F1B25603452001084E2 /* last_name.txt in Resources */,
+				41185EFC25603451001084E2 /* iPhone 8 Plus-History_framed.png in Resources */,
+				41185EDD25603451001084E2 /* iPhone X-Play 2 - Wacky_framed.png in Resources */,
+				41185EE625603451001084E2 /* iPhone SE-About - Us.png in Resources */,
+				41185EB525603451001084E2 /* iPad Pro (12.9-inch) (3rd generation)-Play 1 - Fun.png in Resources */,
 				417421EB202647FF00BFC6D7 /* romance.json in Resources */,
-				410F5D3A20B783E800BCA8B9 /* demo_password.txt in Resources */,
-				410F5D3E20B783E800BCA8B9 /* secondary_second_sub_category.txt in Resources */,
+				41185EAC25603451001084E2 /* README.txt in Resources */,
+				41185F0225603451001084E2 /* iPad Pro (9.7-inch)-About - Us_framed.png in Resources */,
+				41185F0125603451001084E2 /* iPhone X-Play 1 - Fun.png in Resources */,
+				41185ED825603451001084E2 /* iPhone 8-History.png in Resources */,
+				41185EC225603451001084E2 /* iPhone SE-Play 1 - Fun_framed.png in Resources */,
+				41185ED025603451001084E2 /* iPhone X-History.png in Resources */,
+				41185F1825603452001084E2 /* address_line2.txt in Resources */,
+				41185F3325603452001084E2 /* Snapfile in Resources */,
+				41185EDE25603451001084E2 /* iPhone 6s-Play 1 - Fun.png in Resources */,
+				41185F1E25603452001084E2 /* state.txt in Resources */,
+				41185ECE25603451001084E2 /* iPhone Xs Max-About - Us_framed.png in Resources */,
+				41185EEE25603451001084E2 /* iPad Pro (9.7-inch)-Play 1 - Fun_framed.png in Resources */,
+				41185EE125603451001084E2 /* iPhone 6s-Main Menu_framed.png in Resources */,
+				41185EF025603451001084E2 /* iPad Pro (9.7-inch)-History.png in Resources */,
+				41185EFE25603451001084E2 /* iPhone Xs Max-History.png in Resources */,
+				41185EDB25603451001084E2 /* iPhone 8-Main Menu.png in Resources */,
+				41185EBD25603451001084E2 /* iPhone 8-Main Menu_framed.png in Resources */,
 				4143E21A202583EA008492C8 /* Main.storyboard in Resources */,
-				410F5CF720B7838100BCA8B9 /* Matchfile in Resources */,
-				410F5D2F20B783E800BCA8B9 /* primary_second_sub_category.txt in Resources */,
-				410F5D4320B783E800BCA8B9 /* support_url.txt in Resources */,
-				410F5D4120B783E800BCA8B9 /* address_line1.txt in Resources */,
-				410F5D3320B783E800BCA8B9 /* demo_user.txt in Resources */,
+				41185F3125603452001084E2 /* primary_category.txt in Resources */,
+				41185F1725603452001084E2 /* address_line3.txt in Resources */,
+				41185F1C25603452001084E2 /* postal_code.txt in Resources */,
+				41185EB325603451001084E2 /* keyword.strings in Resources */,
 				41DA814E2025F10900587668 /* WouldYouRather.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
